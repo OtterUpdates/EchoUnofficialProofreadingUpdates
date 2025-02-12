@@ -52,6 +52,7 @@ play loop "engine.ogg" fadein 3
 "He scrolls through a few posts on social media, checking his messages, staring idly at his homescreen."
 $ vol("loop", 1, 3)
 "He perks up at some distant revving."
+#!!!! Does Leo have a truck at this point in time? He normally has a van
 "He picks out the familiar pickup truck from across the parking lot, greeting it as it pulls up."
 stop loop fadeout 3
 show Flynn:
@@ -77,7 +78,7 @@ l "\"...So what, you just like chewin' on them?\""
 f "\"Uh... Yeah, actually.\""
 l "\"...Alright, man. It's great if you quit, but you know I don't care what you do, right?\""
 show Flynn Annoyed with dis
-f "\"No-. Aw, for-.\""
+f "\"No-. Aw, for-\""
 show Flynn with dis
 "He lets out a breath."
 show Flynn Sheepish with dis
@@ -88,10 +89,12 @@ l "\"...That's really fucking cheesy, man.\""
 show Flynn with dis
 "Flynn pockets the cigarette and shrugs."
 f "\"Yeah. I dunno, I guess I just liked it.\""
+#!!! 4th line wrap here that seems like it could easily be split into two text boxes
 "Leo rolls his eyes, letting out a sighing laugh. He puts his paws behind his head and leans back against the building next to Flynn, looking up at the full moon."
 "He reaches over, running his paw softly over the gila's head spines."
 show Flynn Happy with dis
 "The reptile closes his eyes for a moment, humming at the touch."
+#!!! "looks over the" -> "looks over at the"? Not sure if this is a missing word or not
 "He looks over the glinting piece of silver on the wolf's wrist, shining in the moonlight."
 "Leo looks too, their eyes locking briefly."
 show Flynn Teasing1 with dis
@@ -119,7 +122,7 @@ f "\"Name the time and place.\""
 "They fall into a comfortable silence, listening to the sounds, looking at the sky."
 show Flynn with medium_dis
 f "\"So.\""
-f "\"He's graduating in a about a year now, right?\""
+f "\"He's graduating in about a year now, right?\""
 f "\"We're supposed to be having some sort of reunion?\""
 "Leo leans back against the building."
 l "\"Mhm! Jenna and Teej, too.\""
@@ -154,7 +157,7 @@ l "\"That's good enough for me.\""
 "Flynn studies the determined look on Leo's face."
 "He puts the cigarette back into his mouth."
 "When he speaks again, it's level, almost monotone."
-f "\"I guess that's okay."
+f "\"I guess that's okay.\""
 f "\"If that's all you want.\""
 l "\"What do you mean?\""
 "Flynn shrugs."

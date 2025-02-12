@@ -8,35 +8,37 @@ scene bg yeeyaw
 with slow_dissolve
 window show
 play background "river.ogg" fadein 2.5
-"Yeeyah River feeds Emma Lake from the North."
+#!! should North be capitalized? Not sure
+"Yeeyah River feeds Lake Emma from the North."
 "It's a farther drive than the lake itself, but it does have a few nice clearings along its edge."
 "One of them has a few benches and a rusted-to-hell public grill that I'm sure no one has used in decades."
 "This is the place that we go."
-"As we're unloading Leo's van, I decide to get the b-roll of the lake right away."
+"As we're unloading Leo's van, I decide to get the B-roll of the lake right away."
 "It won't have much of a presence in the packet, so I think I'm just gonna narrate over it later."
-"The actual lake is only a few minutes walk from here."
-"It's a bit difficult navigating around the sage brush, and I know I'm gonna have to check for ticks later."
+"The actual lake is only a few minutes' walk from here."
+"It's a bit difficult navigating around the sagebrush, and I know I'm gonna have to check for ticks later."
 stop background fadeout 2.0
 scene bg lakeemma
 with dissolve
 "By the time I reach the lake, my friends are pretty far behind me, hidden behind a few bends and hills."
 play background "reststop.ogg" fadein 2.5
-"I'm getting uncomfortable with the idea of me holding this camera while I navigate this terrain."
+"I'm getting uncomfortable with the idea of me holding this camera while I navigate the terrain."
 "It probably would have been better if Leo had just parked the car next to the reservoir while I got out to film, but I guess even that still wasn't okay."
-"There's a large square of paved ground next to the parking lot, now, several benches, and a row of brand new grills."
+#!! probably?
+"There's a large square of paved ground next to the parking lot now, along with several benches and a row of brand-new grills."
 "Several lamps have been erected around the area, too."
 "Leo was right about the town trying to turn the reservoir into a recreational spot."
 "I can actually see a few jet boats skimming through the water, leaving long trails of white behind them."
 "There's even what looks like a feline of some sort fishing in the shallows."
 "It would explain why the motel is still in business."
 "Lake Emma is fairly small, only about twelve miles long and five wide."
-"I look around before climbing to the top of a nearby hill and get my shots."
+"I look around before climbing to the top of a nearby hill to get my shots."
 "Even with a few people there, it's still pretty quiet, aside from the train horns, and it's kind of eerie."
 "I wrap up and start to quickly make my way back."
 "It's hard to explain why I'm getting freaked out in broad daylight with people around."
 "Either it's because of what happened all those years ago, or I'm just psyching myself out."
 stop background fadeout 2.0
-"I'm glad to hear my friend's voices again as I get closer...Then again, it sounds like they're fighting."
+"I'm glad to hear my friends' voices again as I get closer...Then again, it sounds like they're fighting."
 play background "river.ogg" fadein 3.0
 scene bg yeeyaw
 with dissolve
@@ -47,7 +49,7 @@ f "\"Maybe I should just fuckin' leave, then?\""
 "It sounds a lot more serious than our usual squabbles, so I quicken my pace."
 "They seem to quiet down a bit once they see me coming."
 "TJ's off to the side, looking out over the river, occasionally throwing a rock into it."
-"Carl sits in a lawn chair, one of six that have been set out in a semi-circle."
+"Carl sits in a lawn chair, one of six that have been set out in a semicircle."
 "He has his chin on a fist as he lazily stares at me."
 "Jenna and Leo both stand next to each other, looking at Flynn who's got his back turned, rummaging through the cooler."
 m "\"Hey, what's wrong?\""
@@ -65,7 +67,7 @@ m "\"Hey, uh, I'm gonna go for a quick swim. Haven't been in water in a while.\"
 "Flynn finally turns around, a beer in his hand as he cracks it open."
 "It was true that he'd been acting a bit strange today."
 "He'd held the entire trip up by a few hours, and when he'd finally shown up his eyes were bleary, and he seemed sluggish, like he'd been up all night."
-"When we'd asked if he was alright, he brushed us off." 
+"When we'd asked if he was alright, he brushed us off."
 show Flynn at right
 with dissolve
 f "\"Yeah, thanks for the help setting up, Chase. You're about as useful as this fatass here.\""
@@ -73,7 +75,7 @@ f "\"Yeah, thanks for the help setting up, Chase. You're about as useful as this
 l "\"Flynn.\""
 f "\"So enjoy that swim while I set everything out.\""
 m "\"Yeah, I will. Make my soda a diet, while you're at it.\""
-"I've had it with Flynn.  He's souring the trip with his need to be an asshole."
+"I've had it with Flynn. He's souring the trip with his need to be an asshole."
 show Flynn Annoyed with dis
 f "\"Go fuck yourself.\""
 "I ignore him as I strip off my shirt and head to the river bank."
@@ -89,9 +91,9 @@ show chaseswim
 with dissolve
 play music "deadlybeauty.ogg" fadein 5.0
 #more monologue
-"Eventually I settle on drifting to the bottom, laying and gripping on to the rocky floor as I stare up at the shimmery light above me."
+"Eventually I settle on drifting to the bottom, laying and gripping onto the rocky floor as I stare up at the shimmery light above me."
 "I feel the gentle current run over my body."
-"It's nice to be away from all that tension above me. I feel isolated, alone, and for now, that feels good." 
+"It's nice to be away from all that tension above me. I feel isolated, alone, and for now, that feels good."
 "Only I could really come down this deep, the others not being able to hold their breath as long, or being too little."
 "I remember when we were younger I would give the others \"rides\" around the lake, able to swim for nearly half a mile and back."
 "Even Flynn the asshole had done it a few times. It was one skill I had that I was proud of, even if it was inherent to my species."
@@ -130,12 +132,12 @@ show TJ at right
 show Carl at left
 with dissolve
 t "\"Remember when you'd give us rides? That was fun.\""
-c "\"Remember when you'd always scream like a girl when Chase would go out too far out?\""
+c "\"Remember when you'd always scream like a girl when Chase would go too far out?\""
 m "\"Oh wow, I remember that now.\""
 t "\"Hey! I've never really liked water.\""
 t "\"Anyway, Chase would do it on purpose. He knew I didn't like it out to a certain point.\""
 "Carl looks at me."
-c "\"You know what was really cool was when you'd take us down for a dive.\"" 
+c "\"You know what was really cool was when you'd take us down for a dive.\""
 scene bg yeeyaw
 show Jenna Smilinghips at right
 show Leo at left
@@ -168,8 +170,8 @@ stop background fadeout 5.0
 play music "argument.ogg" fadein 10.0
 "A change comes over Flynn. His face darkens, and everyone senses it."
 "Flynn turns to me, and it takes some effort not to flinch back."
-f "\"Yeah, and why's that Chase? You gonna put THAT in your fuckin' documentary?\""
-m "\"No! I-I...Emma Lake is an important part of Echo's history, I just...\""
+f "\"Yeah, and why's that, Chase? You gonna put THAT in your fuckin' documentary?\""
+m "\"No! I-I...Lake Emma is an important part of Echo's history, I just...\""
 f "\"Just what?\""
 "Flynn raises his brow ridge at me, and finally I just lower my eyes."
 f "\"This was a stupid fuckin' idea.\""
@@ -217,6 +219,10 @@ f "\"And I can't imagine why...\""
 f "\"You, Chase, have the personality of a fuckin' rock. I wish you could see yourself.\""
 f "\"You just sit there like a creep, watching everyone, weighing everything that we say.\""
 f "\"And don't think I haven't caught the way you stare at all of us, like we're all objects to be collected.\""
+#!!! This line is so unbelievably on the nose.
+#!!! There's no indication whatsoever that Chase is interested in anyone aside from Leo (at least on Monday).
+#!!! IMO it should be removed or reworked to be more like the previous lines, which actually meaningfully portray Chase's mediocre personality in a negative light.
+#!!! The previous three lines still serve the purpose of a wink to the camera, but they at least describe Chase too.
 f "\"What, are you just planning to cycle through all of us for sex?\""
 f "\"Sure seems like it.\""
 "Flynn stops, then exhales. It seems like it's over, I really hope it is."
@@ -235,7 +241,7 @@ l "\"Flynn.\""
 "Flynn can obviously tell that he might have a fight on his hands, though, and it's clear he doesn't want that."
 "He drops his shoulders, seeming to shrink, as if invisible strings that had been holding him up were cut. He turns to us, then gestures at TJ."
 f "\"I just want the truth. Can we just put a stop to this today, right now?\""
-f "\"I don't think you know how much of a  nightmare this has been for me, not really knowing...TJ—\""
+f "\"I don't think you know how much of a nightmare this has been for me, not really knowing...TJ—\""
 "TJ stares up at Flynn, muzzle set grimly."
 f "\"What happened to Sydney?\""
 "It's dead quiet. TJ stares at his lap, not moving."
@@ -254,7 +260,7 @@ $ renpy.pause(0.1, hard=True)
 hide Flynn
 play sound "mallet.mp3"
 with easeoutleft
-"I dodge out of the way as Flynn is flung back to land on his ass, kicking up a big cloud of dust."  
+"I dodge out of the way as Flynn is flung back to land on his ass, kicking up a big cloud of dust."
 f "\"Shit!\""
 show Leo Annoyed at center
 with moveinright
@@ -284,16 +290,17 @@ with dissolve
 "I look to the left and see that TJ's gone."
 "Carl's still sitting down, but now it looks like he's pulling out a joint."
 "Leo's walking off down another trail, cursing while Jenna follows him."
-"I stand there, next to my chair, undecided..."
-scene bg yeeyaw
-with dissolve
+"I stand there next to my chair, undecided..."
+#!!!! This scene transition is unnecessary I think? it causes a delay after clicking
+# scene bg yeeyaw
+# with dissolve
 
 menu:
     "Find TJ.":
         jump findtj
     "Go after Flynn.":
         jump goafterflynn
-    "Follow Jenna and Leo":
+    "Follow Jenna and Leo.":
         jump leoandjenna
     "Sit with Carl.":
         jump sitwithcarl

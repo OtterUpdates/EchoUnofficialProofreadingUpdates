@@ -10,7 +10,7 @@ scene bg trail1
 with slow_dissolve
 window show
 play background "reststop.ogg" fadein 3.0
-"The sun is bright and I'm pretty sure I can smell the fur searing on the top of my head."
+"The sun is bright, and I'm pretty sure I can smell the fur searing on the top of my head."
 "It's the end of March, so it's not nearly as bad as it can be, but being right under the sun like this..."
 "We've only been on the trail for about ten minutes at this point, but I'm already regretting it."
 t "\"Chase?\""
@@ -28,7 +28,7 @@ play sound "pour.mp3"
 "He dumps half of it over my head and I hurriedly unshoulder my camera bag."
 m "\"Watch the equipment!\""
 t "\"Sorry Chase, but you're not having a heat stroke on my watch.\""
-t "\"You know I've studied otter physiology. You guys don't do well in dry, hot environments."
+t "\"You know I've studied otter physiology. You guys don't do well in dry, hot environments.\""
 "He's pretty close to me, having to dump the bottle over my head."
 "I keep holding the bag away from my body while I look down at him, water dripping from my whiskers."
 m "\"Otter physiology?\""
@@ -58,7 +58,7 @@ t "\"We should keep going, it's an all-day hike.\""
 "He seemed really happy for me when he found out I was going out with Leo, and he seemed really sad when he found out that we broke up."
 "He doesn't exactly follow any particular Christian denomination that I know of. He hasn't even weighed in on the whole Jesus species debate."
 "From what I can gather, TJ just likes the spirituality of the whole thing."
-"Once Leo told me that TJ is the type of Christian that Christians always say they are, but definitely aren't."
+"Once, Leo told me that TJ is the type of Christian that Christians always say they are, but definitely aren't."
 "I have to agree."
 
 scene bg trail2
@@ -70,7 +70,7 @@ play music "oldwinds.ogg"
 "I'm dying, literally dying."
 play sound "bodyfall.ogg"
 scene bg trail2 with vpunch
-"My foot slips and I face plant."
+"My foot slips and I face-plant."
 "I lay there, waiting for TJ's god to take me."
 t "\"Chase!\""
 "I hear some stumbling and TJ slides up next to my body, sending a cascade of gravel over my head."
@@ -88,7 +88,7 @@ t "\"Are you sure?\""
 m "\"Yes!\""
 "TJ's looking incredibly worried right now, hovering over me as I make my way to sit against the boulder."
 m "\"Dude, I'm fine, I'm just tired...I don't know how you do it.\""
-"TJ keeps watching me and once I sit down he kneels next to me, then runs his paw through the fur on my forehead, feeling it with his pawpads."
+"TJ keeps watching me, and once I sit down he kneels next to me, then runs his paw through the fur on my forehead, feeling it with his pawpads."
 t "\"You're a little warm. We should rest here a bit.\""
 "He takes out another bottle of water. It's like he brought fifty of the damn things."
 t "\"We should probably get your clothes wet—\""
@@ -123,7 +123,7 @@ t "\"Oh, I am. I'm just keeping wet.\""
 "While he talks he starts pouring water on his shirt."
 "It sticks slick to his torso, showing off his tight chest and flat stomach, his navel a dark indent through the fabric."
 "I make sure I don't stare too long, not wanting to make him feel awkward again."
-"Either way, I can feel my crotch area getting a little tight. Being in a hotel room with two other people didn't exactly give me much time to...relieve stress."
+"Either way, I can feel my crotch area getting a little tight. Being in a motel room with two other people didn't exactly give me much time to...relieve stress."
 "Maybe my straight friends did have reason to be wary..."
 "I keep my eyes focused on TJ's."
 m "\"I guess it's how you can keep moving like you do, here in the middle of the desert.\""
@@ -151,10 +151,11 @@ m "\"What's this?\""
 t "\"A rock bench! It's always been here.\""
 t "\"I think some seniors from the old school made it, see?\""
 show TJ at right with moveinleft
-"He scoots over, pointing at the back and I look closer."
-"Etched out in large letters and numbers, it says \"Echo High - Class of '59\""
+#!! not sure if this is too pause-y, but something should be done
+"He scoots over, pointing at the back, and I look closer."
+"Etched out in large letters and numbers, it says \"Echo High - Class of '59\"."
 t "\"They used to paint the year on the canyon, too. You can still see some of them.\""
-"Sure enough, I see some white lines on the canyon wall; a 52 here, a 72 there."
+"Sure enough, I see some white lines on the canyon wall: a 52 here, a 72 there."
 "The school closed after 1980, so I assume there's nothing after that."
 "I sit next to him and lean my head back, closing my eyes."
 "While the hike had been a massive bitch, I still don't regret coming."
@@ -166,18 +167,18 @@ stop music fadeout 2.0
 play sound "stinger.ogg"
 "!!!"
 "Then I scream and take a swipe at it, at the same time doing a sort of spastic dance to the right."
-"I slide off the bench and onto the ground where I roll several times to get away."
+"I slide off the bench and onto the ground, where I roll several times to get away."
 m "\"HOLY FUCKING SHIT FUCKING SHIT SONUVABITCH!\""
 "I roll to my feet and stumble back further away from the bench, eyes scanning the ground for the giant-ass spider that is sure to be after me."
 show TJ Teasing2 with dis
 "That's when I realize TJ's laughing."
 show TJ Teasing2 at center with moveinright
-t "\"Ahahahahaha! Ch—Chase, calm down it—it's Ehehehehe!\""
+t "\"Ahahahahaha! Ch—Chase, calm down it—it's ehehehehe!\""
 "He holds up the giant spider, its frozen rigidness telling me what he couldn't finish."
 m "\"...Fake!?\""
 play music "banter.ogg" fadein 3.0
 "TJ's still laughing, but I'm still hugging myself, shivering and flinching every time I see something spindly."
-"I'm shocked, but not because of what just happened, but because TJ did it to me...fucking TJ!"
+"I'm shocked, not because of what just happened, but because TJ did it to me...fucking TJ!"
 "Feeling betrayed, I glare at him as he beckons me with a paw, wiping at his eyes with the other."
 t "\"I'm—hehe, oh my gosh, I'm sorry.\""
 show TJ with dis
@@ -201,7 +202,7 @@ play background "reststop.ogg" fadein 3.0
 "We share a bag of chips and eat quietly for a few minutes, just taking in the nature. Still, even out here, I'm able to hear the train horns."
 "I feel bad about the silence, though, since I'm worried TJ will think that I'm mad at him."
 "I mean, I'm annoyed, but he's just too damn innocent to actually be angry with."
-"The sun's beating straight down on us at this point and it's uncomfortable feeling my semi-damp shirt rubbing up against my fur."
+"The sun's beating straight down on us at this point, and it's uncomfortable feeling my semi-damp shirt rubbing up against my fur."
 scene bg trail3
 show TJ Neutral
 with dissolve
@@ -214,7 +215,7 @@ with dissolve
 show TJ Sheepish with dis
 t "\"S-sorry...\""
 m "\"For what?\""
-t "\"...Nevermind.\""
+t "\"...Never mind.\""
 "I watch him take out his phone and look over his messages. When he turns the screen off, he pauses."
 "I realize he's looking at his reflection, adjusting the fur on his face, pawing at both sides until he seems satisfied."
 "Again, this is something he did when he was much younger, back when he was obsessed with his cheek ruffs being perfectly even."
@@ -225,7 +226,8 @@ m "\"Remember when I made fun of you for the way you used to say sorry?\""
 "TJ gives a bright, high-pitched laugh and that makes me relax, feeling like I just broke the ice on a first date."
 t "\"Yeah, it's one of the first things you said to me!\""
 t "\"I was trying soooo hard to fit in and you just put me on the spot in front of everyone.\""
-"The scene plays out in my mind as TJ talks; the image of a seven-year-old lynx, looking way too small for his puffy winter fur."
+#!!! maybe?
+"The scene plays out in my mind as TJ talks: the image of a seven-year-old lynx, looking way too small for his puffy winter fur."
 "He'd just backed into me while trying to catch a ball thrown by Leo and had turned around, full of smiles—"
 "\"{i}Sooow-rie!{/i}\""
 "I pointed and laughed."
@@ -271,11 +273,12 @@ stop sound fadeout 2.0
 play sound "drone.ogg"
 "{cps=15}{font=Daubmark.ttf}Impact...instead of release...pain..."
 stop sound fadeout 2.0
-"I feel the buzzing starting up in my head again and I sigh as I bend over and reach into my camera bag."
+"I feel the buzzing starting up in my head again, and I sigh as I bend over and reach into my camera bag."
 "I almost wish I could stay here until sunset since the canyon would be a great backdrop for it..."
 "...but I definitely don't want to hike back in the middle of the night."
 "It doesn't take long, and about five minutes later I've got all the footage I need."
-"Hiking all this way definitely isn't worth it, but of course that's not the reason why I did it."
+#! probably?
+"Hiking all this way definitely wasn't worth it, but of course that's not the reason why I did it."
 show TJ at center with dissolve
 t "\"You finished?\""
 "TJ walks up behind me as I'm bending over to put my camera away."
@@ -317,7 +320,7 @@ menu:
         "It doesn't last long, though, and soon TJ lets go and swats me in the chest with the back of his paw."
         show TJ Annoyed
         t "\"Are you kidding me, Chase, how could you!?\""
-        "I'd respond but I'm busy trying to stop laughing."
+        "I'd respond, but I'm busy trying to stop laughing."
         "TJ wipes his paws on his pants."
         t "\"You got all your sweat on me.\""
         m "\"Haha! Hey, you didn't think I'd get you back after that tarantula prank?\""
@@ -335,7 +338,7 @@ menu:
         menu:
             "Grab him.":
                 jump grab
-            "Do nothing":
+            "Do nothing.":
                 jump donothing
     "Do nothing.":
         label donothing:
@@ -367,7 +370,7 @@ t "\"YEAAAAAAAAA!!!\""
 t "\"Ugh, that sounded kinda creepy.\""
 m "\"Heh, well, what did you expect? Everything's shi—crappy here.\""
 m "\"Including Echo's echoes. BLAAAGH!\""
-"Again, we're answered with a raspy, ugly response; my voice twisted and distorted."
+"Again, we're answered with a raspy, ugly response: my voice twisted and distorted."
 t "\"Seems a bit silly to name the entire town after that.\""
 m "\"I think it fits.\""
 "I grunt as I sit down, spreading out my legs with a sigh."
@@ -440,7 +443,8 @@ t "\"But you still need to do stuff for your project, too, right? I could help y
 m "\"Maybe. It's pretty boring stuff.\""
 t "\"Well, the work, yeah, but hanging out together would make it fun!\""
 "I grin at his eagerness."
-m "\"Well, alright, but I warn you; it's a pain in the ass...I mean butt.\""
+#! probably?
+m "\"Well, alright, but I'll warn you: it's a pain in the ass...I mean butt.\""
 "TJ smirks at me."
 t "\"Chase, you don't have to try so hard. Anyway, I just want to help.\""
 
@@ -449,7 +453,7 @@ with fade
 stop background fadeout 1.0
 play music "neutraldiner.ogg"
 "Turns out Jenna just walked from the motel to the diner, not really wanting to wait for us."
-"Me and TJ step inside, greeted by the smell of what you'd expect in any diner; burgers and fries."
+"Me and TJ step inside, greeted by the smell of what you'd expect in any diner: burgers and fries."
 "I'm flooded with old memories."
 "It's a place that I had gone to eat every weekend for over ten years of my life."
 "I smile, despite myself."
@@ -457,7 +461,7 @@ play music "neutraldiner.ogg"
 "We see Jenna right away as she steps out from a booth next to the door."
 show Jenna Smilinghips at center with dissolve
 j "\"Hey, boys!\""
-t "\"Hey!"
+t "\"Hey!\""
 m "\"'Sup?\""
 show Jenna Smilinghips at left with moveinright
 "We make our way over to the booth, TJ sitting on the opposite bench while Jenna steps back to let me pass and sit next to her."
@@ -494,6 +498,8 @@ show Janice Happy at center behind TJ, Jenna
 show Jenna Smiling
 with dissolve
 t "\"Hi Janice!\""
+#!!! Would Janice know that Jenna name-changed from Jasmynn?
+#!!! It's probably too much of a pain in the ass to make everyone in Echo learn Jenna's name-change during the events of Echo
 ja "\"And Jenna and Tobias, too!\""
 "I smile politely, only now realizing how loud our bantering must be in the small diner."
 ja "\"Now what in the world are y'all doin' back here? Thought we wouldn't see ya again after your graduation!\""
@@ -511,7 +517,7 @@ show Jenna with dis
 "I feel Jenna stiffen up next to me, but thank God, she doesn't say anything."
 t "\"Yeaaah, anyway, how have you been, Janice?\""
 "Janice leans her hip against TJ's bench, clasping her paws and leaning an elbow on the back of it."
-ja "\"Oh, can't complain. You haven't missed anything, trust me. Actually I've been meanin' to do a little spring cleanin'.\""
+ja "\"Oh, can't complain. You haven't missed anything, trust me. Actually I've been meanin' to do a little spring-cleanin'.\""
 ja "\"Not lookin' forward to it, my back doesn't bend like it always did.\""
 "All the small-town, small talk niceties.. and speciesism, is starting to make me zone out when suddenly TJ pipes up."
 t "\"We'll help!\""
@@ -563,7 +569,7 @@ play background "restroomamb.ogg" fadein 5.0
 "I put my palms to my eyes and rub them in circular motions, trying to ease the headache that has been building up since the afternoon."
 play sound "faucet.ogg"
 "I stand in front of the sink and run my paws under the faucet for a while before bringing some water up to my face."
-"It feels good, but the headache continues to pound...in fact it feels like it's getting worse."
+"It feels good, but the headache continues to pound...in fact, it feels like it's getting worse."
 "I squint at the mirror, the light suddenly becoming too bright for my eyes."
 stop background fadeout 5.0
 play loop "hysteria.ogg" fadein 15.0
@@ -576,7 +582,7 @@ play loop "hysteria.ogg" fadein 15.0
 scene mirror with slow_dissolve
 "At that moment, looking at myself in the mirror, my eyes just...drop. They move in towards the center of my face."
 "At the same time, the sides of my muzzle curve up unbelievably high, giving me a ghastly smile, one that goes up and up past the top of my head."
-"Fleetingly, I remember playing with my laptop's camera once, putting on some effects so that my face would distort in ridiculous ways." 
+"Fleetingly, I remember playing with my laptop's camera once, putting on some effects so that my face would distort in ridiculous ways."
 "It looks almost exactly like that."
 "Then the earth gives way, falls out from under me and my paws slap the sink as I hold on to it to stop from falling sideways into the wall."
 m "\"The fuck!?\""
@@ -610,21 +616,22 @@ t "\"Ohmygosh, sorry!\""
 play sound "bathroomdoor.ogg"
 "He squeaks it out so fast I barely hear it before he yanks his head out and the door closes with a snap."
 m "\"Fuck fucking fuck...FUCK!\""
-"I snarl between my teeth as I scrub myself then throw away the towel."
+#! maybe?
+"I snarl between my teeth as I scrub myself, then throw away the towel."
 "I feel like I'm gonna cry. It's like the entire universe is conspiring against me right now."
 "I sigh and wash my hands, realizing that the longer I delay going out there, the stupider I'm gonna look."
 stop background fadeout 3.0
 scene bg diner
 with dissolve
 show TJ Surprised at center with dissolve
-play music "neutral.ogg" 
+play music "neutral.ogg"
 "When I come back out, I see TJ stand up immediately, eyes straight ahead as we walk past each other before he heads into the bathroom."
 hide TJ with dissolve
 "Jenna stands up to let me back in to the booth."
 show Jenna at right with dissolve
 j "\"Everything alright?\""
 m "\"Yep!\""
-"As we sit back down Jenna sips from her glass of water, then starts sucking on an ice cube."
+"As we sit back down, Jenna sips from her glass of water, then starts sucking on an ice cube."
 j "\"So I know TJ had fun, but did you?\""
 "I drum my fingers on the table, still feeling a bit numb from embarrassment."
 m "\"Yeah, it was fine. About as miserable as I thought I would be, so no surprises.\""
@@ -734,14 +741,15 @@ play music "meeting1.mp3" fadein 10.0
 "Flynn sits next to him, head back, sleeping. Carl's drawing on his face. Jenna sits in the back and reads and TJ...Where's TJ?"
 "There he is, he's swimming after the car—"
 scene bg canyonneg
-stop music 
+stop music
 play music "unease.mp3"
 "Colors fall flat, I feel sticky and sick...something isn't right."
 "I'm at the canyon again, I'm looking over the edge, TJ's on the ground, he's staring at me, maggots in his eyes."
 "Something moves in the bushes next to him, something...a paw, is that a paw? It reaches out towards TJ—"
 scene bg lakeemma
 with dissolve
-"The lake, I'm staring at the lake, but the day is clear, the sky is blue and there are things in the water."
+#!!!! maybe? Hard to decipher how this is supposed to be paced
+"The lake, I'm staring at the lake, but the day is clear, the sky is blue, and there are things in the water."
 "Five...Six things float in the water. Bodies, bodies float in the water."
 "I watch the bodies float, bobbing up and down and one looks really familiar."
 "This isn't right, this isn't me, what is this?"

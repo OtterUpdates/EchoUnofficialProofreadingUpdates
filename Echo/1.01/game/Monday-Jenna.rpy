@@ -20,7 +20,7 @@ hide Jenna
 hide Leo
 hide Flynn
 hide Carl
-"As we start disappearing into the sage brush, I look back in time to catch a glimpse of Leo looking over his shoulder."
+"As we start disappearing into the sagebrush, I look back in time to catch a glimpse of Leo looking over his shoulder."
 "I look back down at the ground, wondering if it would have been a good idea to at least tell him that I felt like he needed time alone."
 "I notice Jenna looking around, her huge ears perked up wide like sails."
 m "\"What're you looking for?\""
@@ -37,10 +37,12 @@ m "\"Yeah, thought it would be a good idea to let him cool down for a bit.\""
 "I finally start to see our picnic again. Carl's still sitting in the lawn chair, his head hanging over the back and smoke wafting around him."
 "Jenna stops and puts her paws on her hips, looking around."
 stop background fadeout 3.0
-show Jenna at center with dissolve
+#!!! Popping Jenna up at the same time Chase speaks is confusing. Maybe show Jenna starting with the next line instead?
+# show Jenna at center with dissolve
 m "\"Where do you think he went?\""
+show Jenna at center with dissolve
 j "\"There aren't many places he could have gone.\""
-"Her eyes seem to settle and I follow her gaze to a clump of brush and trees next to the river."
+"Her eyes seem to settle, and I follow her gaze to a clump of brush and trees next to the river."
 "If TJ had anywhere to hide in the short amount of time that he did, that would really be the only place he could have done it."
 hide Jenna with dissolve
 "Without a word, Jenna starts in that direction. I tag along awkwardly, kind of feeling like I'm invisible to her right now."
@@ -50,14 +52,15 @@ scene bg riverbank with dissolve
 "I watch as Jenna immediately goes to his side and sits down."
 "TJ's ears perk, but otherwise he doesn't look up."
 "After a while, Jenna wraps an arm around TJ's shoulders. I see him bristle for a second, and Jenna says something to him that I don't quite catch."
-"Finally, he leans in and hugs her and I can hear him sniffling."
+"Finally, he leans in and hugs her, and I can hear him sniffling."
 "I'm starting to feel like I'm intruding and I start to back away, but Jenna sees me and jerks her head."
 j "\"Where are you going, Chase? Come here.\""
 "TJ pulls back from Jenna and starts wiping at his eyes."
 t "\"Chase?\""
 m "\"Uh, yeah.\""
 "I feel like TJ would be embarrassed to have me around, and he probably is, but Jenna's pretty insistent, so I move forward to stand next to them."
-j "\"I was just telling TJ about the time we used to float the river on the old inner tube.\""
+#!! This is probably written intentionally, but just in case this is a mistake: should this be float "down" the river?
+j "\"I was just telling TJ about the time we used to float down the river on the old inner tube.\""
 show Jenna at left
 show TJ Rejected at right
 with dissolve
@@ -72,7 +75,7 @@ j "\"Sorry we're not all living floaties, Chase.\""
 "I feel like if it were just me and TJ, things would be a lot more tense."
 "Jenna has a way of making things feel natural and easy. It's like her confidence is a shield to all my weird, awkward stupidity."
 "I hear TJ shift and sniffle as he wipes his face again."
-t "\"I'm sorry guys. I didn't mean—\""
+t "\"I'm sorry, guys. I didn't mean—\""
 show Jenna Annoyed with dis
 j "\"Nope. You stop right there, TJ.\""
 "He does stop. It's hard not to when she has a tone like that."
@@ -83,7 +86,7 @@ j "\"Right, Chase?\""
 "Probably best to agree with Jenna right now, though."
 m "\"Yeah, he's...he's just not thinking straight right now. I think coming here might have been a bad idea.\""
 j "\"That really shouldn't matter.\""
-j "\"In fact, we probably should have gone to the lake. What happened happened and there's not much we can do about it.\""
+j "\"In fact, we probably should have gone to the lake. What happened happened, and there's not much we can do about it.\""
 j "\"Letting it absolutely rule our lives like this, to the point of preventing us from going where we want to go; that's pretty messed up.\""
 j "\"We all went through it and it was awful, but we stayed friends and here we are.\""
 j "\"Maybe we should celebrate that instead of accusing each other of bullshit?\""
@@ -102,10 +105,11 @@ j "\"No, TJ, it's fine, it's just—\""
 "She seems to be thinking hard about what she's going to say."
 "Man, the things that Jenna COULD say about her family. I have too many bad memories about that."
 j "\"That family is completely broken, like, there's no fixing it. Going back there would just mean trouble...I've learned my lesson.\""
-j "\"With Adam and dad gone it's just my mom and Jeremy now, anyway. Not much of a family to go back to...\""
+j "\"With Adam and Dad gone it's just my mom and Jeremy now, anyway. Not much of a family to go back to...\""
+#!!! "—.." is a little unusual
 t "\"Has your dad not—.. has anyone seen him since?\""
 j "\"As far as I know, no. But I wouldn't really care if he is back.\""
-j "\"And if he really is missing, well, mom never filed a missing person's report, so I guess it wouldn't matter.\""
+j "\"And if he really is missing, well, Mom never filed a missing persons report, so I guess it wouldn't matter.\""
 t "\"I'm sorry.\""
 j "\"Why? You're not the one that messed it all up.\""
 "TJ looks away, his ears down."
@@ -132,24 +136,26 @@ m "\"Hey, come on. Weston is like, THE stereotypical best school in the country.
 "She looks over at me and smiles."
 j "\"It's great, I know. Just a lot of stress. Sometimes I'd like to get a break.\""
 "That was a little surprising to hear from Jenna. Usually she was so energized and had a get 'er done attitude about almost anything."
-"That's why I assume she got into Weston in the first place."
+#!!! Probably? Either this or put "I assume" between commas.
+"I assume that's why she got into Weston in the first place."
 m "\"Maybe you should take a break, then? It's kind of up to you, isn't it?\""
-j "\"Just because I want it doesn't mean I need it. Hey Teej, weren't you wanting to go hiking while we were here?"
+j "\"Just because I want it doesn't mean I need it. Hey Teej, weren't you wanting to go hiking while we were here?\""
 t "\"Yeah...I know things are a bit bad right now, but it could be fun to go.\""
 j "\"Of course, TJ, I was planning to go with you anyway.\""
 t "\"Oh cool!\""
-"At that point all of TJ's gloomy demeanor disappears; his tail quirked and his ears raised up."
+#!! maybe?
+"At that point all of TJ's gloomy demeanor disappears, his tail quirked and his ears raised up."
 "Jenna looks sideways at me, meaningfully."
 m "\"Uh...\""
-"Yeah, definitely didn't want to do that. I'm not even doing anything and already I'm sweating buckets and looking at the shiney water longingly."
+"Yeah, definitely didn't want to do that. I'm not even doing anything and already I'm sweating buckets and looking at the shiny water longingly."
 "I would have jumped in the water by now if TJ wasn't here. For some reason that would seem inappropriate."
-"Right then I feel something press down hard on my paw which is splayed out behind me."
+"Right then I feel something press down hard on my paw, which is splayed out behind me."
 "Looking over, I see that Jenna has her paw on mine, leaning on it."
 m "\"Oh um, yeah, definitely. I'm going...\""
 t "\"Yes!\""
 "Jenna lifts her paw off mine, and I gulp."
 "It didn't really hurt, but something about her suddenly touching me like that..."
-j "\"It's settled then. We should probably get back. We want to get a lot of rest before the hike tomorrow.\""
+j "\"It's settled, then. We should probably get back. We want to get a lot of rest before the hike tomorrow.\""
 
 #dream?
 

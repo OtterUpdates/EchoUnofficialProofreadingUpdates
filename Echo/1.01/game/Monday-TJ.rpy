@@ -9,7 +9,7 @@ scene bg riverbank
 with dissolve
 "Sure enough, I see him immediately. He's sitting down, knees drawn up with his arms folded on top of them."
 "He's got his forehead resting on top of his arms, staring down at the sand between his legs."
-"I stand there for a moment, wondering if it will just be better to leave him alone."
+"I stand there for a moment, wondering if it would just be better to leave him alone."
 "After a few seconds I finally decide to sit down next to him, cross-legged."
 show TJ Rejected with dissolve
 "His ears flick in my direction and he turns his head to the left, away from me."
@@ -52,8 +52,8 @@ menu:
                 jump leoandjenna
             "Sit with Carl.":
                 jump sitwithcarl
-        
-        
+
+
 t "\"I can't believe he did that...in front of everyone.\""
 "I'm not sure what to say, so I stay quiet."
 "After a minute, TJ finally turns his head, looking into the river."
@@ -76,7 +76,7 @@ m "\"I think it's just because he was such good friends with Sydney, and he just
 "He's just sitting there, looking at the ground."
 m "\"And I guess you were the only one that saw him...saw what happened...so he only has you to go after.\""
 t "\"I saw him drown.\""
-"I don't say anything, but I feel myself cringe inwardly." 
+"I don't say anything, but I feel myself cringe inwardly."
 "Pretty soon tears are running down TJ's face, but he doesn't bother to wipe them away."
 "He's not just sad, though; he's angry. I hear it in his voice as he goes on."
 t "\"I saw Sydney drown and Flynn thinks he's the only one that hurts?\""
@@ -93,7 +93,7 @@ m "\"Not one of us would have been able to do anything if we were there.\""
 t "\"You would have.\""
 m "\"Well...\""
 t "\"Besides, I already know I couldn't have saved him on my own. That isn't what...\""
-"TJ takes a moment to wipe his face again and when he's done he doesn't go on."
+"TJ takes a moment to wipe his face again, and when he's done he doesn't go on."
 "We sit in silence for a long while after that, and I adjust myself so that I can lean back against a rock behind me."
 "I pat the ground."
 m "\"Sit next to me, Teej.\""
@@ -124,7 +124,7 @@ play music "drone.ogg" fadein 3.0
 "Carl sitting on a rock, bawling, Leo starts trying to do compressions..."
 "And Sydney.. Sydney just stares."
 "Sirens, the helicopter rotors, adults everywhere."
-"I'm home, mom's holding me. Dad puts on my favorite movie. I watch."
+"I'm home, Mom's holding me. Dad puts on my favorite movie. I watch."
 "But still.. Sydney stares."
 scene bg riverbank
 show TJ Rejected at center
@@ -157,7 +157,7 @@ show TJ Sheepish with dis
 "He smiles at that and looks at me."
 t "\"You didn't want to hike, I could tell.\""
 "I grin."
-m "\"That's 'cuz it's so friggin' hot! But seriously, we didn't come here to lay in a motel all week.\""
+m "\"That's 'cuz it's so friggen' hot! But seriously, we didn't come here to lay in a motel all week.\""
 show TJ with dis
 t "\"And we can bring water! Just dump it on yourself every half-hour.\""
 t "\"That's how I manage, along with taking plenty of breaks.\""
@@ -189,7 +189,7 @@ t "\"I want to be able to make it to the canyon for lunch where we can rest for 
 "We sit there for another 20 minutes or so and just talk, mostly about school and what our plans are once we graduate."
 "I promise TJ that we'll meet up again, before I do."
 "That's when I get a text from Jenna asking where we are. I stand up, brushing off my pants before reaching down to help TJ up."
-m "\"Welp, we better go back. Guess they're all wondering where we are.\"" 
+m "\"Welp, we better go back. Guess they're all wondering where we are.\""
 stop music fadeout 3.0
 play background "river.ogg" fadein 3.0
 scene bg yeeyaw
@@ -208,19 +208,19 @@ stop background fadeout 3.0
 scene bg parkingloteve
 with fade
 play music "neutral.ogg"
-"As we get out Leo tells us all that he's going to have a word with Flynn and, despite the spoiled afternoon, we still had stuff to do over the week."
+"As we get out, Leo tells us all that he's going to have a word with Flynn and, despite the spoiled afternoon, we still had stuff to do over the week."
 "I'm not too convinced myself that that will happen. I am convinced that it's gonna be awkward as fuck if we do."
 "Leo leaves for work at that point, though Carl does end up coming in with us to the motel room."
 scene bg motelfull
 with dissolve
-"The rest of the day is pretty uneventful; we watch a few movies then go to the diner for dinner."
+"The rest of the day is pretty uneventful; we watch a few movies, then go to the diner for dinner."
 "Afterwards we just sit in the room and talk, Carl filling us in on how things have been in the town over the past three years."
 "It's not long before the conversation drifts back to Flynn and his outburst."
 show Carl at center with dissolve
 c "\"I think he's just antsy 'cuz he's realizing how shitty it's been without you guys.\""
 c "\"Trust me, he's already kicking himself for it right now.\""
 show Jenna at right with dissolve
-j "\"Even if he is it doesn't mean anything unless he apologizes.\""
+j "\"Even if he is, it doesn't mean anything unless he apologizes.\""
 c "\"Aww, you know how he is, Jenna. He's sorry even if he won't say it.\""
 j "\"I don't care, he's going to have to realize that none of us have to put up with him anymore.\""
 show TJ at left with dissolve
@@ -249,9 +249,10 @@ c "\"Well...Flynn was right about one of us, at least.\""
 show TJ Surprised with dis
 t "\"Carl!\""
 m "\"What's wrong with that? Everyone likes vanilla.\""
-"I grin even though Carl's comment hurts me more than it should. He's just joking after all."
+#! probably?
+"I grin, even though Carl's comment hurts me more than it should. He's just joking after all."
 c "\"But I mean, who loves it, right?\""
-"{i}...personality of a rock.{/i}" 
+"{i}...personality of a rock.{/i}"
 t "\"I think it's a good answer, especially if you put toppings on it.\""
 scene bg moteltable
 with dissolve
