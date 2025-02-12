@@ -7,7 +7,6 @@ I did reach out to the Echo Project team a few times via their Patreon messages 
 Just extract the .rpy files into the nested "game" folder of Echo or Route 65 (i.e., Echo\game\\*.rpy) and relaunch the game.
 
 ### List of things I remember doing:
-
 * Most (all? hard to say for sure with a story like Echo) plot/detail inconsistencies either fixed or noted. Often an inconsistency would require a larger rework to fix, but there are still a lot that can be objectively fixed without consultation, e.g. Chase referring to his roommate as a "rabbit", Leo's van constantly being misremembered as a "truck", and Clint's ever-changing species
 * Fixed tons of misspellings, malapropisms, and general "hard grammar" mistakes, e.g. "any more/anymore", "then/than", "it's/its"
 * So many missing/dropped words. I think I fixed 98%+ of these, but it's really impossible to know for sure since your brain automatically fills in the gaps unless you read aloud/read twice.
@@ -23,6 +22,10 @@ Just extract the .rpy files into the nested "game" folder of Echo or Route 65 (i
 
 There are still a few noticeable problems/detail inconsistencies left in the text, but they should all at least have a note next to them. I'd say this work is a pretty solid base for what I'd consider a 1.0 of Echo. It's not perfect, but it's a massive first step that should be supplemented by further fine-tuning. Ideally this new text would have a few test readers and some peer review on all the changes, but this is all I can do with a single read by myself. If you use this text to do a re-read, I would really appreciate it if you send notes or a PR on anything that's still not quite right!
 
-I included some [notes](/notes-and-regex.md) for things I didn't get around to doing, as well as a big chunk of RegEx patterns that I used to programmatically find issues before reading. If you want to compare my fixes to the original text, you'll want to use some kind of text diff tool. I personally used VSCode and a local git repo to keep things tidy.
+I included some [notes](/notes-and-regex.md) for things I didn't get around to doing, as well as a big chunk of RegEx patterns that I used to programmatically find issues before reading. If you want to compare my fixes to the original text, you'll want to use some kind of text diff tool (I personally use VSCode), or check the diffs directly on GitHub:
+
+- [Echo 1.0.0](https://github.com/OtterUpdates/EchoUnofficialProofreadingUpdates/commit/e766e7d743cf4c4eb2ba0aa05afeeb55d666e0ba)
+
+- [Echo - Route 65 1.0.0](https://github.com/OtterUpdates/EchoUnofficialProofreadingUpdates/commit/c2088a751ea5ffbdd4ae4714137a0873af459b54)
 
 I also found a lot of issues in Arches at the same time due to how I scanned for errors, but I haven't done a manual re-read of it yet. I'll probably do that and commit a fixed copy eventually, but Arches is way cleaner to begin with and doesn't really need fixing as desperately as Echo does. I've been very busy IRL lately so that will happen when it happens.
