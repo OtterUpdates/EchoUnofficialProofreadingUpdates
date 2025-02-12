@@ -4,7 +4,7 @@ I did a re-read of Echo and Route 65 and decided to proofread it at the same tim
 I did reach out to the Echo Project team a few times via their Patreon messages and the email they have posted, but I haven't received any response after waiting a couple months. I'm not sure what sort of contact methods they actually pay attention to, so if anyone knows how to put this on their radar be my guest; I refuse to make a Twitter account to reach them that way. In the meantime, I'm just releasing this here so people who might be interested in a re-read have access to it.
 
 ### Usage notes:
-Just extract the .rpy files into the nested "game" folder of Echo or Route 65 (i.e., Echo\game\\*.rpy) and relaunch the game.
+Grab the source code from the [latest release](https://github.com/OtterUpdates/EchoUnofficialProofreadingUpdates/releases/latest) and extract the .rpy files into the nested "game" folder of Echo or Route 65 (i.e., Echo\game\\*.rpy), then relaunch the game.
 
 ### List of things I remember doing:
 * Most (all? hard to say for sure with a story like Echo) plot/detail inconsistencies either fixed or noted. Often an inconsistency would require a larger rework to fix, but there are still a lot that can be objectively fixed without consultation, e.g. Chase referring to his roommate as a "rabbit", Leo's van constantly being misremembered as a "truck", and Clint's ever-changing species
