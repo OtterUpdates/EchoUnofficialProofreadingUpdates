@@ -667,7 +667,7 @@ play loop "engine.ogg" fadein 3.0
 "That's when I see a canine figure standing further up on the side of the road."
 "She's standing in the dirt that separates the road and the field in front of a broken and rusted barbed wire fence."
 l "\"I think that's Janice.\""
-"I look over at Leo and he seems concerned, his brows furrowed as he careful steers the car right up next to the coyote."
+"I look over at Leo and he seems concerned, his brows furrowed as he carefully steers the car right up next to the coyote."
 "I can see why; she's crouched over, elbows on her knees, staring at the ground."
 l "\"Roll down your window, Chase.\""
 "I do as he says, struggling a little with the old crank handle."

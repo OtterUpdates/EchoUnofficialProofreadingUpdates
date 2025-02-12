@@ -2026,7 +2026,7 @@ ku "\"Yeah, sorry about that.\""
 show Leo Annoyed with dis
 l "\"I want Chase between us. I don't trust these fuckers to not try anything, especially if Brian comes back.\""
 stop background fadeout 3.0
-"So, with Kudzu leading the way, we make our way out of Brian's house and into the night."
+"So, with Kudzu leading the way, we make our way out of Duke's house and into the night."
 
 scene nightroad
 show nightoverlay

@@ -4758,7 +4758,7 @@ menu:
         l "\"Why were you there, Chase?\""
         "His tone is strange, almost without inflection."
         m "\"Leo, I-I don't know what you mean? I wasn't here last week.\""
-        "Next I thing I know, he's stepping closer toward me."
+        "Next thing I know, he's stepping closer toward me."
         show Leoexp Rejected at center with easeoutright
         "He stops, then lowers himself to a sitting position against the wall."
         "The wolf's arms stretch around my torso and pull me against his side."
