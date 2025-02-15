@@ -107,6 +107,7 @@ scene bg ChaseDay1 with dis
 m "\"Oh my God...\""
 "Had that really happened?"
 "I struggle a bit more, then try to think."
+#!!!! Depending on whether you run through the kitchen to escape Brian or not, Chase doesn't run to Leo's house, so these next lines don't fit. There should be a variable to track this
 "I had run to Leo's house..."
 "Leo. I don't know what happened to him. I left him with Duke."
 "And then Brian - he'd been chasing me and tried to break in."
@@ -886,6 +887,7 @@ m "\"Yeah...sort of. I mean, I'm not gonna die, I think.\""
 m "\"Did you call the police?\""
 "I absentmindedly reach for my phone in my pocket, but it's not there."
 "I have no idea where it is at this point."
+#!!!! Depending on whether you run through the kitchen to escape Brian or not, Chase's phone would or would not be at Leo's house. There should be a variable to track this
 "Was it still at Leo's house?"
 show Kudzu Depressed with dis
 "There's a tight look of consternation on Kudzu's face."
