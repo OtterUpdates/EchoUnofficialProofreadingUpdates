@@ -3,7 +3,7 @@ I did a re-read of Echo and Route 65 and decided to proofread it at the same tim
 
 I did reach out to the Echo Project team a few times via their Patreon messages and the email they have posted, but I haven't received any response after waiting a couple months. I'm not sure what sort of contact methods they actually pay attention to, so if anyone knows how to put this on their radar be my guest; I refuse to make a Twitter account to reach them that way. In the meantime, I'm just releasing this here so people who might be interested in a re-read have access to it.
 
-### Usage notes:
+### Installation/Usage notes:
 Grab the source code from the [latest release](https://github.com/OtterUpdates/EchoUnofficialProofreadingUpdates/releases/latest) and extract the .rpy files into the nested "game" folder of Echo or Route 65 (i.e., Echo\game\\*.rpy), then relaunch the game.
 
 ### List of things I remember doing:
@@ -22,6 +22,7 @@ Grab the source code from the [latest release](https://github.com/OtterUpdates/E
 
 There are still a few noticeable problems/detail inconsistencies left in the text, but they should all at least have a note next to them. I'd say this work is a pretty solid base for what I'd consider a 1.0 of Echo. It's not perfect, but it's a massive first step that should be supplemented by further fine-tuning. Ideally this new text would have a few test readers and some peer review on all the changes, but this is all I can do with a single read by myself. If you use this text to do a re-read, I would really appreciate it if you send notes or a PR on anything that's still not quite right!
 
-I included some [notes](/notes-and-regex.md) for things I didn't get around to doing, as well as a big chunk of RegEx patterns that I used to programmatically find issues before reading. If you want to compare my fixes to the original text, you'll want to use some kind of text diff tool (I personally use VSCode), or check the diffs directly on GitHub.
+I included some [notes](/notes-and-regex.md) for things I didn't get around to doing, as well as a big chunk of RegEx patterns that I used to programmatically find issues before reading. If you want to compare my fixes to the original text, you'll want to use some kind of text diff tool (I personally use VSCode), or check the diffs [directly on GitHub](https://github.com/OtterUpdates/EchoUnofficialProofreadingUpdates/compare/original-copies...main).
+
 
 I also found a lot of issues in Arches at the same time due to how I scanned for errors, but I haven't done a manual re-read of it yet. I'll probably do that and commit a fixed copy eventually, but Arches is way cleaner to begin with and doesn't really need fixing as desperately as Echo does. I've been very busy IRL lately so that will happen when it happens.
