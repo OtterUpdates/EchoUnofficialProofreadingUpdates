@@ -21,7 +21,8 @@ show Carl at right with moveinright
 f "\"Jesus fucking Christ, Carl, what is that?\""
 show Carl Neutral with dis
 c "\"What?\""
-"Carl has tied the spinner in a giant, ugly, knot, the string sticking out in every which way."
+#! probably?
+"Carl has tied the spinner in a giant, ugly knot, the string sticking out in every which way."
 f "\"This is why I told you to fuckin' wait.\""
 "I guess Carl had gotten impatient and decided to tie his own lure while Flynn helped me with mine."
 "Flynn takes out a knife from his pocket and takes the spinner from Carl, scowling."
@@ -38,7 +39,7 @@ c "\"Why we gotta fish with these when we got an otter with us?\""
 m "\"I'm willing.\""
 f "\"That's not the point—\""
 "Flynn almost growls, prodding and poking at the messy knot."
-f "\"—it's about relaxing and how's Chase gonna relax swimmin' around the whole time?\""
+f "\"—it's about relaxing, and how's Chase gonna relax swimmin' around the whole time?\""
 "He finally seems to get a handle on the mess and starts tugging out line."
 f "\"And how am I gonna relax with you fuckin' everything up?\""
 "The line finally drops away from the spinner."
@@ -60,7 +61,7 @@ play sound "fishing.ogg"
 "Turns out he and Leo found this pond twenty minutes outside of town, deep into the wilderness."
 "Unsurprisingly, no one comes here, which is why Flynn says the fishing is good."
 "There definitely is something calming about being out in the middle of nowhere, especially with the repetitive motions of fishing to keep you occupied."
-"Finally, Flynn finishes showing Carl how to cast and the ram launches his spinner out, almost all the way to the other side of the pond."
+"Finally, Flynn finishes showing Carl how to cast, and the ram launches his spinner out, almost all the way to the other side of the pond."
 show Flynn with dis
 f "\"Careful, idiot! If you get it snagged at the other end I'll whoop your ass.\""
 show Carl Annoyed with dis
@@ -80,10 +81,10 @@ m "\"A-alright...\""
 show Flynn Happy with dis
 "I hear him give a low chuckle in his throat and I glare."
 "Of course, he knows what he's doing right now with my paws and the pole. He's probably rubbing in what he said yesterday."
-"I decide to respond by sliding my tail up the inside of his leg and I feel him shift against me, his chuckle turning into a grunt of surprise."
+"I decide to respond by sliding my tail up the inside of his leg, and I feel him shift against me, his chuckle turning into a grunt of surprise."
 c "\"What the hell are you guys doing?\""
 show Flynn Annoyed with dis
-"Flynn lets go of the pole and and steps back as Carl watches us, his face screwed up in exaggerated disgust."
+"Flynn lets go of the pole and steps back as Carl watches us, his face screwed up in exaggerated disgust."
 show Flynn Annoyed at left with moveinleft
 show Carl Neutral at right with dissolve
 f "\"Showin' him how to fish. Now it's your turn, fatty.\""
@@ -92,7 +93,7 @@ c "\"It's not like we haven't done this before..\""
 c "\"..plus, I dunno if I wanna feel your cloaca on my ass.\""
 f "\"Too bad.\""
 hide Carl
-hide Flynn 
+hide Flynn
 with dissolve
 "I focus back on fishing, still feeling a little warm from the close encounter I'd just had with Flynn."
 "I'm a little angry that he'd try that, especially so soon after what had happened."
@@ -129,7 +130,7 @@ f "\"Too bad. That's one of my last fuckin' lures!\""
 c "\"Wha—come on...\""
 show Carl Depressed with dis
 "Carl's shoulders slump as he looks out across the pond."
-"I sigh and set down my pole and start stripping my shirt off, followed by pants."
+"I sigh and set down my pole and start stripping my shirt off, followed by my pants."
 "After a pause I decide to take off my boxers, too. It's not like Jenna's here."
 "It takes them a while to stop arguing (now about the plural form of cactus) and realize that I'm now nude."
 show Carl Neutral with dis
@@ -147,12 +148,12 @@ play sound "splash.mp3"
 "I don't get his response because I dive in right after that, the familiar feeling of water closing up around me, cutting off air and sound."
 scene bg underpond
 with dissolve
-"Again, it's a huge relief to be back in the water and I drift towards the bottom. It's not deep at all and the water here has a slimy feel that I don't like."
-"Still, it's better than nothing and I undulate slowly across the pond."
+"Again, it's a huge relief to be back in the water, and I drift towards the bottom. It's not deep at all, and the water here has a slimy feel that I don't like."
+"Still, it's better than nothing, and I undulate slowly across the pond."
 "It doesn't take long to reach the log as it's only about 30 feet away."
 "I have to bob a few times to the surface to look around, though, since the water's too murky to see through."
 "I'm actually kinda starting to regret doing this. I try to remember if I have any cuts or sores I'm gonna have to douse in peroxide later."
-"That's when one of my paws bumps the log and I bob back up to the surface, wiping a paw across my eyes."
+"That's when one of my paws bumps the log, and I bob back up to the surface, wiping a paw across my eyes."
 scene bg pond
 with dissolve
 play loop "reststop.ogg" fadein 3.0
@@ -174,22 +175,25 @@ stop loop fadeout 3.0
 "I go back in, slowly swimming back to the opposite bank."
 "It's at that point that I see a silver flash to the right of my field of vision."
 "I look over and see a fish, swimming lazily over some plant life on the bottom of the pond."
-"I pause and would have smiled if my mouth wasn't going to fill with pond water."
+#!! "I pause and would have smiled" is a little awkward without any actual pauses in the sentence?
+"I pause, and I would have smiled if my mouth wasn't going to fill with pond water."
 "It would be funny, after all this time with their lures and their poles, for me to just pop out of the water, fish in paw."
 "I swim over to it slowly, lingering to the side so I won't block the sunlight before diving down and snatching it up."
 "I latch in my claws to keep it from escaping as I give a little wiggle of delight."
 "It's been a long time since I've done this, but it looks like I've still got it."
-"I turn and start swimming back to Flynn and Carl and that's when I suddenly feel like I'm being watched."
+"I turn and start swimming back to Flynn and Carl, and that's when I suddenly feel like I'm being watched."
 play loop "hysteria.ogg" fadein 15.0
 "It's not the typical feeling, though. This is much, much more intense..."
 "I pause and look back over my shoulder, then forward again."
-"It's pointless because everything's cloudy, I can't see more than ten feet."
+#! probably?
+"It's pointless because everything's cloudy; I can't see more than ten feet."
 "I've sunk down to the bottom of the pond, both of my feet resting in deep muck as I crouch, trying to figure out where the feeling is coming from."
 "It doesn't help that my head is starting to buzz, a tone building in my head that sounds like an orchestra tuning."
 "I haven't been down that long...I shouldn't be running out of air."
 "Of course, I should just swim up to the surface, where it's bright and safe, but I don't, because this feels too familiar."
 "I think back to when I was twelve, playing in the abandoned school with Carl."
-"I was hiding from him, in a second-floor classroom when I felt this exact feeling."
+#!! maybe?
+"I was hiding from him, in a second-floor classroom, when I felt this exact feeling."
 "Intense, almost physical, like a hand was grabbing into the back of my neck."
 "I look around again, then finally look down, at the fish in my paws."
 "And now I know where it's coming from."
@@ -211,7 +215,8 @@ f "\"He pissed in the water while you were under.\""
 m "\"Great.\""
 "Honestly, I don't really care right now."
 f "\"I wouldn't worry about it, you didn't come up near it...and there's probably worse in there anyway.\""
-f "\"Speakin' of which, why don' you go further up the stream and wash up? I don't want you bringin' pond shit into my truck.\""
+#!!! is the shortened don' intentional? it reads more like a typo than slang
+f "\"Speakin' of which, why don't you go further up the stream and wash up? I don't want you bringin' pond shit into my truck.\""
 m "\"Okay.\""
 "I sigh and pick up my clothes, just glad that they seemingly haven't noticed anything's off."
 #transition
@@ -250,9 +255,10 @@ m "\"What the hell!\""
 f "\"You really think you can just tease me like that and get away with it?\""
 play music "beat.ogg" fadein 5.0
 stop loop fadeout 5.0
-"His paws slide around my body, between the car and my stomach before moving up my chest."
+#! maybe?
+"His paws slide around my body, between the car and my stomach, before moving up my chest."
 "I'm frozen that way, paws against the passenger window as I stare in shock through it at the truck's steering wheel, though I'm not really seeing it."
-"There's a pause and I think it's because he's waiting for my response, to see if I'd tell him to stop or not."
+"There's a pause, and I think it's because he's waiting for my response, to see if I'd tell him to stop or not."
 "I don't, though, and I lean my head back into his neck, feeling my entire body break out into goosebumps as he rubs at my chest."
 f "\"You like that, don't you?\""
 "I respond with a gasp as his sharp teeth graze across one of my stubby ears, his hot breath sending another wave of chills over my skin."
@@ -268,43 +274,44 @@ menu:
         "Aggressive as Flynn can be, I know he's got a soft side."
         "On top of that, he caught me off-guard, and that's annoying."
         "For a moment Flynn pauses again, as if he's distracted by something, but I don't give him time to tell me what it is."
-        "Using my tail, it coils to his thigh and I drag the reptile around, ending his spin with his back thumping into his truck." 
+        #!!!! This sentence is very clunky. A lot of repeated "his", and the switch from "my tail" to "it coils" is weird. I made an attempt
+        "I coil my tail around his thigh and spin the reptile around, forcing his back into the truck with a thump."
         "My paws slip into his open shirt, pinning either side of the button-up to his arms. He grunts, a smirk on his muzzle as he leers at me."
         f "\"Well well... there's the spicy otter I used to know. Forgot how damn strong otter tails can be.\""
         "A grin of my own works across my muzzle."
         m "\"And I forgot how soft scales can be.\""
-        "I bring my snout to his stomach, and firmly nuzzle into the patch of orange scales there."
+        "I bring my snout to his stomach and firmly nuzzle into the patch of orange scales there."
         "Flynn's abs flex for a moment but then relax as I work my broad nose in."
-        "His skin is a little coarse, but underneath it is soft and warm." 
+        "His skin is a little coarse, but underneath it is soft and warm."
         "It had always been Flynn's soft spot."
         "Not just physically. It's also a really sensitive spot for him. I found this out years ago when I first tickled him."
         "And it's evident in the little lizard moan that slips out of his muzzle."
-        f "\"Ahh... cheap m-move, Chase. Fuckin' otters and their wet, cold ass noses...\""
+        f "\"Ahh... cheap m-move, Chase. Fuckin' otters and their wet, cold-ass noses...\""
         m "\"Yeah, and you love it, Flynn.\""
-        "I'm not exactly sure what's gotten into me...it's like I'm a teenager again with the way I'm acting." 
+        "I'm not exactly sure what's gotten into me...it's like I'm a teenager again with the way I'm acting."
         "I can see Flynn's surprised, too, but he doesn't say anything."
-        "At this point, his button up has slipped over his shoulders, revealing more of his taut, lithely form."
-        "His dark scales and orange scales both glisten in the desert sun." 
-        "Flynn's biceps flex as he struggles with my hold, which must have been an act because he sure as hell couldn't have broken the pin if he tried." 
-        "His playful struggling only gets me more excited." 
+        "At this point, his button-up has slipped over his shoulders, revealing more of his taut, lithely form."
+        "His dark scales and orange scales both glisten in the desert sun."
+        "Flynn's biceps flex as he struggles with my hold, which must have been an act because he sure as hell could have broken the pin if he tried."
+        "His playful struggling only gets me more excited."
         "My sheath is filling rapidly now, and I can see his pants are fully tented. He sighs breathily and relents as I keep my hold firm, continuing to tease his belly."
         m "\"It's like a leather pillow, you know? Supple~.\""
-        "Flynn's face flushes as I bring my paws to his waist, pressing him to his truck, caressing his torso." 
+        "Flynn's face flushes as I bring my paws to his waist, pressing him to his truck, caressing his torso."
         "My paws glide over his chest before sliding down his sides, then around his waist to grope his ass."
-        f "\"Fffffuuuuck... You know...  I don't let just anybody touch me like this\""
+        f "\"Fffffuuuuck... You know... I don't let just anybody touch me like this.\""
         m "\"I seriously doubt that.\""
-        "A little shiver  runs through the lizard. Then he leans in, free from my grasp, nibbling breathily into my ear and I shiver a bit in return"
+        "A little shiver runs through the lizard. Then he leans in, free from my grasp, nibbling breathily into my ear and I shiver a bit in return."
         "Flynn slouches down for better leverage, his paws wrapping to the small of my back."
         "I take advantage of him being at my height level, and glide my wet tongue over the slick scales of his neck."
         "His whole body gives a weird little jump, his hands snapping up to grab my arms, almost painfully, but he doesn't push me away."
         "I give a little grunt of annoyance and shrug off his hands, bringing my own paws back to his front."
-        "Dragging my blunt claws along his stomach, I trail them to around his back, scritching into his scales"
+        "Dragging my blunt claws along his stomach, I trail them around to his back, scritching into his scales."
         "Flynn rasps, letting out another reptilian moan. I can't help but giggle, pressing my body into the euphoric lizard."
-        "He tilts his head back, eyes half-lidded, and maw agape, his tongue flicking at the air."
-        "For a moment, I realize exactly what I'm doing; making out with my childhood friend. Strange as it seems, it's sexy as hell."
-        "A few years ago there was no way I'd be okay with this. I guess the time apart, along with being pent up for a few days, helped to spur me on."
+        "He tilts his head back, eyes half-lidded and maw agape, his tongue flicking at the air."
+        "For a moment, I realize exactly what I'm doing: making out with my childhood friend. Strange as it seems, it's sexy as hell."
+        "A few years ago there was no way I'd be okay with this. I guess the time apart, along with being pent-up for a few days, helped to spur me on."
         "I'm nearly fully out of my sheath at this point, my cock pressing into his very tented pants crotch."
-        "He pulls me in, and I undulate against him, grinding into his crotch with my own"
+        "He pulls me in, and I undulate against him, grinding into his crotch with my own."
         "Riding out the reptile's spasms, I smooth my paw pads down his back, dipping below his pants' belt line, under his boxer briefs."
         "Again, I grab two pawfuls of naked gila ass, clasping Flynn's butt on either side of his short, fat tail."
         f "\"Goddammit, Chase... urfh....had I known you still-\""
@@ -324,7 +331,7 @@ menu:
         m "\"Hey I—I still have to keep in shape...I swim...\""
         "I can't go on as he breathes into my ear again, making me gasp and lean my head back, biting my lip."
         f "\"Hehe, sensitive ears, huh?\""
-        "Finally, he gets to my lower stomach and he pauses, waiting again for my response."
+        "Finally, he gets to my lower stomach and pauses, waiting again for my response."
         "Again, I don't say anything, instead pushing my butt back into his crotch and thighs."
         "One of his pinky fingers prods gently at the top of my sheath."
         "Suddenly he lets go from cupping my stomach to cup my balls, pushing the furry sack up against my body."
@@ -358,7 +365,7 @@ menu:
         "I press against him and he gives a slight huff through his nostrils."
         "Then he starts to slide my paw lower, past the waistband of his pants, under his boxers."
         "I can't see what's going on, since he's still got his mouth against my neck."
-        "That's when I feel something hot and smooth against my finger tips—"
+        "That's when I feel something hot and smooth against my fingertips—"
 
 "I grin, feeling mischievous."
 "Wrapping my paw around Flynn's rock-solid member, I give a brisk, smooth pump."
@@ -372,11 +379,11 @@ f "\"Shit... Unh... you must've been a handful for wolfy-boy. He's not the type 
 "Personally, I just chalk it up to growing up."
 "But, right now, I do sort of feel like my old self, and that's kind of incredible."
 m "\"Hey, I'm a versatile otter. I like to trade off.\""
-"I grin as Flynn guides my paws in his briefs, returning a smirk." 
+"I grin as Flynn guides my paws in his briefs, returning a smirk."
 
 menu:
     "Tease his soft spot again.":
-        "I'm about to place a my paws on his torso when Flynn suddenly pulls back."
+        "I'm about to place my paws on his torso when Flynn suddenly pulls back."
     "Push down his pants.":
         "I'm about to pull my paws out of Flynn's grasp when he steps back."
     "Grope him some more.":
@@ -408,7 +415,7 @@ scene bg route93
 with fade
 play background "highway.ogg" fadein 3.0
 "We're headed down Elizabeth Street after dropping Carl off, the drive only a little awkward."
-"Flynn's really good at acting like nothing's wrong when he wants to and I'm totally fine with that right now."
+"Flynn's really good at acting like nothing's wrong when he wants to, and I'm totally fine with that right now."
 "That's when I see a set of familiar ears through the window of the convenience store."
 m "\"Hey, is that TJ?\""
 "Flynn ducks his head to look out my window."
@@ -429,17 +436,17 @@ show TJ at center
 with dissolve
 "At first he smiles when he sees me, but then his ears fall flat as he sees Flynn come in behind me."
 show TJ Rejected with dis
-"Jenna pokes her head from behind TJ and now I know this is a really bad idea."
+"Jenna pokes her head from behind TJ, and now I know this is a really bad idea."
 show Jenna Annoyed at left with dissolve
-"They're both a little dirty and TJ has his backpack on."
+"They're both a little dirty, and TJ has his backpack on."
 "I wave at them to let them know I've seen them before moving towards the back of the store."
 "I need to get some bottled water since I don't really like drinking from the faucet in the motel."
 hide Jenna
-hide TJ 
+hide TJ
 with dissolve
 "I hear Flynn say something as he walks up to them and I silently hope that by the time I get back everything will be magically resolved."
 "Because the old corner market closed, this is the only place where you can buy food - aside from the diner."
-"Looking around at the selection, I can see why Flynn takes the thirty minute drive to Payton to get his food."
+"Looking around at the selection, I can see why Flynn takes the thirty-minute drive to Payton to get his food."
 "I grab a few water bottles and head back to the front."
 "My hopes of a resolution are dashed as I see the awkward situation unfolding in front of me."
 show TJ Rejected at right
@@ -457,13 +464,13 @@ m "\"Ah...\""
 f "\"Hey Teej, did you—\""
 stop music fadeout 3.0
 j "\"Hey Flynn, did you forget what happened yesterday?\""
-"I cringe. Jenna's tone is sharp and now I just wish I could turn invisible."
+"I cringe. Jenna's tone is sharp, and now I just wish I could turn invisible."
 f "\"Huh?\""
 play music "loneliness.ogg"
 j "\"Can't you tell he doesn't want to talk to you?\""
 "Flynn doesn't say anything. The tension is so thick in the air I feel like I'm back in the slimy pond."
 "The cashier fox pauses in handing me my change, staring at Flynn and Jenna."
-m "\"Uh, Thanks!\""
+m "\"Uh, thanks!\""
 "I almost yell as I reach out for the money, as if the volume of my voice will make everyone forget and provide Flynn the opportunity to escape."
 "It doesn't work."
 j "\"We're not kids anymore, Flynn. You can't just treat us like crap and expect us to act like it's okay when you decide we're worth talking to again.\""
@@ -475,7 +482,8 @@ hide TJ with dissolve
 j "\"If you want to talk to us again then you're going to have to act like an adult and apologize.\""
 j "\"Otherwise, later.\""
 hide Jenna with dissolve
-"She exits, leaving us in the most awkward, painful, silence I've ever heard in my life."
+#! can the silence be "heard"? maybe "felt"? idk
+"She exits, leaving us in the most awkward, painful silence I've ever heard in my life."
 "The clerk openly stares at Flynn."
 "I fumble with the change and my wallet, trying to pretend like nothing happened."
 m "\"Uh, do you wanna—\""
@@ -492,9 +500,9 @@ m "\"What?\""
 "I suddenly realize where I am, and where I come from, and this alone quashes all the good feelings I have left of the day."
 "This fox in front of me practically embodies all the problems with this small town."
 "I feel such a bizarre, intense wave of hatred for him that I have to leave the store."
-"Pressing the two water bottles against my chest with one arm, I shove my free paw into my pocket, staring at the ground as I walk back to the hotel."
+"Pressing the two water bottles against my chest with one arm, I shove my free paw into my pocket, staring at the ground as I walk back to the motel."
 stop music fadeout 3.0
-scene bg black 
+scene bg black
 with slow_dissolve
 scene bg motelfull
 with dissolve
@@ -518,7 +526,7 @@ j "\"Yeah, well I'm sick of having to deal with it. He needs to learn how not to
 stop loop fadeout 3.0
 "Even sensitive TJ accepts it and takes the playful ribbing well enough."
 play loop "showerfan.ogg" fadein 3.0
-"I hear the shower shut off followed by the high powered \"whoosh\" of the hotel's cheap dryer."
+"I hear the shower shut off followed by the high-powered \"whoosh\" of the motel's cheap dryer."
 "Being a lynx, TJ probably had to stand in that thing for a good ten minutes before he was even damp."
 j "\"We're adults now. If he wants to get anywhere in life he needs to shape up.\""
 m "\"He's getting along alright.\""
@@ -577,7 +585,7 @@ call text("", "I guess I can get the present for you but youre definitely going 
 #"\"I guess I can get the present for you but youre definitely going to the party and then were gonna go out to see a movie\""
 ""
 "I suppose that doesn't sound too bad as long as I'm able to get at least something done for the project."
-"Something is still bothering me about the whole get together, though."
+"Something is still bothering me about the whole get-together, though."
 play sound "texting2.ogg"
 $ renpy.pause(1.5, hard=False)
 call text("m", "I can go to the party, but I might need to stay and do more project stuff. What about Flynn?") from _call_text_14

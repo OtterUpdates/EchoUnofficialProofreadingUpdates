@@ -1,5 +1,5 @@
 label leoact2:
-scene bg black 
+scene bg black
 with dissolve
 play music "unconcious.ogg" fadein 5.0
 window show
@@ -7,7 +7,7 @@ window show
 "I feel like I'm floating in a black sea and nothing about it is comforting or peaceful."
 "It's like a fitful doze when you have a really bad fever."
 "It feels awful and murky and...sick."
-"I feel my head tilt back and a lighting bolt arcs through my head."
+"I feel my head tilt back and a lightning bolt arcs through my head."
 "I try to open my eyes but they only manage to flutter and I see flashes of red above me."
 "Something is hooked under my back and I'm dangling from it."
 "I imagine a rope tied around me, holding me above the dark abyss below."
@@ -15,7 +15,7 @@ window show
 "I grit my teeth as the searing red becomes too much to look at and I close my eyes again..."
 "This must be a nightmare...one that feels too real."
 "I've had them before and I know how to deal with them."
-"Just need to go back to sleep, to drift off and I'll wake back up in my bed."
+"Just need to go back to sleep, to drift off and I'll wake up back in my bed."
 "Go back to sleep and wake up back in my dorm."
 "Wait...In Echo?"
 "I try to think, try to prod back into my memories."
@@ -25,22 +25,23 @@ window show
 play loop "nhysteria.ogg" fadein 20.0
 "I'm pulled back into the sickly dark as something jolts my body."
 "I grimace and gasp."
-"I'm filled with such a feeling of unprovoked loneliness and despair that I actually feel my eyes watering and a sob escapes my mouth."
+"I'm filled with such a feeling of unprovoked loneliness and despair that I actually feel my eyes watering, and a sob escapes my mouth."
 "I hear a soft chuckle above me and I go quiet."
 "I still don't know where I am, or what's going on at all, but that laugh is enough to tell me that I don't wanna be where I am."
 "The feeling of hanging from a rope is gone now."
 "Instead, I'm lying on something flat and hard and my arms and legs are spread out."
 "..."
 "The air is cool now and my skin is cold and wet, like I've been sweating a lot."
-"The feeling is especially strong along my back and I want to roll over...but I can't."
+"The feeling is especially strong along my back, and I want to roll over...but I can't."
 "Something is holding my arms down and there's a rattling sound when I try to move."
-"I moan and try to open my eyes again, though it's almost like they're glued shut."
+#!! I kinda hate ", though" in lieu of ", but". I'm not sure if that's a me thing
+"I moan and try to open my eyes again, but it's almost like they're glued shut."
 "With a little more effort, I manage to crack one open."
 stop music fadeout 5.0
 "At first, all I see is a blur of colors above me and I have to blink a few times to clear it."
 "Slowly, the image comes together and I'm able to make out that someone is there above me."
 window hide
-stop loop fadeout 3.0 
+stop loop fadeout 3.0
 play sound "nhyst_trans.ogg"
 play music "terrorbelowthesurface.ogg" fadein 7.0
 $ renpy.pause(1.3, hard=False)
@@ -66,7 +67,7 @@ scene bg black
 stop music fadeout 20.0
 "I shut my eyes and gag as I feel my stomach swirling around inside me."
 "All I can do is pray for it to stop, feeling like everything around me is about to fall over."
-"The ache in my head is magnified ten-fold and tears start to leak from my eyes."
+"The ache in my head is magnified tenfold and tears start to leak from my eyes."
 "Just when I think I'm about to slip off the face of the Earth, the ground starts to tilt back the other way."
 "I swallow and gasp for air, my entire body shaking and sweating all over again."
 "I feel like I've been swimming too long and my body is exhausted."
@@ -106,6 +107,7 @@ scene bg ChaseDay1 with dis
 m "\"Oh my God...\""
 "Had that really happened?"
 "I struggle a bit more, then try to think."
+#!!!! Depending on whether you run through the kitchen to escape Brian or not, Chase doesn't run to Leo's house, so these next lines don't fit. There should be a variable to track this
 "I had run to Leo's house..."
 "Leo. I don't know what happened to him. I left him with Duke."
 "And then Brian - he'd been chasing me and tried to break in."
@@ -116,8 +118,8 @@ m "\"Oh my God...\""
 scene bg brianstrailer with dissolve
 "I'm in a small room, what looks like a living room of some kind."
 "There's a couch to my right, and a wall with a clock on it to the left, ticking away."
-"There's  window too and, along with the ticking, the wind blowing outside is the only other sound that I can hear."
-"Looking down towards my legs, I can see what looks like a tiny kitchen with some cupboards and a counter top."
+"There's a window too and, along with the ticking, the wind blowing outside is the only other sound that I can hear."
+"Looking down towards my legs, I can see what looks like a tiny kitchen with some cupboards and a countertop."
 "Dishes and junk are piled high along the length of the counter and it smells like cigarette smoke."
 "Judging by the layout and size of the place, it looks like I'm in a trailer home."
 "A small moan of terror escapes my lips."
@@ -176,6 +178,7 @@ show Duke Angry with dis
 "Brian chuckles and Duke shoots him a look."
 show Duke Dazed with dis
 "He turns his attention back to me, softening his expression...at least as much as he can with his scraggly, drug-fucked face."
+#!! is "needs" intentional?
 du "\"We just needs to get some information from ya.\""
 "I open my mouth to speak, but all that comes out is a dry squeak."
 play sound "heavyfootsteps.ogg"
@@ -211,7 +214,7 @@ du "\"Ya see, people ain't right in the head here.\""
 "No shit."
 show Duke Dazed with dis
 "Duke seems to immediately read my thought process because he holds up his hands and shakes his head."
-du "\"Yeah, yeah, I know. What we're doin ain't exactly right in the head either.\""
+du "\"Yeah, yeah, I know. What we're doin' ain't exactly right in the head either.\""
 show Brian Happy with dis
 "Brian gives his dumb chuckle again, but I keep my face averted from him, partly because I really can't stand the smell."
 du "\"But we're all a little fucked up here. What I'm talkin' about is somethin' else, like what you saw with Janice.\""
@@ -222,7 +225,7 @@ du "\"I don't know, and it's a damn shame, but you saw the way she came at me. T
 "I look at the weasel's waistband and immediately see the handgun tucked into his pants there."
 du "\"An' I was hopin' to stop it before any of this happened, but now...\""
 br "\"Everythin's gone to shit.\""
-"Brian finishes for him and I can feel him move closer to the platform I'm laying on."
+"Brian finishes for him, and I can feel him move closer to the platform I'm laying on."
 "Again, I avoid eye contact, not wanting to provoke him in any way."
 du "\"Yep, an' it's only gonna get worse.\""
 "Duke just looks at me, like that's all the information that I need."
@@ -238,7 +241,7 @@ show Duke Dazed with dis
 "Duke's quiet for a while before he starts speaking again without turning around."
 du "\"It happened to my grandaddy, my daddy...now it's happenin' to me.\""
 "I close my eyes, wondering if Duke is just as crazy as Janice was."
-"If he does I doubt he even has a clue what he's doing right now."
+"If he is, I doubt he even has a clue what he's doing right now."
 du "\"Dale's missing, Cynthia drove off into the desert...\""
 "Duke turns around to look back at me."
 du "\"We saw your cat friend running down the street on the way here, sayin' someone is after him.\""
@@ -261,7 +264,7 @@ show Brian Happy with dis
 du "\"I saw you hangin' around this fuckin' town before you even got here, late at night, lurkin' around.\""
 "I'm still cringing from the slap and I keep my eyes closed, as if not seeing any of this is going to make it stop."
 du "\"And then once all your friends get here all hell breaks loose. You think that's a fuckin' coincidence?\""
-"It's quiet for a moment and all I can hear is the rush of blood in my ears."
+"It's quiet for a moment, and all I can hear is the rush of blood in my ears."
 "Is this really happening?"
 show Duke Dazed with dis
 "I feel Duke touch my arm again and I flinch in fear."
@@ -314,7 +317,7 @@ show Brian with dis
 "Brian snorts."
 show Duke Angry with dis
 du "\"Brian knows what will happen if he does.\""
-"Duke gives Brian a cold, callous stare and this time Brian doesn't give his stupid grin back."
+"Duke gives Brian a cold, callous stare, and this time Brian doesn't give his stupid grin back."
 du "\"But you'd better hope your fuckbuddy says somethin' soon because if not we might have to get mean.\""
 stop music fadeout 5.0
 "Duke heads for the door, turning to look over his shoulder."
@@ -325,7 +328,7 @@ hide Duke with dissolve
 show Brian Angry with dis
 "As soon as the sound is gone, Brian stands up."
 "I turn my head in time to see him whirl around and smash his fist into the wall."
-play sound "doorbreak.ogg" 
+play sound "doorbreak.ogg"
 with vpunch
 "I jump as much as I can in my restraints before he does it again, this time slamming both of his fists against the wall."
 play sound "doorbreak2.ogg"
@@ -352,7 +355,8 @@ br "\"I'LL FUCKING KILL HIM. I'll KILL THAT FUCKING CUNT!\""
 "Then he slaps himself across the face twice."
 "After that he closes his hand into a fist and punches himself in the head repeatedly."
 "It's with a force that would knock me out cold."
-"It might be funny if I wasn't tied down to a contraption in a trailer belonging to Brian."
+#!! switching to "him" emphasizes the connection
+"It might be funny if I wasn't tied down to a contraption in a trailer belonging to him."
 "Brian stumbles after what seems like the fifth blow and covers his face."
 "His massive shoulders shake with sobs."
 br "\"Thinks—Thinks he can do whatever the fuck he wants. Thinks he can boss me around.\""
@@ -365,7 +369,7 @@ br "\"I'll kill him, kill him, KILL HIM!\""
 br "\"I'll...I'll get him...I'll fucking get him...won't control me no more...\""
 "Suddenly, his quaking shoulders freeze."
 show Brian with dis
-"Slowly, he turns and with a sinking heart I realize he's looking right at me."
+"Slowly, he turns, and with a sinking heart I realize he's looking right at me."
 "The fur on his cheeks, already matted before, are now flat and shiny with wet."
 "Snot runs from his nose down to his upper lip."
 "Then I see red dripping from his left fist."
@@ -414,7 +418,7 @@ show Brian Angry with dis
 br "\"If you fuckin' tell Duke about this.\""
 "He raises a fist and I cringe."
 m "\"No! No, I won't. I swear!\""
-"I turn my head away, eying his raised fist."
+"I turn my head away, eyeing his raised fist."
 "He holds it there a while, watching me."
 "He seems to be calculating something, like he's wondering if he can get away with what he's about to do."
 show Brian with dis
@@ -462,7 +466,7 @@ scene bg ChaseNight2
 show nightoverlayred
 with dissolve
 "While this goes on, I lay quietly against my platform, trying not to start crying again."
-"My mind keeps wandering back just hours ago, how everything seemed fine for the most part."
+"My mind keeps wandering back to just hours ago, how everything seemed fine for the most part."
 "I keep wishing I could go back to the beginning of the week."
 "Thinking about that makes me sentimental and I'm longing to see Leo, TJ, Carl, Jenna, and even Flynn again."
 "Where are they all right now?"
@@ -471,8 +475,8 @@ with dissolve
 "If that's the case, the cops should be here by now."
 "Someone would have gotten the word out, wouldn't they?"
 "If people were murdering each other, like what happened to Janice, there's no way that wouldn't be the case."
-"Brian lets out another explosive laugh, wiggling his feet on the arm rest of the couch."
-"Earlier he tried to feed me some dried cereal, but it was like cardboard in my mouth and after only a handful, I couldn't eat anymore."
+"Brian lets out another explosive laugh, wiggling his feet on the armrest of the couch."
+"Earlier he tried to feed me some dried cereal, but it was like cardboard in my mouth and after only a handful, I couldn't eat any more."
 "I'm just thankful that he's preoccupied with something else right now."
 scene bg ba with dissolve
 "There's a soft knock at the door and Brian jumps, quickly changing the channel to golf before he gets up and lumbers over to the door."
@@ -480,8 +484,9 @@ scene bg ba with dissolve
 "He pulls out a handgun that looks cartoonishly small in his hands before making his way to the door."
 "I weakly turn my head in his direction and watch Brian open the door a crack."
 "He chuckles."
-br "\"World's goin' to shit and you're still comin' here for more, eh?"
-"Brian pushes the door open a bit more and I catch sight of a skinny, malnourished polecat."
+br "\"World's goin' to shit and you're still comin' here for more, eh?\""
+#!!!! Clint is not a polecat
+"Brian pushes the door open a bit more and I catch sight of a skinny, malnourished ringtail."
 "Clint is looking up at Brian, appearing even more disheveled than usual."
 cl "\"S—so are we doin—\""
 "Clint had stepped up onto the first step and looked into the trailer, immediately spotting me."
@@ -492,7 +497,7 @@ br "\"Uh, um, I'm full today. Already got someone takin' your spot hehe...\""
 "Clint's now out of my line of sight, but I can hear him shuffling around in the dead vegetation."
 cl "\"Please...I really need something right now...We can do it outside.\""
 "There's a moment of silence as Brian seems to contemplate that."
-br "\"No...no, I got some business to take care of. Tomorrow, maybe."
+br "\"No...no, I got some business to take care of. Tomorrow, maybe.\""
 "Clint starts to whine again but Brian swings the door shut with a bang."
 br "\"Heh, fuckin' dopehead.\""
 "Brian walks back into the room, looking down at me, then back at the TV."
@@ -529,7 +534,7 @@ with dis
 "I see Brian look over at me from my peripheral vision."
 br "\"Heh, you really wanna know?\""
 "I shrug the best I can, continuing to stare passively up at the ceiling."
-"The movement sends electric tingles through my arms which are completely numb at this point."
+"The movement sends electric tingles through my arms, which are completely numb at this point."
 br "\"Well...\""
 "Brian shifts around on the couch as he tries to get a better look at me."
 br "\"When I has my fun, I likes them to see what I'm doin'.\""
@@ -588,6 +593,8 @@ with dissolve
 scene bg ChaseNight4
 show nightoverlayred
 with dis
+#!!! In Route 65 the thing in the van asks "Have you ever killed anyone", and both scenes have something staring back from the ceiling.
+#!!! It might be cute to make the two lines match exactly, one way or the other
 m "\"...Have you ever killed someone?\""
 "For the first time Brian ignores me."
 stop music fadeout 5.0
@@ -605,7 +612,7 @@ play loop "crickets.ogg" fadein 10.0
 "He's right next to me, his stained couch apparently doubling as his bed."
 "I shift around on the contraption for what feels like the hundredth time, trying to get comfortable, when I feel something."
 "There's more give in my right arm than I remember."
-"In fact, it's incredible loose."
+"In fact, it's incredibly loose."
 "I pause, then experimentally wiggle my arm around before easily pulling my hand out from the restraint."
 play music "beat.ogg" fadein 10.0
 "I freeze, disbelieving, not wanting to believe in case it isn't true somehow."
@@ -621,7 +628,7 @@ play music "beat.ogg" fadein 10.0
 stop music fadeout 5.0
 scene stars with dissolve
 "I run through the woods and onto the road, sobbing with joy now as I see Leo's house."
-"The lights are on and as I'm running towards it I think I even see Carl's horns through the window."
+"The lights are on, and as I'm running towards it I think I even see Carl's horns through the window."
 "I run up the steps onto the porch and bang on the door."
 play sound "knock.ogg"
 m "\"Leo! Carl! I got out. Open the door!\""
@@ -630,7 +637,7 @@ scene bg black with dissolve
 "I stare, trying to comprehend."
 m "\"You really fell for that?\""
 "I hear my own voice, but it isn't me that said it."
-"Instead it's higher pitched, like I'm hearing it from a video recording rather than my own throat."
+"Instead it's higher-pitched, like I'm hearing it from a video recording rather than my own throat."
 "Then, I'm sucked into the blackness and slammed hard back down onto a wooden platform."
 
 window hide
@@ -663,7 +670,7 @@ with dissolve
 "My heart hurts just losing sight of him and I strain at my bonds."
 "Brian seems to be waking up, though, mumbling something in his sleep."
 br "\"Mmh...no...no, you're dead.\""
-"I pull with my right arm again, in case my dream had been on to something. It doesn't budge"
+"I pull with my right arm again, in case my dream had been on to something. It doesn't budge."
 br "\"Fuckin' cunt...\""
 #"Brian's really starting to kick around now, his massive, naked form rolling over onto his stomach, rubbing his face into the pillow."
 "Brian's really starting to kick around now, his massive form rolling over onto his stomach, rubbing his face into the pillow."
@@ -696,7 +703,7 @@ m "\"Brian.\""
 m "\"Brian? I have to go to the bathroom.\""
 "Brian sighs as he flips on the light."
 scene bg brianstrailer
-show Brian 
+show Brian
 play sound "switch.ogg"
 "Kudzu drops out of view again."
 "Brian heaves a huge sigh before turning to the counter."
@@ -710,7 +717,7 @@ br "\"Like what, you gotta puke?\""
 "I shift on the platform."
 m "\"No, I think I have diarrhea...\""
 show Brian Angry with dis
-"Brian pulls a look of extreme disgust which is kind of funny for someone who apparently never showers."
+"Brian pulls a look of extreme disgust, which is kind of funny for someone who apparently never showers."
 br "\"Oh come on...\""
 "He glares at me like it's my fault that I might be sick."
 "He looks around a while, then back down at the pan."
@@ -734,7 +741,7 @@ br "\"What?\""
 m "\"Everything's fallen asleep. Just take it slower.\""
 "Brian sighs even louder and gets to work on my left arm, anyway."
 "This time he doesn't yank my arm out though, and lets me slowly move it on my own."
-"It's not nearly as bad as my right arm which is still violently tingling, but I have to grit my teeth as I move it to rest on my chest."
+"It's not nearly as bad as my right arm, which is still violently tingling, but I have to grit my teeth as I move it to rest on my chest."
 "Luckily, my legs are fine and I'm able to move them easily after Brian takes them out."
 "It makes me worry about what I'm going to try since I'm not nearly as strong as I should be."
 "Brian is clearly on guard as he helps me sit up from the contraption, keeping his distance as he holds onto my arm."
@@ -748,7 +755,7 @@ play music "anger.ogg"
 "Brian pauses and slowly brings his hand up to feel the side of his face."
 "I guess I'd hoped that I would be able to knock him out with one punch."
 "But doing that as an otter to a bear, especially a bear like Brian, would have been quite the feat."
-"Brian does seemed stunned though, and that's all I need as I take in a huge breath and scream as loud as I can—"
+"Brian does seem stunned though, and that's all I need as I take in a huge breath and scream as loud as I can—"
 m "\"KUDZU!!!!!\""
 "Brian whirls on me, swinging his fist along with him."
 "I duck immediately, covering my head with one arm, the other still locked in Brian's grasp."
@@ -760,18 +767,19 @@ with vpunch
 br "\"Shut up!\""
 "I roll to the side and start trying to back away while I'm crouched, but Brian yanks me up by my arm, my head jerking back with the force."
 "Now I'm starting to wonder if Kudzu ended up leaving."
-"If that is the case then I'm definitely dead because there's no way I'm gonna break his grasp."
+"If that's the case then I'm definitely dead, because there's no way I'm gonna break his grasp."
 play sound "dooropen.ogg"
 "As I'm thinking this, the door bangs open."
 "Brian is in the middle of drawing his fist back when it happens and he freezes, looking over at the door."
 show Kudzu Confused at farleft behind Brian with dissolve
 "Kudzu stands there, his eyes wide behind his black mask, chest heaving."
 "He's scared, I can tell, but Brian's shock gives me the opening I was looking for."
-"I reach in between his legs and grab his balls"
+#!!! The next three lines about balls should either be "balls" and plural, or "ballsack" and singular
+"I reach in between his legs and grab his ballsack."
 "Weirdly enough, the first thought I have is about how fucking big it is."
 "It takes both my hands to wrap around it fully and, when I do, I twist and yank down as hard as I can."
 "I pour all of my fear and anger into the attack, snarling as I do."
-"The scream that Brian lets out is so high pitched I feel like every glass in the trailer is going to explode."
+"The scream that Brian lets out is so high-pitched I feel like every glass in the trailer is going to explode."
 "This attack is all I have left, so when his retaliation comes I don't do anything to defend myself."
 "Luckily it's not a punch or kick, but rather he grabs the fur on the back of my head, along with my shirt, and tries pulling me back."
 "My face stretches back as I stubbornly hold on and just yank down even harder."
@@ -806,7 +814,7 @@ stop music fadeout 5.0
 scene nightroad with fade
 play loop "crickets.ogg" fadein 3.0
 "I don't remember much about the walk back to Kudzu's house aside from stilted flashes of dirt and sagebrush."
-"It's dark, and hot and my shirt immediately starts to stick to my sweaty fur."
+"It's dark and hot, and my shirt immediately starts to stick to my sweaty fur."
 "My legs are so numb that I don't even know if I'm moving them right."
 "Kudzu has to hold onto me the entire way so I don't fall over."
 "Crickets chirp all around us, but every few minutes I hear shouting and screams in the distance."
@@ -854,7 +862,7 @@ hide Kudzu with dissolve
 "There's an arm around his neck and I start to lean over a bit to see who it is."
 show Kudzu Confused at center with dissolve
 ku "\"Here.\""
-"Kudzu appears in front of me again, holding out a glass of water.\""
+"Kudzu appears in front of me again, holding out a glass of water."
 "I straighten back up against the cushions."
 "Once I take the glass, he holds out his other hand with two white pills resting in the black pad of his palm."
 ku "\"Acetaminophen, if you're in pain.\""
@@ -879,6 +887,7 @@ m "\"Yeah...sort of. I mean, I'm not gonna die, I think.\""
 m "\"Did you call the police?\""
 "I absentmindedly reach for my phone in my pocket, but it's not there."
 "I have no idea where it is at this point."
+#!!!! Depending on whether you run through the kitchen to escape Brian or not, Chase's phone would or would not be at Leo's house. There should be a variable to track this
 "Was it still at Leo's house?"
 show Kudzu Depressed with dis
 "There's a tight look of consternation on Kudzu's face."
@@ -888,7 +897,7 @@ m "\"What? Why, did the phone lines break, or something?\""
 "Kudzu shakes his head."
 show Kudzu Confused with dis
 ku "\"I don't know.\""
-m "\"Should we...should we walk to my car, or something and drive to Payton?\""
+m "\"Should we...should we walk to my car or something, and drive to Payton?\""
 "I look back out the pitch-black window."
 m "\"We need to tell someone right now, Janice...and Leo's still out there.\""
 "There's no way Janice hasn't been found by now."
@@ -928,7 +937,7 @@ ku "\"You gotta trust me that we can't leave right now. I'll explain it all afte
 ku "\"I can tell you're not really here right now.\""
 "Here right now?"
 ku "\"You'll feel better once you wake up, alright?\""
-"The thought of laying down is tempting despite feeling like I'm going insane."
+"The thought of laying down is tempting, despite feeling like I'm going insane."
 "If I sleep I don't have to think, just blank my mind and rest."
 "My head is buzzing and I feel like laying down might straighten things out."
 "Kudzu gently but firmly forces me to sit down on the bed."
@@ -1025,7 +1034,7 @@ m "\"I'm okay.\""
 m "\"What is it?\""
 "Kudzu lets out a breath."
 ku "\"Listen, I'm not gonna ask what happened with Brian, but if you ever wanna talk about it...\""
-"Talking about Brian is the last thing I want to do and I can feel the threat of violent shivers coming up my spine just thinking about him."
+"Talking about Brian is the last thing I want to do, and I can feel the threat of violent shivers coming up my spine just thinking about him."
 "Kudzu reaches out one of his black hands to rub at my shoulder."
 "Awkward and comforting as always."
 show Kudzu Depressed with dis
@@ -1048,7 +1057,7 @@ ku "\"Oh, jeeze.\""
 "Kudzu's eyes immediately go to my neck."
 m "\"I'm fine! It was just...creepy.\""
 "Creepy definitely doesn't begin to describe it, but I don't think now's the time to go into details."
-"I look out the window again and, aside from a few orange dots of light from far away lamp posts, it's black."
+"I look out the window again and, aside from a few orange dots of light from faraway lampposts, it's black."
 m "\"So...can you tell me what's going on now?\""
 stop music fadeout 5.0
 show Kudzu Depressed with dis
@@ -1067,9 +1076,10 @@ ku "\"He said someone was after him and that he needed to leave.\""
 m "\"He talked to you? Where is he?\""
 "I feel the fur pricking up all over my body."
 "The thought that TJ might be out there, somewhere in the chaos is terrifying."
-"How could someone like him survive that. I'm certainly doing a terrible job."
+#! Might be intended as a period for effect
+"How could someone like him survive that? I'm certainly doing a terrible job."
 ku "\"I don't know. He asked me if I had a car, but I don't, so he kept on up the road.\""
-"Up the road? There's nothing past Kudzu's trailer aside from Carl's house and that's over a mile away."
+"Up the road? There's nothing past Kudzu's trailer aside from Carl's house, and that's over a mile away."
 "But Carl doesn't have a car anymore."
 "Maybe he's just staying with the ram? I hope that's the case."
 ku "\"After he left, though, is when things really started going crazy.\""
@@ -1101,7 +1111,8 @@ m "\"What's going on?\""
 "Kudzu shakes his head."
 ku "\"I still don't know that, even after they told me...\""
 m "\"Who?\""
-ku "\"The older guys: Mark, and the mayor...said something about this having happened before, that it was our turn, or something.\""
+#!!!! The mayor isn't a "guy". rephrase?
+ku "\"The older folks: Mark, and the mayor...said something about this having happened before, that it was our turn, or something.\""
 m "\"Our turn? What does that mean?\""
 "Kudzu shakes his head again."
 ku "\"I don't know. They just said it happened to their grandparents, that we had to be ready.\""
@@ -1163,7 +1174,7 @@ m "\"Besides, it might help things. One of us could go in while the other distra
 show Kudzu Depressed with dis
 "Kudzu looks unsure, so I press my advantage."
 m "\"And if something goes wrong, one of us would be there to help the other.\""
-"Kudzu pulls at one of of his whiskers."
+"Kudzu pulls at one of his whiskers."
 ku "\"Maybe. If it's just Duke there.\""
 m "\"He might not even be there. He might be at Brian's trailer, or somewhere else around town.\""
 "Kudzu sighs, then looks me right in the eyes."
@@ -1185,7 +1196,7 @@ stop music fadeout 3.0
 #
 
 scene nightroad
-show nightoverlay 
+show nightoverlay
 with slow_dissolve
 window show
 play loop "crickets.ogg" fadein 5.0
@@ -1233,10 +1244,10 @@ ku "\"Okay, let's move back towards the road, though. I don't think anyone is ar
 "I want to move towards the road, too, mainly because I'm actually starting to worry that moving further away from the town really is dangerous."
 "Duke's house is dark as we approach it."
 "As we get closer, though, I see flashes of light from a window well."
-scene bg dukeshouse 
+scene bg dukeshouse
 show nightoverlay
 with dissolve
-"We both crouch next to the house, behind a small cluster of sage brush."
+"We both crouch next to the house, behind a small cluster of sagebrush."
 show Kudzu at center behind nightoverlay with dissolve
 ku "\"Alright, so all I can really think to do is knock on the door, see if he's there.\""
 "I swallow."
@@ -1306,14 +1317,14 @@ play sound "breakingwindow.ogg"
 "Kudzu jumps to the side, away from the window, reaching back to hold on to me."
 "The fur on Kudzu's body frizzes up and I see his ears perked up as far as they can go."
 "Once the final tinkling of the glass subsides, we both listen."
-"My ears are ringing, but the only other sound I can hear are the chirping of the crickets."
+"My ears are ringing, but the only other sound I can hear is the chirping of the crickets."
 "Finally, Kudzu lets out a soft breath."
 ku "\"Alright...let's go.\""
 "I help him push out a few more shards of glass."
 "Once that's done, the raccoon hoists himself inside, very carefully maneuvering around the sharp, broken edges."
 hide Kudzu with dissolve
 "He turns and reaches out to me, helping me through in the same fashion."
-scene bg dukeshouseint 
+scene bg dukeshouseint
 show nightoverlay
 with dissolve
 "Even though I'm trying to be careful, when I bring my arm in it drags along a jagged edge of glass sticking out from the side."
@@ -1379,7 +1390,7 @@ m "\"What?\""
 hide Kudzu with dissolve
 "Kudzu grabs my arm and starts pushing me back down the hall towards the back room with the broken window."
 "At that moment I hear the knob turn and suddenly my path changes direction as Kudzu steers me into a room on our left."
-"It's one of the rooms I hadn't looked into myself and I see that it's a storage room."
+"It's one of the rooms I hadn't looked into myself, and I see that it's a storage room."
 "Boxes are everywhere and so is a bunch of junk."
 "I guess that explains why all the other rooms are so spotless...and that he's not using his basement for storage."
 "Kudzu looks around desperately for a moment, then pulls me behind a mound of boxes just as I hear the door swinging open."
@@ -1392,7 +1403,7 @@ br "\"Huh.\""
 "I hear a noncommittal grunt from the bear and I shudder at the sound of his voice again."
 "I feel a light touch on my back as Kudzu rests his hand there, trying to comfort me."
 du "\"What do you mean, 'huh'!? You like the dreams yer havin' right now? 'Cuz trust me, it's gonna get a hell of a lot worse!\""
-"I hear a smacking sound which I imagine is Duke's tiny hand trying to slap Brian in the face."
+"I hear a smacking sound, which I imagine is Duke's tiny hand trying to slap Brian in the face."
 du "\"What the fuck you starin' at!?\""
 "Duke's grating, nasally voice echoes around the carpet-less house."
 br "\"Your window...\""
@@ -1410,7 +1421,7 @@ du "\"Check every fucking room! I'll bet they broke through the basement window,
 "Looking between a crack in the boxes, I get a flash of the weasel walking past the door again."
 "He's holding something long and shiny."
 "I shrink back against the boxes, wondering how in the world I got here."
-"As I stare at the ground I also wonder if I'm about to have a heart-attack."
+"As I stare at the ground I also wonder if I'm about to have a heart attack."
 "I focus on watching the blood seep from my arm, pooling on the wooden floor next to me."
 "I hear a key go into a lock and a doorknob turn."
 du "\"I swear to God, if that wolf ain't down there I'll blow yer goddamn face off!\""
@@ -1429,7 +1440,7 @@ show Kudzu at center with dissolve
 "Kudzu freezes as we both listen to the bear move back into the hallway, then his footsteps fade away."
 "I imagine he's moved into another room, and that's when Kudzu finally peers around the corner."
 "I hold my breath, but Kudzu reaches back and grabs my wrist, pulling me out into the hallway."
-"It's empty and as quietly and quickly as we can, we move to the end of the hall to stand next to the broken window."
+"It's empty, and as quietly and quickly as we can, we move to the end of the hall to stand next to the broken window."
 "Kudzu sticks one leg out the window before balancing his entire weight on both his hands that are resting on the bottom ledge."
 "Like a gymnast, he moves the other leg out and quietly drops to the ground outside, his head narrowly missing the top ledge."
 "I don't know if it's because he's a raccoon, or an actual gymnast, but there's no way in hell that I'm gonna be able to do that."
@@ -1475,7 +1486,7 @@ stop loop fadeout 5.0
 "I wait even longer, to the point where I'm sure there's no way someone like Brian could keep that quiet that long."
 "So slowly, as slowly as I can, I push the door open."
 "And it immediately comes into contact with something on the other side before it's even a foot open."
-"It soft, whatever it is, and the door almost bounces back from it."
+"It's soft, whatever it is, and the door almost bounces back from it."
 "I wait for a moment, then, as I'm starting to realize what just happened, a massive bear paw reaches around the edge of the door."
 "In the next half second, the door is ripped open and I find myself facing Brian."
 
@@ -1497,7 +1508,7 @@ scene dukesplace with dissolve
 play sound "thud.ogg"
 play loop "ringing.ogg"
 scene bg black
-"Everything goes black as something massive knocks up against the side of my face and the next thing I know I'm thrown down the hall, flat on my back."
+"Everything goes black as something massive knocks up against the side of my face, and the next thing I know I'm thrown down the hall, flat on my back."
 stop loop fadeout 5.0
 scene bg dukesplace with dissolve
 "I'm staring up at the ceiling, watching it slide sideways above me, like it's painted onto a treadmill."
@@ -1518,7 +1529,7 @@ m "\"Nooo...\""
 "My hand manages to latch onto a wooden beam next to the stairs."
 "Brian grunts as my body is snapped into full extension and we're brought to a halt."
 br "\"Come on. Let go.\""
-"I keep clinging to the beam imagining that at any moment Kudzu is going to come running down the stairs, gun in hand."
+"I keep clinging to the beam, imagining that at any moment Kudzu is going to come running down the stairs, gun in hand."
 "That comes to an end as Brian kicks me in the chest and I let go with a wheeze."
 br "\"You know yer the one makin' this hard on yerself.\""
 "He starts dragging me again as I curl up and cradle my chest, vaguely hoping that he'd given me a heart attack and I'd be free from all this."
@@ -1529,7 +1540,7 @@ l "\"Why am I still here if someone came in to save me, then?\""
 stop music fadeout 10.0
 scene bg storageroom with dissolve
 play background "floodlight.ogg" fadein 3.0
-"I'm dragged through another doorway into a brightly lit room, the fluorescent light buzzing overhead."
+"I'm dragged through another doorway into a brightly-lit room, the fluorescent light buzzing overhead."
 "As I come to a stop on the cement floor, the room goes quiet and I squint against the sudden light."
 "The walls on all sides are covered in shelves that are filled with silver tins and soup cans."
 "A storage room of some kind."
@@ -1603,7 +1614,7 @@ br "\"Didn't see nobody 'cept this otter.\""
 l "\"Duke.\""
 "Duke snaps his attention back to Leo and I notice his face is practically dancing with twitches and tics."
 l "\"This. Is. Crazy.\""
-"Leo enunciates each word through gritted teeth, his muzzle lowered so that he's looking up at Duke eye-to-eye."
+"Leo enunciates each word through gritted teeth, his muzzle lowered so that he's looking up at Duke eye to eye."
 l "\"Look at this. Look at everything you've done. It makes no sense.\""
 "Duke lets out a high-pitched laugh."
 du "\"Crazy!? You know what's crazy?\""
@@ -1616,7 +1627,7 @@ du "\"Was it a little...crazy?\""
 "I stare at Duke entranced until Brian gives me a quick jerk."
 m "\"Uh, I...I saw a body...There were gunshots.\""
 "Duke giggles."
-du "\"And that ain't the half of it! Houses of fire, people eatin' each other! You think I'm crazy for shootin' Janice, but if you knew—\""
+du "\"And that ain't the half of it! Houses on fire, people eatin' each other! You think I'm crazy for shootin' Janice, but if you knew—\""
 l "\"But how the hell are we supposed to know why that is!\""
 "Leo leans forward as far as his bonds let him, eyes wide, almost pleading with Duke."
 show Duke Dazed with dis
@@ -1665,7 +1676,7 @@ du "\"Yeah, yeah that's right. See, how do you know that?\""
 stop music fadeout 5.0
 "He looks closely at me, but I'm relieved as he finally takes the gun away from Leo to be pointed at the ground."
 m "\"I—I did some research before coming here. I'm doing a news story on Echo, for school.\""
-"Duke is still eying me suspiciously."
+"Duke is still eyeing me suspiciously."
 du "\"So you know 'bout the murder?\""
 m "\"Um...\""
 "I try to think back to my research, about what exactly happened."
@@ -1685,16 +1696,16 @@ m "\"O—Oh?\""
 "I notice Leo's not looking around anymore."
 "Instead, his eyes are trained on the door behind me and slightly to my right."
 "I want to look back, but Duke seems distracted right now, so I try to keep him engaged."
-du "\"Yeah...it happened weeks after the body was found. Sort of built up 'till all hell broke loose.\""
-"Leo nods his head slightly, eyes still on the door and my heart leaps in my chest as I realize what might be happening."
+du "\"Yeah...it happened weeks after the body was found. Sort of built up 'til all hell broke loose.\""
+"Leo nods his head slightly, eyes still on the door, and my heart leaps in my chest as I realize what might be happening."
 m "\"Do you...do you know why that was?\""
 "Duke shakes his head."
-du "\"There's somethin' bad in this town. The Earth's bad, the air's bad, everythin's tainted.\""
+du "\"There's somethin' bad in this town. The earth's bad, the air's bad, everythin's tainted.\""
 m "\"So, uh, you think something's in the air, or water, or something?\""
 "I lean a bit to the left to try to keep Duke's eyes on me, away from Leo or the door."
-du "\"I dunno 'bout that, but my grandpappy thought that 'cuz they didn't catch the murderer. It planted some seeds in the bad dirt.\""
+du "\"I dunno 'bout that, but my grandpappy thought that 'cuz they didn't catch the murderer, it planted some seeds in the bad dirt.\""
 "Duke looks at the ceiling."
-du "\"An' grew somethin' terrible. Wasn't 'till they killed the guy that did it that it stopped.\""
+du "\"An' grew somethin' terrible. Wasn't 'til they killed the guy that did it that it stopped.\""
 "That's news to me."
 "I didn't read anywhere that the murderer had been caught."
 "Duke looks back down at me."
@@ -1715,7 +1726,7 @@ m "\"Yes!\""
 "I swallow hard, aware that some of the pieces don't fit, despite how disturbing the implications are."
 m "\"But—but that was years ago. Why didn't it start then? Why now?\""
 "Duke shrugs."
-du "\"Maybe you wasn't guilty 'till now. Maybe kids don't understand what they've done. Maybe it's 'cuz you left and it made it angry.\""
+du "\"Maybe you wasn't guilty 'til now. Maybe kids don't understand what they've done. Maybe it's 'cuz you left and it made it angry.\""
 m "\"But he wasn't murdered.\""
 du "\"You see it happen?\""
 m "\"No...but the person that did wouldn't ever do that.\""
@@ -1725,7 +1736,7 @@ du "\"Who was it!\""
 "Duke starts to raise the gun again and what happens over the course of the next minute is too fast for me to comprehend until it's over."
 play music "anger.ogg"
 show Leo Annoyed with dis
-"Leo explodes out from his sitting position, face twisted with rage as he bares his teeth in a full on wolf snarl."
+"Leo explodes out from his sitting position, face twisted with rage as he bares his teeth in a full-on wolf snarl."
 "Though his feet are handcuffed to the legs of the chair, he's still able to lunge off the ground with his feet."
 hide Leo with dissolve
 play sound "metalchair.ogg"
@@ -1738,7 +1749,8 @@ hide Duke with dissolve
 "I gasp and watch as Leo starts ripping into Duke with his teeth."
 "Duke screams and flails his arms around, apparently forgetting his weapon as it flies from his fingers."
 "The gun slides across the ground to tap gently against the wall, just five feet from me."
-"Brian keeps a tight grip on me, though, but that's when I hear a clicking sound behind me."
+#!!! "though, but" is awkward. Restructure to avoid
+"Brian keeps a tight grip on me, though, and that's when I hear a clicking sound behind me."
 "Brian does too, and he turns sideways, allowing me to see the source as well."
 show Kudzu Annoyed at center with dissolve
 $ renpy.pause(0.3, hard=False)
@@ -1764,7 +1776,7 @@ menu:
         hide Kudzu with dissolve
         "Kudzu slumps to the ground, though I'm not sure if he's unconscious or dead from how hard Brian kicked him."
         "I jump after the gun just as Brian does."
-        "We reach it at the same time and though I'm able to grab it first, Brian yanks it from my hand easily."
+        "We reach it at the same time, and though I'm able to grab it first, Brian yanks it from my hand easily."
         "I lay there, in front of Kudzu, realizing I've just missed our only chance."
         "There's a soft click behind my head."
         "The safety."
@@ -1784,12 +1796,12 @@ menu:
 "I lunge in the opposite direction."
 "Clumsily, I scoop up the weasel's gun, turning it over in my hands until I'm holding it the right way."
 du "\"Brian, Brian! My gun!\""
-"Leo's still tearing away at the weasel's as Duke holds them up in defense."
+"Leo's still tearing away at the weasel's arms as Duke holds them up in defense."
 "I turn around, crouched back against the wall as I see Brian standing over a downed Kudzu."
 "I can only pray that he hasn't killed him."
 show Brian Angry with dissolve
 "I point the gun at Brian just as he turns around to face me."
-"Seeing that he's about to get shot, the bear lunges at me, his massive paws up stretching out towards me."
+"Seeing that he's about to get shot, the bear lunges at me, his massive paws stretching out towards me."
 "Luckily for me, the gun is loaded."
 "Trying to keep myself steady, I manage to find the safety and flick it off."
 stop music fadeout 3.0
@@ -1799,14 +1811,15 @@ play loop "ringing.ogg"
 hide Brian with dissolve
 "The sound is so loud in the tiny room that my hearing goes out for a moment."
 stop loop fadeout 5.0
-"Brian crumples to the floor and the room goes quiet..."
+"Brian crumples to the floor, and the room goes quiet..."
 "But only for a moment."
-"An earthly howling sound comes from the bear as he slowly props himself up on his hands, looking back up at me."
+#!!! probably meant unearthly?
+"An unearthly howling sound comes from the bear as he slowly props himself up on his hands, looking back up at me."
 "For a moment I wonder if the evil powers of Echo have brought him back to life somehow."
 "But no, there's a bloody hole just above his blunt nose and I can see the white of bone peeking through the red."
 "Somehow, the bullet hadn't even pierced his skull."
 "Shakily, I raise the gun again, but Brian rolls away to the door and with speed that shouldn't be possible for a bear his size, he's gone."
-"I stare for a moment, wondering if I should run after him, but a snarl next to me as me pointing the gun at Duke instead."
+"I stare for a moment, wondering if I should run after him, but a snarl next to me has me pointing the gun at Duke instead."
 "Leo's still tearing into his arms as Duke hollers at the top of his lungs, trying to cover his face."
 m "\"Leo, stop! I've got the gun on him!\""
 "Leo looks up at me with his wild eyes, pausing for a moment before slowly letting go of the mustelid's arms, bloody drool hanging from his chin."
@@ -1835,7 +1848,8 @@ du "\"Killing you!? You ripped mine apart!\""
 "Duke is practically sobbing, now, curling up on his side to hold his arms to his chest."
 l "\"Fuck you, asshole!\""
 "Leo spits at him as he tries to adjust his position on the floor."
-ku "\"Where are the keys, Duke.\""
+#!! Probably question mark instead of period?
+ku "\"Where are the keys, Duke?\""
 "Duke takes in a shuddering breath and holds it for a few seconds before answering."
 du "\"Right pocket...\""
 "Kudzu walks over and kneels next to the weasel, sifting through his pocket."
@@ -1851,8 +1865,8 @@ l "\"I'm a little sore, but I think I'll be alright.\""
 show Kudzu Happy with dis
 l "\"I'm so happy you're okay Chase, and thank you, Kudzu.\""
 "He slaps the raccoon on the back before turning his attention to the weasel."
-show Leo Neutral 
-show Kudzu 
+show Leo Neutral
+show Kudzu
 with dis
 "Duke notices and quickly curls up tighter."
 du "\"I was just tryin' to help everyone—AHHGH!\""
@@ -1873,15 +1887,15 @@ ku "\"Leo...\""
 du "\"Please...I'm sorry, I just want to help—\""
 "Duke cowers as Leo raises his hand again."
 "I realize how tightly I'm holding onto the gun and, though I'm pointing it at the ground now, I'm sure to take my finger off the trigger."
-"While Leos' violence is a little disturbing, it's almost comforting to have him throw his weight around after how the weasel had threatened us."
+"While Leo's violence is a little disturbing, it's almost comforting to have him throw his weight around after how the weasel had threatened us."
 "Kudzu, on the other hand, doesn't look comforted at all."
-"He's still trembling from the earlier fight and he's pulling at the fur on his chin as he watches Leo."
+"He's still trembling from the earlier fight, and he's pulling at the fur on his chin as he watches Leo."
 show Kudzu with dis
 ku "\"Careful, Leo. Let's just take him in to the cops, or something.\""
 "Kudzu looks over his shoulder at the door."
 ku "\"Going to Payton was probably a better idea, now that I realize how messed up everyone is.\""
 m "\"Yeah...\""
-ku "\"I mean, if that monster they're all talking about isn't real. Would have been better to risk that then get involved with these idiots.\""
+ku "\"I mean, if that monster they're all talking about isn't real. Would have been better to risk that than get involved with these idiots.\""
 "I hadn't even thought about the supposed thing keeping everyone from leaving the town."
 "It seems silly now, that we'd let a stupid story like that keep us here."
 "Leo doesn't seem to be listening."
@@ -1907,7 +1921,7 @@ du "\"I already explained!\""
 l "\"Remind me, because I was a little fucking distracted.\""
 "Kudzu sidles up next to me and sets his hand on my shoulder."
 ku "\"You want to watch the door?\""
-"I touch hand in acknowledgment and turn around to face the door."
+"I touch his hand in acknowledgment and turn around to face the door."
 hide Leo
 hide Kudzu
 with dissolve
@@ -2014,9 +2028,9 @@ ku "\"Yeah, sorry about that.\""
 show Leo Annoyed with dis
 l "\"I want Chase between us. I don't trust these fuckers to not try anything, especially if Brian comes back.\""
 stop background fadeout 3.0
-"So, with Kudzu leading the way, we make our way out of Brian's house and into the night."
+"So, with Kudzu leading the way, we make our way out of Duke's house and into the night."
 
-scene nightroad 
+scene nightroad
 show nightoverlay
 with fade
 play loop "crickets.ogg" fadein 3.0
@@ -2050,7 +2064,7 @@ m "\"Alright.\""
 l "\"Hey, it's gonna be okay, alright?\""
 m "\"Not for Janice.\""
 "Leo doesn't say anything to that as we continue down the road, finally reaching the motel parking lot."
-scene bg parkinglotnight 
+scene bg parkinglotnight
 show nightoverlay
 with dissolve
 l "\"Keep moving.\""
@@ -2068,10 +2082,10 @@ show Leo Annoyed with dis
 "Leo prods at Duke's back, but the weasel refuses to move, rooted to the spot."
 l "\"Am I gonna have to carry you?\""
 "Leo lets go of Duke for just a moment, reaching up to turn him around, probably to throw the weasel over his shoulder."
-show Leo Surprised 
-show Kudzu Confused 
+show Leo Surprised
+show Kudzu Confused
 with dis
-"But before he can do that Duke screams, long and loud and it raises all the hairs on the back of my neck."
+"But before he can do that Duke screams, long and loud, and it raises all the hairs on the back of my neck."
 "Before Leo can stop him, the weasel takes off into the night, away from the diner, toward a grouping of trees and bushes on the side of the road."
 play sound "steps.ogg"
 show Leo Annoyed with dis
@@ -2121,7 +2135,7 @@ hide Kudzu with dissolve
 "I wonder if everyone that's been fighting is dead now."
 "Or maybe they just realized how ridiculous the mayor's story was and left."
 "Thinking about the supposed monster that I definitely don't believe in, though, has me looking over my shoulder into the darkness."
-"Images of a hanging body crosses my mind."
+"Images of a hanging body cross my mind."
 m "\"Shit.\""
 "I look over to where Kudzu went."
 "It's been a little while, shouldn't he be done by now?"
@@ -2148,7 +2162,7 @@ play music "anger.ogg"
 stop loop fadeout 3.0
 play sound "thud5.ogg"
 with vpunch
-"He slams into me so hard I'm sent to the asphalt with an impact that rattles my brain."
+"He slams into me so hard that I'm sent to the asphalt with an impact that rattles my brain."
 "I roll over groggily and see Duke bent over, his hands fumbling at the ground."
 "Somehow, he's moved his handcuffed hands from behind himself to the front."
 "I realize that I don't have my keys anymore at the same time that Duke stands up, keys in hand."
@@ -2181,8 +2195,8 @@ play music "transition.ogg" fadein 3.0
 "The desert stretches and winds into the distance, rising and falling with the mountains, hills, and valleys."
 "It's endless, monolithic, passionless..."
 "Except here."
-"It's mark is clear on the land, like a stain, a blemish in the beige patchwork of the wilderness."
-"\"The Earth's bad, the air's bad, everythin's tainted.\""
+"Its mark is clear on the land, like a stain, a blemish in the beige patchwork of the wilderness."
+"\"The earth's bad, the air's bad, everythin's tainted.\""
 "\"Tainted.\""
 "The mark is old. It's ancient."
 "Been here longer than people."
@@ -2279,7 +2293,7 @@ show Leo Neutral with dis
 "Leo looks back at the motel, chewing his lip."
 l "\"Alright, but let's be fucking quick about it. We need to get the hell out of here so we can get everyone help.\""
 m "\"Yeah, real quick.\""
-"I reach into my back pocket, pulling out the key card as I hobble in the direction of our room on the other side of the building."
+"I reach into my back pocket, pulling out the keycard as I hobble in the direction of our room on the other side of the building."
 "Kudzu reaches out to me."
 ku "\"You need he—\""
 show Kudzu Confused at farright with moveinright
@@ -2312,7 +2326,7 @@ show Kudzu Depressed with dis
 "Kudzu stares at the hand for a moment, then jumps, as if suddenly realizing what the wolf is talking about."
 ku "\"Oh! Right.\""
 "Kudzu lifts his shirt, fumbling with the waistband before pulling out the gun."
-"He hands it to Leo who in turn hands him Duke's gun."
+"He hands it to Leo, who in turn hands him Duke's gun."
 show Kudzu with dis
 "He checks the safety on his own before pointing it towards the door."
 "Leo pauses again, then glances at me."
@@ -2326,7 +2340,7 @@ play sound "switch.ogg"
 scene bg motelbeds
 stop background fadeout 3.0
 "I can't resist and peek around Leo's bulk into the motel room."
-"I don't know what I was expecting, maybe a blood splattered room with all of our friends bodies piled in the middle or something."
+"I don't know what I was expecting, maybe a blood-splattered room with all of our friends' bodies piled in the middle or something."
 "Instead, though, it's basically just how I remember it."
 "I even see my pajamas crumpled up on my side of the bed where I left them."
 "Leo holds steady for a moment, keeping the gun pointed at the ceiling of the room."
@@ -2338,10 +2352,11 @@ l "\"Hello!?\""
 "There isn't much to search in the motel room, having just the room and the bathroom to check."
 "Once Leo's sure it's clear, I shut the door and lock it before turning to the other two."
 play music "quiet.ogg" fadein 10.0
-"\"Just so we know that we're safe...for now at least.\""
+#! This is supposed to be a Chase dialogue line
+m "\"Just so we know that we're safe...for now at least.\""
 "Leo shakes his head."
 show Leo Neutral at left with dissolve
-l "\"We gotta keep moving Chase. We should head to my place now.\""
+l "\"We gotta keep moving, Chase. We should head to my place now.\""
 "I open Jenna's laptop on the table, pushing the power button."
 show Leo Rejected with dis
 l "\"Come on, what are you doing?\""
@@ -2354,7 +2369,7 @@ m "\"I was hoping to...\""
 ku "\"Well, let me check with my phone.\""
 "Leo sighs again."
 l "\"That's not gonna help us.\""
-ku "\"I have wifi calling.\""
+ku "\"I have Wi-Fi calling.\""
 hide Kudzu with dissolve
 show Leo Rejected at center with moveinright
 "Leo sighs again and sits heavily on the bed, bending it in like a bow."
@@ -2389,7 +2404,7 @@ show Kudzu Depressed with dis
 "But I don't want to go into that right now."
 "That whole incident actually seems like a long time ago already."
 "Janice's murder, getting near-raped by Brian, trying to kill Brian..."
-"I feel like there's a numbness in my chest that's dampening my emotions right now and everything feels like it's far away from me."
+"I feel like there's a numbness in my chest that's dampening my emotions right now, and everything feels like it's far away from me."
 "I wonder if that's some kind of psychological response to what's happening, and if I'll be all fucked up after this is over."
 "Probably."
 "But I kinda welcome the numbness right now."
@@ -2438,18 +2453,18 @@ show Leo Questioning with dis
 "I see his ears comically perk up, his eyes looking at the ceiling."
 "I motion down at the bed."
 show Kudzu Confused with dis
-"I can see Kudzu to the side from his chair, eying us curiously, but not saying anything otherwise, thankfully."
+"I can see Kudzu to the side from his chair, eyeing us curiously, but not saying anything otherwise, thankfully."
 show Leo Surprised with dis
-"This time, the snuffling sound is quite a bit louder and I feel Leo's fur rise up on his arms."
+"This time, the snuffling sound is quite a bit louder and I feel Leo's fur raise up on his arms."
 "That was definitely a person, or something living and breathing, at least, and it definitely came from under the bed."
 show Leo Neutral with dis
 "Leo slowly and gently pushes me off his lap, motioning me away."
-"Slowly, he leans over and grabs up the gun."
-"Then he stands, backing up away from the bed, then crouching slowly with the gun pointed as he looks under the bed."
+"Slowly, he leans over and grabs the gun."
+"Then he stands, backing away from the bed, then crouching slowly with the gun pointed as he looks under the bed."
 "I see Leo pause, staring, then he reaches out and grabs whatever it is and yanks hard."
 play music "argument.ogg"
 show Leo Surprised with dis
-unk "\"AHHHHH\""
+unk "\"AHHHHH!\""
 "The scream is loud and piercing, whatever it was sounding like a terrified child."
 "It thrashes and kicks at Leo and it's when it's clawing frantically at the carpet to get back under the bed that I realize who it is."
 m "\"TJ!?\""
@@ -2466,7 +2481,7 @@ l "\"Chase, stay back!\""
 "I've never seen TJ like this."
 "Of course I haven't."
 "I can't imagine what could have made him like this."
-"I scramble up and stand next to Kudzu who's just as wide-eyed as me."
+"I scramble up and stand next to Kudzu, who's just as wide-eyed as me."
 show Kudzu Confused at right with moveinright
 "Despite that, he sidesteps a little in front of me, as if to shield me from the insane TJ."
 "Leo finally drops the cat's legs and before TJ can scramble back under the bed, Leo jumps on his back."
@@ -2478,7 +2493,7 @@ show Leo Rejected with dis
 l "\"TJ, it's me, it's your friends, we're here to help you, man.\""
 "Leo's voice is quieter now, more soothing as he tries to calm the crazed lynx."
 stop music fadeout 5.0
-"It seems to be working so far as TJ's violent thrashing lessens, his yowling fading out to more feeble whining sounds."
+"It seems to be working so far, as TJ's violent thrashing lessens, his yowling fading out to more feeble whining sounds."
 l "\"See? I'm here now, you're gonna be fine.\""
 "Finally, TJ's head falls to the carpet, everything going limp..."
 scene bg motelfull with slow_dissolve
@@ -2504,7 +2519,7 @@ show TJ Depressed1 behind Leo at farleft with dissolve
 t "\"Do we have any water?\""
 "It sounds like he has an extremely sore throat."
 "I look over to the sink, but Kudzu jumps off the chair he's sitting on and makes his way to it."
-"He grabs up one of the small plastic cups before running the faucet."
+"He grabs one of the small plastic cups before running the faucet."
 show Kudzu at right with moveinright
 "TJ watches him until the raccoon brings the cup back over."
 "TJ drops the blanket around his shoulders and reaches out eagerly for the cup."
@@ -2537,7 +2552,7 @@ t "\"Right.\""
 show TJ Depressed1 with dis
 "TJ goes back to leaning against me and staring at the wall."
 "While this isn't good, he does seem to be getting better."
-"He can recognize us again, and remember stuff at least."
+"He can recognize us again and remember stuff at least."
 "Leo adjusts himself on the bed, clearing his throat again."
 show Leo Rejected with dis
 l "\"Teej, if you can't remember that's okay, but I just wanna make sure no one's uh...coming after you.\""
@@ -2565,7 +2580,8 @@ l "\"We are gonna go home, Teej. We just have to go on a walk to my car first.\"
 t "\"Okay.\""
 show TJ Depressed1 with dis
 "TJ suddenly opens up the blanket around himself, staring down at his clothes."
-"I see his nose twitching, then the skin the inside of his ears flushes."
+#!! "insides" of his ears?
+"I see his nose twitching, then the skin on the inside of his ears flushes."
 t "\"Um, can I take a shower?\""
 "Leo pauses, clearly not having expected that."
 show Leo Neutral with dis
@@ -2616,7 +2632,8 @@ m "\"Your whole family is super religious, Leo.\""
 show Leo F with dis
 l "\"Yeah, so I have first-hand experience with all of it, heh.\""
 "Leo chuckles, despite the situation."
-m "\"It just...it makes me wonder if this is something more than what's in everyone's head if even TJ's having it happen.\""
+#! Is "heads" the right fix here?
+m "\"It just...it makes me wonder if this is something more than what's in everyone's heads if even TJ's having it happen.\""
 show Kudzu Depressed with dis
 "Kudzu taps his chin from the chair he's sitting in."
 ku "\"What was it Duke was saying about his grandpa, something about a curse?\""
@@ -2649,12 +2666,13 @@ m "\"You think the others are out there right now?\""
 ku "\"Your friends?\""
 m "\"Yeah, Jenna, Carl...Flynn.\""
 "I don't know why I hesitated with Flynn's name."
-"Leo silently stares out the window a while longer, the yellow light of the street light falling across his face momentarily."
+#!! Remove "light" from "yellow light"? a bit repetitive with street light right after
+"Leo silently stares out the window a while longer, the yellow of the street light falling across his face momentarily."
 "He lets it drop back into place."
 l "\"With any luck they got the hell out of here when this started.\""
 m "\"Like I said, if they did then they would have brought someone back.\""
-ku "\"Really, if anyone got out than they would have.\""
-"Leo doesn't say anything, electing to lift the gun that he's had clutched in his this entire time to examine it."
+ku "\"Really, if anyone got out then they would have.\""
+"Leo doesn't say anything, electing to lift the gun that he's had clutched in his hand this entire time to examine it."
 m "\"Does that mean no one's gotten out of here?\""
 "There's a momentary silence."
 t "\"H—hello?\""
@@ -2668,8 +2686,9 @@ stop background fadeout 3.0
 m "\"Maybe we should wait until morning? Someone has got to be looking for someone here by then.\""
 "Leo thrusts the gun back into his waistband resolutely."
 show Kudzu with dis
-l "\"Nope. Relying on other people has gotten us nowhere. We gotta help ourselves."
-ku "\"He might have a point, Leo. Your friend looks in pretty bad shape...like, mentally.\""
+l "\"Nope. Relying on other people has gotten us nowhere. We gotta help ourselves.\""
+#! looks "to be" in pretty bad shape?
+ku "\"He might have a point, Leo. Your friend looks to be in pretty bad shape...like, mentally.\""
 l "\"Then I'll carry his ass to the van. I'm leaving and I'm not leaving any of you behi—\""
 "Leo stops and I follow his gaze to the bathroom where TJ's stepped out, his fur a little damp and spiky from his shower, in a fresh change of clothes."
 show TJ Rejected at center with dissolve
@@ -2698,7 +2717,8 @@ t "\"Um...\""
 "TJ looks off to the side."
 t "\"I...I just saw things that shouldn't be here. This has never happened to me before, so...\""
 "TJ looks down at his hands."
-t "\"I remember someone was chasing me, trying to grab me, and I scratched at it.\""
+#!! "Something" to match "it". TJ also seems to refer to the monster as a "thing" most often in the following lines
+t "\"I remember something was chasing me, trying to grab me, and I scratched at it.\""
 "TJ looks back up at us."
 show Kudzu Confused with dis
 t "\"And it was Jenna, but I was too scared. I didn't know if it was really her or not, so I ran, and she didn't follow me.\""
@@ -2711,7 +2731,7 @@ show TJ Rejected with dis
 t "\"Can we find her? It's...I can't stop thinking about it, and I want to make sure she's okay.\""
 "His voice gets a little broken, but he manages to control his tears this time."
 "Leo grimaces."
-l "\"We really need to go TJ. The faster we can get help the faster we can help everyone here, including Jenna.\""
+l "\"We really need to go, TJ. The faster we can get help, the faster we can help everyone here, including Jenna.\""
 show TJ Depressed1 with dis
 "The corners of TJ's mouth tug down in a frown, but he doesn't say anything."
 l "\"But if we see her on the way, of course we'll bring her with us, okay?\""
@@ -2724,13 +2744,14 @@ ku "\"Alright.\""
 l "\"We're just gonna head up the street to the diner, not far at all.\""
 "I look up at TJ, trying to give him a reassuring smile."
 "He's still looking at his hands though, so I move over to him, putting an arm around his shoulder, gently guiding him to the door."
-scene nightroad 
+scene nightroad
 show nightoverlay
 with fade
 play background "crickets.ogg" fadein 3.0
-"The trek to the diner practically silent compared to just a few hours ago."
+"The trek to the diner is practically silent compared to just a few hours ago."
+#!!!! This is kind of a weird sentence syntactically. Doesn't this imply the nightlife is screaming and shooting?
 "Aside from the nightlife, there's no screaming or shooting."
-"The way there is fairly straight forward: straight down the main road."
+"The way there is fairly straightforward: straight down the main road."
 "However, we decide to cut through backyards instead of using the road."
 "Leo tells us it's the best way not to be seen, if there are people around."
 "TJ keeps close to me, wanting me to keep my arm around his shoulder as we move, his eyes either squeezed shut or staring straight ahead."
@@ -2742,13 +2763,15 @@ play background "crickets.ogg" fadein 3.0
 "The quiet is actually almost as unnerving as the shouts and gunshots were."
 "As we move under a few stray trees, I try to keep the memory of seeing the corpse strung up out of my head."
 "There's no way a demon, or whatever they said it was, did that."
-"It was one of the town crazies, killed and then mutilated that person to convince us of their delusions."
+#!!! This feels like it might need a word or tweak somewhere, e.g. "crazies; they killed and then mutilated"
+"It was one of the town crazies; they killed and then mutilated that person to convince us of their delusions."
 "There's four of us now, and two of us have guns."
 "We're gonna be fine."
-"We get to after only about five minutes, though most of it is spent floundering through the brush and old, broken fences."
+"We get to the diner after only about five minutes, though most of it is spent floundering through the brush and old, broken fences."
 "Because of the meandering, we actually miss it and have to backtrack."
 "Cautiously, we make our way around the diner to the parking lot and immediately spot the lone van."
-"When we finally do get there, Leo jogs up to his van, shoving a hand into his pocket."
+#!!!! This reads a bit weird w/r/t "do get there", as well as them already arriving at the diner a few lines prior, so it's like they're arriving twice?
+"Leo jogs up to it, shoving a hand into his pocket."
 "But then he freezes and stares down."
 play music "loneliness.ogg"
 show Leo Annoyed at center behind nightoverlay with dissolve
@@ -2757,7 +2780,8 @@ l "\"Fuck.\""
 m "\"What is it?\""
 "I ask, but I see the problem at the same time that I do."
 "The two tires that I can see are brutally slashed and completely flat."
-"I'd bet that the other two are in the same way."
+#!! "are the same way" or maybe "are slashed in the same way"?
+"I'd bet that the other two are the same way."
 "Leo puts his hands up to his face, rubbing his eyes vigorously with his palms."
 show TJ Depressed1 at right behind nightoverlay with dissolve
 t "\"Wha—who did that?\""
@@ -2776,7 +2800,7 @@ t "\"Who's that?\""
 "We don't need TJ to be worried about an actual person who's out to kill us."
 "I'd actually completely forgotten about the bear up until this point."
 "If it truly was him, then we're in even more danger than I'd thought."
-m "\"It's.. just another person that we saw - he was acting weird. It's alright.\""
+m "\"It's.. just another person that we saw — he was acting weird. It's alright.\""
 "TJ doesn't seem to take much comfort in that, staring at the tires."
 "Whether or not it was Brian, whoever it was had done a number on the tires, completely tearing the rear tire to shreds."
 "Kudzu comes from around the side of the van, shaking his head."
@@ -2818,7 +2842,8 @@ show TJ Rejected with dis
 "I still just want to go to the motel, hole up in there and wait."
 "Maybe sleep."
 "I'd give anything just to be able to lay down somewhere safe right now."
-"But now, with the new possible factor of Brian, I can see the benefit of getting the hell out of here now."
+#! Remove one or both of the "now"s for less repetition. There's a "now" at the end of the previous line also
+"But with the new possible factor of Brian, I can see the benefit of getting the hell out of here as soon as possible."
 show Leo Neutral with dis
 l "\"Alright.\""
 "Leo sets his jaw, narrowing his eyes."
@@ -2826,12 +2851,13 @@ show Leo Annoyed with dis
 l "\"Let's go. Remember to stay close.\""
 
 scene bg forestnight with fade
-"We don't bother going off-road on the way to Carl's place, mainly because we'd just be trudging through sage brush full of ticks at that point."
-"Leo figures that since Carl's house is the only thing up this road (aside from through the canyon to nowhere), no one would be driving there anyway."
+"We don't bother going off-road on the way to Carl's place, mainly because we'd just be trudging through sagebrush full of ticks at that point."
+#!!! remove "through"?
+"Leo figures that since Carl's house is the only thing up this road (aside from the canyon to nowhere), no one would be driving there anyway."
 "It takes us about twenty minutes to get there, walking in silence up the cracked road, the only sounds our panting."
 "I'm the loudest, considering my short legs and also that I'm probably the most out of shape compared to the others."
 "When we're close to the mansion, I look back down, toward Echo."
-"Only a few of the streetlights dot the small town."
+"Only a few of the street lights dot the small town."
 "I don't see anyone on the roads near them."
 "I see a window or two here and there with their lights on, but no movement from within."
 "We only hear two sounds on our trek."
@@ -2840,14 +2866,15 @@ scene bg forestnight with fade
 "The next, a few minutes later, is a faint laughter coming from further away that rises in pitch before fading back out."
 "I grimace, wondering if anyone else heard it, or if it came from inside my head."
 "No one says anything, and I don't ask."
-scene bg mansionnight 
+scene bg mansionnight
 show nightoverlay
 with dissolve
 "By the time we reach the mansion, I'm covered in sweat and I keep adjusting my shirt uncomfortably as it sticks to my chest and shoulders."
 "The garage door is closed and there aren't any cars in the driveway."
 "I wonder if maybe Carl already took off."
 "I hope he did."
-"We stand in front of the door and Leo holds out a hand to us, motioning us to be quiet."
+#! removing second "us" for repetition
+"We stand in front of the door and Leo holds out a hand to us, motioning to be quiet."
 "I watch his ears poke up to full extension before he moves to the glass on the door, cupping both hands over his eyes to peer inside."
 "We wait a tense moment, and I wonder if maybe he's looking in on something horrific."
 "But after a while, Leo pulls back, shaking his head."
@@ -2876,7 +2903,7 @@ m "\"Yeah...\""
 show Leo Surprised with dis
 "Leo seems surprised too, and lets go to let the door slowly swing open."
 scene bg black with dissolve
-"We all stare into the blackness beyond, a few lights from the tv glowing in the darkness."
+"We all stare into the blackness beyond, a few lights from the TV glowing in the darkness."
 m "\"Should...we go in?\""
 "Leo clears his throat."
 l "\"Well, we gotta get the keys somehow...\""
@@ -2889,7 +2916,7 @@ show nightoverlay
 "Nothing seems to be out of place as far as I can see."
 "I start to step forward too, but I can feel TJ hesitate on my hand."
 "I look back at him."
-scene bg mansionnight 
+scene bg mansionnight
 show nightoverlay
 with dissolve
 show TJ Surprised at center behind nightoverlay with dissolve
@@ -2901,7 +2928,7 @@ show TJ Rejected with dis
 "TJ swallows and finally steps in with me, Kudzu following close behind."
 play music "quiet.ogg" fadein 5.0
 stop background fadeout 3.0
-scene bg kitchennight 
+scene bg kitchennight
 show nightoverlay
 with dissolve
 "The mansion is pleasantly cool against my sweaty fur."
@@ -2912,7 +2939,7 @@ show Leo Neutral at center behind nightoverlay with dissolve
 "He starts opening drawers, searching the counter, looking for keys."
 "I leave TJ to huddle on the couch before moving to the kitchen myself."
 m "\"Hey, can we look for Carl, too?\""
-"Leo pushes close a drawer full of silverware."
+"Leo pushes a drawer full of silverware closed."
 l "\"Yeah, give me a sec.\""
 "I sigh."
 m "\"I'll be fine. It'll be faster if I look for him while you look for keys.\""
@@ -2929,7 +2956,7 @@ show Kudzu Happy with dis
 "Kudzu gives one of his rare smiles at that."
 ku "\"No kidding?\""
 m "\"Yeah...\""
-"I glance over at Leo who's starting to rifle through some drawers full of what look like opened letters."
+"I glance over at Leo, who's starting to rifle through some drawers full of what look like opened letters."
 ku "\"What's up?\""
 "I look back at Kudzu."
 m "\"I'm just thinking about Carl...if he's here or not.\""
@@ -2947,7 +2974,7 @@ show Kudzu with dis
 "Kudzu nods toward the window facing the town."
 ku "\"From what I've seen, people are mostly wrapped up in their own...issues.\""
 m "\"Yeah, I don't think anyone's interested in looting here.\""
-ku "\"Well, alright. I'll take quick look upstairs.\""
+ku "\"Well, alright. I'll take a quick look upstairs.\""
 "I smile."
 m "\"Cool, I'll take a quick look downstairs. Oh, and keep a lookout for keys, too.\""
 "And with that, we both move to the staircase."
@@ -2957,7 +2984,7 @@ stop music fadeout 5.0
 scene bg basement with dissolve
 "I shake my head, remembering what Kudzu had said."
 "If anyone's here, it's definitely only Carl, and that would be a good thing."
-"If we can find him, we can bring him with us, and we'll be on our way out of this hell hole."
+"If we can find him, we can bring him with us, and we'll be on our way out of this hellhole."
 "I tell myself this as I bounce quickly down the stairs, wanting to get this over with as soon as possible."
 "Now in the basement, I glance around quickly into the several doors down here."
 "A storage room, a weight room, a video game-looking room."
@@ -2973,6 +3000,7 @@ play music "beat.ogg"
 "Could Carl be in there?"
 "I remember that he'd been down here when we couldn't find him during the birthday party."
 "At that moment I catch a glimpse of...something, poking out from the door."
+#!! is six inches "very long"? feels jarring
 "It's skinny, and hairy, and very long, maybe six inches in length."
 "I stare at it, wondering if it's...a Halloween decoration that's stored under there?"
 stop music
@@ -2980,7 +3008,7 @@ with vpunch
 l "\"CHASE!\""
 "Leo's voice booming down the stairs makes me jump a foot in the air."
 "I don't have time to stare at the black thing any longer and instead stumble down the hall, toward the sound of Leo's voice."
-scene bg kitchennight 
+scene bg kitchennight
 show nightoverlay
 with dissolve
 show Leo Annoyed at center behind nightoverlay with dissolve
@@ -2994,12 +3022,12 @@ m "\"I—what?\""
 "The thoughts of the hoof prints disappear from my mind immediately."
 show Leo Neutral with dis
 l "\"He told me you were down here. Come on.\""
-"More gently now, he grasps my hand pulls me the rest of the way upstairs."
+"More gently now, he grasps my hand and pulls me the rest of the way upstairs."
 
 scene bg carlsparentsroomnight with fade
 "I'm expecting us to turn into Carl's room, but instead we go further toward the end of the hall."
-"I think this is where Carl's parent's bedroom is."
-"Carl's lying on the bed, looking over at TJ who's in the middle of talking to him from the side."
+"I think this is where Carl's parents' bedroom is."
+"Carl's lying on the bed, looking over at TJ, who's in the middle of talking to him from the side."
 "He glances our way when we enter the room."
 play music "banter.ogg" fadein 5.0
 show Carl Rejected at center with dissolve
@@ -3007,16 +3035,17 @@ c "\"Leo...Chase?\""
 "He squints at us, like he's having trouble focusing."
 "I smile and sigh with relief."
 m "\"Carl.\""
-"I move to the side of the bed, next to TJ and that's when I see that the ram is covered in a white-looking chalk substance."
+"I move to the side of the bed, next to TJ, and that's when I see that the ram is covered in a white-looking chalk substance."
 "It reminds me of the prints downstairs."
-"It's all over his horns and bit of what looks like drywall is covering the pillow around his head."
-m "\"What happened? Are you okay? Were you just talking a nap?\""
+"It's all over his horns and a bit of what looks like drywall is covering the pillow around his head."
+m "\"What happened? Are you okay? Were you just taking a nap?\""
 show Leo Neutral at left behind Carl with dissolve
 l "\"Easy.\""
-"Leo says to me so I shut my mouth."
+"Leo says to me, so I shut my mouth."
 "TJ reaches out and grabs up one of Carl's big hands."
 "The ram just stares at the ceiling now, looking just as confused as we are."
-"I look over at Kudzu who's standing a little off to the side, like he did when we were trying to talk to TJ."
+#!! probably needs a comma in here?
+"I look over at Kudzu, who's standing a little off to the side, like he did when we were trying to talk to TJ."
 m "\"What happened?\""
 hide Carl
 hide Leo
@@ -3092,14 +3121,14 @@ m "\"Um, long story. We'll explain, like Leo said.\""
 l "\"So, you got your keys? We need to get the hell out of here and get this town some help.\""
 c "\"Yeah...yeah, I'll get them from my room.\""
 
-scene nightroad 
+scene nightroad
 show nightoverlay
 with slow_dissolve
 play background "highway.ogg" fadein 3.0
-"We pull quietly out of the driveway in Carl's car which makes almost no sound since it's a hybrid."
+"We pull quietly out of the driveway in Carl's car, which makes almost no sound since it's a hybrid."
 "Leo's driving, of course."
 "Carl's still woozy and Leo actually had to help him walk around to find the keys."
-"I sit in the back, between Carl and TJ while Kudzu sits in the passenger seat next to Leo."
+"I sit in the back between Carl and TJ, while Kudzu sits in the passenger seat next to Leo."
 "I'd overheard Leo mumbling to Kudzu to sit next to him while I helped Carl into the car."
 "Something about them needing to be able to get out of the car quickly with their guns if things went down."
 "Leo doesn't floor it like I expected him to, but we move down the bench of the mountain and through the town speedily enough."
@@ -3108,7 +3137,7 @@ c "\"Dude, I don't feel good.\""
 "Carl mumbles next to me, both hands on his stomach, twisting at the fabric of his hoodie."
 m "\"Uh, just puke on the floor if you have to. I don't think Leo's gonna stop.\""
 "Carl leans over and puts his head between his knees, groaning."
-"That gets TJ's attention and he starts rubbing the ram's back slowly."
+"That gets TJ's attention, and he starts rubbing the ram's back slowly."
 c "\"Good thing it feels like there's nothing in me...so what the hell is going on? Where's Jenna?\""
 "TJ frowns."
 t "\"We don't know...\""
@@ -3125,7 +3154,7 @@ m "\"Yeah, I guess so.\""
 c "\"So I was out a whole fucking day?\""
 "I don't say anything in response."
 c "\"What happened to you, Teej? Are you okay?\""
-"Carl turns his gaze on TJ who just nods."
+"Carl turns his gaze on TJ, who just nods."
 t "\"Yeah, I was seeing things too. People chasing me. I'm okay now, though.\""
 "TJ actually does seem pretty stable now after everything that's happened."
 "Maybe taking care of Carl is taking his mind off whatever happened to him."
@@ -3135,7 +3164,7 @@ t "\"Yeah, I was seeing things too. People chasing me. I'm okay now, though.\""
 c "\"That feels kinda nice...reminds me of my mom.\""
 t "\"Yeah, actually my mom did it too, thought it might help.\""
 c "\"Hey, I love you, just so you know. All of you guys. I'm glad I'm not in that place anymore.\""
-t "\"I love you too Carl.. and everyone else.\""
+t "\"I love you too, Carl.. and everyone else.\""
 c "\"You too, raccoon-man.\""
 ku "\"Uh, thanks.\""
 m "\"Yeah.\""
@@ -3146,11 +3175,12 @@ m "\"Yeah.\""
 "But, of course, it doesn't last long."
 ku "\"What's that? On the side of the road, there.\""
 l "\"Mh?\""
-"Leo's turns his head in the direction that Kudzu points, we all do."
+#! probably?
+"Leo turns his head in the direction that Kudzu points; we all do."
 "What we see changes everything for me from that point on."
 play music "heartbeat.ogg"
 "Sure, things were crazy, and I had a hard time believing anything was happening, but it was explainable."
-"People like Duke, Brian, TJ, even Carl were all seeing things."
+"People like Duke, Brian, TJ, and even Carl were all seeing things."
 "But it was kind of a distant thing, in a way."
 "Something everyone else was experiencing."
 "Something I was exempt from."
@@ -3165,7 +3195,7 @@ t "\"Oh my gosh...\""
 scene bg Justice with dissolve
 "Hairless, body and limbs long."
 "Way too long."
-"The head comes up and all I see are three holes and blood."
+"The head comes up, and all I see are three holes and blood."
 "TJ screams next to me and Leo shouts something before stepping on the gas, slamming me back into my seat."
 scene bg highwaynight with dissolve
 "I try to look back, but whatever it was is gone."
@@ -3174,7 +3204,7 @@ scene bg highwaynight with dissolve
 "But only for a moment."
 "That...thing, whatever the fuck it is, disappears almost the instant I register that it's there."
 "I'm only staring out into the blackness of the desert."
-"Still, three holes: two eyes, and a mouth, blink back at me in a sort of afterimage before that too vanishes."
+"Still, three holes: two eyes and a mouth, blink back at me in a sort of afterimage before that too vanishes."
 t "\"What was that, what was that!?\""
 "TJ's grabbing my arm, claws digging painfully into my skin."
 "I'm too shocked to even pull away as TJ leans forward next to me, staring out my window."
@@ -3183,7 +3213,7 @@ t "\"What was that, what was that!?\""
 t "\"What was it!?\""
 ku "\"I dunno. Some-some kind of animal, maybe?\""
 m "\"I've never seen anything like that before.\""
-ku "\"Could have...had a disease? Lost all of it's fur, or something, maybe Duke hit it.\""
+ku "\"Could have...had a disease? Lost all of its fur, or something, maybe Duke hit it.\""
 t "\"But it was WALKING!\""
 "TJ's arm is looped around mine and I can feel his body shaking."
 "I look over my shoulder, through the back window."
@@ -3191,7 +3221,7 @@ stop music fadeout 5.0
 "At this point my car is a good distance away, only visible because the headlights are on, a streak of light fading out across the desert."
 m "\"Duke, is he—\""
 c "\"Bluuuuurgh...\""
-"Some dry retching noises followed by heavy splattering sounds cuts me off."
+"Some dry retching noises followed by heavy splattering sounds cut me off."
 "Carl is hunched over in the seat, head between his legs."
 "It isn't hard to figure out what just happened, especially when the smell hits me."
 t "\"Oh my gosh! Carl!\""
@@ -3208,9 +3238,9 @@ c "\"I...I would have done it out the window...I don't wanna open any of the win
 t "\"It's okay. Leo, are there any napkins up there?\""
 "Leo, who's been silent up until now, remains silent."
 "He's staring out the windshield hard, paws on the wheel in a death grip."
-"After a moment of silence, Kudzu checks the cup holders, then drops open the glove compartment."
-"After rummaging around for a minute, he pulls out a stack of fast food-style napkins."
-"He hands them back to Carl who starts mopping up whatever mess he's made on himself."
+"After a moment of silence, Kudzu checks the cupholders, then drops open the glove compartment."
+"After rummaging around for a minute, he pulls out a stack of fast-food-style napkins."
+"He hands them back to Carl, who starts mopping up whatever mess he's made on himself."
 "During all this, I'm still glancing out the windows."
 "Not head-on, though, because I'm terrified I'm going to look straight into those eyes again."
 "We drive in silence for the next five minutes with no creature in sight, thankfully."
@@ -3248,8 +3278,8 @@ ku "\"What's wrong?\""
 l "\"I don't...\""
 "Leo turns in his seat, looking out the passenger window, then his own."
 l "\"I'm heading the right way, right?\""
-"I look out the window as well, not seeing anything except sage brush and cacti."
-"But then I do notice something;"
+"I look out the window as well, not seeing anything except sagebrush and cacti."
+"But then I do notice something."
 "The mountains, which had been on the right, are now on my left, rising up ominously in the distance."
 "Had we turned around somehow?"
 "Unless we're on the highway, which we definitely aren't."
@@ -3311,15 +3341,15 @@ play loop "engine.ogg" fadein 5.0
 "We sit there in silence, staring at my car about a hundred yards in front of us."
 "Leo starts muttering darkly to himself, looking out the windows, looking at the dashboard."
 "I want to ask him if he's okay, but I know what the answer is."
-"TJ makes soft whimpering sounds next to me, like he's trying not to cry and I finally put my arm around him."
-m "\"It's okay, it's just...dark, and we're going off road somehow.\""
+"TJ makes soft whimpering sounds next to me, like he's trying not to cry, and I finally put my arm around him."
+m "\"It's okay, it's just...dark, and we're going off-road somehow.\""
 "I whisper whatever comes to my mind to explain what the fuck is happening."
 "Carl has his head down in his paws, completely quiet."
 "He could be asleep for all I know."
 "I think about suggesting that maybe we should just wait it out until morning in the car."
 play sound "metalscratch.ogg"
 "But as I open my mouth, I hear a scratching noise toward the back of the car."
-"TJ's ears perk up, which let's me know that I'm not the only one."
+"TJ's ears perk up, which lets me know that I'm not the only one."
 "Instinctively, I turn around in my seat—"
 play sound "carwindowsmash.ogg"
 "Bits of glass fly into my face and the next thing I know, I'm cowering in the seat, head down as far as I can push it."
@@ -3331,14 +3361,14 @@ play background "carwind.ogg" fadein 5.0
 "Then I'm bouncing up and down in the seat as we go off-road, Leo not bothering with a three-point turn this time, instead going for a full U-turn."
 "We're back on the asphalt and speeding down the road when I feel it's safe enough to raise my head back up and look out the back window."
 "For a moment, I'm terrified that I'm going to find that thing crouched on the trunk, staring in at us—"
-"—But instead, all I see is a giant hole through the back window, the remaining glass jagged."
+"—but instead, all I see is a giant hole through the back window, the remaining glass jagged."
 l "\"Are you guys okay!?\""
 "Leo looks back and forth between us and the road ahead of him."
 "I sit up fully."
 m "\"I think so!\""
 "I yell at him over the sound of the car and the wind whistling around behind me."
 "Carl is bent over in his seat, too, brushing glass from his hat and hoodie."
-"I look at TJ who's still crouched over in his own seat, covering his head."
+"I look at TJ, who's still crouched over in his own seat, covering his head."
 "Bits of glass are scattered on his back and in his head fur."
 "I pick some of the pieces out from the fur on his neck and lean over him."
 m "\"TJ, are you okay?\""
@@ -3347,11 +3377,11 @@ ku "\"What was that!?\""
 "Kudzu shouts back at us, staring through the window."
 m "\"I don't know!\""
 "I don't want to think about what I actually think it was."
-"Leo keeps up the high speed, hitting some of the pot holes hard enough that I'm worried we're going to get a flat."
+"Leo keeps up the high speed, hitting some of the potholes hard enough that I'm worried we're going to get a flat."
 "Then we'd be in some REAL trouble."
 "We drive on for another five minutes in silence."
 "And then the headlights of my car appear in front of us again."
-"This time no one says anything and Leo doesn't bother turning around."
+"This time no one says anything, and Leo doesn't bother turning around."
 "I watch out my window as we fly past my old car."
 "Duke is still there on the ground, no movement from where he was the last time we saw him."
 "Since this is the area where the creature seems to be prowling, I look out the back window."
@@ -3360,10 +3390,10 @@ m "\"I don't know!\""
 "All I see is a small stretch of asphalt illuminated red from the taillights, and all I hear is the wind whipping through my ears."
 "I keep a hand on TJ's back as he continues to remain hunched over."
 "Carl sits quietly, staring out his window."
-"On the bright side, the bashed in back window has diminished the smell of sick."
+"On the bright side, the bashed-in back window has diminished the smell of sick."
 "Sparse dots of light show up on the horizon, indicating where Echo is."
 "That's when Leo speaks up."
-l "\"Alright, what we're gonna do is head back to my house. You guys can get some sleep while I figure out what to do next."
+l "\"Alright, what we're gonna do is head back to my house. You guys can get some sleep while I figure out what to do next.\""
 "Leo pauses, but no one says anything."
 l "\"Sound good?\""
 ku "\"Yeah, not much left to do.\""
@@ -3403,12 +3433,13 @@ l "\"Chase!? Are you okay!?\""
 "Wait."
 "And it hits me like the car crash we were just in."
 "That thing!"
-"I look out my window again, but it's all shattered and spider-webbed, but I can see what looks like water pouring through it."
+#!! Reword, uses ", but" twice in a row
+"I look out my window again, but it's all shattered and spider-webbed, and I can see what looks like water pouring through it."
 "At the same time I feel that icy cold sensation running down my back as the water comes through the broken back window like a waterfall."
 "We crashed into the fucking lake."
 l "\"Chase!\""
 m "\"I'm awake, I'm good!\""
-"I grab at my seat belt, taking way longer than it should to get it undone."
+"I grab at my seatbelt, taking way longer than it should to get it undone."
 "All the while, there's a bizarre, feral, yowling sound next to me, and I don't realize it's TJ until his claws find my chest and arm and dig in."
 m "\"Ow! TJ, stop...calm down!\""
 "But he doesn't even respond, continuing on with that god-awful sound."
@@ -3436,7 +3467,8 @@ play background "underwater.ogg"
 "I grit my teeth."
 "I can hold my breath almost ten minutes, but I know for most other species it's less than two."
 "Far less if you're panicking out of your mind like TJ is."
-"I grit my teeth as I calmly try to reach between the fold between the seat and the back despite the desperate clawing the lynx is giving me."
+#! between repeated twice
+"I grit my teeth as I calmly try to reach into the fold between the seat and the back, despite the desperate clawing the lynx is giving me."
 "Again, though, it's far too wedged in to get a hold on."
 "Soon my calm demeanor melts away as I fumble uselessly with the seatbelt and time stubbornly marches on."
 "I feel myself start to panic as I just grab TJ around the body and yank as hard as I can."
@@ -3456,11 +3488,12 @@ play background "underwater.ogg"
 "My aim is a little off as my head hits the ceiling instead, but I'm able to find the hole pretty quickly and kick through it."
 "It's a little awkward to undulate my body into a nice clean swim with TJ's weight, but I manage it well enough and within seconds we break the surface."
 play background "lakesounds.ogg" fadein 3.0
-scene bg lakeemmanight 
+scene bg lakeemmanight
 show nightoverlay
 with dissolve
 "I breathe out into the air while TJ coughs and sputters."
-"His arms wrap around my neck tightly and I have to put a paw under his arms to keep him from strangling me."
+#! repeated "his arms"
+"His arms wrap around my neck tightly, and I have to put a paw under them to keep him from strangling me."
 m "\"TJ! We're good, you're good! Calm down!\""
 "I look around and I'm amazed to see how far we are from the shore."
 "It's a good hundred yards away."
@@ -3487,26 +3520,26 @@ t "\"Chase, did Sydney, how long did he—did he—\""
 m "\"It's alright man. Try to relax, breathe.\""
 "Kudzu stands next to me and starts to reach out to touch my shoulder."
 ku "\"You ok—\""
-"And then a much paw comes out from behind me, pushing Kudzu's arm aside as I'm pulled back into a tight hug."
+"And then a much larger paw comes out from behind me, pushing Kudzu's arm aside as I'm pulled back into a tight hug."
 "Leo huffs into my ear."
 show Leo Surprised at center behind nightoverlay with dissolve
 l "\"Thank God, thank God...you were under for so long.\""
 m "\"I'm okay.\""
 "I reach back with a paw, setting it against the side of Leo's face."
-"When I bring it back, I see that it's a bit darker then it should be."
+"When I bring it back, I see that it's a bit darker than it should be."
 "I look back and immediately see the gash on the side of Leo's face."
 m "\"Shit, your head!\""
 "Leo brushes off my paws."
 l "\"YOUR head. I think we both hit our windows when...something hit us.\""
 "I reach up, feeling around my forehead before I feel a sore sticky spot in my fur."
 "It isn't a bad cut, but it's definitely leaking a good amount of blood."
-m "\"It was that thing that we saw next to Duke. I saw it standing on a hill and it just ran at us."
-"I look over at Kudzu who's moved to stand over Carl, his arms hugging his chest tightly."
+m "\"It was that thing that we saw next to Duke. I saw it standing on a hill and it just ran at us.\""
+"I look over at Kudzu, who's moved to stand over Carl, his arms hugging his chest tightly."
 m "\"Kudzu, are you okay?\""
 show Kudzu Annoyed at farleft behind Leo with dissolve
 ku "\"I'm fine.\""
 "His response is tense and a little high-pitched."
-ku "\"I don't know about Carl, though. He had a little trouble swimming back."
+ku "\"I don't know about Carl, though. He had a little trouble swimming back.\""
 "Carl lets out a choked cough in response."
 show Leo Rejected with dis
 "I gently pull away from Leo and kneel down next to the ram, between him and TJ."
@@ -3539,11 +3572,11 @@ l "\"I'll carry him.\""
 l "\"Alright, come on, we can rest at my house. Let's just get the fuck out of here.\""
 "Leo starts trekking up the rocky slope."
 show Carl Rejected with dis
-"Kudzu and I wait for Carl who lays on the ground a moment longer before finally rolling over and getting laboriously to his feet."
+"Kudzu and I wait for Carl, who lays on the ground a moment longer before finally rolling over and getting laboriously to his feet."
 "I hold one hand, and Kudzu holds the other, and together we make our way onto the road, and back into Echo..."
 stop background fadeout 3.0
 
-scene nightroad 
+scene nightroad
 show nightoverlay
 with fade
 play loop "crickets.ogg" fadein 3.0
@@ -3552,9 +3585,9 @@ play loop "crickets.ogg" fadein 3.0
 "Nothing happens though."
 "No screaming and no gunshots."
 "Aside from the crickets, the town is dead quiet."
-"Still, we keep to the shadows, cutting through some backyards and sage brush, probably picking up dozens of spiders and ticks along the way."
+"Still, we keep to the shadows, cutting through some backyards and sagebrush, probably picking up dozens of spiders and ticks along the way."
 "It's funny, despite everything that's going on, spiders are the biggest thing that are on my mind as I push through the branches and foliage."
-scene bg leoshousenight 
+scene bg leoshousenight
 show nightoverlay
 with dissolve
 "Finally, the wolf's small house appears out of the dusty, dark night."
@@ -3571,12 +3604,12 @@ show Kudzu Annoyed with dis
 ku "\"Shit.\""
 "Leo lets go of TJ's hand, then makes a \"stay here\" motion with the other as he starts creeping toward the house."
 "With some difficulty, and a few awkward sounds, Leo pulls his gun out of his wet pants."
-"I scream internally at the thought of Leo going in alone, but he is the only one with a weapon now;"
+"I scream internally at the thought of Leo going in alone, but he is the only one with a weapon now."
 "Apparently Kudzu had lost his during the whole lake incident, which Leo is pretty pissed about."
 "Leo tries the door, then disappears inside, reaching out to make sure the screen door doesn't bang shut behind him."
-"And then he was gone."
-"We stand there in the silence a moment, then Kudzu whispers,"
-ku "\"Hey, let's stand back to back just in case.\""
+"And then he's gone."
+"We stand there in the silence for a moment, then Kudzu whispers."
+ku "\"Hey, let's stand back-to-back just in case.\""
 m "\"Yeah, okay.\""
 "Kudzu turns toward the road while I face toward Leo's house."
 "Carl and TJ stand on either side of us."
@@ -3604,7 +3637,7 @@ m "\"Is that what she was talking about?\""
 ku "\"I really don't know, Chase.\""
 "So we go back to waiting."
 "I'm about to mention that maybe we should move closer to the house, just in case, when we hear a scream."
-show Carl Surprised 
+show Carl Surprised
 show Kudzu Confused
 with dis
 "It comes from inside Leo's house, and it definitely doesn't sound like Leo."
@@ -3629,7 +3662,8 @@ scene bg leokitchen
 scene bg leoroom with dissolve
 "Inside I find Leo standing over his own bed."
 "In the bed I see someone else."
-"A little polecat, disheveled in a tank top, looking even more skeletal than usual."
+#!!!! Clint is not a polecat
+"A little ringtail, disheveled in a tank top, looking even more skeletal than usual."
 play music "quiet.ogg" fadein 3.0
 "It's Clint curled up in a little ball, cowering."
 "Leo has his gun pointed on him."
@@ -3712,10 +3746,10 @@ l "\"Otter, move out of the way.\""
 m "\"No, Leo. You're acting...weird right now. Just calm down for a sec, okay?\""
 show Leo Rejected with dis
 "Leo frowns at me."
-l "\"Hey, I'm just trying to keep all of us safe."
+l "\"Hey, I'm just trying to keep all of us safe.\""
 "I see the wolf leaning his head to the side a little, like he's trying to keep an eye on Clint."
 m "\"Leo...let's go out into the hall, Kudzu—\""
-"I give the raccoon a side-long glance."
+"I give the raccoon a sidelong glance."
 m "\"—can handle him for a few minutes, okay?\""
 "Kudzu nods."
 show Leo Neutral with dis
@@ -3728,12 +3762,12 @@ show Leo Neutral with dis
 "As I do, I feel him go a little slack and, with a whole lot of relief on my part, he finally starts moving toward the hallway."
 "Carl, still gaping at the whole scene, suddenly seems to snap out of it and hurriedly moves out of our way, into the hall."
 
-scene bg leokitchen 
-show Leo Neutral 
+scene bg leokitchen
+show Leo Neutral
 with dissolve
 "Leo reluctantly continues to shuffle down the hallway as I put an arm around his side, hugging him to me."
 "He responds with the same gesture."
-"We pass a solemn looking TJ, his eyes following me as we move toward the kitchen."
+"We pass a solemn-looking TJ, his eyes following me as we move toward the kitchen."
 m "\"You okay, TJ?\""
 "He doesn't say anything, instead just slowly following us into the kitchen."
 "His fur is still all spiky and mussed up from the plunge into the lake, and his clothes look uncomfortably damp."
@@ -3747,7 +3781,8 @@ c "\"Heh, actually I could go for some food.\""
 scene bg leokitchen with dissolve
 with fade
 play background "dryer.ogg" fadein 3.0
-"About twenty minutes later, Carl, TJ and I are sitting in the laundry room, putting our clothes through a dryer."
+#! dryer was previously referred to as "the dryer"
+"About twenty minutes later, Carl, TJ, and I are sitting in the laundry room, putting our clothes through the dryer."
 "I can hear Leo in the kitchen, frying something up on the stove."
 "While I should be worried about not keeping an eye on him, he's calmed down considerably since we were in his bedroom."
 "Also, the laundry room is between the kitchen and the bedroom, so it would be pretty hard for him to get past without me seeing."
@@ -3767,7 +3802,7 @@ c "\"You could just lean up against the side. You gotta be cold, too.\""
 m "\"TJ, are you okay? Do you want to talk?\""
 "TJ looks up at me, again with those emotionless eyes."
 t "\"No.\""
-"He says it do quietly it's almost like he didn't say anything at all."
+"He says it so quietly it's almost like he didn't say anything at all."
 "I hold his gaze for a while before looking away."
 c "\"Aww, don't worry about it, Teej. We're gonna be outta here in no time.\""
 show Carlu Neutral F with dis
@@ -3792,7 +3827,7 @@ ku "\"Ah.\""
 m "\"So, uh, how'd it go? You were in there for a while.\""
 show Kudzu Depressed with dis
 "Kudzu sighs and leans against the wall of the hallway, looking back at the closed door."
-ku "\"I...don't know, really. Said something about a train going through here the past few days after everything started."
+ku "\"I...don't know, really. Said something about a train going through here the past few days after everything started.\""
 m "\"Through the rail yard?\""
 ku "\"That's what he says.\""
 m "\"Huh...\""
@@ -3818,17 +3853,17 @@ ku "\"He's not sure. Said it seemed random.\""
 stop background
 play sound "buzzer.ogg"
 show Carlu Surprised F
-show TJu Surprised 
-show Kudzu Confused 
+show TJu Surprised
+show Kudzu Confused
 with dis
 "Then we all jump as the dryer finishes with a loud, grating buzz."
 "I shakily rub my face, then move to open the dryer."
-m "\"Well, lets at least get our clothes back on, then we can go in the kitchen and tell Leo what's going on.\""
+m "\"Well, let's at least get our clothes back on, then we can go in the kitchen and tell Leo what's going on.\""
 stop music fadeout 3.0
 scene bg leokitchen with fade
 "We all sit at the table, eating quietly as Kudzu tells Leo everything."
 "The food looks like some kind of vegetable stir-fry."
-"The first bite reminds me that I'm starving and it's hard not to just try and shove all of it into my mouth at once."
+"The first bite reminds me that I'm starving, and it's hard not to just try and shove all of it into my mouth at once."
 "Carl, sitting across from me, does just that."
 show Leo Neutral at center with dissolve
 l "\"That sounds like a load of bullshit.\""
@@ -3863,7 +3898,7 @@ l "\"Why don't you keep eating, Carl?\""
 show Carl Depressed F with dis
 $ renpy.pause(0.5, hard=False)
 hide Carl with dissolve
-"Leo's shifts his gaze towards the bedroom again before abruptly standing up."
+"Leo shifts his gaze towards the bedroom again before abruptly standing up."
 l "\"I'm gonna check on him.\""
 m "\"Leo.\""
 "I start to stand up as well, but Kudzu is one step ahead of me."
@@ -3909,7 +3944,7 @@ m "\"Leo, wait...\""
 "My voice is too quiet, too soft for the wolf to even hear me."
 "The door ahead of me swings open."
 "There's a moment of silence, then—"
-"Leo curses loudly and I run to the door frame looking inside, not sure what I'm about to find."
+"Leo curses loudly and I run to the door frame, looking inside, not sure what I'm about to find."
 scene bg leoroom with dissolve
 "What I find is...nothing."
 "No one's inside, the covers of the bed are thrown back, the window wide open."
@@ -3965,7 +4000,8 @@ l "\"I'm going to get you all out of here, like I should have done from the begi
 "He gives me a little shake when I'm silent a little too long."
 m "\"Okay.\""
 l "\"Okay...\""
-"And he keeps rocking me like that for what seems like hours and when we make another revolution, I can see that Carl's not there anymore."
+#!! reduces repetition of "and", and it's awkward to start a sentence with it anyway'
+"He keeps rocking me like that for what seems like hours, and when we make another revolution, I can see that Carl's not there anymore."
 stop music fadeout 5.0
 "Then I hear something."
 "Soft at first, then louder and louder."
@@ -3973,8 +4009,8 @@ stop music fadeout 5.0
 "I can make out a rhythmic, dull metallic sound, accompanied by a horn."
 "...A train?"
 
-scene bg desertmeadownight 
-show nightoverlay 
+scene bg desertmeadownight
+show nightoverlay
 with dissolve
 "TJ and Carl are standing at the back door, staring out into the night."
 play sound "traincloser.ogg" fadein 3.0
@@ -4014,7 +4050,7 @@ c "\"That won't—\""
 "I don't wait for Carl to finish his sentence."
 "My eyes slowly adjust, but it's too dark to really see any more than five feet."
 "The amount of stars overhead is almost dazzling, but it's not enough light to help me see."
-"In fact, it's almost disorientating."
+"In fact, it's almost disorienting."
 "The way the bright powder-look of the sky clashes with the black horizon of the mountains..."
 "Focusing on it too much makes my stomach turn and I turn my eyes down, trying to focus on the barely-visible ground inst—"
 play sound "thud.ogg"
@@ -4023,17 +4059,19 @@ with vpunch
 "Until my face slams right into something big, hard, and full of twigs."
 m "\"Jesus fucking goddammit!\""
 "I shout-whisper into my paws, covering my nose, afraid for a second that maybe I ran one of my eyes through."
-"A quick, but shaky examination with my fingers puts that fear at ease, though now I feel like my muzzle has gone flat into my face."
+#!!! Should this be "quick but shaky examination" or "quick, but shaky, examination"?
+"A quick, but shaky, examination with my fingers puts that fear at ease, though now I feel like my muzzle has gone flat into my face."
 "That jolt had me feeling all the aches of my past two incidents with cars."
 "I stand there in the dark for a moment, gathering my senses."
 "It's almost completely silent now."
 "The train, if it was a train, has passed us by at this point."
 "The metallic clanks and rushing sound is far behind me."
-"Standing in the silence though, is starting to give me seconds thoughts."
-"I'm pretty sure there aren't any trees between Leo and Kudzu's house."
+"Standing in the silence though, is starting to give me second thoughts."
+#! either this or "Leo's and Kudzu's houses"
+"I'm pretty sure there aren't any trees between Leo's house and Kudzu's trailer."
 "Did I get off track somehow?"
 "Something cracks a little ways ahead of me and I freeze up, my ears twitching."
-"I listen hard trying to hear anything above the crickets."
+"I listen hard, trying to hear anything above the crickets."
 "Okay, yeah, this was really fucking stupid."
 "I remember that I'm not all that far away from Leo's house and look back at the yellow squares of windows in the distance."
 "I should probably go back to reorient myself and try to get to Kudzu's house again."
@@ -4045,7 +4083,7 @@ d "\"Shit...\""
 "I decide to wait a while longer, with one foot pointed out toward Leo's house."
 "And then..."
 play sound "twigsnap.ogg"
-"This time the sound is RIGHT next to me and jump in the air."
+"This time the sound is RIGHT next to me and I jump into the air."
 "I make a run for the house...and immediately trip over several rocks, going face-first into the ground."
 "I'm scrambling at the ground with my paws and feet when I hear the voice again."
 show Kudzu Confused at center behind nightoverlay with dissolve
@@ -4070,9 +4108,9 @@ ku "\"Naw, he's...I don't think he's gonna listen.\""
 m "\"Well, I'm not gonna leave you out here, after everything we went through.\""
 show Kudzu Happy with dis
 "I see a glint of white teeth as Kudzu gives me a small smile."
-ku "\"Wow, well...thanks man. But really, you should probably get back before he—\""
+ku "\"Wow, well...thanks, man. But really, you should probably get back before he—\""
 "At that moment I realize something."
-m "\"Wait, what were you doing out here. You said you saw someone?\""
+m "\"Wait, what were you doing out here? You said you saw someone?\""
 show Kudzu with dis
 "Kudzu shifts slightly, from one foot to the other."
 ku "\"I thought I did, at least.\""
@@ -4114,7 +4152,8 @@ show Kudzu at center behind nightoverlay with dissolve
 "Why WAS she running?"
 m "\"Did she say anything?\""
 "I whisper softly to Kudzu as I follow along with him, one hand on his shoulder."
-show Kudzu at center with dissolve
+#!!!! This "show kudzu at center" is redundant and makes the text pause seemingly for no reason
+# show Kudzu at center with dissolve
 ku "\"No, just looked up at me and took off. Looked terrified of something.\""
 "I frown, my paw tightening a bit on the raccoon's shoulder."
 m "\"Maybe it's just because she doesn't know you, right? Maybe she was heading to Leo's place.\""
@@ -4167,7 +4206,7 @@ j "\"I—it's...I don't know, I was out in the desert and—\""
 "Finally, Kudzu steps in."
 show Kudzu at left behind Jenna with dissolve
 ku "\"Hey, let's get to my trailer, we can talk it out in there, alright?\""
-"Jenna silently nods then seems to really focus on Kudzu."
+"Jenna silently nods, then seems to really focus on Kudzu."
 j "\"Wait, who are you?\""
 "I step in for the raccoon."
 m "\"This is Kudzu, he's a friend. He saved me a bunch of times.\""
@@ -4179,12 +4218,12 @@ scene bg kudzutrailer with fade
 play music "quiet.ogg" fadein 3.0
 "Quietly, Kudzu lets us into his trailer, opening the screen door slowly so that it doesn't creak."
 "He motions us inside and Jenna follows in behind me, pressing close."
-"I suppose she has good reason to be weary of the place."
-"She doesn't really know Kudzu and at this point it's hard to even trust people that you do know."
+"I suppose she has good reason to be wary of the place."
+"She doesn't really know Kudzu, and at this point it's hard to even trust people that you do know."
 "Kudzu closes the door and slides the locks in place."
 "Jenna stands next to me in the small living room area, arms folded tightly against her body like she's hugging herself."
 m "\"Hey, you wanna sit down?\""
-"I gesture at the recliner which Jenna stares at for a few seconds."
+"I gesture at the recliner, which Jenna stares at for a few seconds."
 show Jenna Rejected at right with dissolve
 j "\"Um...I dunno.\""
 "The fox's ears are twitching around and pointed straight up."
@@ -4198,7 +4237,7 @@ m "\"Maybe there? I can sit with you.\""
 "Much like her ears, her eyes are darting around, mostly over to the curtained window to our right."
 "Meanwhile, Kudzu elects to sit in the empty recliner after turning it a little to face us."
 show Jenna Surprised with dis
-"The scrapping sound it makes on the floor causes Jenna to jump."
+"The scraping sound it makes on the floor causes Jenna to jump."
 show Jenna Rejected with dis
 "Kudzu pauses, blinking, then settles back in the recliner."
 show Kudzu Depressed at left with dissolve
@@ -4242,14 +4281,14 @@ m "\"I—I don't know. Not right now. I'm not leaving Kudzu, so I'm gonna have t
 "That reminds me, though..."
 m "\"Oh yeah, we think we found a way out!\""
 j "\"Really?\""
-m "\"Yeah, Apparently a train goes through here once in a while. We're thinking we can hitch a ride on it.\""
+m "\"Yeah, apparently a train goes through here once in a while. We're thinking we can hitch a ride on it.\""
 "Jenna takes that in, then just nods."
 "The silence drags out for a minute or two before I finally lean towards her again."
 m "\"It's okay. Just sit down and relax for a minute.\""
 stop music fadeout 5.0
 "She does so with even more hesitance than the first time, sitting on the couch cushion like it might be a land mine."
 m "\"So, uh...where were you these past few days? If you want to tell me, I mean.\""
-show Jenna Depressed 
+show Jenna Depressed
 show Kudzu
 with dis
 "Jenna stares at the floor, then shrugs."
@@ -4264,7 +4303,7 @@ j "\"He left the motel and just started running, so I followed him. He ran all t
 j "\"But then he just stopped on the shore and stared at it.\""
 j "\"I caught up to him and tried to talk to him, but it was like I wasn't there...\""
 show Jenna Rejected
-show Kudzu Confused 
+show Kudzu Confused
 with dis
 j "\"All he could say was your name, Chase. 'Chase, where's Chase?' I think he was looking in the water for you.\""
 "Jenna looks right at me."
@@ -4279,7 +4318,7 @@ j "\"And so I sort of grabbed his shoulder to lead him back, away from the lake.
 show Jenna Depressed with dis
 j "\"But then he turned on me, and he sort of just...changed.\""
 "{cps=22}{font=ui/belligerent.ttf}The water changed that day..."
-"My head spins and I brace my paws against the arm rest, trying not to fall over."
+"My head spins and I brace my paws against the armrest, trying not to fall over."
 j "\"And he attacked me, clawed me up.\""
 "{cps=22}{font=ui/belligerent.ttf}...and for the first time..."
 show Jenna Rejectedhips with dis
@@ -4293,7 +4332,7 @@ j "\"And as I did, I realized the whole town was different...everyone was differ
 stop loop fadeout 10.0
 stop music fadeout 5.0
 "The humming in my head finally starts to die down."
-j "\"You say he's at Leo's...is he okay? Did he explain what happened?.\""
+j "\"You said he's at Leo's...is he okay? Did he explain what happened?\""
 "I shake my head, but only a little...I feel like I'm going to throw up."
 m "\"No, but he has been acting a little strange, I guess.\""
 show Jenna Rejected with dis
@@ -4308,7 +4347,7 @@ j "\"That I'm not too sure about. After I ran it all just sort of became a dream
 "We wait a moment as Jenna seems to think."
 j "\"I remember I went back to the motel I think, but then I saw something.\""
 show Jenna Sheepish with dis
-"Jenna pauses then lets out a little, humorless laugh."
+"Jenna pauses, then lets out a little, humorless laugh."
 j "\"A thing that I remember from my childhood, a monster, I guess.\""
 m "\"A monster?\""
 show Jenna Rejected with dis
@@ -4322,7 +4361,7 @@ j "\"Oh, I don't think it's anything. I must have had my own little breakdown af
 show Jenna Rejected with dis
 "Jenna sighs deeply again, sitting back in the couch."
 j "\"But then you guys came along and now I think everything is clear.\""
-"Jenna leans back for a moment breathing deeply and, for the first time, it seems like she's relaxing a bit."
+"Jenna leans back for a moment, breathing deeply and, for the first time, it seems like she's relaxing a bit."
 "She turns her attention back to Kudzu."
 j "\"Hey, Kudzu, is it?\""
 "Kudzu nods."
@@ -4349,7 +4388,7 @@ m "\"It's cool. Like I said, you saved my ass so many times at this point it's t
 "I almost tell him that he's been there for me more than anyone at this point, but that feels like a bit too much right now."
 show Kudzu with dis
 "Kudzu chuckles and leans back, his arm brushing mine."
-ku "\"I didn't always used to be like this, you know.\""
+ku "\"I didn't always use to be like this, you know.\""
 m "\"What?\""
 ku "\"A fuckin' coward.\""
 "I scrunch my muzzle up."
@@ -4359,9 +4398,10 @@ show Kudzu Depressed with dis
 ku "\"Naw, you saw me at Duke's house when you got caught and then down in the basement, then when Leo tossed me out.\""
 m "\"Those are all great reasons to have been scared, Kudzu. You still faced all of it.\""
 "Kudzu looks unconvinced."
-ku "\"I dunno Chase. After what Leo did, I don't think I was gonna come back.\""
+ku "\"I dunno, Chase. After what Leo did, I don't think I was gonna come back.\""
 "I shrug."
-m "\"Well, then I'm glad I came after you then.\""
+#! one of these "then"s should be dropped
+m "\"Well, I'm glad I came after you, then.\""
 show Kudzu with dis
 "Kudzu's quiet for a moment, then he chuckles quietly, leaning his head back to stare at the ceiling."
 m "\"What?\""
@@ -4385,9 +4425,9 @@ m "\"-We're gonna get out, just gotta listen for that train.\""
 ku "\"Mh-hm.\""
 "Kudzu has his eyes closed, so I lean back too."
 "Despite all the shit going on outside, there's something really peaceful about being here, next to Kudzu in his neat little trailer."
-"We sit there a while, listening to the soft rush of running water." 
+"We sit there a while, listening to the soft rush of running water."
 "After a while, I look toward the bathroom, realizing how uncomfortably full my bladder is right now."
-"Jenna doesn't seem to be coming out anytime soon, though."
+"Jenna doesn't seem to be coming out any time soon, though."
 m "\"Listen, I gotta take a piss.\""
 show Kudzu Wry with dis
 ku "\"Again?\""
@@ -4407,7 +4447,8 @@ stop loop fadeout 3.0
 play music "crickets.ogg" fadein 3.0
 scene bg desertmeadownight with dissolve
 "I head back outside while Kudzu hangs back by the door."
-ku "\"Just make it quick and again; yell if something happens.\""
+#!!! maybe? semicolon should definitely go.
+ku "\"Just make it quick, and again: yell if something happens.\""
 m "\"It's fine, I'll only be a few feet away.\""
 "I hide a small smile at how motherly Kudzu's being right now."
 "After everything that's happened, it's no wonder."
@@ -4437,19 +4478,19 @@ stop music fadeout 3.0
 play loop "highway.ogg" fadein 5.0
 "Brian's massive bulk squeezes in next to me and I feel the truck accelerate."
 "The backside wobbles back and forth in the sand as it tries to find purchase in the ground."
-scene nightroad 
-show nightoverlay 
+scene nightroad
+show nightoverlay
 with dissolve
 "But then we find the road and I'm pressed back in the seat as Brian steps hard on the gas."
 "I scramble upright into a seated position, pressing back as far as I can against the door, away from Brian."
-"He doesn't seem to be paying attention to me right now with his eyes fixed on the road."
+"He doesn't seem to be paying attention to me right now, his eyes fixed on the road."
 "My heart hammers in my chest."
 "I can't even start to comprehend what's just happened to me."
 "Is this real? Am I dreaming? How did I end up fucking things up so badly again?"
 "Brian takes a hard turn and I almost tumble into him."
 "In a panic I kick my feet against his side, keeping myself upright and against the door."
 "The big bear grunts and glances at me before fixing his eyes back on the road."
-"I quickly draw my feet back, pressing my knees against my chest as I try to hold on to the chair to keep from falling over."
+"I quickly draw my feet back, pressing my knees against my chest as I try to hold on to the seat to keep from falling over."
 "I realize then that Brian must have been waiting for me, waiting outside Kudzu's trailer for a perfect moment to grab me."
 "I'd given it to him by idiotically skipping outside to take a piss, the result of which I can smell wafting up from my pants."
 "I don't care though, everything is numb right now and my mind is racing, trying to figure out how I'm going to get out of this."
@@ -4499,7 +4540,7 @@ m "\"Wait...wait, I might know a way to get out of here...if you let me go, I'll
 "But he surprises me with what he says next."
 br "\"Escapin' isn't gonna fix any of this...we're all still gonna see the same shit.\""
 "I wait, but he stays quiet."
-"It takes me another minute to work up the courage to ask."
+"It takes me another minute to work up the courage to ask:"
 m "\"See what?\""
 br "\"You know exactly what!\""
 "He screeches at me in his high-pitched voice and the truck swerves precariously."
@@ -4513,7 +4554,7 @@ m "\"Like...when Duke saw something on the ceiling in the diner?\""
 "That's the first thing that comes to mind."
 "It's something that Brian saw with me."
 "He lets out a cold guffaw."
-br "\"That's exactly I'm talkin' about otter, that and every-fuckin'-thing else.\""
+br "\"That's exactly what I'm talkin' about otter, that and every-fuckin'-thing else.\""
 "The truck takes another hard turn and I brace myself in the little well."
 "The swerves and turns are becoming more frequent."
 "I can't really see out the window, but I'm pretty sure we're headed into the mountains."
@@ -4533,8 +4574,8 @@ m "\"M—maybe...but my parents, my friends, they haven't really seen stuff.\""
 br "\"Seems we only see shit if there's a reason to.\""
 play music "Reckoning.ogg"
 br "\"I dunno what it is either, but from what I've seen it's a combination of a shitty experience and bein' in Echo.\""
-scene bg desertmeadownight 
-show nightoverlay 
+scene bg desertmeadownight
+show nightoverlay
 with dissolve
 "The truck is slowing down a little now as we start taking sharper turns."
 "Brian's calmed down at least, but it also means that we're definitely deep in the mountains at this point, the road having turned to gravel."
@@ -4551,24 +4592,24 @@ br "\"I think he must have been drunk or high or both, but it stuck with me, ya 
 br "\"Then, when I was a teenager in '87 or so, I got myself a boyfriend...well, more of a fuckbuddy. We kinda hated each other.\""
 br "\"He talked too much, but he was a good fuck and the only faggot I knew, so I came here every other week or so to fuck him.\""
 br "\"But then something weird happened on my second or third trip out here. I remember the moon was red that night, because of the forest fires out West.\""
-br "\"And I kept looking at it and that's when I saw a flying saucer, like one straight out of a cartoon with lights and a dome thing on top.\""
+br "\"And I kept looking at it, and that's when I saw a flying saucer, like one straight out of a cartoon with lights and a dome thing on top.\""
 br "\"I couldn't believe it, but there it fuckin' was floatin' through the sky, and you know, even though it looked stupid as fuck, I knew...\""
 stop loop fadeout 3.0
 "Brian takes a big wide turn and the truck slows more and more until it comes to rumbling halt."
 "My ears ring in the silence as Brian continues to stare out into the night, the headlights lighting up his face."
 br "\"It knew I saw it, and it was fuckin' evil. I just knew it.\""
 "Brian finally looks down at me again."
-br "\"That night and almost every night after, I'd wake up and couldn't move and aliens would be around my bed.\""
+br "\"That night and almost every night after, I'd wake up and couldn't move, and aliens would be around my bed.\""
 br "\"And there was this one alien that I knew was my mom. She didn't look like my mom, she looked like an alien—\""
-br "\"—But I just knew it was her, and she'd do these things to me, sometimes to my mouth and eyes and nose...\""
+br "\"—but I just knew it was her, and she'd do these things to me, sometimes to my mouth and eyes and nose...\""
 br "\"...but usually to my dick...torture me, and it felt fuckin' real.\""
 "Brian chuckles, still staring at me."
 br "\"Fucked me up good, and I blamed my boyfriend for it, for bringin' me to Echo, because I was sure that's where the evil came from.\""
 br "\"I outed him that year and he had to leave town because of it.\""
 "The massive bear shakes his head."
 br "\"Didn't stop the dreams, though.\""
-"Brian puts the truck in park then shuts off the engine."
-"We sit there in the darkness and silence and even though I'd just emptied my bladder, I feel like I'm gonna piss myself again."
+"Brian puts the truck in park, then shuts off the engine."
+"We sit there in the darkness and silence, and even though I'd just emptied my bladder, I feel like I'm gonna piss myself again."
 br "\"Never told anyone that before.\""
 "I don't say anything as I just breathe through my mouth, trying to make as little sound as possible."
 br "\"There's something fucked up in this town that makes us see things, feel things from our past or some shit.\""
@@ -4593,10 +4634,11 @@ br "\"Alright, it's gonna be okay, otter, I promise.\""
 m "\"What do you need me to do, though?\""
 "Brian finally pulls something out and it looks shiny and heavy."
 "I open my mouth to scream, but that's when a burst of light comes out of one of the ends of it."
-"It's a Maglite..."
+#!! This should probably be changed to "flashlight"? not sure why it needs a brand
+"It's a flashlight..."
 "I stare at it, gaping stupidly."
 "Brian sweeps the beam of light around."
-"All around us is gravel, sage brush, and some cacti."
+"All around us is gravel, sagebrush, and some cacti."
 "I have no idea where we are."
 br "\"I need to get something and it's in a place that's too small for me to squeeze into.. I need your help to get it, okay?\""
 m "\"O—okay...but what is it?\""
@@ -4615,9 +4657,9 @@ m "\"That—that makes sense.\""
 "We walk for maybe about a hundred yards."
 "As we do, the land starts to incline and become steep."
 "Brian even slips up a few times, and I'm worried he's going to fall on top of me."
-"Each time he manages to catch himself then yank me up after him."
+"Each time he manages to catch himself, then yank me up after him."
 "After a few minutes of huffing and puffing, we reach a bit of an outcrop with some large boulders."
-"Brian lets go of me and clambers up the side of one and before I can even think of running, he's turned around and grabbed me up by the scruff."
+"Brian lets go of me and clambers up the side of one, and before I can even think of running, he's turned around and grabbed me up by the scruff."
 "I squeak as I'm lifted into the air, feeling like a pup again before I'm set down beside the bear."
 "Brian looks around, keeping a hold of my wrist as he does."
 "After some stomping and looking around with his flashlight, he seems to find what he's looking for."
@@ -4647,7 +4689,7 @@ scene bg mineshaft with dissolve
 "It branches to the left and the right."
 "Brian stands there for a moment, inhaling deeply as he looks around."
 br "\"Hang on, it's been a while.\""
-"I can't help myself from blurting out;"
+"I can't help myself from blurting out:"
 m "\"You don't know where to go?\""
 "I expect him to hit me, or something, but he ignores me."
 "Finally, he pulls me to the left."
@@ -4663,7 +4705,10 @@ br "\"Now I just see people.\""
 m "\"What kind of people? People you know?\""
 "I try to keep Brian talking while I think."
 "At some point he's going to have to let go of me again, and it's then that I'm going to have to make a run for it, no matter what."
-"Kudzu probably saw which direction we drove off in, and he probably went to Leo to get the car."
+#!!!! A few times in Leo's route it mentions that Leo and the gang have a car at Leo's house, but they don't, because Chase's car was crashed, Leo's van was slashed, and Carl's car is in the lake
+#!!!! I made a small bandaid to help a little but it needs more comprehensive fixing
+# "Kudzu probably saw which direction we drove off in, and he probably went to Leo to get the car."
+"Kudzu probably saw which direction we drove off in, and he probably went to get Leo."
 "But at this point I doubt they're going to be able to find us, at least not in time."
 "We went into the mountains, probably through some back road that none of us even knew existed."
 "Then Brian took me through hundreds of yards of desert to find a tiny opening behind some boulders."
@@ -4681,7 +4726,7 @@ scene bg black with dissolve
 "In fact, it feels like I'm being trapped."
 "I can't explain it, but I start to get a terrible feeling that something awful is waiting for me at the end of this passage."
 "And then I start to smell something."
-"It's old, and almost covered up by the dust and mustiness, but it's definitely there;"
+"It's old, and almost covered up by the dust and mustiness, but it's definitely there."
 "Sweet and sick, something rotting."
 "It feels like ice water is poured down my back and I freeze—"
 "Only to be given a shove by the bear behind me."
@@ -4704,9 +4749,10 @@ scene bg cave with dissolve
 "My frantic thoughts are interrupted as Brian grasps me by the back of the shirt and pulls me back up to my feet."
 "I'm not able to stand and just sort of crumple down next to him."
 "The bear grunts and just drags me along into the little opening that we're in, dropping me against the wall."
-"As Brian fumbles with the flashlight, I get glimpse of my surroundings:"
+"As Brian fumbles with the flashlight, I get a glimpse of my surroundings:"
 "It's small, maybe about 15 feet long and 10 feet wide."
-"It's narrow enough that Brian takes up most of the space and I'd be hard-pressed to get past him."
+#!!!! Brian takes up most of a 10 foot wide room?
+"It's narrow enough that Brian takes up most of the space, and I'd be hard-pressed to get past him."
 "I draw my knees up to my chest and hug them, feeling numb."
 play loop "drag.ogg"
 "{cps=22}{font=ui/belligerent.ttf}God, you're such a useless piece of shit."
@@ -4778,7 +4824,7 @@ br "\"Hey!\""
 br "\"The hell are you mumbling?\""
 m "\"Nothing.\""
 "Brian chuckles again and reaches across to the other wall, grabbing the shovel."
-"He starts digging up the lose patch of dirt in front of him."
+"He starts digging up the loose patch of dirt in front of him."
 br "\"Yeah, yeah, keep it to yerself, I guess. But like I said, you ain't the only one.\""
 "Brian gestures behind him with a thumb, toward the ground."
 "I look and see nothing except a few stones on the ground."
@@ -4786,7 +4832,8 @@ br "\"After Rachel back there, things got way way worse than aliens for me.\""
 br "\"I saw her at night, crawlin' on my ceiling, peekin' out from under my bed, starin' at me from my window.\""
 "Brian grunts as he digs the shovel deep, then lifts, turning a pile of dirt out to the side."
 br "\"So did Duke. Drove him crazy, turned him into a speed addict. Not that I mind, he was always my most reliable customer, heh.\""
-"The sick-sweet smell starts to grow again and its starting to become overpowering."
+#!! sickly-sweet probably?
+"The sickly-sweet smell starts to grow again, and it's starting to become overpowering."
 "I feel like I should keep him talking, get him comfortable and buy myself more time."
 "{cps=22}{font=ui/belligerent.ttf}Should you, though?"
 m "\"Who's Rachel?\""
@@ -4797,7 +4844,7 @@ br "\"Duke's wife.\""
 m "\"Didn't he divorce her?\""
 "Brian shrugs as he stops digging, resting on the handle."
 br "\"I guess he sort of did, but I mean she was dead by then.\""
-br "\"They wanted my stuff, but didn't have the money, so I cut 'em a deal to fuck for the drugs instead."
+br "\"They wanted my stuff, but didn't have the money, so I cut 'em a deal to fuck for the drugs instead.\""
 br "\"I mean, I can't say I like bitches at all; annoying and whiny, but she let me go way farther than Duke ever did, so I mainly fucked around with her.\""
 "It's not hard for me to picture exactly what that \"fucking\" was."
 br "\"Then one day I guess I went too far. She died and we buried her right there.\""
@@ -4865,7 +4912,8 @@ menu:
         "I glance to my right and see something standing in the entrance to our little hollow."
 "It's faint, either because of the dim lighting or because the thing itself isn't quite opaque."
 "It's tall, white, and gangly and its long fingers nearly touch the ground."
-"Its face is heart-shaped, the whiteness of it interrupted by massive, shiny black eyes in its face."
+#! The last bit is redundant
+"Its face is heart-shaped, the whiteness of it interrupted by massive, shiny black eyes."
 "It stands there motionless, watching us."
 "I stare back, open-mouthed."
 "Brian must have taken notice, because the next thing I know, the bear squeals."
@@ -4883,13 +4931,13 @@ scene bg black
 "I hear something else, too..."
 "A voice that's also high-pitched, babbling something fast and senseless."
 "It's like a tape-recorder being rewound."
-"Brian's screeching impossibly turns up a notch and I instinctively move forward, away from the horrible sounds and I pitch forward into the hole."
+"Brian's screeching impossibly turns up a notch and I instinctively move forward, away from the horrible sounds, and I pitch forward into the hole."
 "The smell engulfs me and I can feel the hard, knobbly things in the dirt around me."
 
 scene bg highwaynight with dissolve
 play loop "highway.ogg" fadein 3.0
 unk "\"Where are we going?\""
-br "\"Just takin' a backroad.\""
+br "\"Just takin' a back road.\""
 unk "\"But we're leaving the city.\""
 br "\"Yeah, well I live outside the city.\""
 unk "\"You didn't tell me that.\""
@@ -4931,7 +4979,7 @@ menu:
 "The main tunnel."
 "You remember this place."
 "You also know the tunnels like the back of your hand."
-"It's pitch-black, but if you feel along the walls, you should be able to find your way out."
+"It's pitch black, but if you feel along the walls, you should be able to find your way out."
 "You head to the right, down toward the end of the main tunnel with your right hand dragging along the wall."
 "Then, when you feel an opening with your hand you take a left, then another right."
 "And finally a final right that takes you out the back exit."
@@ -4958,8 +5006,8 @@ f "\"Fuck! Chase, come on, let's go!\""
 "Flynn yanks me to my feet and the next thing I know, I'm stumbling after him..."
 "...out of the mine, and out of what I'm now completely convinced is hell."
 
-scene nightroad 
-show nightoverlay 
+scene nightroad
+show nightoverlay
 with fade
 play loop "highway.ogg" fadein 3.0
 "I sit in the passenger seat of Flynn's truck, feeling numb."
@@ -4973,6 +5021,7 @@ m "\"I don't know.\""
 "It feels strange being back out here."
 "While everything is definitely fucked up and strange out here in Echo, at least it makes some sense."
 "The mine is completely different, it's..."
+#!!! This line could be removed for a cute effect
 "...Chaos, that's the word."
 m "\"Chaos.\""
 f "\"What?\""
@@ -4986,28 +5035,30 @@ f "\"Well, a lot was goin' on. Kudzu, that raccoon, is the one that told me you 
 f "\"Leo, on the other hand, said you were fine, that he saw you around the house.\""
 m "\"What?\""
 "Flynn shrugs."
-f "\"I have no fucking clue, but he was practically holding everyone hostage, wouldn't give the keys up, so I had to take my own truck out here.\""
+#!!!! A few times in Leo's route it mentions that Leo and the gang have a car at Leo's house, but they don't, because Chase's car was crashed, Leo's van was slashed, and Carl's car is in the lake
+# f "\"I have no fucking clue, but he was practically holding everyone hostage, wouldn't give the keys up, so I had to take my own truck out here.\""
+f "\"I have no fucking clue, but he was practically holding everyone hostage, so I had to take my own truck out here.\""
 m "\"Is...everyone okay?\""
 f "\"Hopefully. Jenna said she'd try and keep him calm while I came and looked for ya.\""
 m "\"How did you know I was in the mine?\""
 f "\"Well, Kudzu pointed out the direction you went.\""
 f "\"I drove up the canyon since that's basically the only place he could go. I saw where he'd parked and knew he'd taken you in there.\""
 m "\"But...how did you know about that back entrance?\""
-"Flynn smirks as we come out of the curvey Echo canyon onto a straight road to Echo."
+"Flynn smirks as we come out of the curvy Echo canyon onto a straight road to Echo."
 f "\"Does it really matter? Either way I know a lot about the town.\""
 "I watch Flynn for a while until he finally glances back at me."
 f "\"What?\""
 m "\"Where the hell have you been the past few days?\""
 f "\"Hm? Oh, in the Town Hall, managing...stuff.\""
 m "\"Stuff?\""
-f "\"Like, everything going on. I tried to find you guys at the hotel, at Carl's house, but I didn't see anyone. Assumed you'd tried to leave.\""
+f "\"Like, everything going on. I tried to find you guys at the motel, at Carl's house, but I didn't see anyone. Assumed you'd tried to leave.\""
 "That answer is far from satisfactory, but I have no energy to dig deeper."
 m "\"So are we going back?\""
 f "\"Yep.\""
 m "\"Then what?\""
 f "\"Well, they were saying something about a train, so I assume we try to get out that way. Sounds like you already found out you can't drive out.\""
 m "\"Yeah...\""
-"We turn on to the road to Leo's house and as I watch the house draw close, I can't help the growing sense of dread in the pit of my stomach."
+"We turn onto the road to Leo's house and as I watch the house draw close, I can't help the growing sense of dread in the pit of my stomach."
 stop loop fadeout 3.0
 
 scene bg leokitchen with fade
@@ -5083,8 +5134,8 @@ j "\"Oh! Good, thank you for watching, TJ.\""
 "I'm not sure if Jenna is relieved because our ride out is coming, or if it's because it can distract us from the whole Leo situation."
 "We all move at once, squeezing past Leo out to the backyard."
 "He watches me pass him, dumbfounded."
-scene bg railyardnight 
-show nightoverlay 
+scene bg railyardnight
+show nightoverlay
 with fade
 play loop "crickets.ogg" fadein 3.0
 "TJ's right."
@@ -5098,10 +5149,10 @@ f "\"Alright, for whatever reason that train is moving pretty fucking slow. We s
 f "\"I thought I was gonna have to drive alongside it with you all in the truck bed, honestly.\""
 "The train does seem to be moving pretty slow, but as it gets closer, I realize that it's not exactly going to be a jog to run alongside it."
 "I might be able to catch it at a full sprint."
-f "\"Alright, here's what we're gonna do; I'll get on first, along with Kudzu, and we're gonna pull the rest of you on, alright?\""
+f "\"Alright, here's what we're gonna do: I'll get on first, along with Kudzu, and we're gonna pull the rest of you on, alright?\""
 "Carl fidgets nervously."
 show Carl Rejected at right behind nightoverlay with dissolve
-c "\"I dunno if I can run that fast."
+c "\"I dunno if I can run that fast.\""
 f "\"You will, now—\""
 "I feel a paw land on my shoulder and turn me around."
 "It's Leo."
@@ -5162,7 +5213,7 @@ menu:
         "But I keep my eyes on Leo, waiting and watching to see what direction the gun might go in."
         show Leo Depressed with dis
         "But then it drops."
-        "First his arm which hangs loosely by his side once more, then the gun which clatters to the gravel below."
+        "First his arm, which hangs loosely by his side once more, then the gun, which clatters to the gravel below."
         "I flinch, expecting it to go off."
         "It doesn't, and instead my ears are filled with the sound of the arriving train."
         play loop "trainhopping.ogg" fadein 10.0
@@ -5177,14 +5228,15 @@ menu:
         "Flynn shoves Carl forward and the ram takes off alongside the rails, looking over his shoulder at the train."
         "The next thing I know, we're all running after Carl as the train catches up."
         "I look back."
-        "Flynn waves both arms at the locomotive as it whizzes passed, but if there's a reaction from the driver, I don't see it."
-        "I have just enough time to read the letters on the side of the engine \"PRESCOTT RAILWAY\" before it's moving past me down the tracks."
+        "Flynn waves both arms at the locomotive as it whizzes past, but if there's a reaction from the driver, I don't see it."
+        #!!! Maybe put emdashes around "PRESCOTT RAILWAY" or something?
+        "I have just enough time to read the letters on the side of the engine — PRESCOTT RAILWAY — before it's moving past me down the tracks."
         "I realize then that the train is quite short, maybe only five cars in all."
         "We won't have many chances."
         f "\"Kudzu!\""
         "Flynn points at the caboose and starts running beside it, next to two little steps that drop down at the very end from a platform."
-        "Gracefully, the Lizard jumps, landing his feet on the steps as his hands scramble for some kind of purchase."
-        "He finds it and pulls himself in and the next second he's reaching out, holding onto a handle on the caboose as he grabs one of Kudzu's paws."
+        "Gracefully, the lizard jumps, landing his feet on the steps as his hands scramble for some kind of purchase."
+        "He finds it and pulls himself in, and the next second he's reaching out, holding onto a handle on the caboose as he grabs one of Kudzu's paws."
         "With much more ease than Flynn had, Kudzu jumps up onto the steps and pulls himself onto the platform."
         "I pass Carl at this point, the ram already losing steam."
         "He calls after me in a hoarse, ragged voice."
@@ -5243,7 +5295,7 @@ menu:
         "Fuck you for what's buried in the mines."
         "{cps=22}{font=ui/belligerent.ttf}Fuck you for hurting Nik."
         "Fuck you for twisting my friends into something they're not."
-        "{cps=22}{font=ui/belligerent.ttf}Fuck you for hurting Cynthia and Murdoch"
+        "{cps=22}{font=ui/belligerent.ttf}Fuck you for hurting Cynthia and Murdoch."
         "And fuck you for {cps=22}{font=ui/belligerent.ttf}ruining my life."
         "I sit there on my knees, sobbing hard, like I'm crying for two people at once."
         "I can't see Leo anymore, but the thought of him alone and probably hurting like me is too much."
@@ -5298,7 +5350,7 @@ menu:
         "Finally, I pull back."
         m "\"Alright, we should probably go in. I don't think it's all that safe out here anyway.\""
         "Without letting go of me, Kudzu opens the door and guides me inside."
-        scene bg caboose 
+        scene bg caboose
         show nightoverlay
         with dissolve
         play loop "trainhoppingquiet.ogg" fadein 3.0
@@ -5311,10 +5363,11 @@ menu:
         "Carl smiles sadly."
         c "\"Yeah, sorry...\""
         m "\"You're fine, man.\""
-        "I see Jenna and TJ together on a seat further along the wall and Flynn sits opposite them."
+        "I see Jenna and TJ together on a seat further along the wall, and Flynn sits opposite them."
         "Further still, a small shape sits leaning against the opposite end of the caboose, curled up on his seat."
         "It's Clint."
-        "Flynn occasionally glances at him, but the polecat doesn't seem interested in coming closer to us."
+        #!!!! Clint is not a polecat
+        "Flynn occasionally glances at him, but the ringtail doesn't seem interested in coming closer to us."
         show Kudzu at right behind nightoverlay with dissolve
         "Kudzu guides me to sit next to Carl, and I make room so that the raccoon can sit next to me."
         show Carl Sad with dis
@@ -5325,7 +5378,7 @@ menu:
         "Kudzu's arm goes around my shoulders automatically, and we sit in silence for what feels like a long, long time."
         "And I don't mind it."
         "I wouldn't mind if this were the rest of my life, honestly."
-        "For the first time in several days I feel calm and safe."
+        "For the first time in several days, I feel calm and safe."
         hide nightoverlay with slow_dissolve
         "Soon enough though, the darkness of the caboose is illuminated with occasional flashes of light."
         "Flynn looks out the window."
@@ -5359,10 +5412,10 @@ menu:
         play background "highway.ogg" fadein 6.0
         scene bg route93 with opening_fade
         window show
-        m "\"Yeah mom, I promise I'll call you in an hour.\""
+        m "\"Yeah Mom, I promise I'll call you in an hour.\""
         m "\"...No, I'm not...no we're not staying the night.\""
         m "\"I promise...\""
-        m "\"Wow, mom—\""
+        m "\"Wow, Mom—\""
         m "\"Alright, alright, I swear.\""
         m "\"I love you, too. Bye.\""
         "I hang up and drop my paw into my lap, sighing loudly."
@@ -5396,9 +5449,10 @@ menu:
         scene bg flint with dissolve
         "I feel my stomach tighten as I suddenly realize we're driving past the lake, then onto Main Street."
         "It's completely abandoned...but then we pass the motel."
-        "The windows are all boarded up and the parking lot is filled with more cracks then I remember, but I'm hit with a wave of familiarity all the same."
+        "The windows are all boarded up and the parking lot is filled with more cracks than I remember, but I'm hit with a wave of familiarity all the same."
         "Standing in the parking lot are two people."
-        "Pointing at the motel is a large black bear and in front of him stands a canine of some kind with a video camera."
+        #! Devon is a brown bear, not a black bear
+        "Pointing at the motel is a large brown bear, and in front of him stands a canine of some kind with a video camera."
         "Kudzu snorts but doesn't say anything."
         "At first I feel a spark of anger at them, for probably seeing the whole thing as a morbidly fun adventure."
         "Not even having the slightest idea of what sort of hell the town went through."
@@ -5413,10 +5467,10 @@ menu:
         "I give him a quick peck on the side of his muzzle and he laughs."
         "I try to laugh as well, but it gets caught in my throat as I see that old house."
         stop background fadeout 3.0
-        "And there waiting in the driveway is Leo."
-        
+        "And there, waiting in the driveway, is Leo."
+
         scene bg leohouse with fade
-        show Leo 
+        show Leo
         show bracelet
         with dissolve
         play background "reststop.ogg" fadein 3.0
@@ -5448,15 +5502,15 @@ menu:
         ku "\"Naw, you two go ahead. I prefer the AC.\""
         l "\"Alright, cool.\""
         "Feeling just a little tension between the two of them, I quickly jump out and shut my door."
-        "I look over at the rail yard which is in full view of the car, and point."
+        "I look over at the rail yard, which is in full view of the car, and point."
         m "\"Wanna walk over there?\""
         stop background fadeout 3.0
         l "\"Sure.\""
-        
+
         scene bg railyardevening with dissolve
         play loop "eveningcall.ogg"
         m "\"So, you've just been hanging out here for the past two years?\""
-        show Leo 
+        show Leo
         show bracelet
         with dissolve
         l "\"A little bit. Spent a lot of time at my parents...I'm moving back in with them right now, actually.\""
@@ -5468,7 +5522,7 @@ menu:
         "Not a single person."
         l "\"I actually visited Carl once in a while over the summer.\""
         "Leo nods up toward the mountains and I see the big mansion glinting gently in the sunset."
-        m "\"Hey that's cool. I hears he's doing pretty good at school right now.\""
+        m "\"Hey that's cool. I hear he's doing pretty good at school right now.\""
         l "\"Good...are you going back to school?\""
         m "\"Meh.\""
         "I shrug my shoulders, walking up to the train tracks to straddle the steel rails."
@@ -5476,7 +5530,7 @@ menu:
         show Leo Depressed with dis
         "There's a lull in the conversation as we both go quiet."
         "I look around, wondering if this was the spot where we hopped the train."
-        "The train that turned out to be an old engine and caboose on its way to Payton where it was then transferred to a train museum."
+        "The train that turned out to be an old engine and caboose on its way to Payton, where it was then transferred to a train museum."
         "It had been traveling at a gentle 10 miles per hour to keep from derailing off the old tracks, just slow enough for us to catch."
         "It was the last of three engines being transferred that night."
         "Just a few hours later the emergency services went in and recovered whoever else was left in the town, including Leo."
@@ -5517,7 +5571,8 @@ menu:
         m "\"Listen, I'm sorry about everything that happened. I wish I could do things over, even before what happened here in Echo.\""
         stop loop fadeout 5.0
         "Leo looks at me for a moment, a sad smile on his face."
-        play music "epiphany.ogg" fadein 5.0 noloop
+        #!!!! Setting this to "noloop" makes the music stop completely when stepping back anywhere in the following dialogue
+        play music "epiphany.ogg" fadein 5.0
         show Leo Pain with dis
         l "\"The last two years have been hell for me. I cried myself to sleep every night thinking about you.\""
         "I feel my face flush with embarrassment and, for some reason, shame."
@@ -5526,7 +5581,7 @@ menu:
         l "\"Yeah, I still think about you sometimes, and when I do I still cry, but now it hurts less. So yeah, I am doing better, Chase.\""
         m "\"Oh! Well...well that's good.\""
         "I have no right to feel a little sad, but I do."
-        l "\"I'm sorry, Chase. For not protecting you the way I should have, for trying to control you and do all that shady shit behind your back.\""
+        l "\"I'm sorry, Chase. For not protecting you the way I should have, for trying to control you, and for doing all that shady shit behind your back.\""
         l "\"Whatever the fuck was in this town that made us all go crazy, I realize it twisted up my thinking...\""
         l "\"But those thoughts were always there. Echo just brought it up to the surface.\""
         l "\"So I'm a shitty person and you made me realize that, and I'm sorry I brought you into it. Just know that I really did love you.\""
@@ -5554,7 +5609,7 @@ menu:
         l "\"I look forward to it.\""
         m "\"Alright...bye then.\""
         l "\"Goodbye, Chase.\""
-        hide Leo 
+        hide Leo
         hide bracelet
         with dissolve
         "I walk the rest of the distance to the car and open the passenger door before getting in and sitting down."
@@ -5585,7 +5640,7 @@ menu:
 
         scene end with ending_fade
         $ renpy.pause(5.0, hard=False)
-        
+
     "\"We'll work something out.\"":
         m "\"I promise. When we get on that train we'll figure everything out, okay?\""
         "Leo watches me carefully, looking unsure."
@@ -5598,19 +5653,20 @@ menu:
         "I don't have time to try and console him anymore because the train starts pulling up."
         f "\"Run!\""
         hide Leo
-        hide Kudzu 
+        hide Kudzu
         with dissolve
         "Flynn shoves Carl forward and the ram takes off alongside the rails, looking over his shoulder at the train."
         "The next thing I know, we're all running after Carl as the train catches up."
         "I look back."
-        "Flynn waves both arms at the locomotive as it whizzes passed, but if there's a reaction from the driver, I don't see it."
-        "I have just enough time to read the letters on the side of the engine \"PRESCOTT RAILWAY\" before it's moving past me down the tracks."
+        "Flynn waves both arms at the locomotive as it whizzes past, but if there's a reaction from the driver, I don't see it."
+        #!!! Maybe put emdashes around "PRESCOTT RAILWAY" or something?
+        "I have just enough time to read the letters on the side of the engine — PRESCOTT RAILWAY — before it's moving past me down the tracks."
         "I realize then that the train is quite short, maybe only five cars in all."
         "We won't have many chances."
         f "\"Kudzu!\""
         "Flynn points at the caboose and starts running beside it, next to two little steps that drop down at the very end from a platform."
-        "Gracefully, the Lizard jumps, landing his feet on the steps as his hands scramble for some kind of purchase."
-        "He finds it and pulls himself in and the next second he's reaching out, holding onto a handle on the caboose as he grabs one of Kudzu's paws."
+        "Gracefully, the lizard jumps, landing his feet on the steps as his hands scramble for some kind of purchase."
+        "He finds it and pulls himself in, and the next second he's reaching out, holding onto a handle on the caboose as he grabs one of Kudzu's paws."
         "With much more ease than Flynn had, Kudzu jumps up onto the steps and pulls himself onto the platform."
         "I pass Carl at this point, the ram already losing steam."
         "He calls after me in a hoarse, ragged voice."
@@ -5648,19 +5704,19 @@ menu:
         "And then an almighty throb goes through my legs."
         "I gasp and push myself up..."
         "...and see my feet missing."
-        " I stare as my legs seem to end where the ends of my pants do."
+        "I stare as my legs seem to end where the ends of my pants do."
         "A dark, dark stain pools out on the ground around them."
         "I can't think."
         "I don't know what to think."
         ku "\"Chase!\""
         "I look up and see Kudzu, just Kudzu, limping toward me."
         "I wonder if he's missing a foot too, but no, just limping on it."
-        "As he approaches, I point at my missing feet, like Maybe he'll have the answer to what just happened."
+        "As he approaches, I point at my missing feet, like maybe he'll have the answer to what just happened."
         show Kudzu Annoyed at center behind nightoverlay with dissolve
         ku "\"FUCK!\""
         "Immediately, the raccoon drops down beside me, reaching for his waist."
         "He's undoing his belt and I'm about to tell him now's not the time for that kind of stuff, but then he starts putting the belt around one of my calves."
-        "That's when he lifts the pantleg and I get a glimpse of ragged flesh and fur, blood, and the white of bone."
+        "That's when he lifts the pant leg and I get a glimpse of ragged flesh and fur, blood, and the white of bone."
         ku "\"Leo you fucking dumbass, give me your other belt!\""
         "I hear footsteps behind me."
         ku "\"Take it o—\""
@@ -5679,7 +5735,7 @@ menu:
         scene bg black with slow_dissolve
         "Leo flashes me a grin from across the table as my mom turns away to get drinks from the fridge."
         "This is going way better than I thought it would."
-        "My dad asks Leo what he's doing for a living and the wolf tells him he's already got a high paying job at the auto repair shop."
+        "My dad asks Leo what he's doing for a living and the wolf tells him he's already got a high-paying job at the auto repair shop."
         "At the same time he's playing footsies with me under the table."
         scene bg leosbathroom with slow_dissolve
         "My legs are throbbing regularly now, not even really hurting."
@@ -5712,7 +5768,7 @@ menu:
         "My first kiss."
         "My excitement comes out in a burst of giggles as I hug my wolf to my body, feeling his soft warmth against me."
         "The wolf hugs back and we stay like that for a long time."
-        "I don't even mind that it's in this run down train yard in the middle of the hot desert."
+        "I don't even mind that it's in this run-down train yard in the middle of the hot desert."
         stop music fadeout 10.0
         "I'm in love with him."
         scene bg leoroomdark with slow_dissolve

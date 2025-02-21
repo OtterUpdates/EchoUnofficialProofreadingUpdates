@@ -62,7 +62,7 @@ c "\"Yeah, uh, just doing some yard work...obviously.\""
 c "\"Promised my parents I'd get this done before they got back.\""
 "Carl starts snipping at the bush again."
 "He's unusually sharp right now, I'm guessing because he hasn't had anything to smoke."
-"Either way it's jarring to see him so animated."
+"Either way, it's jarring to see him so animated."
 m "\"Well, looks like you're doing a good job.\""
 show Flynn with dis
 f "\"Oh, he's only moving this fast because he wants to hang out with you, Chase.\""
@@ -70,7 +70,7 @@ f "\"Oh, he's only moving this fast because he wants to hang out with you, Chase
 show Carl Annoyed with dis
 "Carl furrows his brow."
 c "\"Chase, you can go inside if you want. The back is open.\""
-"I think that's a good idea because it's clear now that I've walked in on an argument."
+"I think that's a good idea, because it's clear now that I've walked in on an argument."
 f "\"You should have seen him a few minutes ago; it was like he had a girlfriend comin' over.\""
 "Carl sighs loudly and his snips start to get a bit more violent."
 c "\"No, I'm just glad to have some company that isn't only you, Flynn.\""
@@ -86,7 +86,7 @@ show Carl Teasing with dis
 c "\"Well, you know, lizards can be fun, but they don't have ALL the parts that I like, if you know what I mean.\""
 "Carl smirks sideways at Flynn."
 "Flynn sneers back and, though I've decided that they're still joking, there's definitely a growing tension between them."
-f "\"Wath'cha sayin' there, Carl?\""
+f "\"What'cha sayin' there, Carl?\""
 "Carl stops snipping and plants the point of the clippers into the ground, leaning on it as he turns to face Flynn."
 c "\"What I'm saying is you've got no ba—\""
 show Flynn Teasing1 F with dis
@@ -104,7 +104,7 @@ f "\"Yeah, definitely wish I had those; all dangly and vulnerable and shit. Anyw
 "Flynn sticks the toothpick back into his muzzle and I have to consciously try not to cover my crotch while he walks by me."
 hide Flynn with dissolve
 "He hasn't looked at me this whole time."
-"Once Flynn's gone I sidle up to Carl who's still curled up on the ground, holding himself while he mutters under his breath."
+"Once Flynn's gone I sidle up to Carl, who's still curled up on the ground, holding himself while he mutters under his breath."
 m "\"Uh, you alright?\""
 c "\"Fuuuuuck, no.\""
 m "\"Um...\""
@@ -115,8 +115,8 @@ m "\"I forgot how much Flynn likes to hit people in the nuts.\""
 show Carl Annoyed at center with dissolve
 c "\"I'll get him back. It still hurts him if you hit hard enough.\""
 "As he stands there, doubled over with his paws on his knees, I look around."
-"Carl's house has actual grass in the back, which is rare in Echo; most people either xeriscape or just let the sage brush take over."
-"Another rarity are the two tall trees on either side of the yard."
+"Carl's house has actual grass in the back, which is rare in Echo; most people either xeriscape or just let the sagebrush take over."
+"Another rarity is the two tall trees on either side of the yard."
 "That's when I notice how empty one of them looks."
 m "\"Hey, where'd the tree house go?\""
 show Carl Neutral with dis
@@ -127,7 +127,7 @@ c "\"Oh yeah, my dad took it down a few years ago. It was falling apart.\""
 "I walk up to the base of the tree and put my hand against the trunk, grinning."
 m "\"Man, remember all the shit we did up there?\""
 show Carl with dis
-"Carl shuffles up next to me (still bowlegged) and grins, too."
+"Carl shuffles up next to me (still bow-legged) and grins, too."
 c "\"Yeah, good times.\""
 "I think about climbing it, but I notice that the branch we used to use as a foothold has been cut off."
 m "\"Your dad ruined this thing.\""
@@ -139,11 +139,11 @@ m "\"I don't know if—\""
 m "\"Dude, that's gonna break.\""
 c "\"So? I'm fucking fat; I'll bounce.\""
 scene carltree with dissolve
-"I'm about to tell him again that the branch is definitely going to break when I notice his shirt ridding up all the way over his round belly."
-"It's not like it's he's a bag of lard, though. It's a controlled type of gut, held tight with the muscles underneath pulling it in as he flexes."
+"I'm about to tell him again that the branch is definitely going to break when I notice his shirt riding up all the way over his round belly."
+"It's not like he's a bag of lard, though. It's a controlled type of gut, held tight with the muscles underneath pulling it in as he flexes."
 "He notices me staring right away and kicks out at me playfully."
 c "\"Pervert! First my moobs and now this.\""
-"I jump back and he tries to follow me with a bigger swing of his legs and that's when the branch snaps loudly."
+"I jump back and he tries to follow me with a bigger swing of his legs, and that's when the branch snaps loudly."
 "Carl goes down once again, landing squarely on his back."
 scene bg backyard with dissolve
 hide Carl
@@ -153,14 +153,15 @@ with vpunch
 c "\"Ooomph!\""
 stop music fadeout 3.0
 "I cover my face instinctively, but I still hear the hollow thud, followed by the whoosh of breath going out of his lungs."
-"Slowly I lower my paws and find the chubby ram rolling back and forth on the ground, eyes wide as his mouth hangs open."
+"Slowly, I lower my paws and find the chubby ram rolling back and forth on the ground, eyes wide as his mouth hangs open."
 "A distant memory comes to mind of a time when we were both ten and Carl was showing me a trick with his new bike ramp."
-"The handle bars ended up in his gut when he landed and he spent the following minute rolling around on the ground just like this."
+"The handlebars ended up in his gut when he landed and he spent the following minute rolling around on the ground just like this."
 "Good times."
 m "\"Shiiit.\""
 "I suck in air through my teeth and kneel next to him again, patting him uselessly."
-"After a few seconds of hesitation I reach over and grab the front of the waistband of his shorts and pull up on it."
-"Even though he's completely deflated he looks at me with a bizarre expression and swats at my paw, giving a few breathless snorts as he tries to laugh."
+#!! original version of this line is a little long-winded. also "and" repetition can be prevented with "to"?
+"After a few seconds of hesitation, I reach over to grab the front of the waistband of his shorts and pull up on it."
+"Even though he's completely deflated, he looks at me with a bizarre expression and swats at my paw, giving a few breathless snorts as he tries to laugh."
 m "\"Hey, it's supposed to help you breathe! I've seen the coaches do it at school...\""
 "I'm realizing that Carl's waaay too heavy to arch up like that, so I give up and end up just petting his stomach, wishing I could help somehow."
 m "\"Just...just stretch out.\""
@@ -179,13 +180,13 @@ c "\"I almost did, laughing while I couldn't breathe. I thought you were trying 
 m "\"Is it because I'm gay?\""
 c "\"That might just be it.\""
 "Carl grabs the branch that had broken off the tree and quirks up the corner of his mouth."
-c "\"Ugh, dad's not gonna be happy about that.\""
+c "\"Ugh, Dad's not gonna be happy about that.\""
 m "\"Who cares? It's just a branch.\""
 c "\"You know my dad.\""
 "He gets up and tosses the branch over the fence into the desert, then turns back to me."
 c "\"So now that it feels like Lucha fucking Lobo just gave me the {i}Quebradora Con Giro{/i}, I think I'm done for the day.\""
 c "\"Wanna work on your project, now?\""
-"I'd honestly rather just hang out out here with Carl, but the sun's enough to put a damper on that."
+"I'd honestly rather just hang out here with Carl, but the sun's enough to put a damper on that."
 stop loop fadeout 3.0
 
 scene bg livingroom
@@ -193,12 +194,12 @@ with dissolve
 play music "neutral.ogg"
 "Carl's house is like a labyrinth."
 "I think he once told me that it has over thirty rooms, which is fucking insane."
-"The living room is about five times larger than the one in my parent's house and it's hard to miss what looks like a 100 inch flat screen against the wall."
+"The living room is about five times larger than the one in my parents' house and it's hard to miss what looks like a 100-inch flat screen against the wall."
 "According to Carl, the first mansion was even bigger, though."
 "After getting a drink he leads me straight downstairs into the basement."
 "Down the hallway, we pass a small home theater, what looks like an entertainment room with a bar, and then a small gym."
 "The quick glance I get shows at least ten fitness contraptions."
-"After that, things get a little more dingey, and I can see how portions of the foundation could be decades old."
+"After that, things get a little more dingy, and I can see how portions of the foundation could be decades old."
 scene bg basement with dissolve
 "Finally, at the end of the hall, Carl opens a door and I can see from the ceiling that it's right under the stairs we came down on."
 "Carl waves his paw around and finally grasps something before pulling down."
@@ -219,7 +220,7 @@ scene bg crawlspace with dissolve
 "Pillars sprout from the ground in two rows that stretch back almost into darkness."
 "The ground is covered in a tarp and I see dozens of plastic bins lining the walls."
 m "\"This is a lot of shit.\""
-c "\"Yup, it's a few generations worth of shit.\""
+c "\"Yup, it's a few generations' worth of shit.\""
 "I walk over the tarp to look into one of the bins, but all I can see is clumps of cloth and towel through the cloudy plastic."
 "Carl walks past me straight towards the back of the crawl space, his big hooves clopping along loudly."
 c "\"I actually helped them sort through all this stuff last year, so I think I know where it is.\""
@@ -227,7 +228,7 @@ c "\"I actually helped them sort through all this stuff last year, so I think I 
 m "\"Should we get a flashlight?\""
 c "\"Naw, it's only in two tubs, I think. We'll just pull 'em to the front.\""
 "I stand off to the side as I watch him push bins around, looking at the labels on top."
-"I look over at one of them and see \"home movies\" written on it and it's filled with cassettes."
+"I look over at one of them and see \"home movies\" written on it, and it's filled with cassettes."
 show Carl at center with dissolve
 c "\"Ugh, don't remind me.\""
 "I look up and see that Carl's noticed me staring at the bin."
@@ -251,15 +252,16 @@ c "\"Found it!\""
 c "\"Help me carry one.\""
 "Carl lifts up the top one and starts waddling back to the front."
 hide Carl with dissolve
-"I bend over and lift the second and I'm surprised at how fucking heavy it is."
+"I bend over and lift the second, and I'm surprised at how fucking heavy it is."
 "I'm worried I'm not even gonna get it off the ground for a few seconds, but I manage after a while."
-"If Carl's bin is as heavy as mine then he's a fucking beast at being able to lift and carry it like that."
-"I stagger after him, almost certain that I'm gonna go head first into the wall."
-"Once we make it back near the stairs, I bend over to set down my bin and that's when I see a massive spider sitting on the lid."
+#! Change to "for" maybe? I can't tell.
+"If Carl's bin is as heavy as mine then he's a fucking beast for being able to lift and carry it like that."
+"I stagger after him, almost certain that I'm gonna go headfirst into the wall."
+"Once we make it back near the stairs, I bend over to set down my bin, and that's when I see a massive spider sitting on the lid."
 "It takes about half a second for me to recognize the black shape and spindly legs."
 m "\"Oh FUCK!\""
 play sound "mallet.mp3"
-"I scream and drop the bin and before I know it I'm halfway back from where we came, panting and shivering."
+"I scream and drop the bin, and before I know it I'm halfway back from where we came, panting and shivering."
 show Carl Surprised at center with dissolve
 c "\"Holy shit, what happened?\""
 "I tremble and try to steady my voice."
@@ -269,7 +271,7 @@ c "\"What? You're really still scared of those? Man, for a second I thought my s
 m "\"You told me there weren't any!\""
 c "\"I didn't say that. I just said we sprayed.\""
 m "\"Just get rid of it!\""
-"At this point I've shuffled a little closer back to the light and I can see Carl grinning as be bends over to look at the lid of the bin."
+"At this point I've shuffled a little closer back to the light and I can see Carl grinning as he bends over to look at the lid of the bin."
 c "\"Whoa! It's got babies on its back!\""
 "My body gives a violent, involuntary spasm and I shake my paws like a fucking girl."
 m "\"Stop it!\""
@@ -279,7 +281,7 @@ c "\"Wow, that was gay. But seriously, it's got a bunch of tiny babies on its ba
 "I cover my face."
 m "\"{i}Pleeeeaase{/i}.\""
 c "\"Alright, alright. I didn't know you were that scared of 'em. You should probably get that checked out.\""
-"Considering that I'd almost crashed my car into the garage of my parent's house when a spider crawled out of the AC, he was probably right."
+"Considering that I'd almost crashed my car into the garage of my parents' house when a spider crawled out of the AC, he was probably right."
 m "\"Just kill it.\""
 c "\"Why would I do that?\""
 "I watch as he tilts the bin sideways."
@@ -292,7 +294,7 @@ c "\"It's not gonna hurt anyone.\""
 c "\"You know, they actually clean up a lot of other bugs that get into the house.\""
 m "\"Yeeah, well, I'd rather be covered in ants than spiders.\""
 "It's clear he's trying not to laugh at me as he starts popping the lid off his bin."
-"On the top are a few framed pictures and under those are a few more cardboard boxes."
+"On the top are a few framed pictures, and under those are a few more cardboard boxes."
 "I release the latches on the other bin, keeping my eye out for any black spots that might jump out at me."
 "This one is filled with bundles wrapped in cloth or paper."
 "Carl drags his bin to the steps so that he can sit on them, and I follow suit."
@@ -308,7 +310,7 @@ m "\"Who's this?\""
 c "\"No idea. Probably a great uncle, or something.\""
 "I wrap the pocket watch and reach back into the bin to pull out the next item."
 "There's something really cool about old stuff. My mind wanders to who might have made it, who bought it, and how much shit it must have seen."
-"History was my first choice to major in, but dad put a stop to that pretty quick..."
+"History was my first choice to major in, but Dad put a stop to that pretty quick..."
 "I pull out various other things: dolls, a pipe, coins, and another pocket watch."
 m "\"I feel like this is worth a lot of money. Why don't they sell it?\""
 c "\"Probably, but it's family stuff, and I still think they wanna do the museum.\""
@@ -316,7 +318,7 @@ c "\"Probably, but it's family stuff, and I still think they wanna do the museum
 c "\"'Sides, we already got plenty of money.\""
 "He's got the binder open, looking at black and white photos behind the plastic."
 c "\"Hey, this is him, right?\""
-"He points at a picture of a very dignified looking ram, thumbs in his vest, wearing one of those big top hats. A fox stands next to him in a similar pose."
+"He points at a picture of a very dignified-looking ram, thumbs in his vest, wearing one of those big top hats. A fox stands next to him in a similar pose."
 "I can see a piece of yellowed paper set behind the photo and tug it out."
 m "\"James Hendricks. Yep, definitely him. And John Begay...huh.\""
 "That's Jenna's last name."
@@ -324,11 +326,12 @@ stop sound fadeout 10.0
 play loop "floodlight.ogg" fadein 5.0
 show Carl Neutral with dis
 "Carl's phone starts buzzing and he grunts as he leans back to pull it out of his pocket."
-c "\"Hey mom...helping Chase with his project.\""
+c "\"Hey Mom...helping Chase with his project.\""
 c "\"No, I—of course not.\""
 "I look over at him, but he gets up and clops back up the steps."
 hide Carl with dissolve
-"Looking back down at the picture I wonder if it's just coincidence, but I don't think so."
+#!! Correct either way I think
+"Looking back down at the picture I wonder if it's just a coincidence, but I don't think so."
 "Jenna's family has been in Echo since the beginning, too, so this guy definitely has to be a relative of some kind."
 play sound "camera.ogg"
 "I take a picture of the photograph with my phone. I'll show it to Jenna later and ask if she knows anything about it."
@@ -345,7 +348,7 @@ with fade
 "As I approach Carl's room I smell it before I even open the door."
 "He's reclined on his bed, an arm thrown over his face, the big window above him open."
 "Clothes are scattered all over the floor, along with a few empty water bottles and bowls."
-"Every inch of the walls are covered in posters like I remember, along with a few on the ceiling."
+"Every inch of the walls is covered in posters like I remember, along with a few on the ceiling."
 "Bookcases line the opposite wall, filled to the brim with comics and toys."
 "He raises up his arm as I walk in and smiles."
 show Carl at center with dissolve
@@ -354,7 +357,7 @@ c "\"Sorry about the mess, dude. It's hard to keep everything clean when my pare
 m "\"It's okay...Are you okay?\""
 "He grins toothily."
 c "\"Dude, I'm MORE than okay.\""
-"Since there's no where else to sit I end up sitting down on the foot of his bed."
+"Since there's nowhere else to sit I end up sitting down on the foot of his bed."
 m "\"Do they...do they let you smoke in here?\""
 "The smell in his room is layered and old, like the walls had been blanketed in the smell several times before."
 c "\"Eeeyup. They gave up trying to stop me.\""
@@ -362,8 +365,8 @@ c "\"Better to be in the house rather than getting caught by some cop outside. T
 c "\"Heh, good thing they don't know I've already tried dick.\""
 "He puts a lot of emphasis on the 'K' as the bad joke seems to just dribble out his muzzle."
 m "\"Hmm.\""
-"I lean back on the bed and that's when I notice his flat screen (just a 48 inch) is on, a list of video files displayed on it."
-m "\"Wat'cha watching?\""
+"I lean back on the bed, and that's when I notice his flat screen (just a 48-inch) is on, a list of video files displayed on it."
+m "\"What'cha watching?\""
 c "\"Hmm? Oh!\""
 "Carl grunts as he sits up and reaches for a game controller."
 c "\"Our old home movies. Was gonna show you some of 'em.\""
@@ -375,12 +378,12 @@ play music "carefree.ogg" fadein 10.0
 "The backyard I was in an hour earlier pops up on the screen."
 "Now a long table sits in the middle of the lawn, along with a massive bounce house."
 "And not just any bounce house, but a giant, two-story one you'd find at the state fair."
-"The video is timestamped Apr. 19 2002."
+"The video is timestamped Apr. 19, 2002."
 m "\"Fuck, I remember this.\""
 "There are about twenty kids, mostly in the bounce house and most of whom I've forgotten."
-"Right now, though, the camera's zooming in on an eight year old Carl."
+"Right now, though, the camera's zooming in on an eight-year-old Carl."
 "He's messing with a giant Nerf gun, the kind that no kid ever gets because they're so damn expensive."
-"And that's when eight year old me enters the picture, holding a much smaller Nerf gun."
+"And that's when eight-year-old me enters the picture, holding a much smaller Nerf gun."
 "His parents gave everyone a goodie bag that day. It had toys in it that I might not have been able to get on my own birthday."
 "My kid self puts the gun to Carl's head and pulls the trigger, the dart bouncing off one of his horns."
 "I specifically remember that moment. I had thought the suction end of the dart was going to stick, but of course it didn't."
@@ -391,7 +394,7 @@ c "\"Still, you blew out my candles.\""
 m "\"Oh yeah...\""
 "He got so mad about that."
 "I start to settle back and smile."
-"It's been a long time since I've watched a home movie and I've forgotten how nice it is to have this method of looking back."
+"It's been a long time since I've watched a home movie, and I've forgotten how nice it is to have this method of looking back."
 "Kind of like when I get stuck on scrolling through all the old images on my phone."
 "My younger self is trying to help Carl with the gun, lifting up the barrel and looking into the opening."
 "Jim" "\"Careful!\""
@@ -399,7 +402,7 @@ m "\"Oh yeah...\""
 "Jim" "\"Let's see how long it takes him to trick Carl into trading with him.\""
 "Carl's dad sounds exasperated, but good-natured."
 "It still makes me blush a bit, now knowing how aware Jim was of my taking advantage of his son."
-"Our struggles with the Nerf gun gets the attention of another kid, though."
+"Our struggles with the Nerf gun get the attention of another kid, though."
 "My breath catches in my throat as Sydney bounces into frame."
 stop music fadeout 5.0
 "I can feel Carl tensing up next to me, too, and he starts to lean for the game controller."
@@ -443,15 +446,15 @@ c "\"And speaking of old times, let's make a pizza!\""
 scene bg kitchen with dissolve
 "We go into the massive kitchen and pull a big frozen pizza from the fridge and, while it bakes, we sit at the counter and talk."
 "At this point the haze of pot has lifted from Carl's face and he's animated and excited again, swiveling on one of the counter stools."
-"For the first time in almost ten years I'm giddy and excited in the way you only get when you're at a sleepover."
+"For the first time in almost ten years, I'm giddy and excited in the way you only get when you're at a sleepover."
 "That makes it a little jarring when he pulls out some beers, but I'm happy to have a few and we guzzle them down as we talk about past sleepovers."
 "Pretty soon our reminiscing drifts into the present and that's when the conversation slows a bit, Carl having less to say."
 "I try to change the subject and tell him that he should come back to school."
 "He just smiles and shakes his head."
 stop music fadeout 3.0
 
-scene bg carlsroomnight 
-show nightoverlay 
+scene bg carlsroomnight
+show nightoverlay
 with transition_fade
 "Three hours later, we're both laying back on Carl's bed, head to toe, having just watched a shitty action movie."
 "We didn't end up going out to get my stuff, so I'm just in my boxers, pleasantly drowsy and buzzed."
@@ -459,7 +462,7 @@ with transition_fade
 m "\"What's up?\""
 "He looks over at me and shrugs."
 show Carlu Neutral behind nightoverlay at center with dissolve
-c "\"Nothin', just thinkin'\""
+c "\"Nothin', just thinkin'.\""
 m "\"What about?\""
 play music "intimate.ogg" fadein 15.0
 "During our past sleepovers Carl had always been afraid to be the last to fall asleep."
@@ -482,7 +485,7 @@ m "\"I mean, your art is great, you did go to school even if you dropped out, an
 m "\"There are a lot of people out there who can't even say that.\""
 "Carl laughs, but it's a sad kind of laugh."
 c "\"Try saying that to my mom. She's always got something to do, always WANTS to do something.\""
-c "\"I just...I just don't feel that."
+c "\"I just...I just don't feel that.\""
 show Carlu Depressed behind nightoverlay with dis
 "He turns his head towards me."
 c "\"I {i}wish{/i} I did, Chase, but I just {i}can't{/i}.\""
@@ -490,7 +493,8 @@ c "\"I {i}wish{/i} I did, Chase, but I just {i}can't{/i}.\""
 "The beer we've had is definitely partly to blame for this."
 "He turns his head towards the wall, though, and I'm guiltily relieved that when he talks again his voice is under control."
 c "\"I just wish it wasn't such a goddamn chore for me to just go outside, ya know?\""
-"I didn't know, but I nod anyway, even if he can't see."
+#!! didn't -> don't? not sure
+"I don't know, but I nod anyway, even if he can't see."
 "He's waiting for me to say something, though, so I clear my throat."
 menu:
     "You have a problem.":
@@ -510,7 +514,7 @@ menu:
         m "\"If it's so hard to get out, then just don't.\""
         m "\"People figure things out, eventually. And if you always just want to stay home then do that.\""
         m "\"Just, uh, try to figure out a way to sustain yourself. That's pretty much the gist of what my therapist told me; do what makes you happy.\""
-show Carlu Rejected behind nightoverlay with dis        
+show Carlu Rejected behind nightoverlay with dis
 "He watches me for a few seconds."
 c "\"So is all that.. are all those problems you had taken care of now?\""
 m "\"I hope so.\""
@@ -528,16 +532,17 @@ m "\"It's cool to be here, Carl.\""
 stop music fadeout 5.0
 c "\"And not just because it's nice to have someone to talk to.\""
 m "\"Oh?\""
-show Carlu Rejected behind nightoverlay with dis 
+show Carlu Rejected behind nightoverlay with dis
 c "\"No. This house is fucking haunted.\""
 
 scene bg black
 with transition_fade
 $ renpy.pause(2.0, hard=True)
-scene bg carlsroomnight 
-show nightoverlay 
+scene bg carlsroomnight
+show nightoverlay
 with dissolve
-play sound "scrape.ogg" 
+#!!!! These scrapes are basically inaudible unless the volume is cranked all the way up
+play sound "scrape.ogg"
 "I don't remember falling asleep, but it's at that moment that something wakes me up."
 "I jolt, then lay there, trying to remember where I am."
 "Carl's house, that's right."
@@ -615,7 +620,7 @@ c "\"Shh!\""
 "He leans down, a paw on the handle."
 "Looking back at me, he signals me with his eyes to be ready."
 "I grip onto the broom like a lifeline as I wait for him to swing the door open and, when he does—"
-scene bg black 
+scene bg black
 show nightoverlay
 with dissolve
 "..."
@@ -664,7 +669,8 @@ m "\"L—look out. A big-a big spider!\""
 "The breath keeps catching in my throat. I think I'm hyperventilating."
 "I'm still clutching at the door frame as Carl follows up behind me, his eyes wide."
 c "\"Wha-come on Chase, this is crazy.\""
-m "\"No, huge—a blond!\""
+#! Spelled "blonde" everywhere else
+m "\"No, huge—a blonde!\""
 c "\"No fucking way!\""
 "Now he looks excited and he turns back to the crawl space."
 "I feel numb right now. This is all too much to handle. What the fuck is even going on?"
@@ -673,7 +679,7 @@ c "\"Which way!?\""
 "Carl squints, then walks down the steps, looking around."
 hide Carlu with dissolve
 m "\"Careful!\""
-c "\"If it was really a blond there's not much to worry about. I hear they're actually pretty gentle.\""
+c "\"If it was really a blonde there's not much to worry about. I hear they're actually pretty gentle.\""
 "I gulp and don't say anything."
 "My head is pounding and buzzing which, for some reason, doesn't exactly feel like it has anything to do with the adrenaline rush."
 "It's more like a bad headache."

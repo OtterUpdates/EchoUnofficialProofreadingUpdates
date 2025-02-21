@@ -8,26 +8,27 @@ scene bg route93
 with slow_dissolve
 window show
 play music "highway.ogg" fadein 2.5
-"Payton is about a bit of a distance away."
+#!! "about a bit of a distance" is way too jarring
+"Payton is a bit of a distance away."
 "To get there, you have to get on Route 93 - which Flynn tells me isn't even called that anymore."
 "That would make sense considering how it was impossible to find on the GPS."
-"Anyway, to get to the city you have to merge from the.. remnants of 93 onto I-40 which runs straight through the city of Payton."
+"Anyway, to get to the city you have to merge from the.. remnants of 93 onto I-40, which runs straight through the city of Payton."
 stop music fadeout 2.5
 "About fifteen minutes from Payton we pull over at a rest stop which sits at a higher elevation than Echo."
 "If you're looking in the right direction it gives you a great view of the town."
 scene bg reststop
 with dissolve
 play background "reststop.ogg" fadein 2.5
-"I stand outside the old, run down restroom, a paw over my eyes as I stare out over the desert."
+"I stand outside the old, run-down restroom, a paw over my eyes as I stare out over the desert."
 "A distant, hazy view of a group of small buildings huddled together signals where the town is."
 "From this vicarious distance, it looks small and harmless, hard to imagine all of the things that happened there."
 show Leo at center
 with dissolve
 l "\"Alright, how do I use this thing?\""
-"I look over and see Leo fumbling with the camera, obviously worried that he was going to break it."
+"I look over and see Leo fumbling with the camera, obviously worried that he's going to break it."
 "I walk over and show him how to use it, checking the white balance and exposure myself."
 "I wasn't too good with cameras, but the equipment manager at the university had given me a quick lesson on how to do things."
-m "\"Alright, so I want you to zoom out from Echo, slowly, and while you do that I'm going to walk in frame, okay?"
+m "\"Alright, so I want you to zoom out from Echo, slowly, and while you do that I'm going to walk in frame, okay?\""
 l "\"Yeah, okay.\""
 "Leo hoists the camera up and looks through the viewfinder, ears perked up and smiling."
 m "\"Alright, signal me when you're ready.\""
@@ -45,11 +46,11 @@ m "\"It was at this point in time that a peculiar phenomenon of mass hysteria to
 m "\"Many say the reason this occurred was due to the discovery of a body within the gold mine and the circumstances surrounding that discovery.\""
 m "\"While not much is known about this event, what {i}is{/i} known is that once it ended a large portion of the population left Echo.\""
 m "\"Most of those who left settled in the nearby town of Payton.\""
-m "\"However, the town still managed to prosper well enough until the 40's.\""
-m "\"That's when the government stepped in to shut down the mine as it became a federal law to divert all mining resources to the war effort.\""
+m "\"However, the town still managed to prosper well enough until the '40s.\""
+m "\"That's when the government stepped in to shut down the mine, as it became a federal law to divert all mining resources to the war effort.\""
 m "\"The town's population sharply declined shortly thereafter and, by the 1950s, it had dwindled to approximately 2,000 people.\""
 m "\"A shutdown of the Prescott railway in the 1960s, followed by the bypassing of Route 93 by I-40 in 1986 was the final nail in the coffin for the town.\""
-m "\"By the 90s the population had dwindled to just 150 people.\""
+m "\"By the '90s the population had dwindled to just 150 people.\""
 m "\"My goal, however, is to investigate the first event which lead to this town's decline, and possible demise.\""
 m "\"What happened in that mine almost 150 years ago?\""
 m "\"I've come to Echo to try and find out what information, if any, can be gleaned from the events of the past.\""
@@ -70,10 +71,10 @@ c "\"YO, CHASE!\""
 hide Leo
 with dissolve
 "Leo and I look up towards the car, greeted by the sight of a bright white ram's ass hanging out the back window of Leo's van."
-"I don't really react. I mean, despite being self-concious about his weight, Carl was pretty shameless about stuff like this."
+"I don't really react. I mean, despite being self-conscious about his weight, Carl was pretty shameless about stuff like this."
 "I'd probably seen his naked butt more often than I'd seen Leo's...and that was saying something."
 c "\"Make sure you get a shot of m- HEY!\""
-"At that moment, Flynn who is sitting next to Carl in the back, reaches around and yanks the ram's pants down so that they hang around his knees."
+"At that moment, Flynn, who is sitting next to Carl in the back, reaches around and yanks the ram's pants down so that they hang around his knees."
 "Even though Carl's pretty quick to pull them back up, I still get a pretty good view of his equally big white balls dangling between his legs."
 "Leo snorts and I can see Flynn laughing his ass off while Carl punches him in the shoulder."
 "Unfortunately for TJ, who is sitting in the middle row with Jenna, he was looking back at the time and probably got a much better view than I did."
@@ -117,13 +118,13 @@ with dissolve
 t "\"Y-you sure...the line is always so long for that ride...\""
 "TJ's looking up towards a tall, spiraling, electric red steel roller coaster."
 "It's definitely the most recognizable landmark in the park, you could see it from almost anywhere in Payton."
-l "\"Yep! Fastest and tallest roller coaster in the West!  I think it'll be worth it.\""
+l "\"Yep! Fastest and tallest roller coaster in the West! I think it'll be worth it.\""
 t "\"Oh...\""
 "TJ rubs his arm with one paw, the corner of his muzzle twitching a little bit."
 "I had forgotten about that."
 "He used to have a pretty pronounced motor tic where the corner of his mouth would twitch up over and over again."
 "It used to be a constant thing, but it stopped once we entered middle school. Guess it hadn't completely gone away."
-l "\"You alright, TJ?  We could skip the big rides if you-\""
+l "\"You alright, TJ? We could skip the big rides if you-\""
 show Flynn Annoyed with dis
 f "\"Oh, hell, TJ, you're a fucking adult now!\""
 t "\"No! It's fine.. I'm fine. I just haven't been on a roller coaster in a while.\""
@@ -138,7 +139,7 @@ show Flynn Annoyed at center
 show Leo at farleft
 with easeinleft
 c "\"Anyone wanna share?\""
-l "\"Yeah! that looks really good-\""
+l "\"Yeah! That looks really good-\""
 show Leo Neutral with dis
 c "\"No? Alright, guess I'll have to eat the whooole thing.\""
 f "\"Great, now we gotta wait for fatass to finish eating.\""
@@ -149,7 +150,7 @@ with fade
 stop music fadeout 5.0
 "The line ends up being two hours long and by the time we get to the actual ride, I'm dying to get into a pool of any kind."
 "To put it bluntly, an otter needs water."
-"Part of the problem of living in Echo meant that we didn't have any kind of indoor pool system in our house, being as cheap as it was."
+"Part of the problem with living in Echo was that we didn't have any kind of indoor pool system in our house, being as cheap as it was."
 "We ended up having to get an outdoor swimming pool, which was a pain."
 show Leo at center with dissolve
 l "\"Heh, nervous, Chase?\""
@@ -186,7 +187,7 @@ show TJ Depressed1 with dis
 "I look up and see TJ standing on the edge of the platform, his eyes wide, one foot stuck out to get on."
 m "\"TJ?\""
 t "\"I...I uh...\""
-"A bored looking teenage fox comes by to check my lap bar and I stick out my paw."
+"A bored-looking teenage fox comes by to check my lap bar and I stick out my paw."
 m "\"Hey wait. TJ, you getting on?\""
 "The fox goes from looking bored to mildly annoyed."
 "Ride Attendant" "\"If you're getting on, you need to get on now. We can't hold up the entire ride for you, sir. The exit's that way where other adventures await.\""
@@ -256,7 +257,8 @@ with dissolve
 "He sees me looking over my arm and his face crumples up again."
 t "\"Chase, I'm sorry. Is it bad?\""
 "I really don't want him to start crying again."
-"TJ cried a lot when he was a kid, almost every day and, even at 19, it seems like he's still pretty susceptible."
+#!! maybe emdashes around "almost every day"?
+"TJ cried a lot when he was a kid, almost every day, and even at 19, it seems like he's still pretty susceptible."
 m "\"It's fine, it's fine! Doesn't even hurt.\""
 t "\"Ah...well, th-that's good.\""
 "We stand there awkwardly for a few seconds, then I air out my shirt, which was starting to stick to my sweaty body."
@@ -287,7 +289,7 @@ with dissolve
 f "\"That's what you get for stuffing your face right before the ride.\""
 j "\"You think they sell ginger pills here, or ginger ale, at least?\""
 c "\"Ergh...A joint would be nice.\""
-t "\"There are some vendors over there, I'll go check."
+t "\"There are some vendors over there, I'll go check.\""
 "I'm actually kinda glad everyone's preoccupied with Carl right now; takes some of the heat off of TJ."
 show Leo Neutral at center behind Carl
 with dissolve
@@ -303,10 +305,10 @@ with dissolve
 c "\"Urrgghh...\""
 show TJ Neutral at right
 with dissolve
-"TJ comes back with a medium sized cup in his paws. He sits next to Carl."
+"TJ comes back with a medium-sized cup in his paws. He sits next to Carl."
 t "\"No ginger ale, but they did have some lime soda.\""
-"Carl takes it and sips a bit of it before sitting back and belching."
-c "\"Ugh...fuck it, I'm done guys.\""
+"Carl takes it and sips a bit before sitting back and belching."
+c "\"Ugh...fuck it, I'm done, guys.\""
 f "\"What!? What're you gonna do all day, sit there?\""
 t "\"Actually, me and Chase are going to go see some shows. You can come with us.\""
 scene bg hedge
@@ -315,7 +317,7 @@ show Leo Neutral at left
 with dissolve
 f "\"Ugh.\""
 l "\"Guys, we were doing this to hang out with each other, remember?\""
-f "\"Aw, leave 'em.  We're wasting time.\""
+f "\"Aw, leave 'em. We're wasting time.\""
 hide Flynn
 with moveoutright
 "Flynn turns and walks off, his hands shoved in his pockets, hunched like a stone gargoyle."
@@ -330,7 +332,7 @@ hide Jenna with moveoutright
 "He looks at me, before eventually turning to follow Flynn and Jenna."
 hide Leo with dissolve
 stop music fadeout 10.0
-"Five minutes later Carl's stomach settles to the point where he's able to get up and walk."
+"Five minutes later, Carl's stomach settles to the point where he's able to get up and walk."
 "At this point, I'm completely wiped out and I just want to sit down."
 scene bg stage
 with fade
@@ -380,7 +382,7 @@ c "\"You know what, I can see it...Yeah.\""
 c "\"You're the hot preppy one everyone likes, I'm the big fat chick you're all nice to, but call Big Thunder Mountain behind her back, and TJ—!\""
 "TJ hadn't been paying attention, distracted with watching some dancers come on stage. He looks innocently at us."
 t "\"Huh?\""
-c "\"You're the cute, naive Christian chick that only takes it up the butt so as to stay a virgin.\""
+c "\"You're the cute, naive Christian chick that only takes it up the butt so she can stay a virgin.\""
 #Malcolm line
 show TJ Surprised with dis
 t "\"Whaaa!?\""
@@ -424,7 +426,7 @@ menu:
         m "\"I'm soooo tired, man.\""
         t "\"A-alright...\""
         "I lay my head in the crook of his neck and I feel him tense up a little, but after a while he relaxes."
-        "There's some heat coming off his neck, and I'm pretty sure he's blushing. It's not too bad, though.  He may be slender, but his fur is pretty damn soft."
+        "There's some heat coming off his neck, and I'm pretty sure he's blushing. It's not too bad, though. He may be slender, but his fur is pretty damn soft."
 
 "The sounds of the clapping and fiddles starts to drift away as the lack of sleep takes its toll..."
 
@@ -434,7 +436,7 @@ stop background fadeout 3.0
 play music "creep.ogg"
 "I feel along the rough edges of rock and dirt. The only thing I can hear is the shower of debris I'm knocking to the ground."
 "The air is stale and I have the vague feeling that I'm suffocating."
-"I keep going, I'm gonna reach the end eventually, just have to keep moving.  I can tell that I'm going down, deeper and deeper."
+"I keep going, I'm gonna reach the end eventually, just have to keep moving. I can tell that I'm going down, deeper and deeper."
 "The space around me is growing smaller and smaller and soon, I'm hunching so that my head doesn't scrape the ceiling."
 "I can hear footsteps, not quite in synchrony with my own."
 "They aren't any kind of footsteps that I've heard before though."
@@ -484,19 +486,19 @@ m "\"I'm fine, I'm fine....just a really bad dream.\""
 t "\"What about?\""
 m "\"I uh...\""
 #Tell Truth or not?
-m "\"I'm...not really sure.  Just in a really dark place...and some things were in there.\""
+m "\"I'm...not really sure. Just in a really dark place...and some things were in there.\""
 c "\"Huh, that does sound pretty creepy. What kinds of things?\""
 "I think for a minute."
 "The weird, crawling thing, the screaming thing...I pull my head up, looking towards the stage, which is empty right now."
-m "\"It...it doesn't matter, it was just a dream.  Hey, what happened to the show?\""
+m "\"It...it doesn't matter, it was just a dream. Hey, what happened to the show?\""
 "Carl chuckles next to me, leaning back again."
-c "\"Ya missed 'em, dude.  We've seen like, three shows.\""
+c "\"Ya missed 'em, dude. We've seen like, three shows.\""
 t "\"Yeah, they even had a segment with otters doing water tricks! We thought about waking you up for it, but you were in a really deep sleep.\""
 "That's too bad, I always loved seeing my people laughed at for the swimming clowns that we are."
 m "\"How long's it been?\""
 "Carl checks his phone, which he already has out."
 c "\"Been about three hours, could probably get some lunch now.\""
-"Damn, I'd been out for a while.  I'm surprised I hadn't at least woken up a few times, considering the uncomfortable position I'd been in."
+"Damn, I'd been out for a while. I'm surprised I hadn't at least woken up a few times, considering the uncomfortable position I'd been in."
 t "\"I guess you feel better, then?\""
 c "\"Yeah, been feelin' better for the past two hours. Now I'm hungry.\""
 #"I've composed myself for the most part and take out my phone to text Leo. It's already 2 PM, so I tell him we're hungry, and that we should meet up."
@@ -528,7 +530,7 @@ with dissolve
 f "\"Ugh, of course. You guys have fun?\""
 c "\"It was alright, watched a few shows about our state's speciesist history...Chase took a nap.\""
 "Flynn eyes TJ, who doesn't say anything as he sits to take out his own slice of pizza, a bit more daintily than Carl had."
-f "\"Feelin' better Teej?\""
+f "\"Feelin' better, Teej?\""
 t "\"Yeah, I'm fine.\""
 "TJ nibbles on his slice of cheese pizza."
 f "\"Yeah, well, the pizza here is a hell of a lot scarier than any of the rides, so you're braver than I am.\""
@@ -603,16 +605,16 @@ with easeoutright
 show Leo Wry at right with easeinleft
 l "\"I'd like a try.\""
 car "\"Ah, we have a taker! Big strong wolf like you would have no problem at all! Three dollars, please!\""
-"Leo hands over the money and the Carny hands him a mallet."
+"Leo hands over the money and the carny hands him a mallet."
 "Leo points it at me with a grin."
 l "\"This one's for you, {i}chula{/i}.\""
 #the moment that started it all#
 "My heart skips a beat; he hasn't called me that in a while."
 "But I decide to play along."
-m "\"Don't disappoint me, Leo.  I really want that stuffed gryphon!\""
+m "\"Don't disappoint me, Leo. I really want that stuffed gryphon!\""
 "I point to the gryphon on the carny's long shelf of toys."
 l "\"Sure thing.\""
-"Leo spreads his legs and squares his shoulders before raising the hammer, and bringing it down hard onto the rubber looking pad."
+"Leo spreads his legs and squares his shoulders before raising the hammer, and bringing it down hard onto the rubber-looking pad."
 play sound "mallet.mp3"
 with vpunch
 "It's a pretty hard hit, but the chaser only raises up to the 40 mark."
@@ -695,14 +697,14 @@ m "\"Jenna!\""
 j "\"Oh hush, he'll get over it. He's just so damn fun to tease!\""
 "I have to agree, but not when I'm being used to do the teasing."
 m "\"He's still really sensitive about the whole thing.\""
-j "\"You guys talked it over, didn't you?  Anyway, aren't you gay?\""
+j "\"You guys talked it over, didn't you? Anyway, aren't you gay?\""
 "I take a deep breath."
 menu:
     "Yes, I'm gay.":
         $ Jenna_Route = "Gay"
         m "\"Yeah...\""
         j "\"See? He's got nothing to worry about!\""
-        "I'm not in the mood to go in depth about my sexuality."
+        "I'm not in the mood to go in-depth about my sexuality."
         "Saying anything else confuses people."
     "No, I'm bi.":
         $ Jenna_Route = "Bi"
@@ -721,7 +723,7 @@ scene bg swadventures3
 with fade
 #intimate music
 "The rest of the day is pretty relaxing. We ride a few of the more mellow rides."
-"Leo seemed to cheer up when I volunteered to sit next to him on the ferris wheel."
+"Leo seemed to cheer up when I volunteered to sit next to him on the Ferris wheel."
 "TJ even built up his courage to the point where he rode the swinging ship."
 "Flynn and Carl rode the slingshot ride together, and, with the video feed from the ground I think it's the first time I've ever seen Flynn scared."
 "Carl did end up barfing after that one."
@@ -733,7 +735,7 @@ scene bg parkingloteve
 with dissolve
 "When we do get back I notice how good the sun looks right now."
 "With a sigh I remind myself that I'm here to actually get a project done, not just play around."
-"So as everyone sits in the motel I let them know I'm about to shoot some b-roll, gathering up my equipment and heading out into the heat."
+"So as everyone sits in the motel I let them know I'm about to shoot some B-roll, gathering up my equipment and heading out into the heat."
 "Dragging it outside, I set it up, sweating even under the evening light."
 "Even this late in the day the heat was pissing me off. For some reason it's a lot cooler in Pueblo."
 "My mind drifts back to the many days of summer under the blazing sun, the temperature rarely dipping below a hundred."
@@ -748,7 +750,7 @@ with dissolve
 l "\"How's the filming?\""
 m "\"It's alright. Kinda ran out of sun, but it's okay; Echo looks like crap no matter what kind of light you shoot it in.\""
 j "\"Do you need us to keep quiet?\""
-m "\"Naw, I'm just shooting b-roll. Was about to come back in.\""
+m "\"Naw, I'm just shooting B-roll. Was about to come back in.\""
 l "\"Let's stay out here a minute. Carl and Flynn are...getting a little loud.\""
 l "\"Besides, I want to talk to you two!\""
 show Leo at center with moveinright
@@ -808,7 +810,7 @@ j "\"And speaking of that, when are you going back to Mesa?\""
 show Leo Depressed with dis
 l "\"We'll see, I'll have to talk to my parents.\""
 l "\"It's just.. starting to get really busy.\""
-j "\"Why don't they hire more people?  You know, you would have graduated by now...you would have had your MASTERS by now.\""
+j "\"Why don't they hire more people? You know, you would have graduated by now...you would have had your MASTERS by now.\""
 "Leo sighs."
 l "\"It's about committing to the family business, not the help he needs.\""
 show Jenna with dis
@@ -827,7 +829,7 @@ m "\"Huh, what?\""
 l "\"Jenna...\""
 j "\"I'm serious.\""
 "Jenna puts her paw up in Leo's face, cutting him off."
-j "\"I am NOT going to spend this entire week with you asking me when or how you should do it.  Let's rip off the band-aid now. Chase—\""
+j "\"I am NOT going to spend this entire week with you asking me when or how you should do it. Let's rip off the band-aid now. Chase—\""
 l "\"Jenna.\""
 show Leo Depressed with dis
 "There's a warning tone in Leo's voice as he pins back his ears and drops his arms from our shoulders."
@@ -852,7 +854,7 @@ l "\"Not talking to you about this when I should have. Talking to Jenna about it
 "He's smiling at me, but I grit my teeth."
 m "\"Why are you still wearing that?\""
 l "\"I...\""
-"His eyes flick from the bracelet then back to my face, expression turning defensive."
+"His eyes flick to the bracelet and then back to my face, expression turning defensive."
 l "\"Why aren't you still wearing yours? Don't you remember what we said?\""
 "I sigh, looking at the scattering of clouds behind Leo's head. They're tinged a soft pink from the fading sun."
 "The sunset is almost the same color as Leo's fur..."
@@ -885,13 +887,13 @@ m "\"Sometimes I wish I could.\""
 "At this point Leo's deflated a bit, going into a slouch, his ears lowered."
 l "\"Wait, you said 'was'. You didn't...you didn't get rid-\""
 m "\"No.. no I still have it. It's just in a drawer in my dorm room.\""
-m "\"Honestly, If it was anything else, like one of those infinity bracelets we saw, I wouldn't have trouble wearing it...\""
+m "\"Honestly, if it was anything else, like one of those infinity bracelets we saw, I wouldn't have trouble wearing it...\""
 l "\"Well fuck, why didn't you say anything when we were buying them?\""
 m "\"I didn't know it was gonna be a problem!\""
 "Leo takes in a deep breath again before blowing it out, puffing out his cheeks this time."
 l "\"{i}Puchica{/i}, otter.\""
 "He puts a paw to his eyes and holds it there for a few seconds. It's a pose I'm pretty familiar with."
-"Even though I haven't seen it in a few years, I'm hit with a wave of memories, mostly of me frustrating, or embarassing Leo somehow."
+"Even though I haven't seen it in a few years, I'm hit with a wave of memories, mostly of me frustrating, or embarrassing Leo somehow."
 "We'd decided on the anchors mostly because they looked pretty."
 "Leo had referenced some wolf metaphor about roots and how we're always drawn back to them."
 "Also some bullshit about how otters were great sailors, but really, it was just the aesthetic."
@@ -948,6 +950,9 @@ show nightoverlay
 with slow_dissolve
 play music "meeting1.mp3" fadein 3.0
 "Toby builds a small sand castle next to the lake, in the process of digging a moat around it."
+#!!!! If TJ is Toby here, shouldn't Jenna be Jasmynn?
+#!!!! This could be a good place to reference her old name early on
+#!!!! the story doesn't explain why her name changes between Route 65 and Echo until her path, and to me it always felt like the name change was a 4th-wall breaking retcon from Route 65 until way later when it's explained properly.
 "Jenna drops a few twigs next to it before running off to find more decorations."
 "Flynn is talking to Sydney, pointing at Toby's sandcastle. Sydney looks hesitant, but excited."
 "He seems to make up his mind, suddenly running forward and kicking the top of the tallest castle."

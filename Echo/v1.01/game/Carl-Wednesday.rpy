@@ -19,10 +19,11 @@ play sound "doorbell.ogg"
 "That was the cool thing about having Carl as a roommate; he slept like a fucking rock."
 "I did pretty much anything I wanted to and didn't have to worry about him reporting me to the RA...even something like jerking off."
 "That only happened a few times, though."
-"The rabbit I'm rooming with now is a different story."
+#!! His dormmate is Vincent now right? not a rabbit
+"The wolf I'm rooming with now is a different story."
 play sound "doorbell.ogg"
 "Again, the doorbell."
-"I glance at my phone: 10 AM"
+"I glance at my phone: 10 AM."
 "I also notice I have five texts and two calls."
 call text_chase("leo") from _call_text_chase_32
 call text_0("", "HEY") from _call_text_0_33
@@ -44,7 +45,7 @@ c "\"Mh? What?\""
 m "\"I think someone's at the door?\""
 "He doesn't say anything and a few seconds later his guttural snores start up again."
 "This time I really dig my foot in and he yelps loudly, sitting up so fast his horns bang against the wall."
-"He squints against the sunlight pouring in between the blinds which turns his emerald eyes into an almost mint green."
+"He squints against the sunlight pouring in between the blinds, which turns his emerald eyes into an almost mint green."
 "He raises up a paw to block the light and looks at me, frowning."
 c "\"What the hell was that?\""
 play sound "doorbell.ogg"
@@ -61,7 +62,7 @@ m "\"Oh look, Leo texted me. That's probably him at the door.\""
 show Carlu Neutral at center with dissolve
 c "\"Well, you can go ahead and answer it. You're allowed to touch my door.\""
 "I sigh a little harder this time."
-m "\"Damnit, Carl. Fine, they're planning a surprise birthday party for you so go down there, answer the door, and act surprised.\""
+m "\"Dammit, Carl. Fine, they're planning a surprise birthday party for you so go down there, answer the door, and act surprised.\""
 show Carlu Rejected with dis
 c "\"What?\""
 "But Carl's not just confused, he looks genuinely upset."
@@ -75,7 +76,7 @@ m "\"Come on. I'll go down with you.\""
 show Carlu Depressed with dis
 "Carl covers his face and rubs hard, the short fur on his muzzle bristling out in little spikes around his fingers."
 c "\"I just...wanted to relax today, you know?\""
-m "\"Isn't that everyday for you?\""
+m "\"Isn't that every day for you?\""
 show Carlu Rejected with dis
 "I laugh to lighten the jab, but Carl just frowns."
 c "\"Well, not with you.\""
@@ -106,12 +107,12 @@ hide Flynn
 with dissolve
 "I look behind me and step over to the side a bit, revealing Carl who's got his arms folded tightly, head dipped."
 show Carl Sad at center with dissolve
-c "\"Good thing I didn't answer the door, huh?.\""
+c "\"Good thing I didn't answer the door, huh?\""
 show Leo at farright with dissolve
 l "\"Happy birthday!\""
 play music "banter.ogg" fadein 10.0
 "Leo bustles in, carrying two bags."
-"Jenna follows, carrying medium-sized cylindrical cake covered in white frosting."
+"Jenna follows, carrying a medium-sized cylindrical cake covered in white frosting."
 show Carl Neutral with dis
 "Carl perks a bit when he sees this, his long ears bouncing."
 c "\"Hey, is that red velvet?\""
@@ -134,7 +135,7 @@ m "\"...Okay.\""
 j "\"Carl, where are your plates?\""
 show Carl Rejected at left with dissolve
 c "\"The uh—the cupboard, second door over.\""
-"Now that Flynn's not shoving him around Carl's standing awkwardly next to the table, paws fidgeting."
+"Now that Flynn's not shoving him around, Carl's standing awkwardly next to the table, paws fidgeting."
 c "\"Sooo why are we doing this? It's not until next month.\""
 show Leo Rejected with dis
 "Leo shrugs, frowning."
@@ -163,12 +164,12 @@ c "\"Sure Teej.\""
 c "\"Why didn't you guys tell me? I still need to take a shower...\""
 f "\"Quit being a pussy. You always smell like skunk. Now eat some cake!\""
 show TJ Neutral with dis
-"Flynn grabs up the knife while Jenna sets out the plates. The frosting is so thick it practically absorbs the knife."
+"Flynn grabs the knife while Jenna sets out the plates. The frosting is so thick it practically absorbs the knife."
 m "\"I haven't had cake for breakfast since like, your last birthday party, Carl.\""
 "Carl doesn't say anything, instead sitting at the end of the table, paws in his pockets."
 show Leo Wry with dis
 l "\"You guys sure slept in. What were you doing all night?\""
-"I wait to see if Carl is going to say anything. When it's clear he isn't I chime in."
+"I wait to see if Carl is going to say anything. When it's clear he isn't, I chime in."
 m "\"Video games, mostly, and a movie.\""
 l "\"Fun, fun. It's something we could have all done together, though.\""
 hide Leo with dissolve
@@ -180,7 +181,7 @@ show Carl Sad with dis
 "Carl, who had perked up at the sight of the cake, shrinks back down with a frown."
 show TJ Neutral at right with moveinright
 t "\"Just a small slice, please.\""
-"Flynn eyes TJ who's holding out his plate and positions the knife."
+"Flynn eyes TJ, who's holding out his plate, and positions the knife."
 t "\"Smaller...please.\""
 f "\"Oh my God, loosen up. You're on vacation!\""
 "Flynn starts cutting the slice even bigger than Carl's was."
@@ -188,18 +189,18 @@ show TJ Surprised with dis
 t "\"Hey!\""
 show Jenna Annoyed at farleft with dissolve
 j "\"Flynn.\""
-show Flynn Rejected 
-show TJ Rejected 
+show Flynn Rejected
+show TJ Rejected
 with dis
-"She says it quietly but the chill in her voice is clear, and so is the fact that things aren't completely okay."
+"She says it quietly, but the chill in her voice is clear, and so is the fact that things aren't completely okay."
 "Flynn grunts, then cuts the cake again, this time with a slice that's just an inch wide."
 f "\"That good?\""
 t "\"Yeah, that's fine...thanks.\""
 hide TJ with dissolve
-"TJ moves away to sit down and the warm glow of our little get together chills, but Leo chips in with a laugh."
+"TJ moves away to sit down and the warm glow of our little get-together chills, but Leo chips in with a laugh."
 show Leo Wry at farright with dissolve
 l "\"Make sure Chase gets a real big chunk. He's getting waaay too skinny.\""
-"I don't argue and Flynn slaps down a large slice on my plate, a little notch in the center where he'd tried to cut TJ's."
+"I don't argue, and Flynn slaps down a large slice on my plate, a little notch in the center where he'd tried to cut TJ's."
 hide Leo
 hide Flynn
 hide Jenna
@@ -226,7 +227,7 @@ f "\"Yeah, the methed out one at the diner.\""
 l "\"Come on, Flynn.\""
 f "\"Well anyway, we were drivin' up Main Street, toward the field, you know, with rusted barbed wire and stuff?\""
 "TJ's hiding his face with a paw as he stares down hard at his cake."
-m "\"Uh—huh.\""
+m "\"Uh-huh.\""
 f "\"Well, when we turned 'round the bend we saw Janice.\""
 "He keeps pausing for effect and it's getting annoying."
 m "\"Okay, what happened?\""
@@ -283,9 +284,9 @@ hide TJ
 with dissolve
 $ renpy.pause(0.1, hard=False)
 show Carl Neutral with dissolve
-"As we eat Jenna leans over and starts pulling out presents from one of the bags."
+"As we eat, Jenna leans over and starts pulling out presents from one of the bags."
 show Jenna Neutralhips at right with dissolve
-j "\"Sorry, Carl, We didn't even have time to wrap these up.\""
+j "\"Sorry, Carl, we didn't even have time to wrap these up.\""
 c "\"It's fine.\""
 "She pulls out a comic book from TJ, a poster from Leo, and a manga from herself."
 j "\"I know you hate these things, but I think you should give it a chance.\""
@@ -310,20 +311,20 @@ f "\"Yeah well, here's mine.\""
 show Carl Neutral with dis
 c "\"Wow.\""
 "It's a small, metal, rectangular box with two sharp points jutting out the top."
-"I lean in for a closer look and realize those parts are horns and there's a complex, elegant design of a ram's face etched out on the front of the box."
+"I lean in for a closer look and realize those parts are horns, and there's a complex, elegant design of a ram's face etched out on the front of the box."
 show Carl with dis
 "Carl presses a thumb against one of the horns and pushes. The top flicks up and over and that's when I realize it's a lighter."
-f "\"Saw it when I was over on the reservation. Made me think of you.\""
+f "\"Saw it when I was over on the Reservation. Made me think of you.\""
 show Jenna Annoyed with dis
 "He reaches out and traces a finger along the horns and clicks it back shut."
-c "\"Thanks Flynn.\""
+c "\"Thanks, Flynn.\""
 f "\"Yeah, now you'll look like a badass when you decide to get blazed.\""
 show Carl Neutral with dis
 c "\"Yeah...\""
 play sound "platebreak.ogg"
-show Carl Surprised 
-show Jenna Surprised 
-show Flynn Surprised 
+show Carl Surprised
+show Jenna Surprised
+show Flynn Surprised
 with dis
 t "\"Oh! Sorry!\""
 hide Jenna
@@ -331,7 +332,7 @@ hide Flynn
 hide Carl
 with dissolve
 show TJ Surprised at center with dissolve
-"We all jump and look over at TJ who's looking at the floor, his plate gone form the table."
+"We all jump and look over at TJ, who's looking at the floor, his plate gone from the table."
 "Flynn starts to laugh, but catches himself."
 show Jenna Neutralhips at right with dissolve
 j "\"Don't worry about it, they've probably got a hundred of those plates. Carl, where's your broom?\""
@@ -347,7 +348,7 @@ stop music fadeout 5.0
 m "\"I'll be right back; bathroom.\""
 scene bg deck with fade
 "I'm not sure why the deck is the first place I look, but it's where I find him."
-"I watch him through the paneled curtains for a moment. He's sitting on a little swing set, facing out towards the glaringly bright desert."
+"I watch him through the paneled curtains for a moment. He's sitting on a little swing set, facing out towards the glaringly-bright desert."
 "There's an empty plate with a fork on it next to him."
 "He's also toying with the lighter Flynn gave him, flipping it open and closed a few times and holding it up to the light."
 "Smoke wafts up from his lap where I assume he's holding a joint."
@@ -362,7 +363,7 @@ show Carl at center with dissolve
 play music "comeover.ogg" fadein 3.0
 c "\"Shiiit, I thought you were Leo or somethin'.\""
 m "\"Would that have been a bad thing?\""
-"I look around then just decide to sit next to him on the swing."
+"I look around, then just decide to sit next to him on the swing."
 c "\"He'd just have pulled me back to the party.\""
 "I look over at him."
 "He's looking down at his lighter, turning it over in his paws, the hoof portions of his fingers making clacking sounds against the metal."
@@ -374,7 +375,7 @@ c "\"That's a great question. Everyone's always asking me.\""
 m "\"You just seemed really uptight, is all.\""
 "Carl's demeanor is a lot more relaxed now, obviously."
 "As if to emphasize that thought he takes another hit off his joint and holds his breath for a moment, then lets it out."
-"The pungent smell envelopes me."
+"The pungent smell envelops me."
 c "\"I just don't like being around so many people. You know that.\""
 m "\"Well yeah, but you were fine around them these past few days.\""
 "Carl rubs his forehead hard with the paw holding the joint, using his palm."
@@ -408,10 +409,10 @@ c "\"Yeah, can't keep your paws off me. You have a thing for my fat ass?\""
 m "\"Hmmm...\""
 c "\"Hey!\""
 "He covers his chest."
-m "\"Well, I do actually like bigger guys and there's nothing wrong with extra weight, especially if it's carried well.\""
+m "\"Well, I do actually like bigger guys, and there's nothing wrong with extra weight, especially if it's carried well.\""
 "He looks at me expectantly."
 m "\"Which you do.\""
-c "\"Sweet! You know, you seem like you'd be a pretty dope boyfriend. Just feed me cake all day then get off on the results.\""
+c "\"Sweet! You know, you seem like you'd be a pretty dope boyfriend. Just feed me cake all day, then get off on the results.\""
 "I'm about to shoot back with something snarky when a stumbling figure catches my eye."
 stop music fadeout 3.0
 hide Carl with dissolve
@@ -452,6 +453,7 @@ show Carl Neutral with dis
 "Carl sits quietly for a moment then glances at me."
 play music "argument.ogg" fadein 15.0
 c "\"No, no I don't think I will.\""
+#!!!! Probably break this sentence apart.
 "He's not smiling anymore, his face expressionless, head turned back towards Jenna but his eyes are wandering off towards the side, looking at the sky."
 j "\"Why not?\""
 show Carl Annoyed with dis
@@ -486,7 +488,7 @@ show Carl Annoyed with dis
 c "\"You don't know what kind of shit I have to deal with.\""
 j "\"Like being rich?\""
 c "\"No! It's like...myself.\""
-j "\"Oh how terrible! The one thing you have full control over.\""
+j "\"Oh, how terrible! The one thing you have full control over.\""
 c "\"No...NO! That's so fucking unfair!\""
 "The quiver in Carl's voice doesn't exactly sound convincing, and the pot doesn't seem to be helping as I can see his fingers shaking."
 j "\"Just like life.\""
@@ -502,7 +504,7 @@ hide Jenna with dissolve
 play sound "slidingdoor2.mp3"
 "Without a word, Jenna spins on her heel and opens the door even harder than she did the first time."
 stop music fadeout 5.0
-"I'm stunned. I haven't seen Jenna that angry since she was in middle school and definitely never at Carl."
+"I'm stunned. I haven't seen Jenna that angry since she was in middle school, and definitely never at Carl."
 show Carl Sad with dis
 "Carl doesn't say anything, instead rubbing at his nose, leaning back in the seat."
 "The insides of his ears are still flushed a deep red."
@@ -514,7 +516,7 @@ c "\"I didn't do anything, did I?\""
 "We sit in silence a while, listening to the train horns."
 "Looking down, I see the joint still smoking up from the planks of the floor."
 "Slowly, I lean over and pick it up before holding it out to Carl."
-"He takes it and looks at it for a second. Raising his paw he pauses then takes a drag before flicking it off the side of the balcony."
+"He takes it and looks at it for a second. Raising his paw, he pauses, then takes a drag before flicking it off the side of the balcony."
 "He lets his head sag, his big horns dipping towards the floor as he closes his eyes."
 "Slowly, I put my arm around his shoulders."
 stop loop fadeout 3.0
@@ -551,19 +553,19 @@ c "\"Anyway, not to be a dick, but.. you're better for it.\""
 m "\"Oh?\""
 c "\"Well, you know...it's just hard to talk to you and Leo when you guys are being all lovey and shit.\""
 "His words are mushy, starting to bleed into one another."
-"His character throws a flaming spear at my angel which I easily deflect with my Shimmering Shield."
+"His character throws a flaming spear at my angel, which I easily deflect with my Shimmering Shield."
 "I extend my wings and swoop in to throw my lightning bolts."
 m "\"Well you know, no one really tried to talk to us when we were together. It was like we were making you guys uncomfortable.\""
 show Carl Rejected behind nightoverlay with dis
 "I watch his demon fly in the air, surrounded by a glowing white circle."
-"Looking over I see Carl frowning."
+"Looking over, I see Carl frowning."
 c "\"No, I don't think so...\""
 "His demon spreads its own much spikier wings and hovers up from the circle."
-"He reaches up into the sky and a red lighting bolt slams down into my character."
+"He reaches up into the sky and a red lightning bolt slams down into my character."
 c "\"You guys were just kind of self-absorbed. You didn't call me once after you guys started dating.\""
 "And here I was thinking Carl never liked conflict. That sentence carried a lot of weight...and a lot of years behind it."
 "I'm not about to argue with him, though, especially after what happened with Jenna."
-"That lighting bolt was it for my wolf angel and his demon flies up to the screen and flips us off as \"WINNER\" is displayed."
+"That lightning bolt was it for my wolf angel, and his demon flies up to the screen and flips us off as \"WINNER\" is displayed."
 m "\"Well, there was college.\""
 "Carl stretches, leaning back in the giant beanbag chair we're sitting on."
 c "\"I don't remember much of college anymore.\""
@@ -571,7 +573,7 @@ show Carl Neutral behind nightoverlay with dis
 "He lays back in the chair and looks over at me."
 c "\"By the way, I have a job interview on Friday.\""
 "My eyes widen."
-c "\"Don't act so surprised assssshole\""
+c "\"Don't act so surprised assssshole.\""
 "He hangs on to the last word with a lisp."
 m "\"You're drunk, but that's awesome! Where at?\""
 c "\"A print shop...be a production assistant.\""
@@ -619,7 +621,7 @@ menu:
     "Is different.":
         $ Allow_Kiss = True
         m "\"Heh, if you want.\""
-        "Carl's eyes widen slightly then he slowly gets to his hands and knees and crawls towards me."
+        "Carl's eyes widen slightly, then he slowly gets to his hands and knees and crawls towards me."
         "I was gonna stand up, but it looks like he wants to do this on the beanbag."
         m "\"Uh...\""
         "I lean back in the bag, sinking into it a bit more."
@@ -627,7 +629,7 @@ menu:
         c "\"Is this right?\""
         m "\"Uh, yeah. Do you want me to sta—\""
         "Before I know it he's crawled up on top of me."
-        "His presence is heavy and warm and I lean back, feeling myself get hard despite the awkwardness of it all."
+        "His presence is heavy and warm, and I lean back, feeling myself get hard despite the awkwardness of it all."
         "He looks down at me, into my eyes, and I feel myself blush."
         c "\"S-sorry. Is this okay?\""
         m "\"Yeah, it's fine...\""
@@ -640,7 +642,7 @@ menu:
         "His other paw holds on to my upper arm."
         "I open my eyes and see that his are closed."
         "He hunches over me, closer, and I feel myself start to respond, reaching up to wrap my arms around his broad back."
-        "He huffs in response and then I feel his lips part and his tongue flicks against my lips."
+        "He huffs in response, and then I feel his lips part and his tongue flicks against my lips."
         "I start to open them, but that's when I feel the beanbag shift and Carl slides to the side."
         "Somehow he manages to slip and fall on the wobbly beanbag, his mouth sliding sloppily off mine as he slumps down on top of me."
         scene bg carlechobeanbag with dissolve
@@ -655,7 +657,7 @@ menu:
         "I shift under him, for the first time realizing how actually fucking heavy he is."
         "It's not exactly a bad feeling; his presence is enveloping and warm, and the beanbag under me is offering enough cushion so I'm not getting crushed."
         "The snoring isn't bad either. It's almost comforting as his breath tickles the hairs inside my ear."
-        "His big belly squishes up against my torso like like a warm sandbag."
+        "His big belly squishes up against my torso like a warm sandbag."
         "My eyes are heavy and, slowly, I wrap my arms around his back."
         "I haven't had someone to sleep with in years and now I realize how much I miss the feeling."
         "Slowly, the dim lights in Carl's room fade out as I fall asleep to his comforting, rhythmic snores."
@@ -667,12 +669,12 @@ menu:
         "The ram then decides to roll over.. directly onto my chest."
         "I let out a quiet 'urk', trying to push him off my more sensitive areas."
         "Fortunately, he seems to get the hint and props himself up on his elbows."
-        m "\"Tell you what; if you ask me again in the morning sober...I'll say yes.\""
+        m "\"Tell you what: if you ask me again in the morning sober...I'll say yes.\""
         c "\"Awww...come ooooon.\""
         scene bg carlechobeanbag with dissolve
         "I'm about to chide him some more, but that's when he starts snoring..."
         "I smile some, peering down at Carl."
-        "This is actually pretty comfortable. Maybe I'm just touch starved or something?"
+        "This is actually pretty comfortable. Maybe I'm just touch-starved or something?"
         "Whatever it is, I'm left with some slight bittersweetness as I remind myself Carl probably wouldn't have the courage to do this sober."
         "Whether he's just messing around or not, this is nice - watching his large chest rise and fall."
         "Slowly, the dim lights in Carl's room fade out as I fall asleep to his comforting, rhythmic snores."
@@ -684,6 +686,7 @@ play music "acousticbreeze.ogg" fadein 3.0
 show Young_TJ Scared with dissolve
 t "\"Stoooop!\""
 hide Young_TJ with dissolve
+#!!!! TJ -> Toby for all TJ references in this section?
 "I heave for breath as I chase TJ down the dusty street, trying not to pop the water balloon that I'm holding with my claws."
 t "\"You always chase me!\""
 "TJ's whining again, but I don't care. He's always the funnest one to hit. His crazy speed made it all the more rewarding."
@@ -712,9 +715,10 @@ m "\"Uh-oh...\""
 hide Young_TJ with dissolve
 "I start jogging backwards as TJ heaves back with the balloon.. but I don't have anything to worry about."
 "In his excitement he grips the balloon too hard and I can see how his claws dimple the rubber before it explodes mid-throw."
-"Water showers his head and dust kicks up as dark spots speckle the ground just like his fur, I think."
-"He gasps the way cats do whenever they get any water on them and I point and laugh."
-"I can tell he's deciding whether or not to sulk and cry and I hold my breath because I don't want the game to end."
+#! maybe?
+"Water showers his head and dust kicks up as dark spots speckle the ground — just like his fur, I think."
+"He gasps the way cats do whenever they get any water on them, and I point and laugh."
+"I can tell he's deciding whether or not to sulk and cry, and I hold my breath because I don't want the game to end."
 "I think I win him over because he smiles and starts to laugh, too."
 show Young_TJ with dissolve
 t "\"That always happens to me!\""
@@ -742,7 +746,9 @@ hide Young_TJ with dissolve
 "Slowly, I pad around the house, peeking around the corner to the front yard."
 show Young_Carl Sad at right
 "Carl's standing with his fists clenched, staring hard, trying to look defiant, but I can tell he's terrified."
-"Multi-colored water balloons are scattered around his hooves; he must have been carrying them all in his white tank top."
+#!!! It's a bit odd to remark on Carl's white tank top when his sprite shows him in a colored hoodie.
+#!!! Maybe just use the hoodie to carry balloons instead? The next line is also relevant here
+"Multicolored water balloons are scattered around his hooves; he must have been carrying them all in his white tank top."
 "He always wore a shirt when we did water games."
 cl "\"What'sa matter, cunt-face? We're not gonna hurt ya...\""
 jer "\"Heh, right.\""
@@ -750,7 +756,7 @@ jer "\"Heh, right.\""
 "Clint starts circling around Carl and the ram follows him with his muzzle, nostrils flaring."
 "As he's looking the other way, Jeremy throws the water balloon right in Carl's face."
 play sound "waterballoon2.ogg"
-"Following the smack of rubber on muzzle the balloon explodes, showering all three of them in water."
+"Following the smack of rubber on muzzle, the balloon explodes, showering all three of them in water."
 "Carl whimpers and covers his face. I grip the side of the house, knowing I should do something, but my legs aren't moving."
 c "\"Leave me alone!\""
 "Carl's doing a good job of not crying, but he's about to."
@@ -777,10 +783,10 @@ show Young_Leo at farleft with dissolve
 "Leo doesn't even look at him, his eyes on Clint."
 cl "\"I said what do you want? You no understand?\""
 "Honestly, Leo might not have understood. He'd only been here less than a year."
-"Still, Leo doesn't say anything, his jaw working and I wonder if he's imagining chewing on Clint's neck."
+"Still, Leo doesn't say anything, his jaw working, and I wonder if he's imagining chewing on Clint's neck."
 cl "\"You're fucking crazy. Let's go, Jeremy.\""
 "Clint is afraid of Leo, and he'd left us alone ever since the wolf had moved in, at least for the most part."
-"Even though they're both thirteen Leo is a head taller and almost twice as wide."
+"Even though they're both thirteen, Leo is a head taller and almost twice as wide."
 l "\"Leave them alone...\""
 "Clint stops."
 "Clint" "\"What?\""
@@ -795,15 +801,16 @@ play sound "waterballoon1.ogg"
 stop music fadeout 10.0
 hide Young_Leo with dissolve
 "Leo arches his back, hissing at the pain from how hard Jeremy had thrown it."
-"The wolf whirls around, one paw rubbing at his back as he snarls at Jeremy who points and laughs."
+"The wolf whirls around, one paw rubbing at his back as he snarls at Jeremy, who points and laughs."
 jer "\"Hah! Wetback!\""
 "He doesn't see Clint running at him from behind."
 m "\"LEO!\""
 "I yelp out his name, and he does turn around, only to catch a sucker punch right in the stomach."
 "I can hear the thud along with all the air going out of him all the way from here. Leo stumbles back and stops with his paws on his knees, gasping."
-"I wince and cover my eyes, only to pull them back down immediately and see Jeremy leaping on Leo from behind and biting his ear."
+#!!! "only to pull them back down" is weird because 'them' is referring to his eyes at this point. Needs to be "pull my paws back down", or "cover my eyes with my paws"
+"I wince and cover my eyes, only to pull my paws back down immediately and see Jeremy leaping on Leo from behind and biting his ear."
 "Leo screams in pain, but immediately twists and slams his knee into Jeremy's crotch."
-"Jeremy lets go and lets out his own scream which Leo puts an end to when he grabs the fox and swings him around by the shirt."
+"Jeremy lets go and lets out his own scream, which Leo puts an end to when he grabs the fox and swings him around by the shirt."
 "Jeremy's forward momentum is brought to a halt as he slams headfirst into the oak tree. He goes down."
 "Clint's scared, his eyes wide as he looks from Leo to Jeremy to the front door."
 "Leo doesn't give him a chance, though, running forward and hitting him with a tackle that slams them both to the ground."
@@ -819,7 +826,8 @@ l "\"{i}Quieres pelear!? No me jodas!{/i}\""
 "Even though this road doesn't lead to his house, I somehow get there."
 scene bg flashback3 with dissolve
 "The sky is red and orange, even though it was noon just a few minutes ago."
-"For some reason, Carl's house is bigger, much bigger than it should be."
+#!!! "bigger — much bigger"?
+"For some reason, Carl's house is bigger — much bigger than it should be."
 "The architecture is pointier, different."
 "I walk around it, slowly, looking for Carl."
 "Looking down, I see hoof prints. They're too big to be Carl's, but I follow them anyway."
@@ -837,7 +845,7 @@ play sound "scrape.ogg"
 "I don't know where I am at first as I open my eyes, but the dimmed {i}Lucha Lobo{/i} lamp tells me."
 "Laying there for a while, I realize that Carl's no longer on top of me."
 "My face fur is a little wet and my nose is stuffy."
-"I look around thinking that Carl probably went back to his bed but he's not there either."
+"I look around, thinking that Carl probably went back to his bed, but he's not there either."
 "He must be getting a drink, or something."
 play sound "thud1.ogg"
 "A dull, far off thud makes me open my eyes again."
@@ -845,7 +853,8 @@ play sound "thud1.ogg"
 play sound "thud1.ogg"
 "Again, I hear it and it makes me jump this time."
 "Shit. Is it happening again?"
-"I hear a voice, coming from the same area, directly below me. It's a lot more muffled, but I can still tell it's a voice; muttering and cursing."
+#!!! change semicolon to something else?
+"I hear a voice, coming from the same area, directly below me. It's a lot more muffled, but I can still tell it's a voice, muttering and cursing."
 m "\"Carl?\""
 "My voice sounds weak and warbly in the heavy silence of the dark house."
 "The scuffling sounds below me stop for a second, though, then start up again, more vigorous now."
@@ -853,7 +862,7 @@ m "\"Carl?\""
 "My mind flashes to Duke, the weasel's foot forward, his eyes locked on me."
 "Finally, the anxiety gets to me and I stand up, walking as quietly as I can from the room into the hallway."
 scene bg kitchennight with dissolve
-"The kitchen is dark and I move over to the front door to check and see if it's locked."
+"The kitchen is dark, and I move over to the front door to check and see if it's locked."
 "It is, so I move over to the stairs and look down into the inky blackness, almost afraid to turn on the lights."
 "Nothing jumps out at me when I do, but the light is actually making me more afraid knowing that it will light up anything that's down there."
 "I move down the stairs as quietly as I can, every creak making my fur bristle."
@@ -863,7 +872,7 @@ play sound "scrape2.ogg"
 "I clasp my paws together against my chest, eyes flicking to each doorway as I slowly move down the hall, not wanting Carl to get the jump on me."
 scene bg basement with dissolve
 play loop "floodlight.ogg" fadein 5.0
-"When I finally get to the crawlspace door, I can pick up a rhythmic thumping along with the scrapes and the muttering is much clearer now."
+"When I finally get to the crawl space door, I can pick up a rhythmic thumping along with the scrapes, and the muttering is much clearer now."
 "???" "\"Buried...inside...help...\""
 "I shiver."
 m "\"Carl, this isn't funny!\""
@@ -871,7 +880,7 @@ m "\"Carl, this isn't funny!\""
 play sound "thud3.ogg"
 "Another thump almost shakes the house and I jump."
 "What the hell is he doing? Is it even Carl? Did whoever is down there murder him and is now in the process of burying his body?"
-"The fear is too much and I know I have to open the door now and put an end to this stupid prank or I'm gonna call 911 and make everything worse."
+"The fear is too much, and I know I have to open the door now and put an end to this stupid prank or I'm gonna call 911 and make everything worse."
 "With each step I take towards the doors it feels like the air gets more electrified, the charge making my fur stand on end all over my body."
 "As soon as I touch the tiny knob to the door and start to pull it open, though, the sound stops."
 "I freeze, listening hard. I get the feeling that whatever is down there is doing the exact same thing."
@@ -881,27 +890,27 @@ play sound "thud2.ogg"
 show Carl Surprised at center with dissolve
 "The door flies open and I'm face to face with a dusty Carl."
 m "\"Carl, what the FUCK!\""
-"I scream at him my chest heaving as I clutch it, like I'm about to have a heart attack."
+"I scream at him, my chest heaving as I clutch it, like I'm about to have a heart attack."
 "He looks confused, looking around, then back at me, breathing hard himself."
 c "\"Just, uh...I was just...\""
 "I wait, but he doesn't say anything."
 "There's white dust all over his horns and on his shoulders."
 m "\"Just WHAT!?\""
 "I yell at him again and he jumps. I'd feel bad if I wasn't so freaked out."
-c "\"I sleep walk...sometimes, okay?\""
+c "\"I sleepwalk...sometimes, okay?\""
 "I debate whether or not to accept that as an answer, but he looks confused enough that it just might be true."
 m "\"You scared the shit out of me.\""
 show Carl Rejected with dis
-"Carl moves out of the crawlspace, leaning over to brush his head off."
+"Carl moves out of the crawl space, leaning over to brush his head off."
 c "\"You scared the shit out of ME. I didn't know where I was...\""
 "I slowly get to my feet, still breathing heavily."
 m "\"What is that stuff? What were you doing in there?\""
 c "\"Just dust. It's dirty down there.\""
-"Again, I feel like he's leaving stuff out. I try to look past him into the crawlspace, but he closes the door."
+"Again, I feel like he's leaving stuff out. I try to look past him into the crawl space, but he closes the door."
 c "\"Come on, I need a smoke after that...\""
 "I stand back to let him pass, tempted to open the door again. He grabs my arm when he sees me looking, though."
 c "\"Seriously dude, let's go. I don't really wanna be alone in this house right now...please.\""
-"I look at him and I can tell he's definitely freaked out. I would be too if I woke up in that crawlspace."
+"I look at him and I can tell he's definitely freaked out. I would be too if I woke up in that crawl space."
 m "\"Yeah, let's go.\""
 "Slowly, I follow him, looking back at the door before flicking off the light."
 

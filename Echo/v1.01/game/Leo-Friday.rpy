@@ -91,9 +91,9 @@ scene bg resturant with fade
 "He, of course, insists on paying for everything."
 "I'm not really sure when Leo became so concerned with how I perceive his income."
 "I don't mind, though. The meal is good and I'm happy not to pay the $30 price tag."
-"It does remind me of his job, though, so I ask him about his schedule,."
+"It does remind me of his job, though, so I ask him about his schedule."
 "He says his parents gave him the entire week off, which surprises me."
-"I remember how Leo worked almost everyday in that shop. I guess his dad is just mellowing out with age."
+"I remember how Leo worked almost every day in that shop. I guess his dad is just mellowing out with age."
 "Again, I have no reason to complain though."
 
 scene bg route93 with fade
@@ -116,7 +116,7 @@ play background "reststop.ogg" fadein 3.0
 "That was one of the reasons I was so mediocre by comparison."
 "Every sport in the school was extremely competitive, each one winning state regularly."
 m "\"They win state again since I've been gone?\""
-l "\"Nope! Came close last year, though. Almost as close as we did back in '09\""
+l "\"Nope! Came close last year, though. Almost as close as we did back in '09.\""
 m "\"Ah, yeah...you still sore about that?\""
 "Leo sits down on the top bench of the concrete bleachers and I sit down next to him."
 show Leo at center with dissolve
@@ -138,7 +138,7 @@ l "\"Well, not really because of that. More like it was a lot of fun. I just wan
 "I grin at him."
 m "\"Hey, you're talking like you peaked in high school.\""
 l "\"Did I?\""
-"The question catches me completely off guard, and my stumbling around for words that follows doesn't help."
+"The question catches me completely off-guard, and my stumbling around for words that follows doesn't help."
 m "\"N—no!\""
 show Leo Depressed with dis
 "He sighs."
@@ -162,7 +162,7 @@ m "\"Yeah?\""
 "He pauses, looking off to the side before turning his eyes back on mine."
 l "\"I love you.\""
 "I immediately look away."
-l "\"Chase, please. Please just come back. I miss you so much. Everyday.\""
+l "\"Chase, please. Please just come back. I miss you so much. Every day.\""
 "I stare out across the field, not able to meet his eyes again."
 l "\"I'll stop smoking. I'll stop picking on Clint. I'll get rid of the gun. Just please come back.\""
 m "\"I just—I don't know, Leo.\""
@@ -178,7 +178,8 @@ l "\"And I'll be making enough to support you while you figure things out.\""
 m "\"Hey, I don't wanna mooch.\""
 l "\"I don't mind! I just want you to be comfortable so you can do what you want to do.\""
 m "\"But.. Echo.\""
-"Leo's quiet for a while, a long while before he finally speaks up."
+#!!! This probably needs something different
+"Leo's quiet for a while, a long while, before he finally speaks up."
 l "\"Now that I can't fix. But I guess one way to decide is to weigh what's more important to you.\""
 m "\"You're asking me to choose...\""
 l "\"I—I'm not asking that, exactly.\""
@@ -190,7 +191,8 @@ m "\"So you are.\""
 stop music fadeout 3.0
 "Despite how much we fight, there's no question in my mind what the answer is and it hits me like a thunderbolt."
 m "\"Well.. I'd choose you.\""
-play music "bittersweet.ogg" noloop
+#!!!! Setting this to "noloop" makes the music stop completely when stepping back anywhere in the following dialogue
+play music "bittersweet.ogg"
 "All at once, his face explodes into a grin."
 "So much happiness in one expression that I don't think I'd ever be able to take back what I just said even if I wanted to."
 "And instantly I'm wrapped up in a tight, warm hug, one that crushes the air from my lungs."
@@ -234,7 +236,7 @@ play sound "phonebuzz.ogg"
 "A message from Flynn."
 "\"{i}Yeah well fuck you too{/i}\""
 "Not exactly a surprising message to get from Flynn, but still I wonder what they're fighting about..."
-"From the sounds of it Leo is still in the middle of his shower, still rocking out his diva pop song."
+"From the sounds of it Leo is still in the middle of his shower, still rocking out to his diva pop song."
 menu:
     "Respect Leo's privacy.":
         "I really don't wanna breach any trust on the first day of our new relationship."
@@ -246,7 +248,7 @@ menu:
         jump leosaturdaya
     "Check his phone.":
         jump checkphone
-label checkphone:        
+label checkphone:
 "With some amount of guilt, I reach over and grab his phone and open up his texts."
 "Immediately I see a few pinned conversations. They're from me."
 "Judging by the dates, they're from when I was still away at college."
@@ -257,14 +259,14 @@ l "\"{i}Chase has a project todo{/i}\""
 f "\"{i}bullshit your fuckin with him again huh{/i}\""
 l "\"{i}Im helping him{/i}\""
 f "\"{i}You planned this from the start didn't you{/i}\""
-l "\"{i}what{/i}"
+l "\"{i}what{/i}\""
 f "\"{i}this whole thing it was to get back in his pants{/i}\""
 l "\"{i}how about I planned this after you ruined the entire week huh?{/i}\""
 f "\"{i}Yeah well fuck you too{/i}\""
 "I frown. It's too bad Leo and Flynn are still fighting, but for some reason their exchange has me feeling uneasy."
 "I pull up his next recent text thread, one with Carl."
 "Carl asked Leo when we're hanging out again, yesterday night."
-"Leo pokes some fun at him about sleeping in the crawlspace."
+"Leo pokes some fun at him about sleeping in the crawl space."
 "Then Leo tells him that he isn't sure, that I'll probably be too busy with my project to hang out."
 "Leo never asked me."
 "I feel my heart start to pound."
@@ -285,6 +287,6 @@ stop loop fadeout 10.0
 "My stomach twists up as I realize that now I have to confront him on this."
 "I've let things slide before but this is on a different level."
 "I hug my knees and stare at the wall, feeling strangely violated now."
-"As I stare, I see a dark spot with spindly legs move across wall."
+"As I stare, I see a dark spot with spindly legs move across the wall."
 "The spider pauses as if acknowledging me before disappearing into the dark corner."
 jump leosaturdayb

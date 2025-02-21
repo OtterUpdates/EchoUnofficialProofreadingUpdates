@@ -7,6 +7,7 @@ stop music fadeout 3.0
 scene bg black
 with slow_dissolve
 
+#!!! Are there shopping cart sounds in this audio? That doesn't seem right for a fast food joint
 play background "parkinglot.ogg" fadein 10
 $ renpy.pause(1, hard=True)
 call sidestory_title("May 2012") from _call_sidestory_title_12
@@ -16,17 +17,21 @@ call sidestory_title("May 2012", end=True) from _call_sidestory_title_13
 scene bg fastfoodext with medium_dis
 
 window show
-"I pull up to the old fast food joint in my shitty old truck, the fan blasting hot desert air."
+#!!!! Does Leo have a truck at this point in time? He normally has a van
+"I pull up to the old fast-food joint in my shitty old truck, the fan blasting hot desert air."
 "I look around the sunbaked parking lot, but I don't see Chase's car, yet."
-"Taking out my phone, I check the time and scan through my messages. He told me he got out for lunch fifteen minutes ago, but it's twenty minutes later, now."
-"There's a little pang of worry, mostly because I know how shitty a driver Chase is, but he's usually late, so I quash that."
+#!!! 4th line wrap, seems like a clean break to split
+"Taking out my phone, I check the time and scan through my messages."
+"He told me he got out for lunch fifteen minutes ago, but it's twenty minutes later, now."
+"There's a little pang of worry, mostly because I know how shitty of a driver Chase is, but he's usually late, so I quash that."
 "I give my pits a quick check."
 "Driving around with a broken AC is fucking torture in this weather, but the antiperspirant seems to be holding up alright."
-"After giving them a quick sniff I recline and put my paws behind my head to air out and maybe catch a quick nap."
+"After giving them a quick sniff, I recline and put my paws behind my head to air out and maybe catch a quick nap."
 "Sure, it's a pain in the ass having to come down here when I'm this tired."
 "Dad's working me to the goddamn bone, and the restaurant is on the opposite side of Payton!"
 "But seeing Chase makes it worth it."
 "It isn't often that we get to have lunch together. The lunch hour being as short as it is only gives us about 20 minutes to really talk."
+#!!!! Any "knocking" audio files that could be inserted here?
 "I'm starting to doze off when I hear a knock on my window."
 "I give a little start and open my eyes, squinting against the desert sun reflecting off a car bumper in front of me."
 show Chasey N with dissolve
@@ -60,7 +65,7 @@ play loop "ac.ogg" fadein 12
 $ vol("background2", 0.2)
 play background2 "lightbuzz.ogg" fadein 10
 
-"After we put in our orders and get our drinks we both stare down at a greasy table, Chase swiping an old fry off his booth."
+"After we put in our orders and get our drinks, we both stare down at a greasy table, Chase swiping an old fry off his booth."
 show Chasey Sad with dissolve
 m "\"You know, I would go to a different restaurant if we had time and I had the money.\""
 l "\"It's fine. As long as we're not doing it every day.\""
@@ -76,7 +81,8 @@ m "\"What do you wanna talk about?\""
 l "\"Well...\""
 "I toy with the straw in my cup."
 "Is now a good time to bring it up? I always get annoyed when I see people making a scene in restaurants."
-"Like it's the perfect place to tell someone it's over, or that they're gay."
+#!! This might suffice as a fix? Otherwise it reads like you're telling the other person that they're gay.
+"Like it's the perfect place to tell someone it's over, or that you're gay."
 "But Chase seems to be in a good mood. It's probably as good a time as any."
 l "\"Have you decided on what you're gonna do after school?\""
 show Chasey Disc with dis
@@ -84,20 +90,23 @@ show Chasey Disc with dis
 m "\"Don't worry about it right now, Leo. I've still got a few months to decide.\""
 "Fuck. How can he not worry when all that's gonna do is make ME worry?"
 "And the way he says it... it sounds like he's already made a decision."
-"I open my muzzle again, but he stands up. straightening his tight shirt as he does."
+"I open my muzzle again, but he stands up, straightening his tight shirt as he does."
 m "\"Going to the bathroom. I'll be right back.\""
 hide Chasey with dissolve
 "I grunt and he heads off towards the back of the restaurant while I slump in my seat."
 "The idea of Chase leaving is fucking terrifying."
-"We've been this way for the past two and a half years and the way he's treating this decision like it's just a fucking annoyance makes me all the more frustrated."
+#!!! 4th line wrap here, not sure how to fix
+"We've been this way for the past two and a half years, and the way he's treating this decision like it's just a fucking annoyance makes me all the more frustrated."
 "I feel like this relationship has only really come into its own over the past year."
 "Mostly because Chase turned eighteen and we don't have to worry about the stupid shit anymore."
 $ vol("background", 0.4)
 play background "phonebuzzlong.ogg" # volume 0.4
-"His phone buzzes a few times, and I look at it out of habit, then it really starts buzzing and I realize someone's calling him."
+#!! probably?
+"His phone buzzes a few times, and I look at it out of habit, but then it really starts buzzing and I realize someone's calling him."
 "" "{b}Incoming Call{fast}\nJared"
 "A face that I don't recognize pops up on the screen."
-"It's a wolf of some kind... a gray wolf, I think, and he's ridiculously handsome, model handsome, actually."
+#! probably?
+"It's a wolf of some kind... a gray wolf, I think, and he's ridiculously handsome — model handsome, actually."
 "I furrow my brows, then look back behind me at the bathroom, but Chase isn't there."
 $ vol("background", 1, 0.4)
 stop background fadeout 0.4
@@ -107,14 +116,15 @@ stop background fadeout 0.4
 l "\"Who's this?\""
 "I curse silently as I realize that if I wanted the guy to talk that probably wasn't the best way to do it, and sure enough, I hear a click as he hangs up."
 stop loop fadeout 20
-"I feel my heart beating fast as I pull the phone down from my ear. I stare at the screen for a while and barely realize it goes black."
+#! probably?
+"I feel my heart beating fast as I pull the phone down from my ear. I stare at the screen for a while and barely realize when it goes black."
 "There's no way he'd do this... would he?"
 "I slide my finger around the blank screen for a while, then turn it back on as I navigate to the texts."
 "Sure enough, there's a thread under the name Jared with over 1000 texts."
 "My throat's dry as I tap on it and look at the most recent messages."
-"" "11:52{fast}\n{i}Hey boy where u at?"
-"" "11:55{fast}\n{i}I miss u"
-"" "12:02{fast}\n{i}Callin now <3"
+"" "11:52{fast}\n{i}Hey boy where u at?{/i}"
+"" "11:55{fast}\n{i}I miss u{/i}"
+"" "12:02{fast}\n{i}Callin now <3{/i}"
 show Chasey N with dis
 m "\"Hey!\""
 "I whip my head up and see Chase staring down at me, an exasperated grin on his muzzle."
@@ -123,23 +133,24 @@ m "\"Hey!\""
 show Chasey Sp with dis
 l "\"Who the fuck is this?!\""
 "I shove the phone in his face, realizing that I've lost my chance at approaching this delicately."
-"I also notice a few heads turning our way and that I've suddenly become the guy I didn't want to be."
+"I also notice a few heads turning our way, and that I've suddenly become the guy I didn't want to be."
 "Chase takes his phone and quickly sits down, his eyes wide as he makes a shushing shape with his mouth."
 "That only pisses me off more, but at the same time I feel something really sharp and painful in my chest."
 "Is this really happening?"
 l "\"So you {i}are{/i} leaving?\""
 l "\"Running off to fuck some other wolf?\""
-"Now people are really staring and Chase winces and he ducks his head lower to the table."
+"Now people are really staring, and Chase winces as he ducks his head lower to the table."
 m "\"It's a joke, Leo, calm down.\""
 "A joke?"
 "I don't understand what that means, exactly, but I'm starting to."
 "I don't say anything, so Chase keeps going."
-m "\"Jenna, we–we were just trying to have some fun.\""
-m "\"I was starting to realize this probably wasn't the best time, but-.\""
+m "\"Jenna, we-we were just trying to have some fun.\""
+m "\"I was starting to realize this probably wasn't the best time, but-\""
 "Jenna."
 "That explains it, but the anger and betrayal I'm feeling doesn't go away like it should."
 "Now I'm livid."
-l "\"So you're playing this stupid game of keeping me guessing whether or not you're gonna ditch me next year, and then you pull {i}this shit?!\""
+#! added "by" to match Jenna's route
+l "\"So you're playing this stupid game of keeping me guessing whether or not you're gonna ditch me by next year, and then you pull {i}this shit{/i}?!\""
 "I raise my voice for the last part and there's a noticeable lull in the conversations all around us."
 "A few people glance at us then look away, but I can tell all their ears are pointed in our direction."
 show Chasey Ann with dis
@@ -159,7 +170,7 @@ play background "parkinglot.ogg"
 show Chasey Ann with dis
 m "\"The hell is wrong with you?!\""
 "He whirls on me. I'm shocked he looks almost as angry as I am."
-l "{i}\"Me?!\""
+l "{i}\"Me?!\"{/i}"
 m "\"You know, I told Jenna that there was no way in hell you'd fall for this since you already knew how I felt about you.\""
 m "\"I'm the one that should be fucking offended that you'd think that!\""
 l "\"That's not fair! You wanted a reaction from me and you got one. Happy?\""
@@ -192,7 +203,7 @@ show Jenna with medium_dis
 j "\"Actually we just thought you wouldn't fall for it, at least not this hard.\""
 j "\"I mean, come on, I cropped that from the cover of some teen magazine. It was my number, too, if you didn't notice.\""
 "She continues to frown at me."
-"Chase is still looking away from us and I feel like the big asshole that's ruined everyone's fun."
+"Chase is still looking away from us, and I feel like the big asshole that's ruined everyone's fun."
 l "\"It's—it just wasn't a good time, alright?\""
 j "\"No?\""
 l "\"No.\""
@@ -219,7 +230,7 @@ j "\"How can we ever have fun if you're exploding all the time?\""
 "{cps=25}I grit my teeth again and I have to work not to snarl."
 l "\"Telling me to calm down is the worst thing you can do right now.\""
 l "\"I'm tired, I'm hot, and I just wanted to have lunch with Chase.\""
-"I glance at the phone and see it's already twenty past the hour which means Chase has to leave now."
+"I glance at the phone and see it's already twenty past the hour, which means Chase has to leave now."
 show bg shadechase3 onlayer screens:
     ease 10 alpha 0.4
 "{cps=25}I squeeze the phone hard in my paw."
@@ -243,7 +254,7 @@ l "\"{i}{cps=25}¿Qué mierda fue eso?\""
 "I curse myself, though I've said it enough times before that I know Chase recognizes the phrase."
 show Chasey Ann with dis
 "Slowly, I turn around, my face flushing as I try to meet eyes with him."
-l "\"{cps=15}Otter, I'm sorry, I'll buy you-.\""
+l "\"{cps=15}Otter, I'm sorry, I'll buy you-\""
 stop background fadeout 10
 m "\"I'm going to Pueblo, Leo.\""
 "He's looking at me, now, and his hazel eyes feel like they're piercing right through me."
@@ -252,7 +263,7 @@ l "\"{cps=10}What?\""
 show Jenna Depressedhips with medium_dis
 "He's sucking in his cheeks to stop himself from frowning, the way he does when he's trying not to cry."
 show Jenna Depressed with dis
-"Jenna's silent, looking away, but my gut tells me she already know this, and that starts to bring back some of the anger."
+"Jenna's silent, looking away, but my gut tells me she already knew this, and that starts to bring back some of the anger."
 l "\"What the hell are you talking about?\""
 m "\"I said I'm going to Pueblo... in August. I got accepted in January.\""
 "I don't know what to say."
@@ -263,6 +274,7 @@ hide Chasey with dissolve
 "He turns away from me."
 $ vol("music", 0.25)
 play music "themeforalonelywolf.ogg"
+#!!!! Should this be Chase saying this line? It coincides with Jenna sprite but Jenna wouldn't be "late" for anything
 j "\"I gotta go back. I'm already gonna be late.\""
 show Jenna Rejected with dis
 "Jenna looks over at me, and I finally see some remorse in her face before she jogs to catch up with Chase. I hear her start to apologize."
@@ -273,13 +285,13 @@ hide Jenna Rejected with medium_dis
 "I'll just talk to him once school lets out."
 "Yeah, that's what I'll do."
 "Just a few more hours."
-"I watch them pull out of the parking lot and I wish he'd look at me as they drive past, but he doesn't. Neither does Jenna."
+"I watch them pull out of the parking lot, and I wish he'd look at me as they drive past, but he doesn't. Neither does Jenna."
 "I hesitate, then pick up Chase's phone, because he's gonna need to recover some shit from it when I buy him a new one, then hop in my truck."
 "I sit there for a second, not sure what to do. I feel sick and angry, and tired all at the same time."
 "A lot of this is my fault."
 play audio "honkhonk.ogg"
 "I punch the steering wheel."
-"And that feels good so I do it again but then I realize people are still staring at me through the windows."
+"And that feels good so I do it again, but then I realize people are still staring at me through the windows."
 "I flip them off before I put the truck in gear."
 show bg route93 onlayer screens:
     alpha 0.0
@@ -287,7 +299,7 @@ show bg route93 onlayer screens:
 $ vol("music", 1, 20)
 "Is this why Chase is leaving me? Because I can't control my fucking temper sometimes?"
 "No, {i}NOT{/i} leaving me, just working things out."
-"As I'm driving down the road the churning feeling in my gut finally gets to me and I pull my phone out, looking up now and then to correct my steering."
+"As I'm driving down the road, the churning feeling in my gut finally gets to me and I pull my phone out, looking up now and then to correct my steering."
 "I type what I hope is a heartfelt apology."
 "In the middle of it I remember that his phone is sitting in my cupholder, fucking broken."
 "I finally let out the snarl I've been holding back and throw my phone into the passenger seat, accidentally swerving and setting off a few honks."

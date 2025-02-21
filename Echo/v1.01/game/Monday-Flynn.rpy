@@ -3,7 +3,7 @@ stop music fadeout 3.0
 "I look back at Flynn as he winds his way down the trail towards the road."
 "I sigh angrily, starting towards him."
 c "\"Chase, I wouldn't—\""
-m "\"Someone's gotta talk sense into that idiot. He thinks he can just get away with this shit?\""  
+m "\"Someone's gotta talk sense into that idiot. He thinks he can just get away with this shit?\""
 c "\"You know how he is...\""
 play background "trailsteps.ogg"
 "I keep walking."
@@ -11,7 +11,7 @@ scene bg deserttrail
 with dissolve
 play loop "reststop.ogg" fadein 3.0
 "He's moving pretty slow, so it's easy to catch up with him."
-"He's got his hands jammed into his pockets as he walks along, his head down."  
+"He's got his hands jammed into his pockets as he walks along, his head down."
 m "\"Hey, Flynn!\""
 "He jerks his head up, then looks back around at me."
 "He's chewing on a toothpick, which he promptly pulls out of his muzzle."
@@ -25,31 +25,32 @@ stop background fadeout 3.0
 "He looks me over and, for some reason, I can see a smile threatening to crack his face as he tries to keep it hidden."
 f "\"Yeah? And what are you gonna do about it?\""
 "I shrug."
-m "\"Talk?  We were having a good time. Why do you have to go and turn everything good—\""
+m "\"Talk? We were having a good time. Why do you have to go and turn everything good—\""
 "He suddenly steps up close, thrusting his chest out into me. It hits me around the neck and I stumble back."
 f "\"NOT in the mood.\""
-"He sticks the toothpick back in his muzzle before he turns and starts walking away again."  
+"He sticks the toothpick back in his muzzle before he turns and starts walking away again."
 hide Flynn with dissolve
 f "\"Go back to the river so you can all talk about what an asshole I am...\""
 m "\"What?\""
 "I watch him go for a bit."
 "I'm not TOO worried about Flynn actually beating me up."
 "I'd annoyed him pretty bad before, but he hadn't ever actually hurt me, at least not maliciously."
-"On top of that, he'd have Leo to answer to if he ever did anything like that, and he knows how that would end up."  
+"On top of that, he'd have Leo to answer to if he ever did anything like that, and he knows how that would end up."
 "Still, he did look pretty angry when he stepped towards TJ, more than I'd ever seen him, probably."
 "Now might not be the best time to do this..."
 menu:
     "Turn back.":
         "Definitely not worth it."
         "I really don't wanna make things worse than they already are."
-        "I sigh, watching the broad shoulders of the Gilaian get smaller and smaller before I turn back."
-        "One of the others probably need my company more than Flynn."
+        #!!!! probably supposed to be gila? Not sure what this word is otherwise
+        "I sigh, watching the broad shoulders of the gila get smaller and smaller before I turn back."
+        "One of the others probably needs my company more than Flynn."
         scene bg yeeyaw
         with dissolve
         menu:
             "Find TJ.":
                 jump findtj
-            "Follow Jenna and Leo":
+            "Follow Jenna and Leo.":
                 jump leoandjenna
             "Sit with Carl.":
                 jump sitwithcarl
@@ -72,7 +73,7 @@ m "\"Go on, try it.\""
 "This is Flynn after all, one of my best friends."
 "Whether or not he'd ever admit to it, our little group is family, no matter how many stupid fights we get into."
 "He's trying to scare me though, with the way he's leaning over me, glaring."
-"I just smirk up at him and, pretty soon, I see his façade crack."
+"I just smirk up at him and, pretty soon, I see his facade crack."
 "He slumps down, letting out one massive sigh, deflating like a life-size lizard balloon."
 f "\"Fuckin' otters. What do you want?\""
 m "\"I want you to stop being a dick.\""
@@ -117,7 +118,7 @@ $ renpy.pause(1.5, hard=False)
 call text("m", "Everything is fine and I'm just trying to talk to Flynn.") from _call_text_16
 ""
 #"I type out a quick reply that everything is fine and that I'm just trying to talk to Flynn."
-"Flynn snorts right in my ear, making me jump." 
+"Flynn snorts right in my ear, making me jump."
 call text_end from _call_text_end_14
 "I jerk my phone away as I realize he's been reading over my shoulder."
 f "\"What, wolfy-boy thinks I'm gonna clock you for being annoying?\""
@@ -125,7 +126,7 @@ m "\"You almost hit TJ.\""
 f "\"Almost.\""
 scene bg lakeemma with dissolve
 "At this point we're walking along Lake Emma Road, the trail winding between it and the reservoir itself."
-"There's a little guardrail on the lakeside, but it's rusty and I seriously doubt that it would stop any car from going over into the lake."
+"There's a little guardrail on the lakeside, but it's rusty, and I seriously doubt that it would stop any car from going over into the lake."
 "Another ten minutes and we'll reach the motel."
 play sound "phonebuzz.ogg"
 $ renpy.pause(1, hard=False)
@@ -133,7 +134,7 @@ $ renpy.pause(1, hard=False)
 call text_chase("leo") from _call_text_chase_15
 call text_0("", "If he does anything, call me.") from _call_text_0_14
 ""
-#"\"{i}If he does anything, call me.{/i}\"" 
+#"\"{i}If he does anything, call me.{/i}\""
 "Flynn sighs again."
 call text_end from _call_text_end_15
 stop background fadeout 3.0
@@ -175,7 +176,7 @@ l "\"Hey, we're heading back. Wanna get in?\""
 "Flynn doesn't say anything, instead choosing to continue staring at the lake."
 "I decide that it's probably a good idea for me to walk with him instead of making him do it alone."
 m "\"Naw, that's alright. We're just talking.\""
-"Leo shifts his gaze to Flynn, studying him before turning back to me."  
+"Leo shifts his gaze to Flynn, studying him before turning back to me."
 l "\"Alright. Text me later, okay?\""
 m "\"Okay.\""
 stop loop fadeout 3.0
@@ -198,10 +199,10 @@ m "\"What? When's the last time you ate there?\""
 f "\"Few years ago.\""
 m "\"Wow. What DO you eat, then?\""
 "Flynn laughs."
-f "\"I go to Payton where they actually have grocery stores.\""
+f "\"I go to Payton, where they actually have grocery stores.\""
 m "\"Oh, okay.\""
 "A few moments of silence pass before Flynn speaks up again."
-f "\"I guess it wouldn't hurt to eat there again, for old time's sake.\""
+f "\"I guess it wouldn't hurt to eat there again, for old times' sake.\""
 stop background fadeout 3.0
 stop loop fadeout 3.0
 
@@ -214,10 +215,10 @@ play music "neutraldiner.ogg"
 show Flynn at right with dissolve
 f "\"Where you goin'?\""
 m "\"Huh?\""
-"I look back at Flynn who's standing near the counter, looking ready to sit on one of the stools."
+"I look back at Flynn, who's standing near the counter, looking ready to sit on one of the stools."
 m "\"Oh come on, Flynn, those are uncomfortable. Besides, it'll be easier to talk.\""
 "Some of the patrons are starting to look up from their meals."
-"Flynn looks around, clearly embarrassed and shoves his hands into his pockets, making his way over to me."
+"Flynn looks around, clearly embarrassed, and shoves his hands into his pockets, making his way over to me."
 f "\"Fine.\""
 "I slide into the booth, into my usual spot on the right-hand side. Usually Leo would sit next to me."
 show Flynn at left with easeinleft
@@ -238,20 +239,22 @@ m "\"I'm actually just getting some film of the town—\""
 "Flynn's covering both his eyes with his hands now, as if that's going to make him invisible."
 ja "\"And you Flynn, can't say I've seen you at all, recently.\""
 "Flynn makes a low, grunting sound, not taking his hands away."
-"Janice keeps talking, though, unphased."
+"Janice keeps talking, though, unfazed."
 ja "\"Well, anything you'd like to drink while you're decidin' on your meal?\""
 f "\"Water.\""
 ja "\"Chase?\""
+#!!! These menu items don't have periods after them whereas the third set do. Should be changed to be the same. Generally these option sets usually end in periods
 menu:
-    "Water":
+    "Water.":
         m "\"Just water, thanks.\""
-    "Coke":
+    "Coke.":
+        #!!! capitalize "coke"? or change to "cola" or something
         m "\"I'll have a coke.\""
-    "Root beer":
+    "Root beer.":
         m "\"Root beer, please.\""
-    "Root beer float":
+    "Root beer float.":
         m "\"Can I get a root beer float, please?\""
-    "Strawberry shake":
+    "Strawberry shake.":
         m "\"I'll have the strawberry shake.\""
 ja "\"Sure thing!\""
 "Flynn does move his hands at this point and looks at me."
@@ -284,14 +287,16 @@ with dissolve
 ja "\"Alright, what'll you have?\""
 f "\"The tuna melt. Onion rings.\""
 ja "\"Uh-huh, and you, Chase?\""
+#!!! These menu items don't have periods after them whereas the third set do. Should be changed to be the same. Generally these option sets usually end in periods
 menu:
-    "Roast beef sandwich":
+    "Roast beef sandwich.":
         m "\"I'll get the roast beef sandwich, please.\""
-    "Bacon cheeseburger":
+    "Bacon cheeseburger.":
         m "\"The bacon cheeseburger sounds good.\""
-    "Tuna melt":
+    "Tuna melt.":
         m "\"I'll get the tuna melt, too.\""
 ja "\"Alrighty. And what'll you have on the side?\""
+#!!! These menu items have periods after them whereas the previous ones don't. Should be changed to be the same
 menu:
     "Fries.":
         m "\"Fries, please.\""
@@ -305,7 +310,7 @@ m "\"What!?\""
 "Flynn keeps squinting, his face incredulous, now."
 f "\"Do you really not...\""
 "He doesn't finish and instead shakes his head."
-f "\"Nevermind.\""
+f "\"Never mind.\""
 m "\"Seriously! You're kinda freaking me out...\""
 "Flynn chuckles and covers his eyes again, rubbing."
 f "\"Same.\""
@@ -317,7 +322,7 @@ f "\"Listen, I've got the day off tomorrow. Do you, uh, do you wanna do somethin
 m "\"I—I guess...?\""
 f "\"Alright, I'll come by sometime after noon, maybe with Carl. He doesn't do shit so he should be free.\""
 m "\"Okay. I guess I could use a break from working on the project for a bit.\""
-"Flynn goes on to tell me that he and Leo often go out to fish on their days off and that it's actually a lot of fun."
+"Flynn goes on to tell me that he and Leo often go out to fish on their days off, and that it's actually a lot of fun."
 "I'm still trying to get used to the shift in conversation when Janice shows up with our food."
 "Flynn stares down at his giant, greasy sandwich while I take a giant bite of mine."
 f "\"Fuck, I'm gonna regret this.\""
@@ -346,7 +351,8 @@ play music "meeting1.mp3" fadein 10.0
 "He points and tells me to dig."
 "I start digging."
 "I don't know what I'm looking for, and I ask, but Flynn doesn't say anything."
-"Water keeps filling the hole, it's hard to keep sand from sliding back in."
+#!! either semicolon or "and it's hard to"
+"Water keeps filling the hole, and it's hard to keep sand from sliding back in."
 "Finally, I reach in deep and someone grabs my paw."
 "I stay like that for a long time."
 

@@ -1,7 +1,7 @@
 label leoandjenna:
 stop music fadeout 3.0
 window show
-"I watch Jenna's tail disappear through the sage brush. They're headed down the same trail that I had used to get to Lake Emma."
+"I watch Jenna's tail disappear through the sagebrush. They're headed down the same trail that I had used to get to Lake Emma."
 l "\"TJ!\""
 "TJ did seem to head off in that direction while we were fighting, though I can't imagine he'd go to the lake."
 "I should go with them to help find the lynx."
@@ -37,16 +37,17 @@ show Leo Rejected at center with dissolve
 l "\"Shit, you alright?\""
 "I look up and see Leo looking down at me, his ears up now at the sound of my fall."
 m "\"Yeah, yeah, fine...\""
-"Leo frowns and reaches over with a paw which I grab onto and pull myself up with."
+"Leo frowns and reaches over with a paw, which I grab onto and pull myself up with."
 "I make my way around him, being a little more careful about where I put my feet as I position myself next to him against the boulder."
 show Leo Neutral with dis
 pause 0.5
 show Leo Neutral at left with moveinleft
-"I put both my paws behind myself and heave myself up on top of the boulder, letting my legs dangle over the side."
+#! repeated "myself"
+"I put both my paws behind me and heave myself up on top of the boulder, letting my legs dangle over the side."
 m "\"Ugh...I'm so damn clumsy.\""
 l "\"You're an otter.\""
 m "\"Wow. Asshole.\""
-"I say it jokingly, but Leo's not really smiling. Instead he sticks a paw back into his pocket and pulls out a slightly flat looking cigarette."
+"I say it jokingly, but Leo's not really smiling. Instead he sticks a paw back into his pocket and pulls out a slightly flat-looking cigarette."
 "I give a start and stare. I shouldn't be surprised; I could smell it on him when I first got here."
 "It's just that I'm not used to seeing him do it. He started right after I left."
 "He pulls out a lighter, lights it, takes a drag, then blows the smoke out the side of his muzzle, away from me."
@@ -55,11 +56,11 @@ l "\"I mean, technically Carl is built for that and he's still falling down all 
 m "\"I think that's because Flynn's always tripping him with his tail.\""
 m "\"Speaking of Carl—\""
 "Grunting, I lean over sideways and look at the side of the boulder."
-"I find what I'm looking for instantly; a series of chips and scratches, outlining the rough figure of a canine with a long cape and an \"S\" on his chest."
+"I find what I'm looking for instantly: a series of chips and scratches, outlining the rough figure of a canine with a long cape and an \"S\" on his chest."
 m "\"Ha, it's still here.\""
 show Leo with dis
 l "\"Carl's drawing? Shiiit, I forgot about that. Never finished it, did he?\""
-m "\"Naw, but it's pretty good. Remember how Super Wolf was the only thing he talked about that summer?\""
+m "\"Naw, but it's pretty good. Remember how SuperWolf was the only thing he talked about that summer?\""
 l "\"Hehe, yeah, and the movie wasn't even that good.\""
 m "\"He loved it, though.\""
 l "\"Yeah, and I guess that's all that really mattered.\""
@@ -88,7 +89,7 @@ stop background fadeout 3.0
 "He's never talked to me like that before, and I was joking, too."
 m "\"What?\""
 show Leo Depressed with dis
-"Leo quickly looks away and doesn't say anything. I stare at his face for a while, watch his eyes flick around as he just shakes his head."
+"Leo quickly looks away and doesn't say anything. I stare at his face for a while, watching his eyes flick around as he just shakes his head."
 m "\"Are you still mad at me? We talked—\""
 show Leo Annoyed with dis
 l "\"'Course I'm still mad, Chase! Talking doesn't just fix three years.\""
@@ -158,7 +159,8 @@ show Leo with dis
 "Leo gets the wrong idea and smiles, putting his arm around me and pulling me up to his side."
 l "\"What he said about everyone was total bullshit, especially Jenna.\""
 "His whole family mantra did have its limits."
-"The fact that Leo is so defensive of Jenna's decision to leave her family shows what a piece of shit they really are."
+#!! "pieces of shit" probably?
+"The fact that Leo is so defensive of Jenna's decision to leave her family shows what pieces of shit they really are."
 "I'm just glad that he's changed the subject, though."
 "Leaning my head on his shoulder, I let his hold comfort me."
 show Leo Neutral with dis
@@ -171,7 +173,7 @@ l "\"{i}Pu—chica{/i}, I can't fucking believe he did this now...Idiot. IDIOT!\
 "Finally, he turns back around and keeps going towards Echo."
 l "\"Fucking idiot. How the hell am I gonna go ahead with what I planned this week?\""
 "In the past Flynn would have his blow-ups, then get over it, and so would we."
-"but this time really did feel different."
+"But this time really did feel different."
 "It was like he'd been chipping away at our group for years and finally this is what broke it into pieces. Now there's no putting things back together."
 m "\"Maybe it would have been better if we didn't come here. It's sort of my fault.\""
 l "\"Nope, it's Flynn's fault. Stupid to blame yourself.\""
@@ -184,7 +186,8 @@ l "\"My parents told me stories about their hometown—\""
 l "\"And compared to where I was born, this isn't shit.\""
 "He huffs out smoke through his nose, not bothering to blow it away from me this time, and I'm engulfed in the smell of tobacco."
 l "\"I mean, not to be an asshole, but you gringos have it easy.\""
-l "\"My mom got a phone call almost every month telling her they'd kill my dad just because they had money.\""
+#! they -> we, makes it a little more obvious that Leo's family has the money, not the callers
+l "\"My mom got a phone call almost every month telling her they'd kill my dad just because we had money.\""
 "Leo's always been good at making me feel like a spoiled brat."
 play music "comeover.ogg" fadein 3.0
 m "\"I'm sorry.\""
@@ -205,13 +208,13 @@ l "\"Pleeease don't ask that. I can't leave them, I could never do that. You kno
 m "\"So...are you still mad at me?\""
 "I listen to Leo breathe in deeply, my head rising with his chest."
 l "\"No, otter, I'm not mad. We just have a lot of things to figure out...but we will!\""
-"I guess that's as good place as any to leave off, so I move on to another subject."
+"I guess that's as good a place as any to leave off, so I move on to another subject."
 m "\"So now that Flynn's fucked up the trip what do we do next?\""
 show Leo Neutral with dis
 l "\"He hasn't. We'll fix this. Just gotta get that dumbass to apologize.\""
 show Leo with dis
 l "\"But once I do, we have a birthday to plan!\""
-"I raise my brows in surprise. It wasn't anyone's birthday anytime soon."
+"I raise my brows in surprise. It wasn't anyone's birthday any time soon."
 m "\"Huh, whose birthday?\""
 l "\"Carl's.\""
 "Carl? His birthday wasn't until the end of April, literally a month away."
@@ -225,7 +228,7 @@ m "\"Well, alright. I'm not doing much else tomorrow.\""
 "Leo slides off the boulder and turns back to me."
 l "\"I'll ask Jenna and TJ, too. I'll let Flynn cool off for a day.\""
 m "\"Do you know where TJ went?\""
-l "\"Yeah, he just texted me that he wanted to be left alone, which I understand."
+l "\"Yeah, he just texted me that he wanted to be left alone, which I understand.\""
 "I get off the boulder as well and Leo reaches a paw out to me."
 l "\"And this time watch where you're walking, hold on to me.\""
 m "\"That's probably a good idea.\""
@@ -273,12 +276,12 @@ l "\"Everything okay, Teej?\""
 show Jenna Teasing at left
 with dissolve
 j "\"He's just salty that he isn't roasting on the trail right now.\""
-t "\"No, this is fine. I'm fine guys.\""
+t "\"No, this is fine. I'm fine, guys.\""
 show TJ with dis
 "TJ smiles to show us how fine he is."
 j "\"Yeah, sure. Well, Leo's driving us up halfway after this, so you're still going to get your self-BBQ.\""
 show TJ Rejected with dis
-t "\"You don't have to go if you don't want. I don't know if would be very fun if you were upset the whole time...\""
+t "\"You don't have to go if you don't want. I don't know if it would be very fun if you were upset the whole time...\""
 show Leo with dis
 "At this point Leo turns to me, smiling."
 l "\"You going with them?\""
@@ -304,13 +307,13 @@ menu:
         m "\"Yeah? I don't think I've ever seen him reading one of those.\""
         j "\"Yeah, he thinks anything that isn't from the West is 'inferior' to his precious comics.\""
         "I look over the selection, most of which happens to be manga."
-        m "\"The eyes ARE kinda weird looking.\""
+        m "\"The eyes ARE kinda weird-looking.\""
         j "\"Not all of them. Besides, it's the stories I like.\""
         j "\"It's not all superheroes and powers, you know?\""
         m "\"I guess, though I think every anime I've seen deals with some kind of demon trapped in some kid...\""
-        j "\"Hey, that's the pop shonen crap. You have look for the good stuff.\""
+        j "\"Hey, that's the pop shonen crap. You have to look for the good stuff.\""
         m "\"Hmm, well, I guess that's true with everything, right?\""
-        "As I'm glancing over the covers I'm noticing a pattern of school girls with big boobs."
+        "As I'm glancing over the covers I'm noticing a pattern of schoolgirls with big boobs."
         "It is kind of weird that Jenna would be into this stuff."
         m "\"Anyway, I'm sure if you get him something good it could expand his horizons on comics...if you can really call that expanding.\""
         hide Jenna with dissolve
@@ -323,7 +326,7 @@ menu:
         "I walk up next to him, pretending to look over the wall."
         m "\"Find anything interesting?\""
         show TJ Neutral at center with dissolve
-        "TJ shrugs, pulling the trigger on the gun a few times. It's definitely a weird looking gun. It's pink, and the muzzle is perfectly round, the end tapered."
+        "TJ shrugs, pulling the trigger on the gun a few times. It's definitely a weird-looking gun. It's pink, and the muzzle is perfectly round, the end tapered."
         "That's when I realize it's a penis water gun."
         t "\"I'm alright, just a little tired.\""
         m "\"Ah...um...\""
@@ -346,12 +349,12 @@ menu:
         t "\"Oh, okay.\""
         "I can tell that TJ is unhappy, but there's not much that I can do about it."
         hide TJ with dissolve
-        
+
 "I wander off towards the opposite wall where all the posters are."
 "Leo's standing there, looking over the display board."
 "I stand next to him."
 show Leo at center with dissolve
-l "\"You know, I think every inch of his wall is covered. I don't know if there's anymore room.\""
+l "\"You know, I think every inch of his wall is covered. I don't know if there's any more room.\""
 m "\"Has he put anything on the ceiling?\""
 l "\"I don't think so.\""
 m "\"Then there's room.\""
@@ -375,7 +378,7 @@ play sound "impact.mp3"
 with vpunch
 "Leo yelps and stumbles forward into the posters with a loud clatter."
 j "\"Whoa, calm down boys.\""
-"Jenna walks up behind us and stands next to me, her arms folded over a manga with a doe in a school girl uniform on the front."
+"Jenna walks up behind us and stands next to me, her arms folded over a manga with a doe in a schoolgirl uniform on the front."
 show Leo with dis
 l "\"That looks sexy, Jenna. Good pick!\""
 "Jenna rolls her eyes as Leo reaches into the poster bin with Luche in it."
@@ -393,7 +396,7 @@ t "\"Anyway, maybe it'll help him take another look at that movie. It really is 
 "I snatch it off the rack and hurry up to the front with the others."
 stop music fadeout 3.0
 
-scene bg mall 
+scene bg mall
 with dissolve
 play background "parkinglot.ogg" fadein 3.0
 m "\"How does it look?\""
@@ -435,8 +438,8 @@ $ renpy.pause(0.3, hard=False)
 show TJ Rejected with dissolve
 "Leo sticks his bag out at TJ, almost punching him in the nose. TJ jumps and gingerly takes it from him, frowning."
 t "\"This is a parking lot, guys. Are you sure it's a good idea?\""
-"But Jenna and Leo have already taken up their positions side-by-side, leaning forward."
-j "\"Alright, to that lamppost."
+"But Jenna and Leo have already taken up their positions side by side, leaning forward."
+j "\"Alright, to that lamppost.\""
 l "\"Heh, you're on. Count us off, Chase!\""
 t "\"How is this proving anything? Don't you need to be carrying Chase?\""
 m "\"Alright. Um, ready, set...go!\""
@@ -449,7 +452,8 @@ hide Jenna with dissolve
 "I'm actually surprised by how bad he's losing. I mean, he used to play football back in high school, so he's had some training."
 "With his head down, I guess he doesn't see the curb right in front of him and his foot clips it as he passes."
 show TJ Surprised with dis
-"I hear the yelp, then see him careen off to the side, then roll on the asphalt before slamming up against the tire of a parked car."
+#! removes repetition of "then"
+"I hear the yelp, then see him careen off to the side and roll on the asphalt before slamming up against the tire of a parked car."
 play sound "mallet.mp3"
 with vpunch
 "TJ gasps and covers his eyes."
@@ -470,12 +474,12 @@ l "\"I'm fine! Wanna try that again? This stupid curb got in the way.\""
 m "\"Nope! You're banged up enough as it is. You're fucking bleeding everywhere. I should probably drive.\""
 l "\"I'm FINE, Chase.\""
 "Leo rolls his eyes to show me how much he doesn't care, but I can see that the insides of his ears are bright red."
-"There's a bit of an awkward silence only punctuated by Leo and Jenna's breathing."
+"There's a bit of an awkward silence only punctuated by Leo's and Jenna's breathing."
 show Jenna Smilinghips with dis
 "Finally, Jenna walks up next to me and puts her paw around my shoulders."
-j "\"Well, now you know who you're more likely to survive with in a zombie Apocalypse, Chase. Remember it!\""
+j "\"Well, now you know who you're more likely to survive with in a zombie apocalypse, Chase. Remember it!\""
 show Leo Neutral with dis
-"She leans her head up against my shoulder and I cringe as I see Leo's smile turn icey."
+"She leans her head up against my shoulder and I cringe as I see Leo's smile turn icy."
 m "\"Aaaalright, cool. Let's get going.\""
 "I wiggle out from under her arm."
 stop background fadeout 3.0
@@ -504,12 +508,12 @@ menu:
         m "\"Maybe. I think I could be if I listened to it again.\""
         l "\"Hehe, me too.\""
         "As we drive, I mouth the lyrics under my breath."
-        "{i}You haunt everything in my life: I see you in the clouds in the sky so blue—{/i}"
+        "{i}You haunt everything in my life; I see you in the clouds in the sky so blue—{/i}"
         "{i}I see your outline in my screen door, too.{/i}"
     "It's terrible.":
         "Sure, it's got the nostalgia factor, but it really is embarrassing to listen to now."
         "I used to think it was so deep, so emotional."
-        "Now the guy's whiney voice just annoys me."
+        "Now the guy's whiny voice just annoys me."
         m "\"Naw, it's pretty terrible.\""
         l "\"I know, right! Can't believe we listened to it so much...\""
         "Still, it takes me back. I listen to the lyrics, mouthing them under my breath."
@@ -528,12 +532,13 @@ play background "reststop.ogg" fadein 3.0
 "I'm busy staring at the driveway, thinking about all the times I've walked across it, when a gravelly voice pulls me from my reverie."
 unk "\"Hey! Who are you?\""
 show Kudzu Annoyed with dissolve
-"I jump and look to the right, spotting a thin and angry looking raccoon. He's standing next to some bushes, trimming them up."
-"His yard is desert-landscaped and looks pretty good next to Leo's property, which is nothing but weeds and sage brush."
-"Behind the raccoon is an old and rusty looking trailer home."
+"I jump and look to the right, spotting a thin and angry-looking raccoon. He's standing next to some bushes, trimming them up."
+"His yard is desert-landscaped and looks pretty good next to Leo's property, which is nothing but weeds and sagebrush."
+"Behind the raccoon is an old and rusty-looking trailer home."
 "Thinking back, I'm pretty sure that a really old mouse used to live here, but this guy's a raccoon, and looks pretty young, too."
 m "\"Uh...\""
-"I hear Leo walking quickly around the front of his truck to stand next to me."
+#! Leo has a van, not a truck
+"I hear Leo walking quickly around the front of his van to stand next to me."
 l "\"Hey, Kud! This is Chase. Remember I was telling you about him?\""
 "Leo puts his arm around me."
 show Kudzu with dis
@@ -542,7 +547,7 @@ ku "\"Oh hey, Leo. This is him, then?\""
 m "\"Kud?\""
 show Kudzu Annoyed with dis
 "My voice is just incredulous enough to be offensive, and the raccoon notices."
-"His already scowling face gets even more scrunched up."
+"His already-scowling face gets even more scrunched up."
 ku "\"I'm not exactly from around here...\""
 m "\"Oh, really?\""
 ku "\"No.\""
@@ -556,7 +561,8 @@ show Leo Wry at center
 with dissolve
 l "\"Really, Chase?\""
 m "\"What!? It's a weird name...\""
-"I sniff, but instead of the scented candle smell I thought I'd get I'm instead met with the acrid smell of cigarette smoke."
+#! second 'instead' not needed
+"I sniff, but instead of the scented candle smell I thought I'd get I'm met with the acrid smell of cigarette smoke."
 "It doesn't look the same either. It's all a bit...empty compared to when I was last here."
 "It makes sense, I guess, with Leo's parents and siblings gone."
 l "\"I tell him what a great guy you are for the past two years and that's his first impression of you!\""
@@ -568,6 +574,9 @@ show Leo with dis
 l "\"He is, but he's a good guy. Been through a lot.\""
 "Leo sets the bags down on the kitchen table, pulling out the cake and gifts."
 m "\"So why'd he move here?\""
+#!!!! Does Kudzu really work in Payton? I thought he didn't have a car, since Leo drives him to get groceries.
+#!!!! He mentions later that he's a "clerk in the town hall" - presumably Echo town hall? But Flynn says "The only people who work here are reptiles, so we keep the habistat all dry and such."
+#!!!! Later, Kudzu says he works in Payton again, with "Well, a lot of us here have relations outside the town. Family and work in Payton."
 l "\"Said he likes the isolation. He works in Payton. Some things happened in the city and he wanted to get away.\""
 "Leo ruffles through the plastic cups and gifts."
 l "\"I forget what country he's originally from. His full name's Kudzu...How old's TJ again?\""
@@ -579,16 +588,16 @@ scene bg leoroom
 with dissolve
 
 play music "neutral.ogg"
-"Leo's room is small, but cozy, a little cluttered, but clean enough."
+"Leo's room is small, but cozy. A little cluttered, but clean enough."
 "I walk over to sit on his bed, looking around at all the posters, most of them related to football, or hip-hop moguls."
 "He's had most of these since high school."
-m "\"Kept the same room, huh? Your parents room is bigger, isn't it?\""
+m "\"Kept the same room, huh? Your parents' room is bigger, isn't it?\""
 show Leo at center with dissolve
-l "\"Yeah, well, I'm used to it being here. Would be kind of weird hanging out in my parent's room, anyway. 'Sides—\""
+l "\"Yeah, well, I'm used to it being here. Would be kind of weird hanging out in my parents' room, anyway. 'Sides—\""
 "He plops down next to me, bouncing me up and down on the bed."
 l "\"—I don't really need the space.\""
 m "\"So what do you do around here? It feels kinda empty.\""
-l "\"I'm really only here to sleep, otherwise I'm on the computer. You know...porn."
+l "\"I'm really only here to sleep, otherwise I'm on the computer. You know...porn.\""
 show Leo Wry with dis
 "He looks at me and grins."
 "I look over at his computer."
@@ -619,14 +628,14 @@ l "\"Why am I being interrogated right now?\""
 m "\"Hey, you want me to live here. I think I have a right to be concerned about my personal property.\""
 l "\"I only...I only broke your phone once.\""
 "I spread my paws out."
-m "\"More than I've broken any one else's phone.\""
+m "\"More than I've broken anyone else's phone.\""
 l "\"Yeah, well, I've never pretended that I cheated on someone as a joke.\""
 "My attitude cools a little."
 m "\"Yeah, well, high school. You know?\""
 show Leo with dis
 l "\"I know. ANYWAY, it's nice to have you here again.\""
 "He reaches out and pulls me into a one-armed hug."
-"When I pull back, though, I notice a cut on the side of his arm, a few more on the back of his paw as well."
+"When I pull back, though, I notice a cut on the side of his arm, and a few more on the back of his paw as well."
 "At this point the fur is clumped together with coagulated blood."
 m "\"Man, you really wiped out...\""
 l "\"Hmm?\""
@@ -637,7 +646,7 @@ hide Leo with dissolve
 l "\"I should be logged on. Ask him what he's doing tomorrow. We need to plan this out right.\""
 m "\"Okay.\""
 "I sit down in the chair and wake the computer up. Sure enough, Leo's already logged into his account."
-"I look at his friend's list, seeing that Carl is idle."
+"I look at his friends list, seeing that Carl is idle."
 "I send him the message anyway, then lean back in the chair, almost freaking out as it leans back way farther than I thought it would."
 "Must be all those jerk-off sessions Leo's had."
 "I drum my paws against the desk for a bit, then look back towards the door."
@@ -651,10 +660,10 @@ play sound "click.ogg"
 "I snort loudly at that one."
 play sound "click.ogg"
 "I click on the history tab, next."
-"I scroll through it for a while, the first fifty, or so relating to some DJ, or hip-hop artist."
+"I scroll through it for a while, the first fifty or so relating to some DJ, or hip-hop artist."
 "Finally, I see the word \"cock\" and know that I'm looking at one of Leo's porn sessions."
-"It's pretty standard stuff; ass, balls, making out, blow jobs, but that's when I start seeing a pattern."
-"\"gay otters\", \"otter asses male\", \"male otters tail up\", \"gay blow-job otters\"."
+"It's pretty standard stuff: ass, balls, making out, blow jobs, but that's when I start seeing a pattern."
+"\"gay otters\", \"otter asses male\", \"male otters tail up\", \"gay blow job otters\"."
 play sound "typing.ogg"
 "I raise my brows and click on the search bar for the history, typing in \"otter\" before hitting enter."
 "The results spill down the window, the scroll bar small enough that I have trouble clicking on it to pull it down."
@@ -678,7 +687,7 @@ show Leo Neutral at center with dissolve
 l "\"Can you help me get...\""
 stop loop fadeout 1.5
 show Leo Questioning with dis
-"Leo stops mid-sentence, as I look back at him, the guilt on my face pretty damn obvious."
+"Leo stops mid-sentence as I look back at him, the guilt on my face pretty damn obvious."
 l "\"What did you do?\""
 m "\"Um.. you know what?\""
 play sound "click.ogg"
@@ -723,7 +732,7 @@ l "\"Hmm?\""
 m "\"Alright, alright! It's-it's-ehehehe! I was just searching your contacts...to, to see if you were hooking up with anyone!\""
 "The tickling stops and I'm left gasping for air while Leo just looks down at me, grinning."
 l "\"Oh? Little jealous, huh?\""
-m "\"Uh. maybe...maybe a little.\""
+m "\"Uh. Maybe...maybe a little.\""
 l "\"Huh...\""
 "Leo looks genuinely happy about that, his paws spread out to either side of my head as he grins down at me."
 "I take my chance and shoot my paws up to his sides, digging in."
@@ -742,7 +751,7 @@ m "\"I think I won that.\""
 show Leo with dis
 l "\"No way, I got you to squeal.\""
 l "\"And you cheated when you crushed my dick.\""
-"Leo reaches over me to turn on a small, complicated looking fan on his bedside table before flopping his other arm over his eyes."
+"Leo reaches over me to turn on a small, complicated-looking fan on his bedside table before flopping his other arm over his eyes."
 play background "fan.ogg" fadein 3.0
 "As I stare at the fan I notice something else next to it and gasp loudly."
 show Leo Questioning with dis
@@ -826,7 +835,8 @@ play music "creep.ogg"
 "I gasp through my nose since I can't open my mouth, my heart beating so fast I think it's shaking the bed."
 "My fingers wiggle as I try to yank myself awake, the massive spider only moving closer as it crawls over my foot and onto my leg."
 "The weight of the spider is real, the way it's disheveling my shirt as it crawls onto my stomach is real...THIS IS REAL!"
-"No! No, it's not real. I've had this happen before, started happening when I took the night shift at the grocery store next to campus."
+#! needs some sort of correction involving "it". Switching to a period also conveys that Chase is calming down
+"No! No, it's not real. I've had this happen before. It started happening when I took the night shift at the grocery store next to campus."
 "Very common, very normal, people have it happen all the time. I'll just close my eyes and wait it out."
 scene bg black
 with dissolve
@@ -847,8 +857,9 @@ play loop "fan.ogg"
 "The spider's gone, and the angry presence is, too."
 "I sit up slowly and rub my face, feeling exhausted even though I'd just slept."
 "With the humidifier blowing right in my face I can feel the tiny droplets of water that collected on my waterproof fur."
-"It'll be impossible to fall asleep again after that, not only because of how brutal that sleep paralysis was, but because I still don't feel right."
-"While the spider and...thing in my room were gone, the other thing outside the window...I feel like it's still there."
+"It'll be impossible to fall asleep again after that, not only because of how brutal that sleep paralysis was, but also because I still don't feel right."
+#! It's not Chase's room
+"While the spider and...thing in the room are gone, the other thing outside the window...I feel like it's still there."
 "I look out the window again and see nothing, but still, I can't shake the feeling that I'm still being watched."
 window hide
 stop background fadeout 6.0

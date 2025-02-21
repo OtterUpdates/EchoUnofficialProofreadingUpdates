@@ -1,7 +1,7 @@
 label leowednesday:
 
 stop music fadeout 3.0
-scene bg AllWednesday 
+scene bg AllWednesday
 with slow_dissolve
 $ renpy.pause(3.0, hard=True)
 
@@ -10,14 +10,15 @@ with dissolve
 play background "highway.ogg" fadein 3.0
 window show
 "I stare out the window as we roll down the dusty streets of Echo."
-"Every road, every corner, every trailer and every tree has a memory attached to it."
+"Every road, every corner, every trailer, and every tree has a memory attached to it."
 "There, in the middle of the dusty parking lot that belonged to the Corner Market, is a tiny stand."
 "That used to be where I'd get ice cream after begging for a dollar from my parents."
 "It's crumbled and boarded up now, the paint peeling off in tiny chips."
-"And there, in front of Duke's house, is a big flat rock that Jenna was standing on when she told me she was going to run away from home."
+#! a -> the? Not sure if this is an improvement
+"And there, in front of Duke's house, is the big flat rock that Jenna was standing on when she told me she was going to run away from home."
 "I can still remember almost exactly how she was silhouetted against the red sunset behind her."
-"And the old train yard where, in the middle of summer, Leo kissed me for the first time while I was sweating buckets under the noon sun."
-"He didn't seem to care, though."
+#!! Their first kiss wasn't at noon. This is already fixed in Jenna's version of this scene, so just copy-pasting it over to here
+"And the old train yard where I kissed Leo for the first time after staying up all night at our first real party."
 "I look over at Leo. He's got one hand on the wheel, glancing up at the rearview mirror occasionally to trade jabs with Flynn."
 f "\"I'm regrettin' not lettin' him know we're comin'. You know? You'll be lucky if he even gets his ass out of bed.\""
 l "\"We'll call him, then.\""
@@ -25,24 +26,25 @@ f "\"And what if he doesn't answer?\""
 "Leo doesn't say anything, instead focusing back on the road. TJ fills the silence after a while."
 t "\"Well, I don't think it's too weird. It's just like we're hanging out again. Nothing wrong with that.\""
 f "\"Sure, but making it about Carl is just...weird. Maybe if his birthday was like, next week? Two weeks tops.\""
-j "\"Oh hush, Flynn. It'll just be like we're hanging out. You acting weird about it isn't going to help anything."
+j "\"Oh hush, Flynn. It'll just be like we're hanging out. You acting weird about it isn't going to help anything.\""
 "The car starts slowing down and I snap out of my daydreaming to look up, knowing that we definitely weren't at Carl's house yet."
 stop background fadeout 5.0
 play loop "engine.ogg" fadein 3.0
 "That's when I see a round canine figure standing further up on the side of the road."
 "She's standing in the dirt that separates the road and the field in front of a broken and rusted barbed wire fence."
 l "\"I think that's Janice.\""
-"I look over at Leo and he seems concerned, his brows furrowed as he careful steers the car right up next to the coyote."
+"I look over at Leo and he seems concerned, his brows furrowed as he carefully steers the car right up next to the coyote."
 "I can see why; she's crouched over, elbows on her knees, staring at the ground."
 l "\"Roll down your window, Chase.\""
 "I do as he says, struggling a little with the old crank handle."
 f "\"The hell is she doing out here?\""
 "We come to a stop next to the coyote, kicking up some dust."
 l "\"I dunno...HEY!\""
-"Leo leans over me and smiles out at Janice who's still looking at the ground."
+"Leo leans over me and smiles out at Janice, who's still looking at the ground."
 l "\"Everything al—\""
 "Leo's voice cuts off in a weird choking sound."
-"I look at him, confused, then look back out the window and I can't help myself, but I gasp."
+#!!! This line is just a mess. I made an attempt
+"I look at him, confused, then look back out the window and can't help but gasp."
 "It was hard to tell from the angle, and all the dust kicked up by the van, but now I can see that Janice has her pants down around her thighs..."
 "...I can also see everything else."
 "I sit back quickly and avert my eyes, looking out the windshield instead."
@@ -53,15 +55,15 @@ l "\"Oh! Uh, sorry, uh—\""
 "Leo stops talking and I chance a glance out the window again."
 "Janice is looking at us now, and she's smiling."
 "It's a weird smile because it isn't touching her eyes."
-"it's unnerving."
+"It's unnerving."
 "Leo stares back."
 m "\"Leo, let's just go.\""
 "I hiss out the side of my mouth, staring out the windshield again. He seems reluctant to, though, looking concerned."
 l "\"Janice, do you need some help?\""
 "His tone is one you might use on a toddler...or a crazy person."
-"I don't hear her say anything, except maybe a grunt. Leo bravely keeps trying, though.\""
+"I don't hear her say anything, except maybe a grunt. Leo bravely keeps trying, though."
 l "\"We can give you a ri—\""
-"Leo stops talking in time for me to hear a pattering sound, a sound I recognized well from my time as kid pissing on the dirt roads of Echo."
+"Leo stops talking in time for me to hear a pattering sound, a sound I recognized well from my time as a kid pissing on the dirt roads of Echo."
 "The van lurches forward, then resumes a smoother acceleration back onto the empty road."
 f "\"Holy shit! What the fuck was that!?\""
 l "\"I don't...\""
@@ -75,7 +77,7 @@ l "\"I don't think so. Did you see the way she looked at me?\""
 m "\"She was probably just on something. Isn't everyone?\""
 l "\"No, she doesn't do stuff like that.\""
 m "\"Well, maybe she does? You never know with people.\""
-"Again, Leo doesn't say anything and neither does anyone else. We don't go back."
+"Again, Leo doesn't say anything, and neither does anyone else. We don't go back."
 stop loop fadeout 3.0
 scene bg mansion with fade
 show Flynn Annoyed at left with dissolve
@@ -112,7 +114,7 @@ show TJ Rejected with dis
 "TJ's ears pin back, a frown on his face."
 show Leo Neutral with dis
 "The wolf puts a paw to his forehead, closing his eyes."
-l "\"Sorry, but I think he's just asleep and it shouldn't be too hard to just get in there and wake him up.\""
+l "\"Sorry, but I think he's just asleep, and it shouldn't be too hard to just get in there and wake him up.\""
 "I look over at the side of the house and see a window well."
 "I point at it."
 m "\"What about that?\""
@@ -123,15 +125,15 @@ hide Jenna with dissolve
 "She hops off the front porch and crouches down next to the window, pushing at it."
 j "\"Wait, there's a security sticker here.\""
 f "\"Well ya gotta arm it first and Carl's such a lazy ass I know he didn't.\""
-f "\"'Sides, if we set it off we can just run. It's not like they'll show up anytime soon.\""
-j "\"Or instead of acting like criminals we can just stay until the cop shows up. She knows us."
+f "\"'Sides, if we set it off we can just run. It's not like they'll show up any time soon.\""
+j "\"Or instead of acting like criminals we can just stay until the cop shows up. She knows us.\""
 "Jenna hesitates, then pushes at the window again, but it doesn't budge."
 j "\"Locked.\""
 l "\"Let's try the one above it.\""
 j "\"That's too high.\""
 l "\"I'll boost you up.\""
 t "\"I think this is going a little too far.\""
-"Leo ignores him  and stands next to the window before making a platform for Jenna's foot with his paws."
+"Leo ignores him and stands next to the window before making a platform for Jenna's foot with his paws."
 "Steadying herself with her paws against the wall of the house, Leo easily lifts Jenna and she manages to grab the ledge."
 f "\"Fuckin' hell this is so fuckin' stupid.\""
 "Flynn mutters next to me, but I make a point of not looking over at him."
@@ -141,15 +143,15 @@ show Leo with dis
 l "\"Yes! Now I'm gonna boost you all the way up. Hold on.\""
 j "\"Careful!\""
 hide Jenna with dissolve
-"Like they're some kind of cheerleading duo Leo shoves Jenna all the way up with one paw and she disappears through the window."
+"Like they're some kind of cheerleading duo, Leo shoves Jenna all the way up with one paw and she disappears through the window."
 "Her bush tail is the last thing we see...until she pokes her head back through."
 j "\"Kitchen.. I fell in the sink.\""
 l "\"Great! Now unlock the door.\""
 "She disappears again and we make our way back to the front door."
 f "\"Leo, you're fucking crazy.\""
 show Leo Annoyed with dis
-l "\"If you don't shut your fuckin' mouth Flynn I'll kick you right in your vagina. Sound good?\""
-show TJ Surprised 
+l "\"If you don't shut your fuckin' mouth, Flynn, I'll kick you right in your vagina. Sound good?\""
+show TJ Surprised
 show Flynn Surprised
 with dis
 f "\"Jesus, calm your—\""
@@ -184,7 +186,7 @@ m "\"Yeah. Me too.\""
 show TJ with dis
 t "\"I might go again in a day or two, if you'd like.\""
 m "\"Sure, why not?\""
-"I promise myself that that wasn't an empty promise.\""
+"I promise myself that that wasn't an empty promise."
 show Flynn Rejected at left behind TJ with dissolve
 f "\"Well he's not in his room.\""
 show TJ Neutral with dis
@@ -200,13 +202,13 @@ hide Jenna
 hide TJ
 hide Flynn
 with dissolve
-"Flynn heads back upstairs and Leo head for the downstairs with Jenna."
+"Flynn heads back upstairs and Leo heads for the downstairs with Jenna."
 "TJ looks around the kitchen, then moves over to the living room, checking the couches."
 "I decide to head out back, if not just to get away from the others since things feel unusually tense between us today."
 scene bg backyard with dissolve
 "As I step out into the backyard I'm a little surprised."
 "It's different from when I was last here."
-"The play set is gone and so is the massive trampoline they used to have."
+"The playset is gone and so is the massive trampoline they used to have."
 "The biggest shock, though, is seeing that the huge tree house that used to sit in the old oak tree is gone."
 "I stand there for a moment, feeling a vague sense of loss."
 "I have too many good memories of that place. Time moves too fucking fast."
@@ -222,14 +224,14 @@ scene bg backyard with dissolve
 "And I'm just...boring."
 "As I round the corner of the house I'm surprised to see Flynn standing there."
 "He must have come out the front door."
-m "\"Oh, hey Flynn. I thought you went upstairs."
-"Flynn doesn't seem surprised at all to find me out here which makes me think he was looking for me."
+m "\"Oh, hey Flynn. I thought you went upstairs.\""
+"Flynn doesn't seem surprised at all to find me out here, which makes me think he was looking for me."
 show Flynn at center with dissolve
 stop music fadeout 3.0
 play loop "reststop.ogg" fadein 3.0
 f "\"I did. Wasn't there so I thought I'd look outside.\""
 m "\"Oh...well he's not in the back, so...\""
-"I don't know why but Flynn is making me feel awkward as hell."
+"I don't know why, but Flynn is making me feel awkward as hell."
 m "\"Is something wrong?\""
 show Flynn Annoyed with dis
 "Flynn folds his arms and leans up against the house."
@@ -257,7 +259,7 @@ m "\"What?\""
 f "\"You realize what you're doing is stupid, right?\""
 m "\"Excuse me?\""
 f "\"Getting back with him during fuckin' spring break. Pretty stupid, right?\""
-"I had a feeling that's where this was going, and now that I know for sure I'm definitely pissed off now."
+"I had a feeling that's where this was going, and now that I know for sure I'm definitely pissed off."
 m "\"How is that any of your business?\""
 show Flynn Annoyed with dis
 f "\"How is it not? You two seem pretty okay with making it our business, right?\""
@@ -332,7 +334,7 @@ m "\"Crazy? Kind of like you are right now?\""
 show Flynn with dis
 "Flynn pulls away, straightening his back, but still looking down at me."
 f "\"Yeah? Well, maybe I am...\""
-"The awkward silence stretches out, seems to go on and on until...\""
+"The awkward silence stretches out, seems to go on and on until..."
 f "\"You know what? I think—\""
 show Flynn Surprised with dis
 l "\"Chase.\""
@@ -358,7 +360,7 @@ play music "quiet.ogg" fadein 3.0
 show TJ Rejected at center with dissolve
 t "\"I'm getting worried...\""
 show Flynn at right behind TJ with dissolve
-f "\"No shit. Carl doesn't just disappear form his house like this; he doesn't have anywhere to go!\""
+f "\"No shit. Carl doesn't just disappear from his house like this; he doesn't have anywhere to go!\""
 show Jenna at farright with dissolve
 j "\"Calm down. He could be anywhere. He has more friends than just us.\""
 f "\"The fact that he isn't answering his phone is kinda fucking suspicious.\""
@@ -384,7 +386,7 @@ l "\"Maybe if someone else gave him a ride, but like Flynn said, does he have an
 j "\"Well, if you guys are going to do that then I'll probably stay here in case he comes back.\""
 t "\"Yeah, and we can keep looking.\""
 l "\"Sounds good.\""
-"Leo pulls his keys out of his pocket then looks back at me."
+"Leo pulls his keys out of his pocket, then looks back at me."
 l "\"Coming with me, Chase?\""
 m "\"Yeah.\""
 "I follow Leo out the door, actually starting to feel worried about Carl."
@@ -403,10 +405,10 @@ m "\"So...where do you think he went?\""
 show Leo Neutral at center with dissolve
 l "\"Dunno...\""
 m "\"Do you think we should call someone?\""
-l "\"Like the cops? Not yet. He's an adult so they won't really look into it until it's been days.\""
+l "\"Like the cops? Not yet. He's an adult, so they won't really look into it until it's been days.\""
 l "\"We should probably call his parents, though, if he doesn't show up by tonight.\""
 "I don't say anything, stirring my milkshake around."
-"I glance back over toward the kitchen area, watching a very tired looking Janice gather up plates before taking them to the back."
+"I glance back over toward the kitchen area, watching a very tired-looking Janice gather up plates before taking them to the back."
 "I was pretty much mortified when I realized she was here and about to take our order, mostly just because I was embarrassed for her."
 "She didn't really say anything, though, just took our order and left."
 "I examine my milkshake closely, though for what I'm not sure."
@@ -422,7 +424,7 @@ m "\"I don't think so. Flynn's usually been that way, right?\""
 l "\"Not like that, like the way he was talking to you earlier.\""
 "So he did hear."
 l "\"Guess you were right. I should have just left shit alone.\""
-l "\"We all used to fit together so well, but now we've all changed and it's like we're bending ourselves to fit again."
+l "\"We all used to fit together so well, but now we've all changed and it's like we're bending ourselves to fit again.\""
 m "\"I guess that's just life, right?\""
 "Leo grunts and keeps staring at the window."
 "It's clear how much he wanted this all to work out, to give us the opportunity for one last hurrah before we separated for good."
@@ -458,7 +460,7 @@ show Leo Neutral with dis
 "Leo and I look up to find a lanky, patchy, ugly ring-tailed cat staring down at us with beady, black eyes."
 show Clint at farright with dissolve
 cl "\"I don't know if you knew, but there's a lot of other people in here trying to enjoy their meal.\""
-"Clint puts a paw down on the edge of the table, leaning in.\""
+"Clint puts a paw down on the edge of the table, leaning in."
 show Clint Smirk with dis
 cl "\"Could you try not to ruin it for us?\""
 "He grins at me, showing me just how many teeth he's missing."
@@ -471,7 +473,7 @@ m "\"Well, it kinda looks like you dumped your own ass, Clint. What happened to 
 "I can also see his tail twitching behind him and it's patchy too, leaving some parts of it bald, like a rat's tail."
 show Leo with dis
 l "\"Actually, Clint, you're right; we're all trying to eat, but there's a smelly, ugly ring-tailed skeleton ruining it for us.\""
-"Clint flicks his attention from me to Leo who smiles sweetly at him."
+"Clint flicks his attention from me to Leo, who smiles sweetly at him."
 l "\"Mind doing us all a favor and getting the fuck out?\""
 show Clint Smirk at right with moveinright
 "Clint leans in low to the table, putting his face up next to Leo's."
@@ -483,13 +485,13 @@ l "\"If you're trying to make me mad you might as well do it right, eh?\""
 "His brain, which I imagine is swiss cheese at this point, tries to come up with some kind of retort."
 cl "\"Go...go fuck yourself.\""
 l "\"Yeah? Well I'd tell you to do the same, but you've got a sister at home, don't you?\""
-"Clint moves fast, swinging a fist up and around toward's Leo's jaw."
+"Clint moves fast, swinging a fist up and around towards Leo's jaw."
 show Leo Neutral with dis
 "Leo's ready for him and lunges to the side, though the fist still glances the side of his face."
 play sound "fight.ogg"
 queue sound "glass.ogg"
 hide Clint with dis
-"He grabs Clint's arm and yanks him down onto the table which knocks over my milkshake and sends it splashing into my lap."
+"He grabs Clint's arm and yanks him down onto the table, which knocks over my milkshake and sends it splashing into my lap."
 "I gasp and stand up and move to the side of the table while Leo starts to rub Clint's face into the mess, smashing it into the table a few times."
 show Janice at farright with dissolve
 ja "\"Stop it!\""
@@ -503,21 +505,23 @@ l "\"You know Clint started it.\""
 "Underneath him Clint snarls and thrashes."
 ja "\"Am I gonna have to get the taser from the back?\""
 show Leo Neutral with dis
-"Slowly, Leo backs off of Clint who immediately shoves himself off the table."
-"I can see Leo prepare himself in case Clint takes another swing, but he doesn't even look at him."
-"His already dirty tanktop smeared brown from the milkshake, he stumbles to the door and disappears outside."
+"Slowly, Leo backs off of Clint, who immediately shoves himself off the table."
+#!!! This needs some disambiguation with Leo and Clint both using the same pronouns. Using Clint twice is a bit awkward too; 'the ringtail' is okay
+"I can see Leo prepare himself in case Clint takes another swing, but the ringtail doesn't even look at him."
+"His already-dirty tank top smeared brown from the milkshake, he stumbles to the door and disappears outside."
 ja "\"And clean up that fucking mess before you leave.\""
 hide Janice with dissolve
 "With that, the old coyote turns and stalks off to the back."
 "She leaves me and Leo to stare at each other before we ruefully wipe up the spilled milkshake with brown napkins."
-"There are only two other patrons in the diner with us; a skunk and and a jackrabbit."
-"But I can feel their eyes on us the whole time and it only adds to the embarrassment."
+"There are only two other patrons in the diner with us: a skunk and a jackrabbit."
+"But I can feel their eyes on us the whole time, and it only adds to the embarrassment."
 m "\"What do you think her problem is?\""
 "I ask Leo under my breath as we come back from tossing the ball of wet napkins in the trash can."
 "He just shrugs, though, and I follow him quietly out of the diner into the late afternoon light outside."
 scene sunset with dissolve
 stop music fadeout 3.0
-"We walk in silence for a while with me walking awkwardly because my soaked and sticky pants are incredibly uncomfortable on my thighs."
+#! Could use this comma
+"We walk in silence for a while, with me walking awkwardly because my soaked and sticky pants are incredibly uncomfortable on my thighs."
 "We stop at the motel where I change and shower before grabbing a fresh change of clothes, then we start back out again."
 "I think about staying behind at the motel, but I feel like that would be a dick move after what Leo's been through today."
 "As we walk back Leo takes a detour, stopping at the convenience store."
@@ -528,19 +532,19 @@ stop music fadeout 3.0
 play music "intimate.ogg" fadein 3.0
 l "\"Let's sit.\""
 "I lead the way because we've both done this dozens of times before."
-"We step off the asphalt and down a little ways into the brush were Leo pulls me up onto a boulder."
+"We step off the asphalt and down a little ways into the brush where Leo pulls me up onto a boulder."
 show Leo Neutral at center with dissolve
 "Leo sighs, pulling out the first beer bottle."
 play sound "bottleopen.ogg"
-"Leaning back, he pulls out his keys to use the bottle opener on his key chain before handing it over to me."
-"He does the same for himself then practically chugs the whole thing before grabbing another even before I'm able to take my first swig."
+"Leaning back, he pulls out his keys to use the bottle opener on his keychain before handing it over to me."
+"He does the same for himself, then practically chugs the whole thing before grabbing another even before I'm able to take my first swig."
 "I don't comment on it and instead look out at the sunset, thinking about how nice it would be to just sort of run off into the wilderness."
 "At least for a little while."
 "I lean back and sigh, noticing a white and brown splotch on the knee of Leo's jeans."
 m "\"What you said to Clint...that was pretty mean.\""
-l "\"He said some pretty mean stuff too and it's not like I like saying that shit to him.\""
-"Seeing me lying back Leo shifts closer to me, allowing me to rest my head against his thigh."
-"Again, the familiar position probably isn't  a good idea, but I just don't care."
+l "\"He said some pretty mean stuff too, and it's not like I like saying that shit to him.\""
+"Seeing me lying back, Leo shifts closer to me, allowing me to rest my head against his thigh."
+"Again, the familiar position probably isn't a good idea, but I just don't care."
 m "\"So does Clint still live with his dad?\""
 l "\"No. He went to prison two years ago.\""
 m "\"Really? Because of—\""
@@ -551,7 +555,7 @@ m "\"Shit.\""
 show Leo Depressed with dis
 "Finally he lets out a big sigh."
 l "\"Chase. Come back to Echo.\""
-"I close my eyes, turning my vision blood red against the sunset."
+"I close my eyes, turning my vision blood-red against the sunset."
 m "\"Maybe...just not yet.\""
 "He doesn't press the issue, instead reaching out for another bottle."
 "By the time I get to my second one the rest are gone."
@@ -566,10 +570,10 @@ play loop "crickets.ogg" fadein 3.0
 play sound "steps.ogg"
 "I'm busy trying to steady him when I hear footsteps pounding up behind us."
 "Before I know it, Leo's shoved me hard to the side and I go stumbling into the weeds."
-"Whirling around I see a dark figure running off to the side from Leo, his attack aborted as he saw the wolf had seen him."
+"Whirling around, I see a dark figure running off to the side from Leo, his attack aborted as he saw the wolf had seen him."
 show Clint Smirk at right behind nightoverlay with dissolve
 "He comes back around and I immediately see that it's Clint...and he's got a crowbar in one paw."
-"My stomach drops as I look from him to Leo who's got a giant smile on his face like this is exactly what he wanted to happen."
+"My stomach drops as I look from him to Leo, who's got a giant smile on his face like this is exactly what he wanted to happen."
 stop loop fadeout 3.0
 play music "argument.ogg" fadein 5.0
 m "\"What the hell!?\""
@@ -577,7 +581,7 @@ show Leo Neutral at left behind nightoverlay with dissolve
 l "\"Come back for more, Clint?\""
 "Clint doesn't say anything, instead he just screams and runs at Leo again."
 "Usually, I wouldn't be worried about Leo in a fight with Clint, but the crowbar and the fact that Leo can barely stand has me really worried."
-"Leo backpedals, then ducks low and lunges forward which I don't think Clint expects."
+"Leo backpedals, then ducks low and lunges forward, which I don't think Clint expects."
 "His grunt is guttural, but to my surprise he doesn't go down."
 "Instead, he grips the back of Leo's shirt before raising the crowbar and bringing it down hard into Leo's back with a solid, meaty thud."
 play sound "thud.ogg"
@@ -585,7 +589,7 @@ show Leo Annoyed with dissolve
 "I gasp and cringe, starting to jog towards them."
 "Clint presses forward and Leo trips over something, landing on his butt."
 "Clint raises the crowbar again and Leo raises a paw."
-"For about two seconds they play a game with Leo moving his paws around above his head, anticipating the swing."
+"For about two seconds they play a game, with Leo moving his paws around above his head, anticipating the swing."
 "Clint, meanwhile, keeps trying to re-angle the crowbar so that Leo will miss."
 "He doesn't get a chance, though, because that's when I reach them."
 "I'm not exactly a good fighter considering I've never been in a fight before—"
@@ -619,12 +623,12 @@ stop music fadeout 3.0
 play loop "crickets.ogg" fadein 3.0
 "I crawl up next to the wolf and he looks over at me as I do. His paw immediately goes to my head to steady it as he looks closer at my face."
 l "\"Fuck, did he hit you?\""
-"That's when I realize that I have a massive headache and feels like it's full of water."
+"That's when I realize that I have a massive headache and my head feels like it's full of water."
 "I rub a spot that itches a bit right above my eyebrow and my pads come away slightly dark and bloody."
 l "\"That fuckin' piece of shit!\""
 play sound "thud.ogg"
 "Leo sends a backfist into the side of the downed Clint's face."
-ku "\"Hey! That's enough Leo.\""
+ku "\"Hey! That's enough, Leo.\""
 "That's when I remember that it was someone else that actually saved Leo."
 "The voice is familiar, but it isn't until I look up at the source that I recognize Kudzu."
 show Kudzu Annoyed at right behind nightoverlay with dissolve
@@ -642,6 +646,9 @@ show Leo Neutral at left behind nightoverlay with dissolve
 l "\"Calm the fuck down. You know how Clint is.\""
 ku "\"He wouldn't do half of the crap he does if you didn't antagonize him so much.\""
 ku "\"You say he was a bully, but from what I've seen it's the reverse.\""
+#!!! Can I just say that Leo asking Clint if he fucks his sister is so milquetoast it barely qualifies as bullying, and yet the characters repeatedly mention that Leo is off the deep end with what happened at the diner.
+#!!! Meanwhile, Clint swung first at Leo, so Leo is fairly justified from that angle too.
+#!!! This would be a more interesting subplot if Leo got physical without Clint swinging first, or if he said something way worse than Clint.
 "It's hard to think of Leo as a bully, but the way he had acted towards Clint in the diner was a bit much...even if it was Clint."
 show Leo with dis
 l "\"Hey, if he can't take it then maybe he shouldn't dish it, eh?\""
@@ -666,10 +673,10 @@ show Leo Rejected with dis
 "Leo turns back to me and his eyes soften as he puts an arm around my shoulders."
 l "\"Come on, we might need to go to the hospital.\""
 m "\"I'm fine, really.\""
-hide Leo 
+hide Leo
 hide Kudzu
 with dissolve
-"The low tones of Kudzu's voice murmuring to Clint fades off as we stumble into the night."
+"The low tones of Kudzu's voice murmuring to Clint fade off as we stumble into the night."
 l "\"No, you're not fine. He hit you fucking hard. Goddamn that fucking idiot; he could have killed you!\""
 "I put a paw back to the sore on my forehead and rub at it. Leo grabs my wrist."
 l "\"Don't do that, you'll infect it. We'll clean it up back at my place.\""
@@ -678,7 +685,7 @@ l "\"Swear to God, I'm not gonna leave my house without my gun again.\""
 l "\"Ugh.. one—one sec.\""
 "He makes as if to steady me with both paws, then stumbles off to the side of the road."
 "It's dark and I can't see him, but I sure as hell can hear a retch followed by a splash."
-"This happens about three more times before Leo shakily, but more steadily approaches me from the darkness, a sheepish grin on his face."
+"This happens about three more times before Leo shakily, but more steadily, approaches me from the darkness, a sheepish grin on his face."
 m "\"You okay?\""
 l "\"Yeah.. yeah, just had a little too much?\""
 m "\"Really? The Leo I knew could down 15 cans and still walk.\""
@@ -703,7 +710,8 @@ l "\"You too? How can he expect not to get hit with that if he's going off about
 "Leo barks out a laugh."
 l "\"Talk shit get hit, I always say.\""
 m "\"I dunno, man. What his dad did is different.. it's not his fault, you know.\""
-l "\"Hey, he might be fucked up, but he can still make the decision to be a complete dick to everyone, can't he?\""
+#! I think this fix is needed?
+l "\"Hey, he might be fucked up, but he can still make the decision to not be a complete dick to everyone, can't he?\""
 "I wish Jenna were here to help back me up on how that isn't exactly fair to Clint."
 m "\"Anyway, I think he was on something. Did you see how crazy he looked?\""
 l "\"He's always on something.. and speaking of which.\""
@@ -716,20 +724,20 @@ l "\"Duke.\""
 show Duke Dazed at left behind Leo with dissolve
 "The skinny weasel looks us both up and down, raising up a paw to pull a drag from what looks like a cigar."
 "...I assume it's actually a blunt because it smells like Carl."
-"He's as patchy and unhealthy looking as I remember him."
+"He's as patchy and unhealthy-looking as I remember him."
 "Not as torn up as Clint, but still bad enough to know he's done his fair share of dabbling in meth."
 "He doesn't say anything and after a while Leo clears his throat."
 l "\"Isn't it a nice—\""
 du "\"He's here...\""
-"As Duke cuts Leo off he's staring right at me so I assume it's me he's talking about."
+"As Duke cuts Leo off he's staring right at me, so I assume it's me he's talking about."
 m "\"Hi, Duke.\""
-"I probably couldn't have said anymore awkwardly."
+"I probably couldn't have said any more awkwardly."
 show Leo Neutral at right with moveinright
 "Leo steps forward, partially in front of me."
 l "\"Did you need something?\""
 "Duke lets out a long stream of smoke towards us."
 "Definitely a blunt."
-du "\"Same shit's been happnin' to me...after ya told me about it.\""
+du "\"Same shit's been happenin' to me...after ya told me about it.\""
 show Leo Questioning with dis
 l "\"Hmm?\""
 "Leo looks at him, looking politely puzzled, though I can see his tail twitching behind him."
@@ -761,9 +769,9 @@ l "\"Does it matter? Just keep moving and hope we don't run into any more of the
 stop loop fadeout 3.0
 scene bg leokitchen with dissolve
 play music "neutral.ogg"
-"Even though the instructions say only to take two, Leo gives me three generic acetaminophen pills."
+"Even though the instructions say to only take two, Leo gives me three generic acetaminophen pills."
 scene bg leosbathroom
-"After that he takes me to the bathroom and starts cleaning the cut on my forehead."
+"After that, he takes me to the bathroom and starts cleaning the cut on my forehead."
 "I grimace against the sting of the rubbing alcohol."
 show Leo Rejected at center with dissolve
 l "\"We really should take you to the ER. This might even need stitches.\""
@@ -799,7 +807,8 @@ l "\"I think my shirt came up a little while we were wrestling around.\""
 m "\"Give me the alcohol.\""
 "Leo sighs again but hands it over."
 m "\"And take off your shirt.\""
-"He smirks at that and slowly, (purposefully) sensually, strips his shirt off."
+#!!! The (purposefully) part is a bit awkward. "slowly, sensually" seems fine to me
+"He smirks at that and slowly, sensually, strips his shirt off."
 "I try to ignore him, but I'd be lying if I said I wasn't turned on by his body."
 "It's been a long time since I last saw him shirtless, and he's kind of changed."
 "He's thicker, broader in the shoulders and chest, the muscles smoother and a little more filled out."
@@ -808,7 +817,7 @@ m "\"And take off your shirt.\""
 "Again, I don't know why, but Leo has a way of making you want to play along even if you know it's a bad idea."
 "He's been flirting with me this whole time, so I guess he's sort of just broken down my defenses."
 "Once I finish rubbing in the alcohol I let a paw linger on Leo's hip."
-"We both stay like for a while until Leo finally turns around, leaning back against the sink."
+"We both stay like that for a while until Leo finally turns around, leaning back against the sink."
 show Leoexp Wry with dissolve
 "I look over his form, his broad chest down to his thick stomach."
 l "\"Like what you see?\""
@@ -831,7 +840,7 @@ scene leoandchase with slow_dissolve
 l "\"Fuckin' hell.\""
 "He moans it, sounding like he just scratched an unreachable itch, like he just had his first drink of water in days."
 m "\"L—Leo!\""
-"I gasp, about to tell him to stop, but then his tongue burrows in past my fur to lick to the skin and my eyes roll."
+"I gasp, about to tell him to stop, but then his tongue burrows in past my fur to lick the skin and my eyes roll."
 "He pulls back, finally, and I lower my gaze to meet his."
 "His tongue is hanging out, making him look a little goofy. I can see a few of my short brown hairs on his tongue."
 "He starts to lean in again, and this time I don't turn my head away."
@@ -847,8 +856,8 @@ l "\"I—I...\""
 "I wait for him to finish, but he doesn't go on."
 m "\"Did you see something?\""
 l "\"I thought I did...Just seeing things, I guess.\""
-"Finally he turns his attention to the first aid kit and leans over, starting to pick everything back up."
-"Slowly I slide down from the sink pushing my shirt back into place, realizing that the moment had passed."
+"Finally, he turns his attention to the first aid kit and leans over, starting to pick everything back up."
+"Slowly I slide down from the sink, pushing my shirt back into place, realizing that the moment had passed."
 "While I'm curious as to what he saw, I'm also conscious of the fact that the break in our intimacy has made things awkward again."
 m "\"Um, should we check the house? Could be Clint...\""
 l "\"No, no. Wasn't Clint.\""

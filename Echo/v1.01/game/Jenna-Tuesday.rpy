@@ -37,11 +37,12 @@ scene bg trail2
 with fade
 
 "A few hours in and TJ's quite a bit ahead of us."
-"I feel a little bit bad about it, but I think he likes it that way, probably wants to think after yesterday."
-"Jenna and I walk side by side and she's making sure that I drink water the entire time."
+#!! consider a stronger pause between "way" and "probably"
+"I feel a little bit bad about it, but I think he likes it that way. He probably wants to think after yesterday."
+"Jenna and I walk side by side, and she's making sure that I drink water the entire time."
 show Jenna at center with dissolve
 j "\"You should be done with that by now.\""
-"She gestures at my water bottle which is still half full."
+"She gestures at my water bottle, which is still half full."
 m "\"Ugh, come on. I've had like, three already.\""
 "I take a sip, then almost snort water as Jenna tips up the bottom of the bottle."
 j "\"Hey, I made TJ a promise here. You're an otter, you need it.\""
@@ -57,7 +58,8 @@ j "\"Actually, you don't really need more water than me or TJ, as he could tell 
 j "\"The water thing is actually more of a psychological need as opposed to a physical one.\""
 m "\"Oh yeah?\""
 "I look over my wet camera bag, which definitely didn't need water."
-j "\"Yeah, you know, back when there weren't really any ethics in research they separated an otter pup from water, never allowed to swim.\""
+#! probably? Could also maybe use an emdash near the end
+j "\"Yeah, you know, back when there weren't really any ethics in research they separated an otter pup from water — never allowed it to swim.\""
 "That makes me pause. Technically, in this day and age, otters don't really need to swim. A trip to the supermarket gets all that done."
 "But something about not being allowed to be in water, to feel the cool, isolated space that I so longed to be in..."
 m "\"What happened?\""
@@ -73,6 +75,7 @@ m "\"So, uh...\""
 j "\"You wanting to talk about Adam?\""
 m "\"No!\""
 "Well, I sort of did, but I don't think that would be appropriate at all."
+#!! Didn't Jenna give a clear answer?
 m "\"I was just wondering...are you gonna go see your family sometime during the trip? We talked about it earlier, but I guess you didn't really give an answer.\""
 "Jenna snorts loudly, tossing her head back."
 j "\"You're kidding, right?\""
@@ -86,7 +89,7 @@ t "\"Guys, there's a giant dip over here, so watch your step!\""
 "TJ's quite a bit ahead of us now. I don't even see him anymore around all the boulders and brush."
 "I pick up the pace and Jenna follows."
 m "\"Well...do YOU miss them?\""
-"She doesn't say anything for awhile, which tells me she's really thinking about it."
+"She doesn't say anything for a while, which tells me she's really thinking about it."
 j "\"No.\""
 "She says it, finally, surprising me a little with her bluntness."
 j "\"At least not my mom and dad. Not even Adam.\""
@@ -99,8 +102,8 @@ j "\"Adam.. he had problems. Mom and Dad fucked him up, of course, but he took i
 j "\"Jeremy, though...I guess I wouldn't mind seeing him again.\""
 "I give her an incredulous look."
 m "\"See, Jeremy's the one I would have thought you wouldn't have wanted to talk to...\""
-j "\"Heh, yeah. Now Clint is the one that fucked up Jeremy. But he really was a good person before then.\"" 
-"Jeremy was, for as along as I can remember, a royal dick. A bully to me, TJ, and Carl."
+j "\"Heh, yeah. Now Clint is the one that fucked up Jeremy. But he really was a good person before then.\""
+"Jeremy was, for as long as I can remember, a royal dick. A bully to me, TJ, and Carl."
 "Along with Clint, he terrorized our childhood."
 "That is, until Leo showed up."
 "I'll never forget the day Leo rammed Jeremy's head into a tree, and punched Clint so many times in the face his eyes almost swelled shut."
@@ -112,7 +115,7 @@ j "\"Environment AND temperament make us who we are. Some people...some people c
 "It's clear that her \"temperament\" was a lot stronger than mine, whatever that was. If I had parents like that...I don't know how I would have survived."
 "I take another gulp of water and it's then that I realize how badly I need to pee."
 stop background fadeout 3.0
-"Looking off to the side, I spot a rather large boulder surrounded by sage brush."
+"Looking off to the side, I spot a rather large boulder surrounded by sagebrush."
 m "\"Hey, you go ahead. I gotta take a piss.\""
 "Jenna quirks her muzzle and folds her arms."
 show Jenna at center with dissolve
@@ -127,23 +130,25 @@ stop loop fadeout 3.0
 "Sometimes Jenna's jokes were so dry that I had a hard time figuring out if she really was joking or not."
 scene bg boulder with dissolve
 play background "reststop.ogg" fadein 5.0
-"I dodge my way around the sage brush and tumbleweeds towards the boulder and start to piss."
+"I dodge my way around the sagebrush and tumbleweeds towards the boulder and start to piss."
 "Jenna really is an enigma. She's nice enough, and smart, but she has this edge about her that always has me on guard, for some reason."
 "Fur prickles on the back of my neck."
-"I'm not sure what it is, but something isn't right. I look left and right in the small chance that someone else is coming up the trail."
+"I'm not sure what it is, but something isn't right. I look left and right on the small chance that someone else is coming up the trail."
 "It's weird feeling like this in broad daylight. Normally I don't get so uptight unless it's dark."
 "I hear it's the opposite with species that can see better at night."
+#!!! What is this line supposed to be? Is this Sam speaking? Should have Sam's font if so. "you" is not normal, and the italics don't work here.
 "{i}Something's watching you from the brush...{/i}"
-"A shiver runs right up my spine and I tremble under its influence."
-"As if of its own accord my head whips around, immediately focusing in on a clump of sage brush thirty feet away."
+"A shiver runs right up my spine, and I tremble under its influence."
+"As if of its own accord my head whips around, immediately focusing in on a clump of sagebrush thirty feet away."
 "And there, right in the middle, someone's face is staring at me."
-"I can only call it a face because there are two eyes, and a mouth, but I've never seen anything like it."
-"It's flat, wide, and stretched out; sagging where the chin should be."
+#! probably? unless the pause is needed
+"I can only call it a face because there are two eyes and a mouth, but I've never seen anything like it."
+"It's flat, wide, and stretched out, sagging where the chin should be."
 "I can't help myself."
 "I yelp loudly and stumble to the side as I whip my body around to defend myself, somehow conscious of the fact that my dick is still out."
 "Then, it all comes together. I stare for a few seconds longer, then force out a tight, high-pitched laugh."
 m "\"Are you fucking kidding me?\""
-"It's a rock, a white rock, and the sage brush twigs have fallen over it perfectly to give it features similar to that of a face."
+"It's a rock, a white rock, and the sagebrush twigs have fallen over it perfectly to give it features similar to that of a face."
 "I sigh and rub my own face with both my paws, feeling my heart hammering in my chest."
 "I always did this shit to myself."
 "As I lower my paws I notice a wet streak across the left side of my pants. I hadn't finished peeing, yet."
@@ -174,13 +179,13 @@ t "\"We made it!\""
 t "\"Group hug!\""
 "TJ stands and holds his paws out."
 "I wanna protest because of how gross I must look, but Jenna sort of forces me into it as TJ walks up to us."
-t "\"This was a lot of fun guys. Thanks for coming!\""
+t "\"This was a lot of fun, guys. Thanks for coming!\""
 show Jenna Smilinghips at right with dissolve
 j "\"Well, we're glad you had fun, even if we weren't able to keep up.\""
 "As we lean back from the hug, I see Jenna's nose wrinkle."
 "I press my tail a little closer to my rear."
 t "\"Alright, let's eat!\""
-hide TJ 
+hide TJ
 hide Jenna
 with dissolve
 "We sit down on the rock bench and TJ starts pulling the sandwiches out of the soft cooler."
@@ -201,8 +206,8 @@ m "\"Maybe...\""
 j "\"And you, TJ. You might just leave the country.\""
 "That would make sense. TJ's parents are back in his hometown."
 t "\"I think we'll get together again. It's just a matter of planning it right.\""
-t "\"It might be a while, but it'll happen and there's always the internet.\""
-j "\"I'm just saying; I hope Flynn can get over himself before the end of our trip. I don't think this should be our big send off.\""
+t "\"It might be a while, but it'll happen, and there's always the internet.\""
+j "\"I'm just saying; I hope Flynn can get over himself before the end of our trip. I don't think this should be our big send-off.\""
 m "\"We've still got time.\""
 hide Jenna
 hide TJ
@@ -210,13 +215,15 @@ with dissolve
 "I lean back and drape my arms over the back of the bench, closing my eyes."
 "I really want to take my shirt off, though. The fabric is almost soaked through and it's clinging in a really gross way to my fur."
 "The sun is beating down on me, shining bright red through my eyelids."
-"If only there was a pond up here; I'd be able to sink to the bottom, the sun reduced to a shimmering silver."
+#!!! is "silver" the intended word here? I'm assuming not
+"If only there was a pond up here; I'd be able to sink to the bottom, the sun reduced to a shimmering sliver."
 "My type really isn't built for this kind of weather."
-"I feel Jenna shift next to me and suddenly I feel her nose up against my ear and I shiver a little."
+"I feel Jenna shift next to me, and suddenly I feel her nose up against my ear and I shiver a little."
 "What the hell was she doing?"
 "I start to turn my head towards her."
 show Jenna at center with dissolve
-j "\"Um, Chase? Do you...do you need some Muskoff?\""
+#!! Muskoff? musk-off? Musk-off? it's referred to differently elsewhere
+j "\"Um, Chase? Do you...do you need some Musk-off?\""
 "I open my eyes, then squint against the brightness of the sun."
 m "\"Wha—?\""
 j "\"I said...\""
@@ -227,7 +234,8 @@ m "\"Shit, sorry...\""
 j "\"No, it's alright; you didn't know we were going on a hike before you packed, but I have some.\""
 show TJ at right
 with dissolve
-"TJ's looking over at us curiously as he nibbles on his salad wrap, ears perked and I don't know why, but I glare at him, already humiliated enough."
+#!!! Maybe needs some restructuring; there's a lot of commas needed. Dropping the comma before "but" makes it a little better
+"TJ's looking over at us curiously as he nibbles on his salad wrap, ears perked, and I don't know why but I glare at him, already humiliated enough."
 "He frowns."
 t "\"What?\""
 m "\"Nothing, Jenna's just telling me I stink.\""
@@ -246,7 +254,8 @@ with dissolve
 "The can is pink and covered in flowers. Great."
 "I grab my tail and yank it up before giving my ass a good, liberal dose of girl smells."
 "Of course, if I'd known I'd be doing anything so sweat-inducing I would have brought my own boy-smelling brand."
-"...But I'm stuck with this; smelling like a girl in front of Jenna."
+#! maybe?
+"...But I'm stuck with this, smelling like a girl in front of Jenna."
 "Guess it's better than nothing."
 "As I come back around the bush I can tell something's off."
 show TJ Sheepish at left with dissolve
@@ -267,14 +276,14 @@ with dis
 "Jenna, who already started laughing the moment I screamed, puts a paw to her muzzle."
 stop background fadeout 3.0
 play music "comeover.ogg" fadein 5.0
-"Only one, though, because the other is holding her camera phone and she's filming the whole fucking thing."
+"Only one, though, because the other is holding her camera phone, and she's filming the whole fucking thing."
 show Jenna Sheepish
 show TJ Surprised
 with dis
 j "\"Oh God, are you okay?\""
 "She's still smiling behind her paw."
-m "\"Fine.\"" 
-"I guess I have a decision to make; whether to get mad, or to just shrug it off and laugh with them."
+m "\"Fine.\""
+"I guess I have a decision to make: whether to get mad, or to just shrug it off and laugh with them."
 "I go with the latter and grin sheepishly."
 m "\"Wow, I'd expect that from you Jenna, but TJ, what the hell man!?\""
 "TJ flinches, a sad look on his face."
@@ -305,8 +314,8 @@ m "\"Are you nervous?\""
 j "\"About living in a big city? No. I'm more anxious to get started with school, actually.\""
 show Jenna Rejectedhips with dis
 j "\"And of course, I'll miss you guys, too. A lot.\""
-"She flicks her ears back at TJ who's flat on his back under a tree behind us, snoring lightly."
-"I wipe my forearm across my forehead, the oils from my water-proof fur sliding nastily against each other."
+"She flicks her ears back at TJ, who's flat on his back under a tree behind us, snoring lightly."
+"I wipe my forearm across my forehead, the oils from my waterproof fur sliding nastily against each other."
 show Jenna Neutralhips with dis
 m "\"Sorry, but—\""
 "I pull my shirt off."
@@ -346,17 +355,18 @@ j "\"What did you see?\""
 "I avoid looking right at her in case she thinks I'm staring."
 m "\"Okay, this is gonna sound stupid, but I just felt like I was being watched. You know when you psych yourself up and everything looks scary?\""
 j "\"Of course.\""
-m "\"So I felt that behind me, and when I looked I saw what sort of looked like a face in some sage brush.\""
+m "\"So I felt that behind me, and when I looked I saw what sort of looked like a face in some sagebrush.\""
 "Just talking about it right now is getting my fur to prickle."
-"I hadn't really thought about it since it happened, and now that I am it's only now that I'm realizing how weird it all was."
+#! Either "now that I am" or "it's only now that" should be dropped, as they're basically just repeating the same thing
+"I hadn't really thought about it since it happened, and it's only now that I'm realizing how weird it all was."
 show Jenna with dis
 j "\"Huh, like a face you recognized?\""
 m "\"No...no it was sort of flat, like it didn't have a muzzle, and white.\""
 "I look back at Jenna, but she's not looking at me, instead it's like she's looking past me."
 j "\"That is weird.\""
 m "\"Yeah...yeah, but it was a rock.\""
-j "\"We're wired to recognize faces, so we find them in a lot things.\""
-m "\"Yeah, I mean, the twigs and stuff were falling across it in a way that it made it look like it had eyes and stuff, but then I realized what it was.\""
+j "\"We're wired to recognize faces, so we find them in a lot of things.\""
+m "\"Yeah, I mean, the twigs and stuff were falling across it in a way that made it look like it had eyes and stuff, but then I realized what it was.\""
 m "\"But I jumped and got pee on myself. So that's what happened. What's weird is that when I was leaving I couldn't see it anymore.\""
 show Jenna Depressed with dis
 "I say the last part with a laugh, mostly to hide how freaked out I am about it."
@@ -379,13 +389,13 @@ m "\"Did you dream it?\""
 j "\"No, not really a dream. At least not in the sense that I was asleep when it happened.\""
 j "\"I'd just see it walking around in broad daylight, sometimes.\""
 m "\"What the hell? Are these like, real, solid memories? Like it really happened?\""
-j "\"I don't know. It usually happened when I was sad, or angry, like when dad was having one of his...moments.\""
+j "\"I don't know. It usually happened when I was sad, or angry, like when Dad was having one of his...moments.\""
 j "\"I'd just see it walk past a doorway, or sit in a closet.\""
 m "\"Really? What the fuck?\""
 j "\"This was a long time ago, like, when I was five. I don't want you thinking I'm crazy, Chase.\""
 m "\"I don't. I saw things, too, as a kid.\""
 j "\"Yeah, I think you've told me.\""
-"I had and it's something I really don't want to think about right now."
+"I had, and it's something I really don't want to think about right now."
 j "\"I'm pretty sure it's just something my mind made up because I was under a lot of stress. The brain can make up whatever it wants, really.\""
 j "\"It's part of the reason I went into the field that I did. I want to help figure these things out.\""
 m "\"Do you see it anymore...at all?\""
@@ -422,7 +432,7 @@ call text("", "Yeah u did") from _call_text_50
 ""
 "He's definitely got something up his ass."
 j "\"Wolf boy getting pissy?\""
-call text_end from _call_text_end_38 
+call text_end from _call_text_end_38
 m "\"Uh, maybe? I can never tell with him.\""
 play sound "phonebuzz.ogg"
 "Jenna's phone goes off right then."
@@ -443,10 +453,10 @@ stop background fadeout 3.0
 
 scene bg diner with fade
 play music "neutraldiner.ogg"
-"After being out in the desert for so long it feels absolutely amazing to be sitting in the air conditioned diner."
+"After being out in the desert for so long it feels absolutely amazing to be sitting in the air-conditioned diner."
 "Having already ordered our food I lean back against the booth, my eyes feeling a little heavy."
 show TJ at right with dissolve
-t "\"So thanks again for going with me guys. It wouldn't have been as much fun if there wasn't anyone to share it with.\""
+t "\"So thanks again for going with me, guys. It wouldn't have been as much fun if there wasn't anyone to share it with.\""
 show Jenna Smilinghips at left behind TJ with dissolve
 j "\"Of course, TJ. I had a lot of fun, too.\""
 "I put in my affirmative as well, grinning."
@@ -456,10 +466,13 @@ t "\"I'll be sure next time that we don't do such a long trail. If there is a ne
 j "\"Maybe. There's not exactly much else to do out here.\""
 "The thought of hiking again makes my knees weak, but I don't say anything."
 if Jenna_Route == "Gay":
-    j "\"So Chase, I have to ask, have you been dating around at Pueblo?\""
+    #! probably? There are three instances of Jenna saying "have to ask", and they should all have the same punctuation.
+    j "\"So Chase, I have to ask: have you been dating around at Pueblo?\""
     "That question takes me by surprise and I pause, looking at Jenna. TJ looks surprised as well, but looks at me curiously."
+    #!! it has -> it's? not sure if there's intended to be emphasis on "has"
     j "\"It has been years since you and Leo were together proper. You two were pretty outspoken in all your social media pictures.\""
-    "TJ stirs some from his initial shock at the topic shift and nods - speaking up."
+    #! probably?
+    "TJ stirs some from his initial shock at the topic shift and nods, speaking up:"
     t "\"Yeah! In comparison to back in the day, you've been pretty quiet on that front.\""
     "I feel myself cringe inwardly in remembrance of all the kissing-selfies and cheesy song quotes we'd post."
     "Leo did most of it, but I was by no means innocent."
@@ -474,21 +487,23 @@ if Jenna_Route == "Gay":
     "I feel myself blanch a little before recombobulating - TJ just looking confused, thankfully."
     m "\"I downloaded one of those gay apps for meeting guys. All it really does is make me feel like crap, though.\""
     "I look sidelong toward the lynx beside Jenna. He gives me a curious look."
-    m "\"People on there can be pretty speciest. I see a lot of 'no mustelidaes', 'no otters', and..uh..'no musk-types'.\""
+    m "\"People on there can be pretty speciesist. I see a lot of 'no mustelidaes', 'no otters', and..uh..'no musk-types'.\""
     m "\"I met up with a few guys, but it was all pretty awkward and didn't go anywhere. Most didn't look like their profile picture.\""
     t "\"That's awful. I can't imagine putting yourself up for that sort of thing.\""
     "He pauses, then quickly holds up his paws defensively."
     t "\"I mean, meeting someone you like and love..'organically' - I think that's the word? - is important.\""
     j "\"Well, Chase here doesn't have that luxury. According to a study I read, about 1 out of every 25 people are gay.\""
-    j "\"Then, the chances of both parties having mutual attraction lowers the compatability chances even more so.\""
+    #! Tweak to remove repeated "chances"
+    j "\"Then, the odds of both parties having mutual attraction lowers the compatibility chances even more so.\""
     j "\"The online component is almost a necessity depending on one's region - Echo seeming to be the bizarre exception.\""
-    "I see TJ's face shift to a guilty expression - the grey feline muttering a quiet 'oh' before taking a long drink of water."
-    m "\"I uninstalled it though when I visited my parents over Christmas.\""
-    m "\"I did eventually reinstall it but I guess I haven't looked at it much since then."
+    "I see TJ's face shift to a guilty expression - the gray feline muttering a quiet 'oh' before taking a long drink of water."
+    #!! Probably better structure
+    m "\"I uninstalled it when I visited my parents over Christmas, though.\""
+    m "\"I did eventually reinstall it, but I guess I haven't looked at it much since then.\""
     j "\"I think you should check back into it. I'm actually a bit curious what sort of results you'll get in Echo.\""
-    "My mind reels back to 15 year old me posting a photoshopped picture of myself on PaytonList Male-for-Male and the horrible aftermath."
+    "My mind reels back to 15-year-old me posting a photoshopped picture of myself on PaytonList Male-for-Male and the horrible aftermath."
     m "\"I don't know, Jenna. Probably wouldn't get much anyway. Most results would be from Payton - miles away.\""
-    m "\"Plus, I'm pretty sure I already know the only result is gonna be a certain shirtless Gila.\""
+    m "\"Plus, I'm pretty sure I already know the only result is gonna be a certain shirtless gila.\""
     j "\"Honestly, I hate to sound like one of those podcasts, but something has to be in the water here.\""
     j "\"First Flynn, then Leo, then you - I watched all of you grow up and turn out gay.\""
     j "\"I still remember you sitting on the edge of my bed, sniffling about your parents finding out and how much of a 'deviant' you were.\""
@@ -497,15 +512,18 @@ if Jenna_Route == "Gay":
     "I place my face into my palm."
     m "\"It is kind of weird, I guess.\""
     "Jenna grins, then looks out the window."
-    
-    
-    
+
+
+
 elif Jenna_Route == "Bi":
 
-    j "\"So Chase, I have to ask, have you been seeing any guys at Pueblo?\""
+    #! probably? There are three instances of Jenna saying "have to ask", and they should all have the same punctuation.
+    j "\"So Chase, I have to ask: have you been seeing any guys at Pueblo?\""
     "That question takes me by surprise and I pause, looking at Jenna. TJ looks surprised as well, but looks at me curiously."
+    #!! it has -> it's? not sure if there's intended to be emphasis on "has"
     j "\"It has been years since you and Leo were together proper. You two were pretty outspoken in all your social media pictures.\""
-    "TJ stirs some from his initial shock at the topic shift and nods - speaking up."
+    #! probably?
+    "TJ stirs some from his initial shock at the topic shift and nods, speaking up:"
     t "\"Yeah! In comparison to back in the day, you've been pretty quiet on that front.\""
     "I feel myself cringe inwardly in remembrance of all the kissing-selfies and cheesy song quotes we'd post."
     "Leo did most of it, but I was by no means innocent."
@@ -520,20 +538,22 @@ elif Jenna_Route == "Bi":
     "I feel myself blanch a little before recombobulating - TJ just looking confused, thankfully."
     m "\"I downloaded one of those gay apps for meeting guys. All it really does is make me feel like crap, though.\""
     "I look sidelong toward the lynx beside Jenna. He gives me a curious look."
-    m "\"People on there can be pretty speciest. I see a lot of 'no mustelidaes', 'no otters', and..uh..'no musk-types'.\""
+    m "\"People on there can be pretty speciesist. I see a lot of 'no mustelidaes', 'no otters', and..uh..'no musk-types'.\""
     m "\"I met up with a few guys, but it was all pretty awkward and didn't go anywhere. Most didn't look like their profile picture.\""
     t "\"That's awful. I can't imagine putting yourself up for that sort of thing.\""
     "He pauses, then quickly holds up his paws defensively."
     t "\"I mean, meeting someone you like and love..'organically' - I think that's the word? - is important.\""
     j "\"Well, Chase here doesn't have that luxury. According to a study I read, about 1 out of every 25 people are gay.\""
-    j "\"Then, the chances of both parties having mutual attraction lowers the compatability chances even more so.\""
+    #! Tweak to remove repeated "chances"
+    j "\"Then, the odds of both parties having mutual attraction lowers the compatibility chances even more so.\""
     j "\"The online component is almost a necessity depending on one's region - Echo seeming to be the bizarre exception.\""
-    "I see TJ's face shift to a guilty expression - the grey feline muttering a quiet 'oh' before taking a long drink of water."
-    m "\"I uninstalled it though when I visited my parents over Christmas. Haven't had much of a thought to install it back.\""
+    "I see TJ's face shift to a guilty expression - the gray feline muttering a quiet 'oh' before taking a long drink of water."
+    #!! Probably better structure
+    m "\"I uninstalled it when I visited my parents over Christmas, though. Haven't had much of a thought to install it back.\""
     j "\"I think you should reinstall it. I'm actually a bit curious what sort of results you'll get in Echo.\""
-    "My mind reels back to 15 year old me posting a photoshopped picture of myself on PaytonList Male-for-Male and the horrible aftermath."
+    "My mind reels back to 15-year-old me posting a photoshopped picture of myself on PaytonList Male-for-Male and the horrible aftermath."
     m "\"I don't know, Jenna. Probably wouldn't get much anyway. Most results would be from Payton 30 miles away.\""
-    m "\"Plus, I'm pretty sure I already know the only result is gonna be a certain shirtless Gila.\""
+    m "\"Plus, I'm pretty sure I already know the only result is gonna be a certain shirtless gila.\""
     j "\"Honestly, I hate to sound like one of those podcasts, but something has to be in the water here.\""
     j "\"First Flynn, then Leo, then you - I watched all of you grow up and turn out to like guys.\""
     j "\"I still remember you sitting on the edge of my bed, sniffling about your parents finding out and how much of a 'deviant' you were.\""
@@ -541,9 +561,10 @@ elif Jenna_Route == "Bi":
     m "\"Oh God.\""
     "I place my face into my palm."
     m "\"..It is kind of weird, I guess.\""
-    
+
     j "\"But now that you're officially bi, your horizons have expanded, yes?\""
-    j "\"I have to ask; have you been dating any girls?\""
+    #! probably? There are three instances of Jenna saying "have to ask", and they should all have the same punctuation.
+    j "\"I have to ask: have you been dating any girls?\""
     "I'm taken off-guard, looking back up to Jenna. TJ stops gulping down his ice-water."
     m "\"Hmm...not really, actually. I mean, I guess you could say I lean towards males, but it's not like—\""
     "I was about to say that I sometimes look at straight porn when I'm in the mood, but that might be a little inappropriate with TJ there."
@@ -555,7 +576,8 @@ elif Jenna_Route == "Bi":
     j "\"Well, have you ever slept with a girl?\""
     show TJ Surprised with dis
     t "\"Jenna!\""
-    "TJ's face going from cheerful interest to outright horror is so comical I start laughing despite Jenna's question surprising me as well."
+    #! probably?
+    "TJ's face going from cheerful interest to outright horror is so comical I start laughing, despite Jenna's question surprising me as well."
     show Jenna Smilinghips with dis
     j "\"Hey, this is how boys talk, right? I've been hanging out with you guys since the fourth grade. Don't exclude me just because I'm a girl.\""
     t "\"I don't talk like that!\""
@@ -585,8 +607,8 @@ j "\"What's especially lacking is the manga selection.\""
 m "\"Yeah! It'll be just like when we were in high school. Have you been keeping up on all of those series?\""
 "I remember being amazed at how much material was in those books compared to the comics, even if they weren't colored."
 "Jenna looks back at me and I can see that she's a little relieved. Did she think I was gonna make fun of her for it?"
-j "\"I keep up with it online, mostly. This is more for old time's sake.\""
-j "\"Believe it or not that mall has some of the happiest memories I have of this place, aside from Leo's house.\""
+j "\"I keep up with it online, mostly. This is more for old times' sake.\""
+j "\"Believe it or not, that mall has some of the happiest memories I have of this place, aside from Leo's house.\""
 "Of course I'd believe that."
 j "\"I guess there are a few special edition volumes I want to get that they might have. I was always surprised with what they were able to bring in.\""
 m "\"Well, that's cool! You know, I watched an anime since I last saw you.\""
@@ -599,7 +621,7 @@ m "\"Maybe? That sounds about right.\""
 "Jenna makes a face like she swallowed a lemon."
 j "\"It is. It's the only old wolf samurai show I know. You gotta watch some of the older stuff. Anime these days is just.. you know?\""
 m "\"Uh, no?\""
-j "\"Well, we need to do that, too. One of these nights we're going to marathon {i}Ganbatte Ne!{/i}. The hotel Wi-Fi is good enough for it, I think.\""
+j "\"Well, we need to do that, too. One of these nights we're going to marathon {i}Ganbatte Ne!{/i}. The motel Wi-Fi is good enough for it, I think.\""
 j "\"It's got this sort of western-style, medieval atmosphere to it.\""
 "While I never really watched anime, even if ichi—whatever-it-was wasn't bad..."
 "...the idea of staying up late with Jenna watching old foreign cartoons sounds like a lot of fun."
@@ -609,7 +631,8 @@ t "\"Huh, what?\""
 j "\"Do you want to watch anime with us?\""
 t "\"Uh, sure. Why not?\""
 m "\"Hey, no phones!\""
-"I tease him, reaching for it and take it from him."
+#!!! I made an attempt, but this probably needs to be fully redone to sound more natural
+"I tease, reaching and taking it from him."
 t "\"I thought that was only for the hike?\""
 "I glance over the screen, expecting to see some Christian social group, or something, but instead it's a text thread from Leo."
 stop music fadeout 5.0
@@ -633,19 +656,20 @@ show Jenna with dis
 t "\"What?\""
 play music "quiet.ogg"
 "But that's when Leo's van pulls in front of the diner and I hear Jenna sigh loudly."
-"Leo's bulky form bounces out of the truck, doing a little jog up to the diner."
+#! Leo has a van, not a truck
+"Leo's bulky form bounces out of the van, doing a little jog up to the diner."
 "The bell to the door rings as Leo walks in, all smiles."
 show TJ with dis
 t "\"Hey Leo!\""
 show Leo at center behind Jenna with dissolve
 l "\"TJ.\""
 "Leo immediately squeezes into the booth next to me, almost sandwiching me between him and the window."
-l "\"Chaaaase, what's up?\"" 
+l "\"Chaaaase, what's up?\""
 "He wraps a big arm around my neck and yanks me roughly into a hug, forcing a little squeak out of my throat."
 l "\"See, this is how it should be! We came here to hang out, not break up into little groups and fight!\""
 j "\"That was Flynn's fault.\""
-"Jenna says it quietly, eying Leo's arm around my neck."
-l "\"Yeah, well, I'm gonna get him to apologize. Things take a little bit of time, you know?"
+"Jenna says it quietly, eyeing Leo's arm around my neck."
+l "\"Yeah, well, I'm gonna get him to apologize. Things take a little bit of time, you know?\""
 "Jenna doesn't say anything, instead choosing to look over the menu, even though we've already ordered."
 show Leo Wry with dis
 l "\"You have fun hiking?\""
@@ -653,7 +677,7 @@ l "\"You have fun hiking?\""
 show Leo Neutral with dis
 "I'm about to answer, but that's when his face changes, and I see his nose twitching."
 l "\"You...smell like a girl.\""
-"His head snaps to Jenna and it's instantly obvious as to what he's thinking."
+"His head snaps to Jenna, and it's instantly obvious as to what he's thinking."
 show Jenna Smiling with dis
 "Jenna, who's looking up, now, just smiles sweetly, not trying to explain the situation at all."
 "Leo tenses up, arm tightening around my neck, almost choking me."
@@ -662,7 +686,7 @@ m "\"I forgot my musk stuff, so Jenna lent me hers!\""
 "TJ, though, for once, chimes in with something useful, cheerfully unaware."
 t "\"Yeah, it was pretty funny. Sorry, Chase.\""
 "He looks at me apologetically, but honestly I could kiss him right now."
-"Leo relaxes a little, but his ears are still pointed straight up, a sure sign that's he's still tense."
+"Leo relaxes a little, but his ears are still pointed straight up, a sure sign that he's still tense."
 show Leo with dis
 l "\"Alright...well, next time you go, I'm coming, too.\""
 l "\"Anyway, I'm planning Carl's birthday party tomorrow.\""

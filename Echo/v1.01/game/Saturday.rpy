@@ -32,7 +32,7 @@ scene bg route93 with opening_fade
 
 
 window show
-m "\"Yeah mom, I brought it.\""  
+m "\"Yeah mom, I brought it.\""
 m "\"No, no I've got everything.\""
 m "\"No, TJ's with us, we picked him up yesterday...\""
 m "\"No I...I {i}did{/i} call you yesterday, there was no answer.\""
@@ -51,10 +51,10 @@ t "\"Wow, it feels like we've been driving for daaays.\""
 "Normally TJ wasn't one to whine, but the long drive was obviously getting to him."
 "It was getting to all of us, honestly."
 "I look over at him."
-m "\"We're almost there. Why don't you listen to some music, or something?"
+m "\"We're almost there. Why don't you listen to some music, or something?\""
 t "\"My phone's been dead for the past two hours. I didn't know it would take us eight hours to get there.\""
 "I sigh."
-"Whether that dig was purposeful or not, I still feel a little embarrassed."  
+"Whether that dig was purposeful or not, I still feel a little embarrassed."
 "I'll admit, I got us lost for a few hours. Route 93 is hard to find, even with the GPS."
 "It's no wonder that Echo's in the state it's in."
 j "\"You should have brought a book, those don't run out of batteries.\""
@@ -63,10 +63,10 @@ j "\"You should have brought a book, those don't run out of batteries.\""
 t "\"All of my books are on my phone...\""
 m "\"Why don't you listen to the radio?\""
 "TJ starts to reach for the dial."
-j "\"Don't bother, all we get out here are hick stations. I have some music on my phone, though."
+j "\"Don't bother, all we get out here are hick stations. I have some music on my phone, though.\""
 j "\"Do you have an AUX cable, Chase?\""
 m "\"In this clunker? No, but like I said, we're almost there.\""
-"Just having the three of us here is a little awkward...unbalanced."  
+"Just having the three of us here is a little awkward...unbalanced."
 "I wonder if completing our little group will bring back that old chemistry."
 "Thinking about seeing Carl, Flynn, and Leo again makes my heart skip a beat."
 play sound "gps.wav"
@@ -89,7 +89,7 @@ j "\"You guys excited?\""
 "I look in my rearview mirror again and see that Jenna has put down her book, staring out the window."
 "I actually haven't given a whole lot of thought as to how I feel about the whole thing."
 menu:
-    "\"Yeah\"":
+    "\"Yeah.\"":
             $ Trip_Mood = "good"
             m "\"It'll be great to see everyone again. It's been way too long.\""
     "\"Not really.\"":
@@ -124,11 +124,11 @@ m "\"I read a little bit about it and it's pretty fucked up.\""
 t "\"Come on, Chase, language.\""
 m "\"Just thought I'd do a little more digging.\""
 m "\"Honestly, though, I just need to make something that looks good enough to pass with.\""
-j "\"Well that sounds kinda fun.  Are you going to have enough time to hang out? I know Leo made some plans.\""
-"This whole thing was Leo's idea, actually." 
+j "\"Well that sounds kinda fun. Are you going to have enough time to hang out? I know Leo made some plans.\""
+"This whole thing was Leo's idea, actually."
 "When I told him that I'd be coming down to Echo for spring break he suggested we all use it as an excuse to have a reunion."
-"He says it hasn't been the same since the three of us left."  
-m "\"Yeah, I should. I just need some b-roll and shots of the old, creepy locations.\""
+"He says it hasn't been the same since the three of us left."
+m "\"Yeah, I should. I just need some B-roll and shots of the old, creepy locations.\""
 m "\"Shouldn't take too long.\""
 "I catch a flash of blue and see the lake to our right."
 "The conversation dies down a bit and pretty soon we're all lost in our own thoughts."
@@ -160,7 +160,7 @@ j "\"Alright, I made the reservations, so I'll check us in.\""
 j "\"You boys wanna bring in our stuff?\""
 t "\"Sure!\""
 hide Jenna
-hide TJ 
+hide TJ
 with dissolve
 "Me and TJ head around to the trunk of the car, getting our bags and camera equipment while Jenna heads inside."
 
@@ -178,7 +178,7 @@ t "\"So I guess this'll be me and Chase's bed.\""
 t "\"Jenna can have her own, obviously.\""
 j "\"That's...nice of you, TJ. Anyway, here are your keycards.\""
 "She hands us both our keycards, which I slip into my back pocket."
-t "\"So, when we gonna eat? I'm starving!\""
+t "\"So, when are we gonna eat? I'm starving!\""
 "My stomach grumbles. We haven't eaten since breakfast and it's late afternoon at this point."
 "I pull out my phone, checking over my texts with Leo."
 m "\"Leo said he's gonna get us some sandwiches from the diner.\""
@@ -192,10 +192,10 @@ hide TJ
 with dissolve
 scene bg motelbeds
 with fade
-"Half-an-hour later we've got all our stuff packed away in the motel drawers."
-"Now, I'm sitting on the bed, toying with my camera equipment while TJ watches TV and Jenna organizes her school work."
+"Half an hour later we've got all our stuff packed away in the motel drawers."
+"Now, I'm sitting on the bed, toying with my camera equipment while TJ watches TV and Jenna organizes her schoolwork."
 t "\"You know you're on vacation, right?\""
-t "\"And didn't you already get into grad school?  You should relax.\""
+t "\"And didn't you already get into grad school? You should relax.\""
 j "\"That's exactly why I need to be keeping up.\""
 play sound "doorknock.mp3"
 "There's a knock at the door and, being the closest, I get up to answer it."
@@ -266,7 +266,7 @@ show Jenna Smiling with dis
 j "\"You should! You went for what, a semester?\""
 j "\"That's not really enough time to tell if you're really cut out for college.\""
 j "\"Classes get easier to handle once you get used to it.\""
-c "\"Yeah, well, it wasn't exactly the school work that was the problem.\""
+c "\"Yeah, well, it wasn't exactly the schoolwork that was the problem.\""
 t "\"You cooouuld try smoking less weed, that might help.\""
 show Carl Surprised with dis
 c "\"Wh—wha…?\""
@@ -296,7 +296,7 @@ m "\"That's what you get out of the feel-good town of the century, Carl.\""
 c "\"Hehe, yeah.\""
 "Carl scratches his muzzle before turning to TJ."
 c "\"And you're doing...what again?\""
-c "\"Sports...something...Bible olympics?\""
+c "\"Sports...something...Bible Olympics?\""
 t "\"Athletic training, but yes, it's a Christian school.\""
 "Carl gives a thumbs up."
 c "\"Super. So we gonna eat? I'm hungry as hell.\""
@@ -322,14 +322,14 @@ c "\"Er...where are they?\""
 f "\"Leo has them...here he is.\""
 l "\"Hey, they all in there?\""
 "My heart skips a beat and my tail thumps the bed as I hear Leo's high baritone."
-"There's some bustling before they start coming around the corner, bringing me face-to-face with the rest of my childhood friends."
+"There's some bustling before they start coming around the corner, bringing me face to face with the rest of my childhood friends."
 show Flynn at center
 with dissolve
 "Flynn comes first, slinking in casually, his posture loose and relaxed, slouching."
 "Unlike Carl, though, his slouch makes him look like he just doesn't give a fuck, as opposed to just trying to make himself seem smaller."
 "He wasn't a shy guy, as evidenced by his open shirt."
 f "\"And who you callin' a dickface?\""
-"Flynn knocks Carl on the head, which made a loud thunking sound, but Carl just grins throughout."
+"Flynn knocks Carl on the head, which makes a loud thunking sound, but Carl just grins throughout."
 f "\"Hey Jenna, TJ, Chase.\""
 "He nods to each of us in turn, rubbing his knuckles."
 hide Flynn
@@ -366,17 +366,18 @@ c "\"Nothing like leaving a big pile of lizard dust on the couch for the next pe
 c "\"And by the way, dude, that skunk comment was speciesist.\""
 f "\"And that lizard comment wasn't?\""
 show Flynn with dis
-"Flynn turns to me,  fanning air in from the outside with his hand."
+"Flynn turns to me, fanning air in from the outside with his hand."
 f "\"What's worse, Chase: Carl's smell, or my...dustin' off?\""
 show Carl with dis
 c "\"Ha! Dusting off? That's not a thing!\""
-c "\"Try saying 'white flakes that chip off of me with every step I take...except when I scratch my ass, then it's like a fucking blizzard of dead skin\""
+c "\"Try saying 'white flakes that chip off of me with every step I take...except when I scratch my ass, then it's like a fucking blizzard of dead skin.\""
 c "\"...and some of it might land in your mouth.'\""
 c "\"That's what you should call it!\""
 f "\"Hey, you furballs do it too...it's just less noticeable.\""
 f "\"Either way, it's hot in here!\""
 c "\"Aren't you cold-blooded?\""
-f "\"Someone turn down the goddamn thermostat!\""
+#!!! "thermostat" -> "habistat"? Flynn has a "habistat" in his house and there is also one at the city hall
+f "\"Someone turn down the goddamn habistat!\""
 show Carl Neutral with dis
 show TJ at center
 with dissolve
@@ -390,15 +391,15 @@ t "\"Uh...\""
 f "\"Well Jesus butt-fucking Christ, I'll be sure to watch that.\""
 t "\"Flynn!\""
 show Flynn Happy
-show Carl 
+show Carl
 with dis
-"TJ actually looks pretty upset, but Flynn just reaches out and yanks him into a choke-hold, the much shorter lynx easily dwarfed by the lizard."
+"TJ actually looks pretty upset, but Flynn just reaches out and yanks him into a chokehold, the much shorter lynx easily dwarfed by the lizard."
 f "\"Ah, shut up ya priss, I'm just kiddin'!\""
 "TJ half-heartedly fights the hold."
 "I guess TJ thought he'd get some respect, now that we're all adults."
 t "\"Hey, ow!\""
 t "\"Y—you still said it!\""
-"Normally I might step in to help, but its been a while since I've seen Flynn and TJ go at it."
+"Normally I might step in to help, but it's been a while since I've seen Flynn and TJ go at it."
 "It's just too funny to stop."
 f "\"Look, no lightnin'! So much for your almighty go—OOF!\""
 "TJ jabs his elbow back into Flynn's stomach, doubling the lizard over for a second."
@@ -406,7 +407,7 @@ t "\"Ha! See? God works in mysterious wa—OW!\""
 "Flynn reaches up and grabs at one of the tufts on TJ's ears and yanks, earning a yowl from the feline."
 c "\"Foul! Species features!\""
 "Species features was something we made up to make our tussles a little more fair."
-"It involved any distinct physical difference between our species that might pose as a disadvantage like my tail, Jenna's ears, or TJ's ear tufts."
+"It involved any distinct physical difference between our species that might pose as a disadvantage, like my tail, Jenna's ears, or TJ's ear tufts."
 "Carl was especially keen on it. Being a ram his horns were often used as leverage against him."
 j "\"TJ! Come get your sandwich.\""
 "TJ finally yanks himself out of Flynn's grasp, smoothing down his fur as he tries to look as dignified as possible."
@@ -431,7 +432,7 @@ play music "neutral.ogg" fadein 3.0
 "We'd all spent many nights at the old diner. I can remember the night me and Carl graduated."
 "Leo took us all straight from Payton High to the diner, skipping out on the all-night graduation party for sandwiches and milkshakes."
 "I take a huge bite and a yellow bell pepper slips out the other end, landing back in the foil."
-l "\"Whoah! Slow down, you're going to choke.\""
+l "\"Whoa! Slow down, you're going to choke.\""
 "Suddenly, I'm almost falling over to the side as something heavy plants itself next to me on the bed."
 show Leo at center with dissolve
 "I quickly grab a napkin and bring it to my muzzle, wiping away the grease."
@@ -465,17 +466,17 @@ scene bg moteltable
 show Jenna Smilinghips at left
 show TJ Rejected at center
 with dissolve
-"I notice TJ sitting next to Jenna at the table, picking unhappily at his lettuce wrapped chicken."
+"I notice TJ sitting next to Jenna at the table, picking unhappily at his lettuce-wrapped chicken."
 "Jenna seems to as well as she leans towards him."
 j "\"What's wrong, TJ?\""
-t "\"It's just...nevermind, it doesn't matter.\""
+t "\"It's just...never mind, it doesn't matter.\""
 j "\"Are you sure?\""
 t "\"It's just the mayo, I forget they put it on everything here, hehe.\""
 "Jenna lifts up the bun on her sandwich, inspecting its contents."
 j "\"Hmm, none of the mayo really got on my chicken. Here—\""
 t "\"No, you don't have—\""
 "Jenna picks up TJ's sandwich and swaps out his grilled chicken."
-"She rips off the layer of mayo-tainted lettuce from his lettuce bun before swapping her chicken in.\""
+"She rips off the layer of mayo-tainted lettuce from his lettuce bun before swapping her chicken in."
 j "\"There! How's that?\""
 t "\"Th—thanks...\""
 show TJ Sheepish with dis
@@ -490,12 +491,12 @@ l "\"Yes, we actually tried to sell it last year, but of course no one bought.\"
 l "\"I think two people came to look, but took off once they saw the town.\""
 l "\"Anyway, my parents are living in Payton in a house twice as big as the old one.\""
 m "\"Well, it must be pretty cool living in your own house.\""
-l "\"My parents aren't constantly breathing down my neck so that's, you know, nice. \""
+l "\"My parents aren't constantly breathing down my neck so that's, you know, nice.\""
 "Leo's already finished his first sandwich, and now he's unwrapping the second."
 "He sure could eat a lot."
 m "\"How many people are still here, anyway? In the town, I mean.\""
 "Leo takes another bite and I hear the crunch of the peppers through his muzzle. He chews thoughtfully for a moment before swallowing."
-l "\"Hmm, not too sure.  Of course I know almost everyone here, but most don't actually live here anymore.\""
+l "\"Hmm, not too sure. Of course I know almost everyone here, but most don't actually live here anymore.\""
 l "\"Most everyone's turned their old house into a sort of vacation home, now.\""
 m "\"Really, why?\""
 "I can't imagine anyone coming here for a vacation..."
@@ -535,7 +536,7 @@ with dissolve
 f "\"It doesn't matter how fucking fast you eat, I'm not gonna be impressed.\""
 "He's got that classic Flynn look on his face where he's pressing his lips together, trying not to smile."
 c "\"What if I ate all THREE?\""
-f "\"You've already eaten most of the first one, so that's not gonna happen now, is it?"
+f "\"You've already eaten most of the first one, so that's not gonna happen now, is it?\""
 scene bg motelbeds
 show Leo at center
 with dissolve
@@ -544,7 +545,8 @@ with dissolve
 "Now I'm kinda feeling like an impostor."
 "Leo notices, like he always did, and he nudges me with his shoulder."
 l "\"Hey, don't worry about it, it's not your fault.\""
-"Suddenly, Leo's ears perk up, and I know he's suddenly had an idea."
+#! reduces repetition of "suddenly"
+"Suddenly, Leo's ears perk up, and I know he's just had an idea."
 "His ears made him easily readable, just as reading people came easily to him."
 "It made it all the more impressive that he was able to tell what most of us were thinking, considering my short, stubby ears."
 "...Or Flynn's lack thereof."
@@ -597,7 +599,7 @@ l "\"Wh-I-I...\""
 l "\"Can't people be sad sometimes? Yes, things have been more...have been harder, but I'm fine.\""
 l "\"I think it's pretty clear that FLYNN-\""
 "Leo flicks his long muzzle at the lizard."
-l "\"-Is just trying to get some reactions.\""
+l "\"-is just trying to get some reactions.\""
 scene bg motelcouch
 show Flynn Teasing1 at center
 with dissolve
@@ -620,7 +622,7 @@ with dissolve
 "TJ puts a paw to his muzzle."
 t "\"Oops! Sorry, you were just kinda staring off into space.\""
 m "\"Yeah, uh, just thinkin' about stuff. What's up?\""
-t "\"We were just talking about {i}The Last Game{/i}. Didn't you tell me that you saw that movie on the drive here?.\""
+t "\"We were just talking about {i}The Last Game{/i}. Didn't you tell me that you saw that movie on the drive here?\""
 stop music fadeout 3.0
 scene bg motelcouch
 show Carl Annoyed at center
@@ -645,7 +647,7 @@ show Carl Annoyed at center
 show TJ at farleft
 with dissolve
 c "\"Bwah!!??\""
-c "\"See?  This is the problem.  They never follow the source material and no one cares because they have no respect for the originals, man.\""
+c "\"See? This is the problem. They never follow the source material and no one cares because they have no respect for the originals, man.\""
 scene bg motelbeds
 show Leo at center
 with dissolve
@@ -656,7 +658,8 @@ show Carl Annoyed at center
 show TJ at farleft
 with dissolve
 t "\"I don't know, I think Lion's Brigade was always a bit too violent for me, what with all the shooting and punching.\""
-t "\"I've always liked the Trinity Weasel.  She's the thinking man's superheroine.\""
+#! probably?
+t "\"I've always liked Trinity Weasel. She's the thinking man's superheroine.\""
 "Carl waves his paw dismissively."
 c "\"The Trinity comics have always been pretty lame. They're jerk-off fodder for lonely nerds...and so's the movie.\""
 l "\"Ha! You mean like yourself?\""
@@ -703,12 +706,12 @@ f "\"I'd better stop it with all this saucy talk. The only way this could get an
 "We all groan in unison, but TJ shoots right back:"
 show TJ Annoyed with dis
 t "\"And knowing you, that's {i}exactly{/i} what you want to happen, isn't it, Flynn?\""
-show Carl 
+show Carl
 show Flynn Surprised
 with dis
 "That gets a few surprised chuckles."
 c "\"Daaaamn TJ, where'd that come from?\""
-"It isn't that it is a particularly good joke. It's that it came from TJ that makes it so funny."
+"It isn't that it's a particularly good joke. It's that it came from TJ that makes it so funny."
 "I don't think I've ever heard him talk like that."
 show Flynn Happy with dis
 "Even Flynn can't keep from grinning a little bit."
@@ -753,7 +756,7 @@ window show
 "It's really nice."
 "Finally, at about 10, Leo, Carl, and Flynn head out."
 "I spend the next twenty minutes tinkering with the equipment, making sure it's all in order for shooting the next day."
-"Once TJ finishes getting ready for bed in the bathroom, I do as well before getting into bed, head-to-toe with TJ."
+"Once TJ finishes getting ready for bed in the bathroom, I do as well before getting into bed, head to toe with TJ."
 "There's a soft glow from the corner as Jenna sits at the table reading something."
 "I lay in bed, staring at the ceiling, waiting for her to go to sleep..."
 stop loop fadeout 10.0
