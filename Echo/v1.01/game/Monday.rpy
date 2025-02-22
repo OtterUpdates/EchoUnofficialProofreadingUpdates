@@ -91,7 +91,7 @@ show chaseswim
 with dissolve
 play music "deadlybeauty.ogg" fadein 5.0
 #more monologue
-"Eventually I settle on drifting to the bottom, laying and gripping onto the rocky floor as I stare up at the shimmery light above me."
+"Eventually I settle on drifting to the bottom, laying and gripping on to the rocky floor as I stare up at the shimmery light above me."
 "I feel the gentle current run over my body."
 "It's nice to be away from all that tension above me. I feel isolated, alone, and for now, that feels good."
 "Only I could really come down this deep, the others not being able to hold their breath as long, or being too little."
