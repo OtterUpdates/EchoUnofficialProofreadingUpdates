@@ -216,6 +216,13 @@ Preference, but should be consistent. I prefer s's over s', with the rationale "
 
 * In the massive TJ confrontation "Condemn Flynn" splits, a lot of the character sprite emotions are desynced between them, e.g. "annoyed" vs "surprised" etc.
 
+## Arches
+
+* The default font used for Arches is super obnoxious when trying to proofread
+  * This has the opposite effect for normal readers, given that errors should be harder to spot with it (which is good?)
+  * I switched it out for Atkinson Hyperlegible during my read, which is my preferred ebook font
+  * Atkinson Hyperlegible is really good at making text "hyperlegible", aka easy to parse with 100% accuracy. It sort of has the same effect as a monospaced font
+
 # REGEX
 
 ## Regex bits
