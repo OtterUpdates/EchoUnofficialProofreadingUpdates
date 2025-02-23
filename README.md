@@ -16,7 +16,7 @@ I would very strongly recommend applying this patch to Route 65 and Echo, but th
 If you want to compare my fixes to the original text, you'll want to use some kind of text diff tool (I personally use VSCode), or check the diffs [directly on GitHub](https://github.com/OtterUpdates/EchoUnofficialProofreadingUpdates/compare/original-copies...main?w=1). Note that these fixes obviously contain spoilers, so don't look if you haven't read the novels yet!
 
 ## Installation/Usage notes:
-Grab the source code zip from the [latest release](https://github.com/OtterUpdates/EchoUnofficialProofreadingUpdates/releases/latest) and extract the relevant `.rpy` files into the nested "game" folder of Route 65, Echo, or Arches (i.e., `Echo\game\*.rpy`), then relaunch the game.
+Grab the source code zip from the [latest release](https://github.com/OtterUpdates/EchoUnofficialProofreadingUpdates/releases/latest) and extract the relevant `.rpy` files into the nested `game` folder of Route 65, Echo, or Arches (i.e., `Echo\game\*.rpy`), then relaunch the game.
 
 ## List of things I remember doing:
 * Most (all? hard to say for sure with a story like Echo) plot/detail inconsistencies either fixed or noted. Often an inconsistency would require a larger rework to fix, but there are still a lot that can be objectively fixed without consultation, e.g. Chase referring to his roommate as a "rabbit", Leo's van constantly being misremembered as a "truck", and Clint's ever-changing species
