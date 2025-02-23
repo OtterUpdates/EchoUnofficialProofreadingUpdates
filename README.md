@@ -32,6 +32,8 @@ Grab the source code zip from the [latest release](https://github.com/OtterUpdat
 * Loads and loads of manual notes next to sentences. I used them when I wasn't fully confident of a fix, when a line needed more comprehensive restructuring, or when something needed authoritative input (i.e., the authors, in theory). All my notes start with "#!" and a varying amount of "!"s, e.g. "#!!!!" is more important than "#!!!".
 * Generally, the "content" of Route 65, Echo, and Arches is unchanged. Aside from some opportune fixes for inconsistencies, all sentences more or less have the same words as before, just in a more correct and pleasant format.
 
+## Afterword/reporting issues
+
 There are still a few noticeable problems/detail inconsistencies left in the text, but they should all at least have a note next to them. I'd say this work is a pretty solid base for what I'd consider a 1.0 of Route 65/Echo. It's not perfect, but it's a massive first step that should be supplemented by further fine-tuning.
 
 Ideally this new text would have a few test readers and some peer review on all the changes, but this is all I can do with a single read by myself. If you use this text to do a re-read, I would really appreciate it if you send me notes on anything that's still not quite right! You can do so by opening an [issue](https://github.com/OtterUpdates/EchoUnofficialProofreadingUpdates/issues) or using the [discussions section](https://github.com/OtterUpdates/EchoUnofficialProofreadingUpdates/discussions) on this repo. You don't need to worry about putting the corrections in a specific format or anything. Pull Requests are also welcome, if you know how to do that.
