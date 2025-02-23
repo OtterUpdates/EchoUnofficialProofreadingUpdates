@@ -30,6 +30,9 @@ with dis
 d "\"What? Doing something? No, we're trying to help him.\""
 d "\"Something.{cps=3}..{/cps}{w=0.4} attacked him.{w=0.3} We need to get him help.\""
 "The older bear grimaces."
+#!! These "somethin" references are kind of clunky due to the double apostrophe required to represent them accurately.
+#!! If nothing else, this should match the line below (as 'somethin' or 'somethin''), or they should be replaced with "something" to avoid the situation
+#!! It's worth noting that Brian previously says "something" before this, so his slang is not "absolute" atm anyway
 unk "\"What do you mean 'somethin'?\""
 "Dev hesitates, at least until the gun is shifted in his direction."
 show dev scream l dark4
@@ -42,7 +45,10 @@ show expression AlphaMask("foliage2", At("art confused l dark4", thirteen)) as m
 with dis
 a "\"Hey, we didn't do anything to him. We're trying to help--\""
 "The bear growls."
-unk "\"I don't care if you're tryin' to help him or tryin' to fuck him. I wanna know the truth, not that 'somethin'' happened.\""
+#!! These "somethin" references are kind of clunky due to the double apostrophe required to represent them accurately.
+#!! If nothing else, this should match the line above (as 'somethin' or 'somethin''), or they should be replaced with "something" to avoid the situation
+#!! It's worth noting that Brian previously says "something" before this, so his slang is not "absolute" atm anyway
+unk "\"I don't care if you're tryin' to help him or tryin' to fuck him. I wanna know the truth, not that 'somethin' happened.\""
 "The standoff continues for a few more seconds before Dev jumps in again."
 show dev surprised h l dark4
 show expression AlphaMask("foliage2", At("dev surprised h l dark4", seven)) as mask
