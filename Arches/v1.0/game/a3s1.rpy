@@ -67,7 +67,9 @@ window show
 "His trip has reached its dizzying peak, his sense of self so utterly decimated that he isn't sure how he's ever going to feel the same again."
 "The terror and torture of the past two days has culminated to this, the moment that his mind gives in and breaks, and Cameron can't tell what's real and what isn't anymore."
 "... But there's something else, too."
-"Despite the terrible loss of who he was, Cameron, this amalgamation he calls Cameron, is sensing things even more vividly than he had just a few minutes ago, when he'd contacted Dev."
+#!! strongly consider adding emdashes around "this amalgamation he calls Cameron" or some other fix, otherwise the sentence structure is too ambiguous.
+#!! Without changes, it reads as though "Cameron" is "the terrible loss" at first, i.e. to make it more obvious: "Despite the terrible loss of who he was, Cameron, he's sensing things even more vividly."
+"Despite the terrible loss of who he was, Cameron — this amalgamation he calls Cameron — is sensing things even more vividly than he had just a few minutes ago, when he'd contacted Dev."
 "Cameron sees what's ahead of him, but he's seeing so much more."
 hide camforest
 hide extra
@@ -89,6 +91,7 @@ show camshadow at twelve
 show blood08:
     alpha 0.5
 with dis3
+#!!! Not sure what's going on with the sentence structure here. Are there Oxford commas missing? Which parts are supposed to go together?
 "In his mind's eye, he looks {i}forward{/i}, and he sees a myriad of people in front of him, though they're all the same people: Devon, Brian, and himself, locked in a vicious, spinning blur of claws and teeth, blood and horrific, unidentifiable viscera."
 show black
 with dis2
@@ -161,7 +164,7 @@ c "\"Wait, with what?\""
 show bri smirk2 red3
 show expression AlphaMask("foliage3", At("bri smirk2 red3", left)) as mask
 with dis
-b "\"Relax, It's just Rohypnol. Sure, I gave him a good amount, but they're a few decades old because they made 'em illegal in the States back in the 90s, and you know, when pills get old, they don't work so good anymore--\""
+b "\"Relax, it's just Rohypnol. Sure, I gave him a good amount, but they're a few decades old because they made 'em illegal in the States back in the '90s, and you know, when pills get old, they don't work so good anymore--\""
 "Brian goes on and on about Rohypnol and how it used to be the premiere date rape drug in the country."
 show cam serious a red3
 show expression AlphaMask("foliage3", At("cam serious a red3", right)) as mask2
@@ -214,11 +217,12 @@ window show
 "What makes Brian different isn't that he has fetishes."
 "He's not crazy."
 "He's not a psychopath."
-"No, the true root of Brian's evil is clear."
+#! probably?
+"No, the true root of Brian's evil is clear:"
 "He's selfish, and he's never satisfied with what he gets."
 "Selfish enough to put dozens of young people through hellish torture until they finally died."
 "All while having the capacity to fully control himself."
-"All while having full access to alternatives like role-play."
+"All while having full access to alternatives like roleplay."
 "But it's not enough for Brian."
 "He always needs more."
 "All for his own fleeting, drug-fueled, sexual gratification because at one point, Brian decided that's what makes him feel good, so fuck this world that makes him feel bad."
@@ -333,11 +337,13 @@ with dis
 c "\"Who?\""
 "The coyote winces as Brian continues to hold him by his ear."
 "Cameron hopes that he's talking about Devon, even though he can sense the presence of the younger bear just ahead of them."
-"The coyote would be glad to be proven wrong about his abilities, especially if it means Devon gets away."
+#!! "means/gets" -> "meant/got"?
+"The coyote would be glad to be proven wrong about his abilities, especially if it meant Devon got away."
 "But Cameron knows."
 show bri evilgrin3 red3
 show expression AlphaMask("foliage3", At("bri evilgrin3 red3", left)) as mask
 with dis
+#!! Brian shooting twice is sort of odd considering there are a few places where the "gunshot" is referenced audibly, and it's always singular
 b "\"That cat! I swear I shot him twice, too. Then again, he didn't do that weird jerking thing people do when you give 'em the kill shot, so I must've missed the second time.\""
 b "\"Thought maybe I'd just killed him with the first.\""
 show cam worried_alt red3
@@ -350,13 +356,14 @@ with dis
 "Dark stains cover the leaves, along with what looks like vomit, and Cameron feels his own stomach churn at the sight."
 "It's difficult to connect his outgoing, oblivious friend to the mess, and Cameron feels guilt mingle with his misery as he realizes that what's happening to Artie is their fault."
 "But he knows Artie is far away now, miles away, and Cameron silently encourages the cat to keep going, to do whatever he can to save them and himself, even though he's clearly in terrible shape."
-"Cameron hopes Artie can hear him, even if he's awake right now."
+#!!! "even if he's awake"? Not sure I understand the connection. I assume this was meant to be "if he's even awake"?
+"Cameron hopes Artie can hear him, if he's even awake right now."
 show bri lookdown red3
 show expression AlphaMask("foliage3", At("bri lookdown red3", left)) as mask
 with dis
 "Cameron senses another ominous shift in the bear's motivation."
 "Brian doesn't think that Artie will make it to the interstate, and he knows he should go looking for the cat."
-"But everything is so fucked from the start: three young men who likely have close family and friend groups, all three of them injured, and beaten, and all three knowing full well what Brian is capable of..."
+"But everything is so fucked from the start: three young men who likely have close family and friend groups, all three of them injured and beaten, and all three knowing full well what Brian is capable of..."
 "There's no point to it anymore."
 "Brian had almost reverted to thinking he'd get away with all of this somehow, but no."
 "This is the end."
@@ -453,12 +460,13 @@ Weasel "\"Bear? Brian?\""
 "Arturo nods and regrets it immediately as he almost falls over."
 #show duk neutral dark with dis
 Weasel "\"Damn, you're real fucked up aren't ya?\""
-"Arturo stares back at the weasel and notices his expression, like he's trying to decide something."
+#! "decide something" -> "decide on something"? either way
+"Arturo stares back at the weasel and notices his expression, like he's trying to decide on something."
 "It's not the right reaction to the situation, and Artie suddenly feels like he might be in danger, but he has no idea why."
 "All he remembers is that this old man had floored Devon with two swings, so combined with his current state, he can't do a thing."
 "Then, the weasel seems to come out of whatever it is he was thinking about."
 #show duk smirk dark with dis
-Weasel "\"Well, I'll be damned. This is it, then, isn't it? That stupid motherfucker. All right, get in. We're going to the hospital.\""
+Weasel "\"Well, I'll be damned. This is it, then, isn't it? That stupid motherfucker. Alright, get in. We're going to the hospital.\""
 #hide duk with dissolve
 show duke_car2 with dis2
 "Arturo stumbles forward, and once the weasel realizes he's having trouble moving at all, he helps Arturo inside."
@@ -491,7 +499,8 @@ window show
 c "\"Dev?\""
 d "\"Nnh, Cam?\""
 "Is Cameron driving?"
-"The coyote has his own sedan that he drives, but usually if they're out together, it's in Devon's jeep."
+"The coyote has his own sedan that he drives, but usually if they're out together, it's in Devon's Jeep."
+#! "he himself" feels like a weird emphasis, but I think it was done to make the pronouns less ambiguous. Maybe some rewording should happen to avoid that
 "At first, he thinks maybe he's given the wheel to the coyote so that he himself can get some rest, but they came in the Jeep, and Cameron can't drive standard, right?"
 "{i}Come on, stop assuming things{/i}."
 "Lately, Cameron seems to bristle whenever he does."
@@ -520,7 +529,8 @@ scene van_night with medium_dissolve:
     truecenter
 pause 1.0
 window show
-"When he comes to again, it's stopped and Devon realizes the van doors are open."
+#! probably?
+"When he comes to again it's stopped, and Devon realizes the van doors are open."
 b "\"Looks like it did wear off just in time.\""
 c "\"Can I go to him... Please?\""
 "Devon sees that one of Cameron's ears is twisted in the older bear's grasp, the coyote's head tilted to the side, wincing as he tries to get a better look at Devon."
@@ -540,7 +550,8 @@ stop ambient
 play music solderingloop fadein 5.0 volume 0.3
 pause 0.5
 window show
-"The sound is so loud Devon is shocked awake, adrenaline compensating for the sedative."
+#! could use "that" between "loud" and "Devon" for better readability
+"The sound is so loud that Devon is shocked awake, adrenaline compensating for the sedative."
 "At first, Devon refuses to believe what he just saw, that a sound like that could have been made with Cameron's muzzle."
 "The coyote's head snaps to the right before he instantly starts to crumple, but Brian holds him up."
 d "\"Hey!\""
@@ -567,6 +578,7 @@ d "\"Cam?{w=0.3} CAM!\""
 "Panic is making him breathe fast, though he tries to keep his chest from heaving to avoid bouncing Cameron's head."
 "Brian had hit him so hard that it definitely could have killed him."
 "What makes it all the more terrifying is the way Cameron's body went limp."
+#!!! the repetition of "sudden" is clunky. probably reword the last segment a bit
 "It had been so reminiscent of Artie's sudden collapse when he had suddenly lost his life."
 "But Cameron is breathing, though it's in a terrible, snorting way."
 d "\"Cammy, baby, can you hear me?\""
@@ -633,15 +645,17 @@ d "\"What? What mines? Stay here.\""
 "It reminds him of his predation nightmares, but Cameron insists, so Devon just concentrates on not heaving."
 "He doesn't want to feel the gap where Cameron's lower-left canine used to be, the unevenness of his already-swelling muzzle."
 "As he forces himself to kiss back, he feels something else press against his lips."
-"Something hard and oddly shaped, and Devon opens his muzzle, allowing the blood to flood into his mouth, but with it comes something else, and Devon realizes all at once that it's the key."
+#! using "blood" and "flood" together is super noticeable. Might as well use "flow" instead
+"Something hard and oddly shaped, and Devon opens his muzzle, allowing the blood to flow into his mouth, but with it comes something else, and Devon realizes all at once that it's the key."
 "Devon maneuvers the key into his muzzle as subtly as he can, hearing Brian sigh impatiently behind Cameron."
 "It slides under his tongue easily, small in his comparatively large muzzle."
-"Cameron whispers into Devon's ear."
+"Cameron whispers into Devon's ear:"
 c "\"We're gonna go back home together. I promise.\""
 d "\"But where are you going? Why the mines? Honey, please?\""
 stop music fadeout 15.0
 play ambient crickets fadein 15.0
 "Devon can't keep the whining panic out of his voice, sounding like a cub, but managing to keep the words clear with the tiny key under his tongue."
+#!!! fairly ambiguous pronoun usage here, especially with "as he pulls back"
 "Devon just stares at Cameron as he pulls back, tears rolling down his cheeks as his coyote crawls weakly to his feet and steadies himself against the wall of the van."
 b "\"Eh, you're fine.\""
 "He turns his gaze back to the furious, sobbing bear."
@@ -656,8 +670,9 @@ window show
 "Being knocked out, regaining consciousness, stumbling his way through the dark, all while on an untold amount of shrooms is... harrowing."
 "That's the only word Cameron feels is appropriate for this situation: harrowing."
 "The world is more dreamlike than his dreams."
-"This combination of disorientating factors leaves Cameron fumbling through a series of events immediately after he'd reached the old bear."
-"Brian grabbed his paw, and suddenly they were moving swiftly through the desert before Cameron is pulled into a place that's cold and dark, lit up dimly by an old electric lantern, its handle hanging from the barrel of Brian's shotgun."
+"This combination of disorienting factors leaves Cameron fumbling through a series of events immediately after he'd reached the old bear."
+#! "is" -> "was"?
+"Brian grabbed his paw, and suddenly they were moving swiftly through the desert before Cameron was pulled into a place that's cold and dark, lit up dimly by an old electric lantern, its handle hanging from the barrel of Brian's shotgun."
 "If Cameron thought his perception of time was fucked on weed, now it's twisted over on itself."
 "He's exhausted, having not eaten a proper meal in well over a day, and his throat is so dry, he thinks he might be willing to drink Brian's drugged water."
 stop ambient fadeout 5.0
@@ -803,7 +818,7 @@ show cam worried b mine with dis
 "His mom wasn't a good mom."
 "All things considered, she shouldn't have ever had children."
 "But how can he judge?"
-"She was still a teenager, excited, and in love, living out of a 70s Chevy van, but all of that came to an end when he was born in December, 1995."
+"She was still a teenager, excited, and in love, living out of a '70s Chevy van, but all of that came to an end when he was born in December, 1995."
 "The next year, his abusive, probably-schizophrenic father left and committed suicide sometime in the mid-2000s."
 "But, for a few months in 1995, his parents truly wanted to make a good life for him, and that feeling of love from that moment in time overwhelms Cameron."
 show cam sad b mine with dis
@@ -831,9 +846,11 @@ show cam sad b mine with dis
 "And then he met Devon."
 show cam crying b mine with dis
 "She wasn't a good mom..."
-"... But she was a great person, a wonderful person, and she did the best she could with what she had at the time."
+#! consider lowercasing "But"
+"... but she was a great person, a wonderful person, and she did the best she could with what she had at the time."
 "She'd brought him into a chaotic, unstable life, a life that she saved multiple times, and while he occasionally wished his mother would have just let him die..."
-"... Now, Cameron is only thankful."
+#! consider lowercasing "Now"
+"... now, Cameron is only thankful."
 "While most of his life was tough, the past five years have been better than he would have even dared to dream was possible."
 "His life was perfect up until yesterday, when they got here."
 "Tears run down his face, conflicted about how he should feel, but just knowing that he misses her, that he loves her, and that he hopes she's okay, wherever she is."
@@ -874,9 +891,9 @@ b "\"Xanax is like magic when you're panicking. Anyway, what is it that you do f
 show cam confused b mine with dis
 c "\"Um... Customer support... For Hulian.\""
 show bri angry mine with dis
-b "\"Sad, workin' for a country that we nuked twice. Back in the 80s, we used to beat people up for working for companies like that.\""
+b "\"Sad, workin' for a country that we nuked twice. Back in the '80s, we used to beat people up for working for companies like that.\""
 show cam confused b mine with dis
-"Cameron is at loss for words, but only for a moment."
+"Cameron is at a loss for words, but only for a moment."
 show cam smile b mine with dis
 c "\"Oh... Okay.\""
 "Hulian, the current market leader in smartphone manufacturing, is Tayovanese, and the coyote assumes that the bear is thinking of a certain other country in the same region."
@@ -887,7 +904,7 @@ b "\"So why music? You sing?\""
 "Cameron wishes the bear would stop asking him questions, making small talk like any of this is a routine part of their lives."
 "But the coyote assumes bath salts will make anyone talkative."
 c "\"Uh, kind of--\""
-b "\"Whaddaya mean, kinda? Either you sing, or you don't.\""
+b "\"Whaddya mean, kinda? Either you sing, or you don't.\""
 show cam confused b mine with dis
 c "\"Well, yeah, I mean, I sing, but I'm not very good--\""
 show bri evilgrin3 mine with dis
@@ -895,7 +912,7 @@ b "\"I mean, you fucking better be if you spent four years learning. How about y
 "It's getting harder to keep up the cheerful charade as Cameron senses the cruel, malicious arousal rising up inside of Brian again."
 "The second dose is making him do more than just talk too much."
 show cam grinning b mine with dis
-c "\"Uh, sure, just gotta think of one to sing. Anything you want to hear? I know a lot of 90s grunge and alternative rock.\""
+c "\"Uh, sure, just gotta think of one to sing. Anything you want to hear? I know a lot of '90s grunge and alternative rock.\""
 show bri smirk mine with dis
 b "\"Heh, you're a walkin', talkin' stereotype, aren't ya? You write your own music?\""
 show cam smile b mine with dis
@@ -926,7 +943,8 @@ with dissolve
 "Brian still says nothing, and Cameron realizes he's listening intently."
 "While this makes the coyote nervous, he knows it's better than the bear being angry, and mainly, he just needs to keep singing."
 "Devon is in the mines with them, and he needs directions."
-"Cameron just wishes it doesn't feel like he's leading Devon to his own demise."
+#!!! my gut doesn't like the present tense here, i.e. "doesn't" instead of "didn't". IDK
+"Cameron just wishes it didn't feel like he's leading Devon to his own demise."
 stop ambient fadeout 6.0
 stop background fadeout 6.0
 window hide
@@ -941,7 +959,7 @@ window show
 "Finding the entrance wasn't hard."
 "While the main entrance had been blocked off with rebar before being filled and sealed with concrete, he'd known about the side entrance from the supernatural forums he researched before coming here."
 "That, and Cameron's blood was sprinkled here and there, and the scent of it spurred Devon on."
-"Of course, it lead right to that entrance."
+"Of course, it led right to that entrance."
 "He had started unlocking his cuffs the second he thought Brian might be out of earshot."
 "He had fumbled with the tiny, slippery key, before freeing his wrists, revealing blood-crusted fur matted down to the broken skin."
 stop ambient2 fadeout 5.0
@@ -971,7 +989,7 @@ d "\"Shit... Shit, shit, shit!\""
 "And then, somehow, he hears Cameron's singing voice."
 show dev shocked dark5 with dis
 "Devon goes completely still."
-"He'd recognize his boyfriend's voice anywhere, of course, but Cameron's style is different, having the qualities of a singer from the 50s while retaining a grunge-like roughness."
+"He'd recognize his boyfriend's voice anywhere, of course, but Cameron's style is different, having the qualities of a singer from the '50s while retaining a grunge-like roughness."
 "The coyote was heavily influenced by the black and white musicals his mother used to watch late at night."
 "He was embarrassed about it after being critiqued in one of his vocal performance classes, and he had been trying to change his technique when Devon first met him."
 "But Devon always liked Cameron's voice, and it was due to Devon's urging that Cameron leaned in to his style."
@@ -1115,7 +1133,7 @@ b "\"Shut the fuck up right now, or I obliterate your other kidney, got it?\""
 "Cameron feels the threat hovering over the left side of his back this time, and he quickly shuts his muzzle, even though groans still force their way up, muffled behind his lips."
 "This seems to at least satisfy Brian, and he drops the chokehold before shoving Cameron forward."
 "At first, Cameron is surprised that the bear didn't just hit him again anyway, but Brian's distracted again."
-"Devon's too close, and a few terrible plans go through the older bear's head that causes Cameron's already aching abdomen to lurch with nausea and fear."
+"Devon's too close, and a few terrible plans go through the older bear's head that cause Cameron's already aching abdomen to lurch with nausea and fear."
 "Brian considers waiting and ambushing Dev, but he quickly discards the idea as he realizes Cameron might try to warn Devon by making noise right as he reaches them."
 "That's exactly what Cameron would do, even if it means being beaten to death by Brian."
 "Deciding again that nothing matters anymore, he pushes Cameron forward through the narrow opening, the passage becoming more tight until Brian has to turn sideways and struggle through, and then it opens up."
@@ -1177,7 +1195,7 @@ hide cam
 hide bri
 with dis
 "Cameron's mind is blank as he automatically lunges at the huge bear, grabbing at the shotgun barrel as Brian snarls in rage."
-"\"{i}Everything's falling apart. You're spiraling.\""
+"\"{i}Everything's falling apart. You're spiraling.{/i}\""
 window hide
 pause 0.5
 scene bg black with leftwipe
@@ -1206,6 +1224,7 @@ show bg hollow at zooming6 as extra
 "Then, Cameron is finally shaken loose from the shotgun, and Brian grabs the barrel with both paws before ramming the butt of the shotgun back into Devon's stomach."
 play sound thud2
 "The younger bear retches and crumples over, but he manages to grab the shotgun, holding onto the stock tightly." with vpunch
+#!! "face" is repeated twice here
 "Brian, clearly aware of how bad the situation could become for him, lets go of the shotgun so he can throw an elbow into Devon's face, bashing the left side of his muzzle and face."
 "This stuns him and gives the bigger bear time to turn around and throw a knee up into Devon's hunched form, an inch above the navel, almost the exact spot he'd hit earlier."
 play sound punch
@@ -1213,7 +1232,8 @@ play sound punch
 "Even though he lands on his feet, he immediately sinks to his knees, his muzzle wide open as he continues a battle with his own lungs, all while still trying to hold on to the shotgun."
 show bri rage mines with dissolve
 b "\"You're a dead man walkin', boy! Well, on your knees, anyway. What a surprise!\""
-"Brian fumbles shakily to find the stock of the shotgun, hidden somewhere under Devon's bulk while simultaneously trying to avoid the end of the barrel, in case Devon is able to find the trigger."
+#!! maybe? this combat scene in general is a bit hard to read, so every bit helps
+"Brian fumbles shakily to find the stock of the shotgun, hidden somewhere under Devon's bulk, while simultaneously trying to avoid the end of the barrel, in case Devon is able to find the trigger."
 "The attack had been enough to rattle Brian, even if it was short-lived."
 "Devon curses himself, trying to move, knowing he probably can't win, but he needs to do something, maybe hurt Brian so bad that Cameron can at least get away."
 "{i}Get up!{/i}"
@@ -1282,7 +1302,7 @@ hide blood08
 hide blood03
 hide blood03_2
 hide black
-"He charges into Brian and the force knocks the old bear off the coyote." with hpunch
+"He charges into Brian, and the force knocks the old bear off the coyote." with hpunch
 "Devon has never seriously mauled someone in his entire life."
 "But it's something that comes naturally to him and Brian, and while he had play-mauled people in the past, including Cameron, this is the first time he brings his claws, teeth, and muscles to full use."
 "Straddling the older bear, Devon roars at Brian before lunging down."
@@ -1296,7 +1316,7 @@ play sound thud8
 show blood06:
     zoom 1.02
     truecenter
-"The sound it makes indicates a broken snout, and Brian lets out another high pitched whine before screaming and trying to lunge up to bite Devon's neck." with vpunch
+"The sound it makes indicates a broken snout, and Brian lets out another high-pitched whine before screaming and trying to lunge up to bite Devon's neck." with vpunch
 "Devon leans back, just avoiding the teeth before smashing his head a second time into Brian's face."
 play sound punch2
 show blood02:
@@ -1317,7 +1337,7 @@ scene black with fast_dissolve
 window show
 "His bitter hatred is evident, so mad that only frothy spit flies from his lips as he sputters."
 "But then Brian's eyes flick to the right, and Devon remembers all at once that he'd left the gun there, having been focused on helping Cameron."
-"The old bear moves lighting fast once again, and he shoots off to the right, and Devon realizes Cameron is there too."
+"The old bear moves lightning fast once again, and he shoots off to the right, and Devon realizes Cameron is there too."
 d "\"Cameron, look out!\""
 scene bg hollow_visions with dis2
 play music solderingloop fadein 15.0 volume 0.3
@@ -1326,7 +1346,7 @@ play music solderingloop fadein 15.0 volume 0.3
 "The true pain though, emanates from his left arm, and Cameron knows that it's mangled, broken, and useless."
 "But he can still use his legs, and Cameron forces himself to get up and start moving for the shotgun, hearing the snarls and growls of the bears behind him."
 "He does his best to stay quiet, but stifled grunts and small squeaks force their way out of his throat."
-"As soon as he touches the shotgun though, he hears Devon shout."
+"As soon as he touches the shotgun though, he hears Devon shout:"
 d "\"Cameron, loo--\""
 scene blood04 with dis2
 "And again, the nightmare that is Brian is tearing at his body, pinning him to the wall, and Cameron screams in terror as the huge bear starts trying to bite his neck."
@@ -1338,9 +1358,10 @@ scene bg hollow_visions:
     zoom 1.02
     truecenter
 "Then, Devon wrenches the bigger bear off of him." with vpunch
-"Cameron tries to get up, to crawl, but it's useless, his body too beaten and broken to do anything other than dragging himself away."
+#! probably?
+"Cameron tries to get up, to crawl, but it's useless, his body too beaten and broken to do anything other than drag himself away."
 "Then he hears Brian's high-pitched squealing again, and this time, it's genuinely terrified."
-"Cameron looks over, and sees the old bear is now on his back with his arm in a sort of hold by Devon."
+"Cameron looks over and sees the old bear is now on his back with his arm in a sort of hold by Devon."
 "Devon is lying on his back, Brian's arm pulled towards his chest, Devon's hips close to the older bear's shoulder as his legs lock together at the ankles."
 "Devon grunts and heaves with all his might, his huge, powerful body arching toward the ceiling."
 scene bg hollow with dis2:
@@ -1355,7 +1376,8 @@ window show
 "Devon has never had a broken bone in his life."
 "But the younger bear knows a thing or two about applying force."
 "His dad watched MMA all the time, and while he knows little about fighting, he knows why armbars can be so devastating."
-"But even as he leans back, bending the big bear's arm over his inner-thigh, only a few cracks are heard, but it's nothing serious."
+#!! "but it's nothing" -> "and it's nothing" probably? There's repetition of "but" here, and "but" doesn't really contradict the previous fragment
+"But even as he leans back, bending the big bear's arm over his inner-thigh, only a few cracks are heard, and it's nothing serious."
 "Devon needs the arm to have less resistance, and more distance from the fulcrum."
 "Unlocking his legs, he takes just a second to slam his foot right into the old bear's jaw."
 play sound thud8
@@ -1378,7 +1400,8 @@ hide blood05 with dis2
 pause 0.5
 window show
 "As the catchphrase of one of Devon's old professors comes to his mind, a crack splits the air, and Brian's screams somehow reach a new, panicked pitch."
-"Devon looks over to see Cameron has dragged himself a few feet away, leaving a dark, horrible, blood trail smeared behind him."
+#!! remove the comma after "horrible"? I think it works both ways for a few reasons
+"Devon looks over to see Cameron has dragged himself a few feet away, leaving a dark, horrible blood trail smeared behind him."
 "There's a lot of blood, and Devon panics, thinking the coyote is bleeding out from his neck."
 "Devon stumbles over to him, hovering his paws over the coyote's head."
 d "\"Baby, your neck! Let me see it!\""
@@ -1394,6 +1417,7 @@ scene bg hollow_visions with dis2:
     zoom 1.02
     truecenter
 stop music fadeout 6.0
+#!!! does this structure imply that Cam "hears" the vibration?
 "Cameron hears the dull thud followed by the vibration through Devon's thick body."
 "He feels the bear cringe as he sinks to his knees, huddled over Cameron."
 window hide
@@ -1416,7 +1440,7 @@ scene the_divide with medium_dissolve
 pause 0.5
 window show
 "Devon can only wheeze in response, and Cameron holds onto him tightly as he's cradled in his arms."
-b "\"God, you fucking ruined it! He was perfectly fine 'till you showed up. Now he's fuckin' fucked up to the point he's not even fuckable!\""
+b "\"God, you fucking ruined it! He was perfectly fine 'til you showed up. Now he's fuckin' fucked up to the point he's not even fuckable!\""
 "Cameron's ability to see and feel things is fading, just as the effects of the shrooms are fading."
 "Still, there's just a bit left, and Cameron tries his best to use it."
 "Devon's body begins trembling, and Cameron holds on to him more tightly."
@@ -1588,7 +1612,7 @@ c "\"Oh, Devon, Artie is alive! He went to get us help, I think... I hope.\""
 d "\"What? How?\""
 c "\"I don't know. He got shot, but he got away. Brian was pissed. He's hurt, but I think he made it.\""
 d "\"Oh.{cps=3}..{/cps}{w=0.4} Oh,{w=0.3} that's...\""
-"Devon' lips tremble and his face twists up slightly as he tries not to cry, but it's out of incredible relief and happiness."
+"Devon's lips tremble and his face twists up slightly as he tries not to cry, but it's out of incredible relief and happiness."
 "Cameron doesn't tell him how bits of Artie are missing, or that he can't sense him anymore, both because of his waning powers and because Artie is too far away, at least that's what he hopes."
 "Cameron stares up at the arch, looking both beautiful and terrible at the same time."
 "Raincoat Monster stands to the side as they pass, and this time, Cameron does think it's his old hallucination."
@@ -1603,7 +1627,8 @@ d "\"Cameron, we are going to make it.\""
 "Devon will stay, he was able to see that much, but should he?"
 "More than anything, they both want to stay together, but if Cameron becomes a burden to Devon, he doesn't know how he can stay."
 "He just hopes that Devon can still love him after this terrible change, and he hopes he can fight it, whatever it is."
-"So, Cameron leans his head against Devon's shoulder, smiling in a mostly happy, but in a bittersweet way."
+#! don't need to repeat "in a"
+"So, Cameron leans his head against Devon's shoulder, smiling in a mostly happy, but bittersweet way."
 c "\"Alright.\""
 d "\"Alright,{w=0.3} now let's get the hell out of here.\""
 window hide

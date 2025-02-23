@@ -8,13 +8,16 @@ show closed_eyes1 at drugtripbg3 as drugtrip
 with slow_dissolve
 window show
 "Cameron stays curled up on the floor for what feels like a long time."
-"He had ultimately decided that he'd rather watch the harmless, pulsating arches dance behind his eyelids, rather than the nightmare the trailer is becoming."
+#! repeating "rather" twice is clunky
+"He had ultimately decided that he'd rather watch the harmless, pulsating arches dance behind his eyelids than the nightmare the trailer is becoming."
 "Every minute or so, the reality of the situation hits the coyote, and a burst of whimpering gasps escape his muzzle for a few minutes before fading back to only whimpering."
 "He would stay down there until his trip was over, but Brian ended up pulling him back to where he was sitting."
 "At this point, the coyote doesn't fight the bear, going limp while his body is pulled along."
+#! the repetition of "just" is slightly noticeable, but not a huge deal
 "For a minute, Brian tries to get him to sit in the chair, but eventually just gives up, dropping Cameron next to the table where he just lies on the floor."
 "The coyote listens to the old bear moving around the trailer, though it's barely audible over his own gasping sobs."
 "Eventually, those lumbering, shuffling footsteps come closer, and Cameron knows that the old bear is crouching next to him, though the coyote still doesn't open his eyes."
+#!! would "xans" be capitalized?
 b "\"Listen, kid. Since you ain't gonna calm down, you're taking some xans, got it?\""
 "Cameron listens, but doesn't move, afraid to do anything."
 "Then he flinches as a rough, calloused paw grabs up his chin, forcing his mouth open slightly."
@@ -32,7 +35,8 @@ show cam sad red2 with dis
 show cam sad red2 as extra2 at drugtrip3 behind cam:
     xpos 1420
 with dis
-"A pill, and Cameron recognizes its distinct, bar-shape and bitter taste."
+#!! remove comma after "distinct" since "bar-shape" is hyphenated? Else unhyphenate or something else
+"A pill, and Cameron recognizes its distinct bar-shape and bitter taste."
 "Brian holds out a cup, a plastic one that Cameron looks at with undisguised fear."
 show bri lookdown red2 at left
 show bri lookdown red2 as extra at drugtrip2,left behind bri:
@@ -48,7 +52,7 @@ b "\"It's just water.\""
 "He vaguely remembers his high school friends telling him to drink water to make his trip less intense."
 "Cameron has the feeling that it probably won't change anything."
 show bri neutral red2 with dis
-"Brian takes the cup from the coyote's limp paw and it takes Cameron a second to realize that the bear is holding out another pill that looks like a small, red square."
+"Brian takes the cup from the coyote's limp paw, and it takes Cameron a second to realize that the bear is holding out another pill that looks like a small, red square."
 b "\"Now put this one under your tongue.\""
 show cam serious a red2
 show cam serious a red2 as extra2 at drugtrip3 behind cam:
@@ -185,7 +189,7 @@ window show
 "What he really wishes to know right now, is who the hell he even is."
 "He tries to think back to what he last remembers."
 "Standing in front of everyone in the second grade, his trembling paws holding his book report."
-"He clears his throat, trying to figure out how to put his sentences together in advance"
+"He clears his throat, trying to figure out how to put his sentences together in advance."
 window hide
 pause 0.5
 centerdia "\"Speak up, Arturo! The whole class needs to hear you.\""
@@ -206,7 +210,7 @@ window show
 "He tries again to remember what happened last."
 "He was sitting in the junior parking lot with his girlfriend."
 "She was upset because another girl at school was being mean to her."
-"She's a jaguar, sitting in the passenger seat of his beat up sedan, one of her feet up on the dash, and he's leaning toward her to kiss her on the cheek."
+"She's a jaguar, sitting in the passenger seat of his beat-up sedan, one of her feet up on the dash, and he's leaning toward her to kiss her on the cheek."
 "What's her name?"
 "Sara Mendoza."
 "Or was it Montoya?"
@@ -218,7 +222,7 @@ a "\"Mar-Mar-Maria?\""
 "What's even more strange is how hard it is to even say her name."
 "He stutters, and he has to chew around the syllables like he's biting at the letters."
 "As he does, he notices a sour taste in his mouth, and he can smell vomit."
-"Looking at the forest floor in front of his face, and he sees a dried mess of what he's sure is the source of the smell."
+"Looking at the forest floor in front of his face, he sees a dried mess of what he's sure is the source of the smell."
 "Bits of something orange and mushy, and chunks of what he recognizes as jerky."
 "Things are starting to come together, but it takes a long time, maybe even an hour as he goes in and out of consciousness."
 window hide
@@ -262,7 +266,7 @@ a "\"I-I-I-I... n-n-n-need shelf? Melt.\""
 "This is bad."
 "Devon was hurt too, maybe even killed."
 "And Cameron, he was already hurt, and it was a monster in this forest that hurt him."
-"The cat brings his knees up to his chest, putting his arms around them like he's child."
+"The cat brings his knees up to his chest, putting his arms around them like he's a child."
 "He feels like a child, helpless and completely confused as he sits injured in this terrible forest."
 "This must be some kind of awful dream, and he wants to wake up, but even though everything feels unfamiliar, surreal, dreamlike, he knows this is real."
 "Arturo feels his face crumple as he starts to cry, pushing his forehead against his knees."
@@ -281,11 +285,12 @@ pause 0.5
 scene trailer1 with leftwipemedium
 pause 0.5
 window show
-"He looks in the direction of the sound, and sees a trailer, partially hidden behind tree trunks and bushes, about thirty feet away."
+"He looks in the direction of the sound and sees a trailer, partially hidden behind tree trunks and bushes, about thirty feet away."
 "His right ear pops loudly several times and he rubs at it, feeling fluid come out."
 "He knows it's blood."
 "The cat slowly begins to stand up, and immediately gets a terrible shock as he realizes the weakness he'd felt in his arms is also in his legs."
-"He struggles and stumbles his way to the tree, trying not to panic again before finally leaning up against it."
+#! "the" tree? Should this be "a" tree? There's no previous reference of a specific tree to call back to
+"He struggles and stumbles his way to a tree, trying not to panic again before finally leaning up against it."
 window hide
 pause 0.5
 scene trailer2 with medium_dissolve
@@ -322,7 +327,7 @@ scene bg forest_afternoon with leftwipe
 pause 1.0
 window show
 "At first, Arturo is filled with a sense of hopelessness as he finds out just how hard it is to walk, with his right side being almost limp."
-"It's feels like half of his muscles have just wasted away."
+"It feels like half of his muscles have just wasted away."
 "But, after some trial and error, he finds that if he widens his stance a bit, and swings his arms in a way that looks a bit lopsided, he's able to keep his balance."
 stop music fadeout 10.0
 stop music2
@@ -336,6 +341,7 @@ play background reststop fadein 3.0
 scene bg rural_road_afternoon with leftwipe
 pause 0.5
 window show
+#!! Not technically a problem, but using "even through" and "even though" feels a bit risky in terms of a reader getting tripped up
 "Even through the disbelief of his situation, and even though he's terrified for Cameron and Devon, he feels something deep down that's even worse."
 "He tries to ignore it, but it gnaws at the back of his brain."
 "He's dying."
@@ -361,7 +367,7 @@ window show
 "Devon can see through his fur that he's already starting to bleed from his wrists, and fur is coming off in small tufts with each failed twist and jerk."
 d "\"Come {i}on{/i}, dammit. Please!\""
 "After another failed heave, Devon slumps with his paws pressed to the floor of the van, gasping and sweating."
-"A wave of dizziness comes over him and he ends up pressing his face to the metal floor."
+"A wave of dizziness comes over him, and he ends up pressing his face to the metal floor."
 d "\"Please,{w=0.3} please help me.\""
 "Devon half-heartedly prays, just in case there is something above all of this."
 play sound steps
@@ -396,12 +402,14 @@ b "\"Alright, I was gonna say you already earned him one good hit. Now it's two.
 "Because there's nothing Devon can do."
 "He can only do what the older bear tells him to do, so he opens his muzzle."
 "Slowly, Brian pours the slightly bitter water into his mouth, and Devon drinks."
-"Even though his body wants to keep drinking, Devon starts to pull back after only a few swallows, as if he's had enough, and doesn't even suspect the water is drugged."
+#! I still don't fully like the end of this sentence. IDK what to do with it atm
+"Even though his body wants to keep drinking, Devon starts to pull back after only a few swallows, as if he's had enough and doesn't even suspect the water is drugged."
 "But Brian pushes the bottle hard enough that Devon's lips are painfully mashed between the plastic and his own teeth, and he's forced to keep drinking."
 "Even when he lets a tiny bit dribble out from the corner of his mouth, Brian growls more threats at him."
 "Eventually, the water is gone, and Devon hangs his head in defeat as Brian pulls back, backing out of the van."
 b "\"I'll be back to check on you. Don't think I need to tell you what'll happen if you even think of trying to puke that up.\""
-"Devon squeezes his eyes shut, wishing this fucking bear would just tell him what's happening, what he's doing to Cameron, why he's keeping him alive."
+#! adding "and" isn't mandatory, but it feels more natural with it
+"Devon squeezes his eyes shut, wishing this fucking bear would just tell him what's happening, what he's doing to Cameron, and why he's keeping him alive."
 "But the younger bear is too afraid to talk, too afraid of what Brian might do, so without another word, the van door is slammed shut."
 window hide
 stop music fadeout 6.0
@@ -417,7 +425,7 @@ pause 1.0
 window show
 "Cameron stays under the table, the Xanax having kicked in fully by this point, leaving the coyote in a bit of a quiet, stoic haze."
 "His sobbing has trailed off, not much emotion left in him, just feeling numb."
-"His trip is getting more and more intense, and he knows that the peak is nearing, maybe in another half-an-hour."
+"His trip is getting more and more intense, and he knows that the peak is nearing, maybe in another half an hour."
 "Still, he begins to notice things that he's sure aren't part of his trip."
 "A presence, not too far away, one that he knows very well."
 "Dev."
@@ -434,7 +442,7 @@ with medium_dissolve
 pause 0.5
 window show
 "This vision is definitely different than anything he's experienced before."
-"Unlike the dream-like, reality-altering, psilocybin, the vision he's entered has a clarity to it, like he's not even tripping at all."
+"Unlike the dreamlike, reality-altering psilocybin, the vision he's entered has a clarity to it, like he's not even tripping at all."
 "The figure of something... someone appears before him, and Cameron knows everything immediately."
 window hide
 show vision1_og with medium_dissolve
@@ -486,7 +494,7 @@ show bri rage red2 at left
 show bri rage red2 as extra at left,drugtrip2 behind bri:
     xoffset -460
 b "\"Cameron!\"" with vpunch
-"Cameron is jolted back to reality as he yanked up by his shirt so he's not even touching the floor."
+"Cameron is jolted back to reality as he's yanked up by his shirt so he's not even touching the floor."
 "Brian's paws hold the front of his shirt while shaking him violently."
 show cam horror l red2 at right
 show cam horror l red2 as extra2 at drugtrip3 behind cam:
@@ -514,7 +522,7 @@ play sound thud
 hide cam
 hide extra2
 "Cameron isn't able to stand with his weak, shaking legs and sits down heavily on the ground, looking up at the looming bear." with vpunch
-b "\"Kept callin' your name and you wouldn't answer. I told you to let me know if the visions were starting."
+b "\"Kept callin' your name and you wouldn't answer. I told you to let me know if the visions were starting.\""
 c "\"I-I-I c-couldn't...\""
 show bri serious red2 with dis
 "Brian waits, looking more impatient the more Cameron stammers, which only makes him stammer more."
@@ -555,6 +563,7 @@ scene bg closed_eyes2:
     truecenter
 show closed_eyes2 at drugtripbg3 as drugtrip
 "Cameron watches the luminous arches writhe about, convulsing, almost like they're mirroring the coyote's inner turmoil." with vpunch
+#! "The knee" could be changed to "Brian's knee"/"The bear's knee"/etc if desired
 "The knee is so big compared to himself that it seems to cover most of his stomach."
 b "\"You can thank your boyfriend for that one, and he still earned ya one more.\""
 "Brian finally pulls back and Cameron crumples to the ground, unable to process what Brian is saying, not that he'd be able to understand it anyway."
@@ -612,7 +621,7 @@ pause 0.5
 window show
 "He's in front of twenty curious, attentive eyes while his paws shake, almost making his papers rattle."
 "He's had less than a year to learn a new language, and now they expect him to give an entire book report."
-"He'd give anything to be in his room, gaming on his brand new PlayStation 2, but first, he has to figure out how to survive these next five minutes--"
+"He'd give anything to be in his room, gaming on his brand-new PlayStation 2, but first, he has to figure out how to survive these next five minutes--"
 "He's playing on his PlayStation in his dorm room when Maria walks in."
 a "\"Hey, beautiful, you able to get some sleep?\""
 "He doesn't look up from his game."
@@ -628,6 +637,7 @@ a "\"Baby, what--\""
 "He helps make sure she goes to bed at the right time."
 "Whenever she feels a mood swing approaching, high or low, they prepare together."
 stop background fadeout 5.0
+#! "isn't an unpredictable mess" -> "wasn't an unpredictable mess"?
 "Maria once cried and told him that she wasn't worth it, that he should find someone that isn't an unpredictable mess."
 "He told her she was definitely worth it, and that they just need to be prepared."
 window hide
@@ -648,7 +658,8 @@ window show
 "A dizzy spell unlike all the others made him stumble, like he was looking over the edge of a cliff."
 "Then anxiety like he'd never known before overcame him, making his heart beat so fast Arturo was convinced it was going to explode."
 "He got on his knees, started praying for help and then--"
-"--Now he's here, on the ground, his nose and forehead stinging from where it slammed into the asphalt, and the rest of his body just aches."
+#!! lowercase "Now"? it's not clear if this is part of the previous sentence or if the previous sentence just trails off and this one starts anew.
+"--now he's here, on the ground, his nose and forehead stinging from where it slammed into the asphalt, and the rest of his body just aches."
 "He'd had a seizure, and even though he's never had one before, he knows that's what happened."
 "At least he was on his knees so his face didn't have far to fall."
 "Still, he's left feeling so exhausted, so defeated that he just wants to lay there."
@@ -732,6 +743,7 @@ show cam shocked red2 with dis
 hide cam
 hide bri
 with dissolve
+#! "before" and "being" are repeated here. maybe reword
 "Before Cameron can fully comprehend what Brian just said, he finds himself being forced over the huge bear's shoulder before being lifted in a fireman's carry."
 window hide
 scene bg closed_eyes2:
@@ -771,7 +783,8 @@ show cam shocked l red3
 show expression AlphaMask("foliage3", At("cam shocked l red3", right)) as mask
 with dis
 "Cameron jolts back to the present, even though it's not the present, because time has stopped existing, and this is just a moment in a never-ending series of moments."
-"Is time always happening at once?"
+#!! "at once" -> "all at once"? "all" emphasizes that time is vast, I think?
+"Is time always happening all at once?"
 "Brian is still looking at him with a piercing gaze, and his fur is once again writhing about on his body, as if it's come back to life."
 c "\"Sorry, I-I'm having a hard time concentrating.\""
 "He'd lost himself for a moment, and just blurted the first name that came to his mind, to center himself, and confirm that he still exists."
@@ -799,6 +812,7 @@ c "\"No, no, I'm just feeling off because of the shrooms.\""
 show bri horror red3
 show expression AlphaMask("foliage3", At("bri horror red3", center)) as mask2
 with dis
+#!! would "xannies" be capitalized?
 b "\"Awwww shit! You're on like, three milligrams of xannies, too! I totally forgot!\""
 show bri evilgrin2 red3
 show expression AlphaMask("foliage3", At("bri evilgrin2 red3", center)) as mask2
@@ -865,7 +879,7 @@ b "\"FUCKING AMAZING!\""
 hide bri
 hide mask2
 with dissolve
-"What follows is the sight of a 500 pound bear awkwardly dancing and swinging his massive arms around violently, growling and laughing."
+"What follows is the sight of a 500-pound bear awkwardly dancing and swinging his massive arms around violently, growling and laughing."
 show cam sad red3
 show expression AlphaMask("foliage3", At("cam sad red3", right)) as mask
 with dis
@@ -897,6 +911,7 @@ c "\"I'm going to help you calm down some spirits...\""
 "Cameron wants to say \"and then you'll let me go\", but Brian doesn't keep promises, and bringing it up seems like a bad idea."
 "That, and now that they're outside, Cameron is sure he can feel Devon's presence, alive, but hurt, and the coyote is desperately trying to figure out what to do next."
 "But Brian seems to know exactly what's on Cameron's mind."
+#! Brian was already told that Devon is Cameron's boyfriend, but presumably this is an intentional line because Brian has forgotten? Noting it just in case
 b "\"What about your bear? Maybe I was just gettin' the wrong impression, but I thought he's your boyfriend.\""
 show cam surprised a red3
 show expression AlphaMask("foliage3", At("cam surprised a red3", right)) as mask
@@ -942,7 +957,7 @@ b "\"It didn't, because this shit I'm on makes me horny as fuck. So not only do 
 "Of course."
 "Cameron saw the torture Brian inflicted, and the bear had to be drugged up whenever he was doing it."
 "Cameron can especially remember Daniel's experience, and his thoughts."
-"Ten, twenty, sometimes even thirty hours of non-stop physical, and mental torture, and it would go on, and on, and on, and wouldn't stop until the bear's exhausted body would pass out."
+"Ten, twenty, sometimes even thirty hours of non-stop physical and mental torture, and it would go on, and on, and on, and wouldn't stop until the bear's exhausted body would pass out."
 "Then he would sleep for an entire day, sometimes longer before the process would begin again."
 show bri angry red3
 show expression AlphaMask("foliage3", At("bri angry red3", center)) as mask2
@@ -963,7 +978,8 @@ show expression AlphaMask("foliage3", At("cam serious a red3", right)) as mask
 with dis
 "For whatever reason, either because he's outside, or because he's tripping out even more, he's certain of that."
 "He'd never been the closest of friends with the cat, the two of them a bit too different to really hang out or talk without Devon being involved somehow."
-"But Artie was a constant presence in his life for more than two years and he knows that feeling, that amalgamation of a person that is Artie, it's still out there."
+#! probably?
+"But Artie was a constant presence in his life for more than two years and he knows that feeling, that amalgamation of a person that is Artie, is still out there."
 "Cameron mentally reaches out to the cat, but he's so far, so distant, and something is wrong with Artie."
 "His amalgamation is missing some parts, and several pieces seem a bit warped, even broken."
 "Devon's is still full, and nearby, and it shines like a beacon in the darkness of the barren desert."
@@ -994,7 +1010,7 @@ d "\"Cameron, I'm so sorry, Cameron, please...\""
 "He killed them, all because he needed to find out."
 "Turns out he will find out, because they're going to die."
 "How could he do this to Cameron?"
-"How could he be so stupid, naïve, inconsiderate, selfish--"
+"How could he be so stupid, naive, inconsiderate, selfish--"
 "In a flash of rage and desperation, Devon viciously gnaws at his right forearm, snarling."
 "Again, he knows it's senseless, pointless, detrimental, but the self-loathing is all-consuming, and mostly he just wants to punish himself."
 "After several seconds he stops, and after blinking away the blur of tears, he sees that while some fur is missing, he barely broke the skin."
@@ -1043,7 +1059,8 @@ with slow_dissolve
 pause 3.0
 window show
 c "\"Devon!\""
-"Devon, stays curled up, because he knows he imagined that, or his brain is playing tricks on him, or--"
+#! the comma after Devon might be intentional (emphasizing/referencing the previous line), but it would be very unusual
+"Devon stays curled up, because he knows he imagined that, or his brain is playing tricks on him, or--"
 show cam scared mind1 at right
 show cam scared mind1 as cam1 behind cam at right,drugtrip4:
     xpos 1420
@@ -1091,7 +1108,8 @@ show dev frustrated s mind1 at left,drugtrip4 as dev1 behind dev:
 with dis2
 "Devon's voice trembles with emotion."
 "He's never had a dream where he's felt this real before, this alive, and of course it's happening when he's feeling at his absolute worst."
-d "\"I just wish you were real so I can actually tell you how sorry I am, but I can't take any of this back, even if we somehow make it out.\""
+#!! probably?
+d "\"I just wish you were real so I could actually tell you how sorry I am, but I can't take any of this back, even if we somehow make it out.\""
 d "\"And you look fine, but I know you're not fine, because you're with that goddamn bear.\""
 "It's quiet for a moment, the only sound being Devon's sobbing."
 show cam smile a mind1
@@ -1318,7 +1336,7 @@ stop background fadeout 10.0
 "... to slip into Brian's pocket, disguising it as him trying to push the bear away."
 "He feels and finds the single key that he knew would be there."
 b "\"Goddammit, you're a fuckin' cute one, ya know?\""
-"Brian's voice trembles with cruel, passionate emotion, and nuzzles the coyote."
+"Brian's voice trembles with cruel, passionate emotion, and he nuzzles the coyote."
 "He squeezes harder, and Cameron's eyes roll up, all while putting the key in his own pocket, but he's not sure it matters."
 "Brian already heard his plan."
 "More importantly though, is that Brian isn't letting up."

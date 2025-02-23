@@ -7,7 +7,8 @@ window show
 "It never moved when he was looking at it, but the second he looked away and back again, it would reappear closer, usually at that twenty to thirty foot distance."
 "When he learned to ignore it, it just sort of blended into the background, and he almost stopped noticing it."
 "As Cameron squeezes through the boards covering the window, he's only a few feet away from the thing."
-"He realizes that if he makes contact with it, that if it's solid, then he won't know what to think."
+#!! "that if it's solid" -> "if it's solid"? Not sure it's right to have "that" restarted here
+"He realizes that if he makes contact with it, if it's solid, then he won't know what to think."
 "He never even considered that it might be real."
 "But now, as those unnaturally long claws dangle from the sleeves of the raincoat, Cameron starts to worry."
 "As he moves those last few feet, though, Raincoat Monster starts to dissolve into the dim lighting of the room, and the coyote is inside."
@@ -23,7 +24,8 @@ hide cam with dissolve
 show cam surprised c dark2 with dissolve
 "Cameron stares, the feeling of unease growing."
 show cam worried_alt dark2 with dis
-"Of course, shit like this always makes him feel uneasy, it makes him feel fucking crazy."
+#!! stronger pause after "uneasy", e.g. a semicolon or colon. not sure which is best
+"Of course, shit like this always makes him feel uneasy; it makes him feel fucking crazy."
 "But what just happened now, it felt deliberate, like he's being toyed with somehow."
 "Raincoat Monster had toyed with him plenty of times before, especially the first time he saw it."
 "It was his own mind doing it, after all."
@@ -114,6 +116,7 @@ d "\"Leave you? {w=0.4}I'm right here.\""
 c "\"I looked up the road and you were just gone.\""
 d "\"Oh! Cameron, something happened. It's a little complicated, but I can tell you about it on the way out.\""
 d "\"I'm sorry I left when I said I'd watch you, but we need to go right now.\""
+#!!! should this be in quotes? Is this Cam's inner voice speaking? the other sections that look like this are all in quotes
 "{i}{cps=40}Something happened...{w=0.4} It's a little complicated...{/i}"
 d "\"Cameron, please open the door.\""
 "Devon lets out a nervous laugh."
@@ -185,7 +188,8 @@ show art surprised l at right
 with dissolve
 "Suddenly, he notices how similar the color of his fur is to Raincoat Monster."
 show art talking a l at right with dis
-a "\"Whoa, dude, you okay? What's going on? I can hear you guys yelling all the way--\""
+#! probably past tense this
+a "\"Whoa, dude, you okay? What's going on? I could hear you guys yelling all the way--\""
 hide cam with dissolve
 show art surprised a l with dis
 "Artie trails off as Cameron backs away from the cat, keeping him in view until he can run away, up the road, to somewhere that's not here."
@@ -198,7 +202,7 @@ show dev crying r at left with dissolve
 show dev crying talking r with dis
 d "\"Where did he go?\""
 show art scared a l at right with dissolve
-"Artie points wordlessly and Devon jogs up the length of the parking lot to look around the motel."
+"Artie points wordlessly, and Devon jogs up the length of the parking lot to look around the motel."
 "Cameron is nowhere in sight."
 "Devon stares for a while, hoping to see Cameron pop out from behind one of the dilapidated structures, but he doesn't."
 show art scared l with dis
@@ -254,7 +258,7 @@ d"\"Cameron!?\""
 show art glance a l with dis
 a "\"He was on both, I'm pretty sure. He was talking to Maria about it since she's been on a bunch of them for her bipolar disorder.\""
 show art surprised a l with dis
-a "\"I think he was just looking for advice on how to deal with the side-effects, and I was a psych major, so there's that.\""
+a "\"I think he was just looking for advice on how to deal with the side effects, and I was a psych major, so there's that.\""
 show dev annoyed h l with dis
 d "\"Were you?\""
 show dev angry yelling l with dis
@@ -282,11 +286,12 @@ show dev angry yelling at jumping
 d "\"The fucking weed!\""
 show art scared l with dis
 a "\"Whoa, what happened?\""
-d "\"You fucking {i}know{/i} he has problems, was on medication in college, and you just let him get stoned!?\""
+#!! Should this all be set to past tense?
+d "\"You fucking {i}knew{/i} he had problems, was on medication in college, and you just let him get stoned!?\""
 "Artie stares."
 a "\"Well, I didn't remember until just now, and besides, if that's what's making him freak out, it's gonna wear off.\""
 d "\"No!{w=0.3} He said I was tricking him.\""
-d "\"He didn't trust me Artie.{w=0.3} He said I was planting fucking speakers so he'd hear voices.\""
+d "\"He didn't trust me, Artie.{w=0.3} He said I was planting fucking speakers so he'd hear voices.\""
 "Artie continues to stare, but doesn't say anything this time."
 "Devon does his best to avoid saying what he thinks is happening."
 d "\"That's not just panic,{w=0.3} that's.{cps=3}..{/cps}{w=0.4} more than just that.\""
@@ -330,10 +335,12 @@ show cam worried c with dis
 "Unless it's both."
 "He couldn't have been involved in the vision he had by the lake, right?"
 "Or what he heard in the forest."
-"Those were real, Cameron feels it deep down that they had to have been real."
+#!! stronger pause after "real"
+"Those were real. Cameron feels it deep down that they had to have been real."
 "He couldn't have made up that recounting of the forest creature, or of the girl being murdered."
 "Maybe Devon was worried Cameron would give up if he didn't see anything, and wanted to make sure by..."
-".{cps=3}..{/cps}{w=0.4}by hanging himself in the closet, by creating one of the worst moments in Cameron's life."
+#!! should this end with a question mark?
+".{cps=3}..{/cps}{w=0.4}by hanging himself in the closet, by creating one of the worst moments in Cameron's life?"
 "Devon would never do that, {w=0.4}would never {i}think{/i} to do that."
 "As he's thinking this, something flickers in Cameron's vision."
 "It's hard to describe, but there's a vividness to what he's seeing."
@@ -382,7 +389,8 @@ window show
 "Not really because it was funny, but because it was so unexpected, and so boring up until that point."
 "To him, that's the only way space could be haunted with ghosts."
 "But for some reason, he doesn't think anything living, or at least anything that {i}was{/i} living, is involved with this."
-"What he realized is that those crafts: made of metal, glass, and covered in lights, are empty."
+#!! this could instead just use a plain comma or surrounding emdashes
+"What he realized is that those crafts, made of metal, glass, and covered in lights, are empty."
 "As far as he's concerned, they're no different from the ghosts."
 "Ghosts that weren't people at all."
 "They're hollow shells, only there to feed on the sick feeling he got when seeing them, only there to watch him so that the small amount of guilt he had might grow just a little bit bigger."
@@ -411,8 +419,10 @@ c "\"What?\""
 "It just makes him feel like he's going crazy, and it reminds him that, for some inexplicable reason, he thought Dev might be in on it."
 "How did he even consider that Dev could be involved in this?"
 "Besides, even now, despite it being almost completely silent aside from the crunch of his footsteps on the gravel road--"
-"--The voices are insistent, even louder, and how would he hide speakers out here, in the middle of nowhere?"
-"Now that he's focusing on those voices, he can actually start making out some words, sentence fragments."
+#! consider lowercasing "The", as it's part of the previous line's sentence instead of a new one.
+"--the voices are insistent, even louder, and how would he hide speakers out here, in the middle of nowhere?"
+#!!! ", sentence fragments" is awkward. This could be an emdash instead, or "and" seems fine enough. Consider restructuring to avoid the situation, worst case
+"Now that he's focusing on those voices, he can actually start making out some words and sentence fragments."
 play background whispers fadein 3.0
 "\"{cps=25}{i}...singing, {w=0.5}they sang...\"{/i}"
 "\"{cps=25}{i}...sins of cities are always...\"{/i}"
@@ -438,7 +448,7 @@ c "\"Hello?\""
 "The words don't even really make sense."
 "If the ghosts are trying to talk to him, wouldn't they say something useful?"
 "Maybe they just don't like him."
-"And if it's a replaying of something in the past, why are they just babbling nonsense."
+"And if it's a replaying of something in the past, why are they just babbling nonsense?"
 "Cameron sighs and takes a step."
 play background whispers
 "\"{cps=25}{i}...you stupid...\"{/i}"
@@ -466,7 +476,8 @@ window show
 "Cameron himself couldn't be bothered to tidy up."
 "It's easier now that his mom doesn't give a fuck."
 "He can do his drugs right in front of her now."
-"The Post-it notes and strips of fabric tied to every arch his mother spotted, even to things Cameron is pretty sure aren't arches, made the place look like a disaster anyway."
+#! pick a capitalization for "post-it" and apply it to both instances in Arches
+"The post-it notes and strips of fabric tied to every arch his mother spotted, even to things Cameron is pretty sure aren't arches, made the place look like a disaster anyway."
 "What does bother him, though, as he watches her through half-lidded eyes, is the way she looks."
 "Her fur is disheveled and sticking up in different places, and she's in the same clothes she's been in for a week."
 "She's started to have a strange odor about her, but Cameron felt too weird telling his own mom she smelled bad."
@@ -566,7 +577,8 @@ window show
 "Even now, she struggles with her addiction to benzodiazepines, something carelessly prescribed to her so she'd stop wailing all the time."
 "To Devon, it seemed like psychology never moved past lobotomies."
 "Instead, they just converted it into pills."
-"And he never really changed that mindset, and it's why he never encouraged Cameron to seek some sort of help, especially if he didn't want it."
+#!! this sentence doesn't need to start with "and". Removing it avoids some repetition
+"He never really changed that mindset, and it's why he never encouraged Cameron to seek some sort of help, especially if he didn't want it."
 "What he took away from his research is that hallucinations of any kind are of serious concern and should never be brushed off."
 "But he had done just that with the idea that maybe there's more to hallucinations for some people than psychology will ever understand."
 "Maybe it's ghosts."
@@ -578,7 +590,7 @@ a "\"See!? There he is, dude!\""
 show dev shocked h l at left with dissolve
 "Devon looks up, and sure enough, he sees Cameron running toward them."
 "The smile of relief on the coyote's face seems to break the dam of emotion in Dev's chest."
-"That wild look he'd had earlier, the one that had looked at him as if he were a stranger is gone."
+"That wild look he'd had earlier, the one that had looked at him as if he were a stranger, is gone."
 hide dev
 hide art
 with dissolve
@@ -602,6 +614,7 @@ hide cam
 hide dev
 play sound thud
 "Devon, rocking them back and forth on the uneven, rocky ground, sends them to the dirt, but Devon just pulls Cameron into his lap, still hugging him tightly." with vpunch
+#!! ", though he's smiling" extends the sentence just a little too long. consider dropping it
 "Meanwhile, Artie is looking away, seeming to have spotted something very interesting in the miniature forest just off the road, though he's smiling."
 show dev crying behind cam with dissolve
 d "\"I'm so sorry for bringing you here... I don't know what else to say. I'm just sorry.\""
@@ -609,7 +622,7 @@ show cam heartbreak at right with dissolve
 c "\"No, it's my fault for thinking I was special, that I had superpowers, or something.\""
 show dev disappointed with dis
 d "\"None of this is your fault, okay?\""
-"Cameron stays quiet and Devon is content to just hold the coyote, both of them sniffling."
+"Cameron stays quiet, and Devon is content to just hold the coyote, both of them sniffling."
 "Meanwhile, the coyote plucks at sagebrush that's rubbing up against them, which he holds to his nose."
 show cam smile a with dis
 c "\"You know how I hate the desert?\""
@@ -769,7 +782,7 @@ with dis
 hide cam
 hide mask2
 with dissolve
-"He thinks it's a trailer, one that looks so run down that he wouldn't be surprised if it's abandoned."
+"He thinks it's a trailer, one that looks so run-down that he wouldn't be surprised if it's abandoned."
 "What unsettles him is that it's buried so deep behind the trees, it's like it's meant to be hidden."
 "He can try to make a call further down the road, away from whatever that is."
 show art stoic l dark4 at right
@@ -881,7 +894,8 @@ a "\"What the fuck was that!? {w=0.4}Dude, {w=0.3}what the hell was that thing!?
 "Devon doesn't care."
 "Two days ago, he would have thought he'd give almost anything to see something like that."
 "Now, it doesn't seem to matter at all."
-"Cameron's chest that had been heaving seconds ago isn't moving at all now."
+#!! "chest that had been heaving seconds ago isn't" -> "chest, which had been heaving seconds ago, isn't"?
+"Cameron's chest, which had been heaving seconds ago, isn't moving at all now."
 show dev scream dark4 with dis
 d "\"Fuck, {w=0.3}FUCK!{w=0.3} Artie! {w=0.3}He's not breathing, man! {w=0.4}What do we do!?\""
 show art scared l dark4
@@ -894,7 +908,8 @@ show art scared a l dark4
 show expression AlphaMask("foliage3", At("art scared a l dark4", right)) as mask3
 with dis
 a "\"Why is this even happening!? Why would he just stop breathing?\""
-"Devon tries to tilt Cameron's head back, straighten his torso so he can breathe."
+#!! maybe? both are technically fine, but this is more natural
+"Devon tries to tilt Cameron's head back and straighten his torso so he can breathe."
 show dev terror dark4 with dis
 d "\"Come on, {w=0.3}COME ON!{w=0.3} BREATHE, {w=0.3}Cam, {w=0.4}just breathe, {w=0.3}please!\""
 "Devon rubs at Cameron's chest."

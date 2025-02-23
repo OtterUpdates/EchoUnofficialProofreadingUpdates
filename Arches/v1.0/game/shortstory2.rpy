@@ -41,17 +41,17 @@ window show
 "Echoes aren't hard to find."
 "They're everywhere."
 "But some are worse than others, and Cameron knows which ones need taking care of the most."
-c "\"{i}Devon! {/i}\""
+c "\"{i}Devon!{/i}\""
 window hide None
 play sound blow
 scene white
 scene black with dissolve
 window show
 play music solderingloop fadein 5.0 volume 0.5
-"A flash of light, one I've gotten used to seeing explodes behind my eyelids, along with an explosion of pain in my face and head."
+"A flash of light, one I've gotten used to seeing, explodes behind my eyelids, along with an explosion of pain in my face and head."
 c "\"{i}DEVON! Shit!{/i}\""
 play sound bblow
-"A dull, blunt thud resonates through my stomach and a familiar ache seems to hollow it out completely, sending all the breath I have held inside blasting out in a wheezing groan."
+"A dull, blunt thud resonates through my stomach, and a familiar ache seems to hollow it out completely, sending all the breath I have held inside blasting out in a wheezing groan."
 "Then, the familiar thump of bone on pavement as my legs seems to turn to jelly and I go down to my knees, head bowed, gasping for breath."
 "\"Next time, you're dead you fucking creep!\""
 c "\"{i}Watch out!{/i}\""
@@ -63,10 +63,10 @@ stop music fadeout 10.0
 "The raccoon looks back down at me, almost like he thinks I'm the one that called the cops."
 "But he moves on, spitting on me as he goes."
 "I lower my head even more as I hear them scurry off toward an area behind the warehouse they'd been beating me up against."
-"Now I'm left alone in the patchily-lit parking lot, the already faint sirens fading away into silence."
+"Now I'm left alone in the patchily-lit parking lot, the already-faint sirens fading away into silence."
 "Well, I'm physically alone."
 c "\"{i}Are you okay? Devon?{/i}\""
-"Cameron's voice comes through again, ands I can tell he's trying to hold back from sounding panicked."
+"Cameron's voice comes through again, and I can tell he's trying to hold back from sounding panicked."
 d "\"{i}I'm fine, babe. Don't worry. Just need a minute{/i}.\""
 "I send him reassuring thoughts even while my face comes to rest on the rough gravel and asphalt of the lot, feeling myself drool into it."
 "Cameron goes quiet after that, realizing there's not much he can do except wait."
@@ -84,7 +84,7 @@ scene kitchen with medium_dissolve
 pause 0.5
 window show
 "The scruffy raccoon's punch got me good, right over the left eye."
-"I can already feel it starting to swell closed and I head for the medicine cabinet."
+"I can already feel it starting to swell closed, and I head for the medicine cabinet."
 "I swallow down four ibuprofen and a Tylenol for the throbbing ache that's already established itself firmly in my brain."
 c "\"{i}You're gonna wanna eat something with that, Dev.{/i}\""
 "Cameron's feelings of gentle reproach are barely contained under the {i}veil{/i} that he's trying to hide them under, and he finally blurts out his concern."
@@ -97,6 +97,7 @@ c "\"{i}You're gonna wanna eat something with that, Dev.{/i}\""
 "It's not like I'd prefer silence, though: Cameron's thought-voice is quiet, and gentle, but especially now that he's trying not to upset me, which he shouldn't have to be doing."
 "I'd fucked up bad this time."
 "Caught {i}and{/i} got my ass kicked."
+#!!! Should "echo" (as in the entities) be capitalized? It's capitalized in other places. should be consistent everywhere. `echo`
 "I'd been staking that spot out for weeks, Cameron having noticed an {i}echo{/I} in the upper windows of a random warehouse in the city's industrial park district."
 "One that was, for whatever reason, really strong."
 "From what I was able to gather, they were using it as a sort of... something."
@@ -136,7 +137,7 @@ d "\"This is helping other people not have to go through what we went through, C
 c "\"{i}Haven't we suffered enough? Maybe--{/i}\""
 scene kitchen_dev2 with dis
 d "\"Who else is in this position, that can do what you can do? We--\""
-c "\"{i}I'm not sure we're making much of a difference. We clearly don't know what the fuck we're doing, Dev!\""
+c "\"{i}I'm not sure we're making much of a difference. We clearly don't know what the fuck we're doing, Dev!{/i}\""
 "My heart sinks, realizing how much Cam might not actually want to do this, the one thing that's kept me going the past four years."
 scene kitchen_dev3 with dis
 d "\"{i}You're the one that suggested this, you know.{/i}\""
@@ -177,7 +178,8 @@ d "\"I'm doing okay, all things considered.\""
 c "\"{i}Jesus Christ...{/i}\""
 "Apparently he hasn't completely left the room."
 "I ignore Cameron for now, most of my focus is on trying to sound as okay as I just told Arturo I was."
-a "\"Hope those things are aren't t-too t-terrible? You sound pretty awful.\""
+#!!! not sure if "are aren't" is a typo, but if it's a stutter it should have a hyphen. IMO just remove it; having 3 stutters in a row is pretty excessive when Artie isn't even agitated atm
+a "\"Hope those things aren't t-too t-terrible? You sound pretty awful.\""
 "I can sense what he's implying with those words."
 "It probably sounds like I've been crying with my swollen nose and raspy voice."
 "Four years removed from Echo, and he still knows that I'm struggling."
@@ -255,12 +257,13 @@ c "\"{i}NO.{/i}\""
 "It's happened before, but not like this."
 "It makes me wonder how strong his own thoughts actually are, if maybe he could completely take over if he wanted."
 "Either way, I can't tell Artie after a message as powerful as that, so I settle for something more vague."
-d "\"Listen, man. All I can say is that something is going on, but I'm not ready to talk about it just yet, but I promise I'll tell you someday, alright?\""
+#! ", but" repeated here
+d "\"Listen, man. All I can say is that something is going on, but I'm not ready to talk about it just yet. I promise I'll tell you someday, alright?\""
 "I'm surprised by how relieved Artie sounds to hear that."
 a "\"Okay, yeah, that's cool. Take your time, man. And... Sorry for unloading like that about what happened in that town.\""
 a "\"I won't bring it up again. I j-just needed... I dunno--\""
 d "\"I get it. And if you need to talk again, I'm here for you.\""
-a "\"Same. I was actually thinking maybe we c-could meet up again. Maybe go off-roading, or even try some rock crawling in your new jeep.\""
+a "\"Same. I was actually thinking maybe we c-could meet up again. Maybe go off-roading, or even try some rock crawling in your new Jeep.\""
 "That makes me smile, that despite what happened to him, he's still wanting to do shit that we used to, shit that could get him killed."
 "But if it makes him happy--"
 play ambient ticktock
@@ -273,7 +276,7 @@ d "\"Weekend after? Sounds good to me.\""
 "We talk a little bit more, but Cameron's simmering irritation becomes too much to ignore, and after a while, I make an excuse about needing to prepare dinner before hanging up."
 "It's partially true, but I really only use the microwave these days."
 "I can at least be happy knowing that Arturo is sounding way better than when we first started talking."
-"Cameron stays silent as I actually do start to make my food; an unappetizing plastic bowl of lightly seasoned, frozen vegetables."
+"Cameron stays silent as I actually do start to make my food: an unappetizing plastic bowl of lightly seasoned, frozen vegetables."
 "I'm still baffled at Cam's strange reaction when I was on the phone with Artie, but I know to wait for him to gather his thoughts before trying to talk to him."
 "I subtly project the feeling of me being tired, hoping it might make the coyote take some pity on me with whatever it is that's pissing him off."
 "He's keeping it tightly guarded, though."
@@ -293,7 +296,7 @@ stop sound fadeout 10.0
 stop ambient fadeout 3.0
 play music zenintro fadein 10.0 volume 0.2
 queue music zenloop volume 0.2
-c "\"{i}You were talking on the phone for over half-an-hour.{/i}\""
+c "\"{i}You were talking on the phone for over half an hour.{/i}\""
 scene kitchen_dev3 with dis
 d "\"Yeah, I know. Thanks, Cameron.\""
 c "\"{i}So{/i} now {i}you're mad at me?{/i}\""
@@ -413,7 +416,7 @@ scene kitchen_dev4 with dis
 scene kitchen_dev5 with dis
 d "\"Cameron, you're really scaring me right now. Can you at least let me know you're here, somehow? Anything.\""
 "Empty."
-d "\"Because... Because I'm gonna start freaking out for real if you don't say something to be, baby.\""
+d "\"Because... Because I'm gonna start freaking out for real if you don't say something to me, baby.\""
 "Silence."
 "That silence seems to become tangible, blanketing me with a feeling of suffocation."
 d "\"Cammy? Baby? Please?\""
@@ -469,7 +472,7 @@ window show
 "These are the good times, but I won't know it, not until Echo."
 c "\"See? Piano is way easier for me.\""
 d "\"I thought you sounded just fine on guitar.\""
-"It was his voice that I really liked, though: Rough and smoky, but delivered with a smoothness that reminds me of old, black-and-white movies."
+"It was his voice that I really liked, though: rough and smoky, but delivered with a smoothness that reminds me of old, black-and-white movies."
 "Two weeks in, and I'm already cautiously hoping this relationship will turn into something more."
 "Cautious because Jesús is still fresh in my mind."
 "The relationship had only lasted for a few months, but I wasn't ready for the rejection that I didn't even see coming."
@@ -477,11 +480,12 @@ d "\"I thought you sounded just fine on guitar.\""
 "For now though, he's smiling as he continues to play."
 "I can see the red tinging the skin inside his ears, making me think he's probably feeling the same way I did when I was showing him the advanced math and physics classes I'm taking."
 "But I am impressed."
-"The coyote's innate ability to seemingly pull beautiful and catchy melodies together seems just as impossible as Cameron said my course work looked."
+"The coyote's innate ability to seemingly pull beautiful and catchy melodies together seems just as impossible as Cameron said my coursework looked."
 d "\"Where do you even start?\""
 c "\"Hm?\""
 "Cameron looks up from playing."
-d "\"Like, just the music in general: How do you just come up with it on the fly like that?\""
+#!! "How" could stay capitalized if desired as it's actually a sentence, but I'm not a fan of capitalization after colons in general
+d "\"Like, just the music in general: how do you just come up with it on the fly like that?\""
 c "\"Oh, well...\""
 "Cameron scoots over as an invitation for me to sit down, and I do."
 window hide
@@ -520,7 +524,7 @@ d "\"Huh?\""
 c "\"See the future. Besides, this has already happened.\""
 d "\"Um...\""
 c "\"It's me, Devon.\""
-"There's a slight laugh in his voice, one that sounds more surprised than anything"
+"There's a slight laugh in his voice, one that sounds more surprised than anything."
 "I let my mind fall back into that current, confused, traumatized, and angry mindset I seem to always be in now."
 d "\"But you left. I felt it.\""
 c "\"I... I actually don't know what happened, but I didn't like it.\""
@@ -596,7 +600,8 @@ d "\"STOP!\""
 "I didn't know what I'd have left of Cameron then, even though he was already talking to me, trying to keep me calm."
 unk "\"He's not real, Devon, I--\""
 play sound thud
-"I lash out in the direction of the echo and I feel my fist hit something soft and I hear a gasp, and suddenly--"
+#!!! reduce the amount of "and"s
+"I lash out in the direction of the echo, and I feel my fist hit something soft as I hear a gasp, then suddenly--"
 stop music
 scene black
 "I'm back in bed, feeling the beginnings of a pounding, awful hangover, but I don't pay any attention to it right now."

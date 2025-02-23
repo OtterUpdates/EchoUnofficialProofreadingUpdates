@@ -13,7 +13,7 @@ window show
 "The body-cam footage of their dramatic rescue from the mines even made the rounds on social media."
 "... For about two days."
 "At the same time, a pandemic was picking up steam, and all media attention focused on that instead."
-"Cameron didn't mind: That lack of attention made his recovery much easier."
+"Cameron didn't mind: that lack of attention made his recovery much easier."
 "His burst liver and severely damaged kidney had left him needing surgery."
 "The hospital did what they could for his elbow, and his doctors were hopeful that with a lot of physical therapy, he could at least use it for basic necessities."
 "While it did suck to maybe never be able to bend his elbow correctly, or without pain, what really devastated Cameron was the weakness and constant tingling in his pinky and ring finger left him feeling like he might lose his mind."
@@ -24,7 +24,7 @@ window show
 "No, the negative {i}thoughts{/i} from his head... right?"
 "Just a flashback, one of the shitty leftovers from his shroom trip."
 "Either way, all he could do was try to ignore it, despite it making itself known at least once a day."
-"\"{i}Cameron... Cameron... Cameron... Something's wrong...{/i}."
+"\"{i}Cameron... Cameron... Cameron... Something's wrong...{/i}\""
 "But things continued to feel strange."
 "It didn't seem to be related to his ESP, because he could easily tell when that was happening."
 "Ever since the shroom trip, a haze of psychic ability lingered around him, allowing him to capture thoughts and feelings seemingly at random."
@@ -32,7 +32,8 @@ window show
 "He didn't have much control, though."
 "Sometimes he wasn't even able to tell if the download he was receiving was from the living or the dead."
 "Cameron even began to try and hone his abilities, and experiment with just how much he could do."
-"What he quickly figured out was that without some sort of illicit substance, his clairvoyance lacked a great deal of fuel that had powered his abilities in Echo."
+#! "deal of fuel" -> "deal of the fuel"?
+"What he quickly figured out was that without some sort of illicit substance, his clairvoyance lacked a great deal of the fuel that had powered his abilities in Echo."
 "That would make it easier, and so would being in an \"active\" location like Echo."
 window hide
 pause 0.5
@@ -41,14 +42,15 @@ play music lakesounds fadein 5.0
 scene bg lakeside with scene_fade
 pause 0.5
 window show
+#! colon could also be a semicolon if desired?
 "Echo is only one of those places, though: there are so many others..."
 "{i}He's a desert lake.{/i}"
-"Every now and then, Cameron would find himself pausing as a chill would run down his spine, like he did near the backdoor of Devon's parent's house"
+"Every now and then, Cameron would find himself pausing as a chill would run down his spine, like he did near the back door of Devon's parents' house."
 "That feeling always meant an \"Echo\" was attached to something, somewhere nearby."
 "That's what Cameron called the beings... not exactly intelligent, or even living, but entities that interacted with and usually threatened the living."
 "In that particular case, it emanated from under the back porch."
 "When he told Devon about it, the bear knew immediately what Cameron was talking about."
-d "\"Oh yeah, I'd hear something moving under there all the time, like a person crawling around. Even dad says he saw red eyes under there once.\""
+d "\"Oh yeah, I'd hear something moving under there all the time, like a person crawling around. Even Dad says he saw red eyes under there once.\""
 window hide
 pause 0.5
 stop music fadeout 5.0
@@ -162,7 +164,8 @@ stop sound2 fadeout 2.0
 "Cameron brings a paw up to his right ear, where the voice came from."
 "Is his headset still on, or..."
 play sound2 whispers loop
-"\"{i}No, and you can feel me in your ear. What the fuck do you think that feeling was? You stupid shit. Absolutely worthless.{/i}\""
+#!! "do you think" could also be "did you think"
+"\"{i}No, and you can feel me in your ear. What the fuck did you think that feeling was? You stupid shit. Absolutely worthless.{/i}\""
 stop sound2 fadeout 2.0
 "After that, Cameron remembers very little except panic, followed by confusion, a ton of confusion."
 "His thoughts make no sense, the voice that is definitely not his thoughts..."
@@ -179,7 +182,7 @@ play sound2 whispers loop
 window show
 "\"{i}Maybe I'll stop if you grab the wheel and turn into the median?{/i}\""
 stop sound2 fadeout 2.0
-"\"{i}For old time's sake.{/i}\""
+"\"{i}For old times' sake.{/i}\""
 stop ambient fadeout 10.0
 stop music fadeout 6.0
 "And he doesn't even need a fucking fan."
@@ -205,12 +208,12 @@ window show
 "About seven months after Echo, and six months after his first episode, Cameron feels worse than he did right after Echo."
 "The voice that had wormed its way into his damaged ear had disappeared after just a few days of antipsychotic treatment, but it returned again, and again, every few days."
 "Whenever he feels rejection or guilt, whenever he gets into arguments with Devon, and really, whenever it pleases, it makes itself known."
-"It comes in a deep, masculine, voice, though sometimes it's Brian-like in how it taunts and laughs at him."
+"It comes in a deep, masculine voice, though sometimes it's Brian-like in how it taunts and laughs at him."
 "Short asides that were sometimes mean, sometimes meaningless, and sometimes boring, all about the things Cameron would do, and the people he would see."
 "It feels like it's trying to remind Cameron things aren't okay as weeks continued to come and go with manageable, but clearly-present psychotic symptoms."
 "He had worried his broken arm would stop him from being able to play music as well as he used to."
 "Turns out, he didn't have to worry about that at all, because he doesn't give a fuck anymore."
-"Like a switch, his interests, his motivation, his want to do anything productive, or useful seemed to just... turn off."
+"Like a switch, his interests, his motivation, his want to do anything productive or useful seemed to just... turn off."
 "His thought process had been wrecked, and the disorganized thought during his episodes became present even when he wasn't having one."
 "His mother said she needed meth because it fought those feelings that her psychosis brought on... which was brought on by the meth."
 "A vicious cycle."
@@ -225,12 +228,13 @@ pause 0.5
 window show
 "{i}Propranolol{/i} for restlessness from akathisia, {i}escitalopram{/i} for depression, {i}trazodone{/i} for sleep {i}and{/i} depression, {i}metformin{/i} for managing weight gain, {i}guanfacine{/i} for tics--"
 "{i}{sc}tic{/sc}{/i}"
-"--and PTSD, and {i}clonazepam{/i}, as needed, for anxiety, and panic attacks."
+#!! this is a pretty comma-heavy section already; this one isn't necessary
+"--and PTSD, and {i}clonazepam{/i}, as needed, for anxiety and panic attacks."
 "He'd tried Xanax at first, but its taste immediately caused a panic attack so bad he couldn't even get it down."
 "There's a familiar burn and tension in the right side of his neck, and his head tilts to the right before coming back up in a sort of twitching movement, twice."
 "{i}{sc}tic tic{/sc}{/i}"
-"The symptoms of schizophrenia are devastating enough, but so are the side-effects of the antipsychotics to treat it."
-"Side-effects that are covered up by medications that cause even more side-effects, which in turn are maybe more tolerable."
+"The symptoms of schizophrenia are devastating enough, but so are the side effects of the antipsychotics to treat it."
+"Side effects that are covered up by medications that cause even more side effects, which in turn are maybe more tolerable."
 "The first antipsychotic he tried made him too tired, and his flat affect unnerved Devon, even though he never said it."
 "So, he was finally switched after four months."
 "This switch had dysregulated his dopamine, according to his last psychiatrist, and this in turn meant that the motor and vocal tics he once thought were gone are now back."
@@ -251,7 +255,7 @@ window show
 "He even begged Devon not to make him take it, which just made the whole situation so much worse."
 "What if it caused more problems to show up?"
 "What if it made him worse?"
-"Cameron read about all the horrible, lifelong side-effects that antipsychotics can cause."
+"Cameron read about all the horrible, lifelong side effects that antipsychotics can cause."
 "Movement disorders like Tourette syndrome that can stick around even if you stop the meds."
 "All from these little pills, wreaking havoc on the synapses of his brain, changing him forever."
 "\"{i}More poison, more brain damage.{/i}\""
@@ -267,7 +271,7 @@ c "\"Positive symptoms have decreased by... maybe 30 percent over the last week?
 "But only a little, because while he knows he's taken plenty of steps forward, it seems like he always ends up back where he started as soon as something goes wrong."
 "He begins opening his pill organizer and pulls out the most important one."
 "At least his psychiatrist had been right and, for once, Cameron can at least see a road to... the new him."
-"Despite tolerating {i}ziprasidone{/i} much better than the last antipsychotic, it still causes the same side-effects that make him need to take all the other meds."
+"Despite tolerating {i}ziprasidone{/i} much better than the last antipsychotic, it still causes the same side effects that make him need to take all the other meds."
 "At least it's making his tics better--"
 "{i}{sc}tic tic tic{/sc}{/i}"
 "--though he doubts they will ever truly go away without being on medication."
@@ -346,8 +350,8 @@ d "\"Are you kidding me right now?\""
 "Not much for them to lose anyway."
 "It would free Devon from the burden that is Cameron's brain."
 c "\"Why do you want me to take my meds when I don't want to, anyway? Pretty different from college, right?\""
-d "\"This is so different Cameron. I know I talked shit on stuff like that before, but this is not the same.\""
-c "\"Yeah, because this is actually dangerous. It's because I'm a problem to you now, and you just want me to take whatever will make me act half-way normal, even if it makes me feel like shit.\""
+d "\"This is so different, Cameron. I know I talked shit on stuff like that before, but this is not the same.\""
+c "\"Yeah, because this is actually dangerous. It's because I'm a problem to you now, and you just want me to take whatever will make me act halfway normal, even if it makes me feel like shit.\""
 d "\"I want you to get better.\""
 c "\"I'm not going to get better, Devon! This is permanent!\""
 d "\"That doesn't mean you can't get better! That's the whole point.\""
@@ -356,7 +360,7 @@ d "\"{i}If{/i} you relapse, we help you get better again.\""
 c "\"I probably won't even be able to get off the meds. You know, I don't even care about the stupid voice anymore, or even the tics!\""
 "\"{i}Oh, I'll make you care, you piece of shit{/i}!\""
 c "\"SHUT UP!\""
-"Cameron's shout reverberates through the kitchen, and he senses all the typical emotions he gets from Devon these days; worry, distress, fear, pity."
+"Cameron's shout reverberates through the kitchen, and he senses all the typical emotions he gets from Devon these days: worry, distress, fear, pity."
 "{i}{sc}tic tic tic{/sc}{/i}"
 "Cameron takes a second to refocus his scattering mindset, his train of thought that seems to derail mid-sentence."
 c "\"It feels like my soul has been sucked out, and I don't know if it's the meds, or the crazy, or just me, but I hate it!\""
@@ -411,7 +415,7 @@ window show
 "The hardest thing about that particular argument for Devon was that he completely empathized with Cameron."
 "He can't imagine being in that situation, made to take medication that changes him so fundamentally that he's not in full control of his movements, or even his breathing."
 "The coyote is justified in being angry, sad, childish, and sometimes, outright spiteful."
-"That doesn't mean that it isn't unsettling seeing the Cameron lash out and cry in ways Devon had never seen him come close to before."
+"That doesn't mean that it isn't unsettling seeing Cameron lash out and cry in ways Devon had never seen him come close to before."
 "At points, it feels like he's watching the deconstruction of a life in real-time."
 "It leaves his stomach feeling hollow and sick, like it did days after Brian had a go at it."
 "The thought of the old bear makes Devon so angry that now, he wishes the man was still alive."
@@ -431,7 +435,7 @@ window show
 "But then, seemingly out of nowhere, his breathing picks up speed."
 "Confused, Devon watches as the edges of his vision begin to darken."
 "He can't figure out why he suddenly feels as if he's going to pass out."
-"The first thing that comes to Devon's mind is Arturo's older brother who died of a pulmonary embolism after what was supposed to be a simple surgery."
+"The first thing that comes to Devon's mind is Arturo's older brother, who died of a pulmonary embolism after what was supposed to be a simple surgery."
 "The one that Artie talked about casually while high, even though Devon knows he's still devastated by it."
 "Devon stands up from his desk, walking, then sinking to the ground as the room spins."
 d "\"Cam! I... I need help, please... I... I can't...\""
@@ -488,7 +492,7 @@ d "\"You're not dead. I'm just like... your vessel, now.\""
 c "\"{i}That is such a creepy word. Just say I'm like, your passenger. By the way, you reek.{/i}\""
 show altdev4 with dis
 d "\"It's Saturday, so I don't have work. Besides, I'm not taking a shower when their air-dryer temperature is room-temperature.\""
-c "\"{i}I mean, I didn't say I didn't like it. It's from a fresh work out.{/i}\""
+c "\"{i}I mean, I didn't say I didn't like it. It's from a fresh workout.{/i}\""
 "Devon grunts as he makes his way through the parking lot toward his car."
 c "\"{i}You were pushing yourself really hard, to be honest. Take it easier next time?{/i}\""
 show altdev1 with dis
@@ -505,7 +509,7 @@ c "\"{i}I didn't know you could punch ghosts. And I wish you'd get a different c
 d "\"I knew what I was getting into. Anyway, remember about the source. Usually it's some shitty person feeding these places.\""
 c "\"{i}Oh, well, punching real people sounds worse, actually...{/i}\""
 d "\"Either way, this is all a good workout. You should tr--\""
-"Devon catches himself half-way through saying it."
+"Devon catches himself halfway through saying it."
 "Even though he knows it's coming, and even though he tries to stop it, the imagery of Cameron's ruined face flashes through his mind."
 window hide
 pause 0.5
@@ -562,7 +566,7 @@ scene bg black
 stop music
 #ADD SHEETS SFX
 "Cameron leaps out of bed, one paw over his muzzle."
-"He stubs his toe horrifically on the doorframe to the bathroom, bending back the claw so that it's left bleeding, and almost ripped out."
+"He stubs his toe horrifically on the door frame to the bathroom, bending back the claw so that it's left bleeding, and almost ripped out."
 "But he makes it to the toilet in time to retch up the small amount of whatever is in his stomach."
 play music solaceintro fadein 10.0 volume 0.3
 queue music solaceloop volume 0.3
@@ -570,7 +574,9 @@ queue music solaceloop volume 0.3
 "Cameron sobs, both for himself and for the poor, young rat that lived a short, hard life only for it to end by choking on the shitty food Brian lured him in with."
 "After a minute, the coyote calms down and listens, thankful that Devon is an incredibly heavy sleeper."
 "What he'd seen definitely happened, and even though the police stopped trying to interview him after learning about his schizophrenia diagnosis, he would still put in an anonymous tip tomorrow."
-"Cameron knows there's at least twice as many victims that the police know about, and he plans to report every single one that he sees."
+#!!! Fairly sure that "that the police know about" is not correct here, as it implies the police already know about these victims
+#!!! I think "as those the police know about" works; it's hard to find something that's correct and also natural-sounding
+"Cameron knows there's at least twice as many victims as those the police know about, and he plans to report every single one that he sees."
 window hide
 stop music fadeout 5.0
 pause 5.0
@@ -585,7 +591,7 @@ pause 0.5
 $ fade_inout_time("{font=ui/coolstoryregular.ttf}Summer 2021", color="#FFFFFF", size=80)
 pause 6
 window show
-"Half-a-year later, Cameron finally starts to feel as if he's starting to live life again."
+"Half a year later, Cameron finally starts to feel as if he's starting to live life again."
 "Not his old life, but a new, unfamiliar one."
 "Tapering down his meds along with exercising definitely helped."
 "Which is why he came here with Devon to visit Arturo."
@@ -600,13 +606,13 @@ window show
 "And Cameron knows this just by looking at Arturo."
 "While the coyote did just want to see his old friend, he also wanted to know a few other things."
 "His methods are morally questionable, but he justifies it since he's tired of being kept in the dark."
-"An hour before they get there, Cameron eats a piece of chocolate from the backpack be brought for their stay at a motel."
+"An hour before they get there, Cameron eats a piece of chocolate from the backpack he brought for their stay at a motel."
 "Devon complains when Cameron says that it was the last one, but the coyote knows the bear would lose his mind if he knew what exactly Cameron did."
 "And that was micro-dosing psilocybin."
 "Stupid, idiotic, unbelievable when it could cause him severe, lasting damage."
 "\"{i}Idiot...{/i}\""
 "It might have been what triggered his schizophrenia, but..."
-"His abilities increased ten-fold even on this tiny amount."
+"His abilities increased tenfold even on this tiny amount."
 "Besides, it made him feel better."
 "Of course, he'll tell Devon when more time has passed, but the bear has shown almost zero interest in the paranormal as of late."
 "Maybe he'll just tell him he's taking it for the mood-lift."
@@ -619,7 +625,7 @@ show artiecrib_artieexcited with dis5
 pause 0.5
 window show
 a "\"Well, what I'm trying to do is get rid of this d-damn limp. That's what people notice m-most... If I'm not talking.\""
-"Cameron smiles pleasantly despite the fact that Arturo is more guarded and fortified mentally than anyone else he's met, which is the last thing he had expected ."
+"Cameron smiles pleasantly despite the fact that Arturo is more guarded and fortified mentally than anyone else he's met, which is the last thing he had expected."
 hide artiecrib_artieexcited
 hide artiecrib_artiestare
 hide artiecrib_artiesmile
@@ -722,6 +728,7 @@ hide artiecrib_devexcited
 hide artiecrib_devlooking
 show artiecrib_devsmile
 with dis5
+#!! Should there be different punctuation between "at" and "They're"?
 a "\"And the place you're working at. They're financing it? That's really q-q-quick!\""
 hide artiecrib_artieexcited
 hide artiecrib_artiestare
@@ -762,7 +769,8 @@ hide artiecrib_devexcited
 show artiecrib_devlooking
 hide artiecrib_devsmile
 with dis5
-c "\"I don't know how he does it all: work, school, cooking, gaming. And you're good at all of it.\""
+#!! switching conversation targets from "he" to "you're" is weird, especially when Devon doesn't respond next
+c "\"I don't know how he does it all: work, school, cooking, gaming. And he's good at all of it.\""
 #show artiescrib1 with dis
 show artiecrib_artieexcited
 hide artiecrib_artiestare
@@ -791,8 +799,8 @@ show artiecrib_devsmile
 with dis5
 stop music fadeout 5.0
 "Cameron is close enough to Devon to see the skin flush under his fur."
-"While some might find Devon to be overly-humble, it has more to do with a sort of imposter's syndrome."
-"Cameron knows it must be awkward to be praised for not having to study, or work as hard as his fellow students and co-workers."
+"While some might find Devon to be overly-humble, it has more to do with a sort of imposter syndrome."
+"Cameron knows it must be awkward to be praised for not having to study or work as hard as his fellow students and co-workers."
 "Despite that, Cameron still feels proud knowing his boyfriend is already inching into a leadership position at the company."
 "He has no doubt the bear will be doing incredible things in his career."
 #scene artiescrib3 with dis
@@ -853,7 +861,8 @@ hide artiecrib_devlooking
 hide artiecrib_devsmile
 with dis5
 a "\"Great! It was almost like going back home. I'm supposed to have like, two clients but they've got about five on me now, haha!\""
-a "\"They were so happy to see me, but they can tell something's a bit off about me, though.\""
+#!! reduces repetition of "me"
+a "\"They were so happy to see me, but they can tell something's a bit off, though.\""
 show artiecrib_artieexcited
 show artiecrib_artiestare
 hide artiecrib_artiesmile
@@ -969,7 +978,7 @@ hide artiecrib_devexcited
 hide artiecrib_devlooking
 hide artiecrib_devsmile
 with dis5
-c "\"Yeah. Really, it's the schizophrenia I was diagnosed with afterwards that I'm still trying to manage."
+c "\"Yeah. Really, it's the schizophrenia I was diagnosed with afterwards that I'm still trying to manage.\""
 hide artiecrib_artieexcited
 show artiecrib_artiestare
 hide artiecrib_artiesmile
@@ -1104,7 +1113,7 @@ a "\"The only thing work has complained about is that I guess my inhibitions are
 d "\"I swear I'm not trying to be a dick, but I haven't even noticed that.\""
 a "\"Oh yeah, they said something about 'too many words, too little tact', like, three years ag-ago, so I'm pretty sure it's just me but magnified.\""
 "Cameron turns his full attention back to his own conversation, the effort of trying to figure out what's going on while keeping up with what's being said is far too difficult."
-Maria "\"I can kind of tell that it might be affecting you now, but sometimes it's hard to tell the side-effects from symptoms of psychosis, especially the residual negative symptoms.\""
+Maria "\"I can kind of tell that it might be affecting you now, but sometimes it's hard to tell the side effects from symptoms of psychosis, especially the residual negative symptoms.\""
 Maria "\"I mean, positive symptoms are obvious, but making your thoughts flow normally again? Making yourself want to go back outside, talk to people, live?\""
 Maria "\"That tends to come back last, and sometimes it might come back a bit different.\""
 "Maria has been suffering from her disorder for years longer than Cameron, and he senses her reluctance to say what might happen."
@@ -1122,6 +1131,7 @@ Maria "\"That tends to come back last, and sometimes it might come back a bit di
 "Like he's the one..."
 "The final thought he receives is from Maria, and deep down, under her concern for Cameron's diagnosis, she's wondering if he's prodding at Arturo's mind."
 "Arturo can sense him."
+#!!! Need pronoun clarification on who "His own sensitivity" is referring to
 "His own sensitivity is subtle, almost too understated to be picked up on, but it's there, and that's why he feels like Cameron is carrying Echo with him."
 "Cameron is mainly worried that Arturo knows what he's doing right now, and his neck and cheeks become warm, feeling like he's been caught in the act for the first time."
 "Then Maria mentions something about how she has tardive dyskinesia, and Cameron focuses back on their conversation, genuinely curious if it's gotten better for her with time."
@@ -1153,7 +1163,7 @@ pause 6
 window show
 "Time continues on in its steady, unrelenting march, and it brings with it both good and bad."
 "The pandemic falls into the background."
-"Global instability and war comes to the forefront."
+"Global instability and war come to the forefront."
 "Money becomes tighter."
 "And the world keeps moving on, as it always will."
 "It still leaves Devon almost breathless at the idea that he'd {i}changed{/i} their lives in one weekend."
@@ -1163,18 +1173,19 @@ window show
 "For the first year, Devon wasn't sure how he'd continue his life."
 "Cameron was either always sedated to the point of almost becoming unresponsive, or angry and sad to the point that he'd just sit in the bathroom and cry."
 "The feeling of helplessness, of knowing that Cameron wanted to be dead, that he'd given up so much that he even told the bear he'd take opioids again if he could."
-"And so Dev started doing things he didn't want to do: Checking Cameron's drawers, pockets, and his side of the closet when he wasn't around."
+"And so Dev started doing things he didn't want to do: checking Cameron's drawers, pockets, and his side of the closet when he wasn't around."
 "He's angry at the medical professionals who sent Cameron home because he simply had \"intrusive thoughts\"."
 "This had relieved Cameron, though Devon was unsure."
-"In fact he knew it wasn't right, but Cameron was so happy, and it seemed to stop the episode."
+"In fact, he knew it wasn't right, but Cameron was so happy, and it seemed to stop the episode."
 "But then, over the next two days, he was in a deep psychotic state."
-"His intrusive thoughts were actually thought insertions and by the time they got back to the hospital, he was screaming that he was actually dead."
+"His intrusive thoughts were actually thought insertions, and by the time they got back to the hospital, he was screaming that he was actually dead."
 "He accused Devon of planting speakers in the walls, and video cameras in the mirror, which he shattered."
 "Over that first month, it was a normal sight to see Cameron sitting up in bed, brushing away non-existent bugs, completely unresponsive to anything Devon would say."
 "But, that's two years behind them now, and Cameron is finally starting to really live and become someone who seems to enjoy life again."
 "Because while the positive symptoms of delusions and hallucinations had been practically absent over the past year, the negative symptoms lingered."
 "Devon had read about that over and over again."
-"Lack of motivation, lack of interest in things that once gave pleasure, lack of expressive emotions, and moments of confusion, and disorganized thought."
+#!! There's two ", and" segments here. there are a handful of ways to fix it.
+"Lack of motivation, lack of interest in things that once gave pleasure, lack of expressive emotions, and moments of confusion and disorganized thought."
 "It was the anhedonia that scared Cameron the most."
 "It scared Devon too, because what's a life worth living if you don't want to do the things you trained and aspired to do most of your life?"
 "Despite being able to listen to music again, Cameron decided a few months back to finally hang up his guitar."
@@ -1195,7 +1206,7 @@ d "\"You reading my mind again?\""
 c "\"No, I can read your face.\""
 "Devon doesn't want to bring down Cameron's mood."
 "He's the one that wanted to come out and walk around in the snow, and if Cameron wants to do something engaging and active, Devon will do it with him."
-"It is strange that they got so much of it in March and it probably would be the last snowfall."
+"It is strange that they got so much of it in March, and it probably would be the last snowfall."
 d "\"I'm just realizing how out of shape I am. Do you think I'm starting to get a gut? Like a bad one.\""
 c "\"Aren't you on the thinner side for a bear nearing 30?\""
 "Cameron makes a point of looking at Devon's midsection, then prods at it, making the bear huff."
@@ -1265,7 +1276,7 @@ play music bridgescut fadein 20.0 volume 0.3
 $ renpy.music.set_volume(0.5, delay=6, channel=u'ambient')
 pause 0.5
 window show
-c "\"The guy on top of Mormon temples? That's the Angel Moroni and he's holding a horn. He buried then helped recover the gold plates.\""
+c "\"The guy on top of Mormon temples? That's the Angel Moroni, and he's holding a horn. He buried, then helped recover the gold plates.\""
 d "\"How do you know that?\""
 c "\"Some Mormon friends told me.\""
 d "\"Oh... Cody, the bull?\""
@@ -1277,7 +1288,7 @@ with dis5
 d "\"You thinking about converting?\""
 c "\"Mh, maybe if they ever become okay with this--\""
 "Cameron leans close to Devon again."
-"Devon smiles and they hold each other for a while."
+"Devon smiles, and they hold each other for a while."
 show SnowCam frowndown
 show SnowDev looking
 with dis5
@@ -1289,7 +1300,7 @@ show SnowDev looking
 with dis5
 c "\"Devon... Did you ever find what... what you were looking for?\""
 show SnowCam frowndown with dis5
-"Devon immediately knows what Cameron's referring to and it makes his stomach twist into knots."
+"Devon immediately knows what Cameron's referring to, and it makes his stomach twist into knots."
 show SnowCam talkup
 show SnowDev looking
 with dis5
@@ -1339,13 +1350,16 @@ c "\"Yeah, but nothing stays the same, we don't fully recover, or become who we 
 show SnowCam frown
 show SnowDev looking
 with dis5
-"Devon feels a deep twinge in his chest, thinking about what life would be like now if he had just made the right turn."
+#!!!! This really needs to be "left turn", or the bad turn into Echo needs to be switched to be a left turn instead of a right turn
+#!!!! The story repeatedly emphasizes that turning into Echo was "turning right", and using "right" to mean "correct" at the end here is very jarring
+"Devon feels a deep twinge in his chest, thinking about what life would be like now if he had just made a left turn."
 #hide hope4
 #show hope5 behind snow1,snow2,snow3,snow4
 show SnowCam talkdown
 show SnowDev looking
 with dis5
-c "\"It's like how they say you can never go home again, because home isn't just a place, but it's people, and it's at a certain time, and when it ends, it ends. You can never get it back.\""
+#!! probably? There could also be a semicolon/colon or something between "place" and "it's people"
+c "\"It's like how they say you can never go home again, because home isn't just a place, it's people, and it's at a certain time, and when it ends, it ends. You can never get it back.\""
 #hide hope5
 #show hope7 behind snow1,snow2,snow3,snow4
 show SnowCam frown

@@ -36,9 +36,11 @@ play ambient2 darkambient01 volume 0.3
 "I don't remember seeing ears,{w=0.5} I don't think it had any."
 "I just know that it wasn't a person,{w=0.5} it was a thing.{cps=3}..{/cps}{w=0.4} a creature."
 "The yellow eyes were standing out from the black matted fur that covered its face."
-"I could only see the edges of its mouth because it had on it what I think was a raincoat, or something. There was this big collar that was turned up and covered the lower half of its face."
+#! "it had on it" -> "it had on"? also, "covered" -> "covering"?
+"I could only see the edges of its mouth because it had on what I think was a raincoat, or something. There was this big collar that was turned up and covering the lower half of its face."
 "And it was tall.{w=0.5} Its shoulders and the back of its head and neck were up against the ceiling, so it was looking straight down at me."
-"The rest of its body was pushed back into that corner next to the sofa,{w=0.5} its arms out to the side and pressed to the walls,{w=0.5} like he's bracing himself."
+#!! switching from "it" to "he" pronouns mid-sentence is kind of weird, especially because it transitions back to "it" in the next lines
+"The rest of its body was pushed back into that corner next to the sofa,{w=0.5} its arms out to the side and pressed to the walls,{w=0.5} like it's bracing itself."
 "What I think were long, black claws stuck out from the openings at the ends of the sleeves, dug into the walls."
 "And for the few seconds I stared up at it, it didn't move at all, not even a little bit - kind of like it was stuck in a still frame."
 "It's weird to see something that you know shouldn't exist. Like, there's this extra moment where your brain absorbs what it’s seeing."
@@ -54,9 +56,11 @@ play ambient2 distantthunder
 pause 0.5
 window show
 "It's hard to remember what exactly happened next. I just sort of ran, or at least scrambled on all fours trying to get the hell out of there."
-"I didn't hear anything, didn't feel him move, and I was too scared to look back."
+#!! the monster is always referred to as "it" in this section, at least until he says it turns into a "man" below
+"I didn't hear anything, didn't feel it move, and I was too scared to look back."
 "I was tumbling out onto the wet grass, because it was cloudy and drizzling like always, and then onto the little paved walkway that wound its way through the trailer park."
 "I was just running up that walkway, getting as far away from the thing I didn't understand as I could."
+#!!! I don't quite understand why Cam would still be fucked up "to this day" about this. He's seen Raincoat Monster a lot at this point, and he knows that it reappears when he looks away. This knowledge should be fairly pedestrian to him from his current POV (future Cam recounting)
 "What kind of fucks me up to this day, even worse than when I first saw it, is that when I was a good three trailers away, I looked back - not really expecting to see anything, but I did."
 play music mines02 fadein 3.0
 play sound horrorsting01
@@ -73,6 +77,7 @@ $ renpy.music.set_volume(1.0, delay=6, channel=u'ambient')
 "When the cops left, I got in BIG trouble, but I was just happy to have people around."
 "Of course, I couldn't tell them what happened, because it couldn't have happened."
 "But it did. And then it happened again, and again, and again..."
+#!!!! there's a weird flash of black here after advancing from the previous line
 play sound2 windchimes fadein 7 volume 0.5
 window hide
 pause 7.0
@@ -99,7 +104,8 @@ play music2 silog fadein 10.0
 story "Soon, the cardboard raincoat monster with claws became a man who would walk around our kitchen."
 story "He was angry, {w=0.5}cursing, {w=0.5}throwing stuff around, {w=0.5}but I was okay with all of it, because he NEVER noticed me."
 story "I couldn't say the same about the next thing though, and that was another flat-faced creature, but this one moved around on all fours with its elbows and legs at an angle like a spider."
-story "He would crawl onto my bed, {w=0.5}over my face, {w=0.5}and whisper things at me."
+#!! "He" -> "It"? It's previously referenced as "it"
+story "It would crawl onto my bed, {w=0.5}over my face, {w=0.5}and whisper things at me."
 nvl clear
 story "That's when it really became hard, and things finally broke down after the first time I tried ketamine."
 story "For most of my teenage years, I was a weed and opioid kind of guy.{w} Not like heroin, or anything, but a pill every now and then to go with the weed so I could really chill."
@@ -144,9 +150,10 @@ $ quick_menu = True
 dev "You alright, babe?"
 "Dev, somehow, already has his shirt off."
 dev "Little eager, huh?"
-"I don't answer the question as I slide my shirt over my head and immediately Dev's paws go to feeling out my sides."
+"I don't answer the question as I slide my shirt over my head, and immediately Dev's paws go to feeling out my sides."
 "He's a little buzzed, so I don't think this is really going anywhere."
-"We just wanted to get away from the party. We wandered around the little forest next to the house, Dev was looking for orbs or something."
+#! "house, Dev" could use "and" or a semicolon or something
+"We just wanted to get away from the party. We wandered around the little forest next to the house, and Dev was looking for orbs or something."
 "It started raining, so we ran to the car and decided to wait for Jason to come out so we could leave."
 "Hopefully soon because this thing.{cps=2}..{/cps}{w=0.3} it stands outside the window."
 "It's aware of us.{w=0.3} I don't like that,{w=0.3} even to this day."
@@ -155,7 +162,7 @@ window hide
 scene black with fast_dissolve
 pause 0.5
 window show
-"Dev looks behind us, right at the creature, and a chill runs down my back as he stares face-to-face with it."
+"Dev looks behind us, right at the creature, and a chill runs down my back as he stares face to face with it."
 "It's grinning at him with its sharp teeth, and stooped over deeply because it's too tall."
 "But, as usual, Dev doesn't react. That's because he's normal."
 dev "Are you seeing things again, Cam? Just because you told me it stopped doesn't mean it might not come back."
@@ -177,14 +184,16 @@ pause 0.5
 window show
 dev "I don't want to get you upset, {w=0.4}but..."
 "I close my eyes, waiting to be upset. He already knows I don't like him treating me like I'm some psychic."
+#!! the comma after useless could be removed if desired
 "I'm just a stupid kid that sees horrible, useless, things."
-dev ".{cps=2}..{/cps}{w=0.5}But would you at least tell me if you see something that might... be important to me."
+dev ".{cps=2}..{/cps}{w=0.5}But would you at least tell me if you see something that might... be important to me?"
 "I blink, thinking, then realize what, or rather who, he's talking about."
 cam "Oh! {w=0.5}Well, {w=0.3}yeah, {w=0.3}of course I would.{w=0.3} It's just that I don't really see people."
 cam "Just things.{w=0.3} And not good things."
 "Dev has gone a bit quiet as I rub down his stomach, playing with the fur and the thick layers that come naturally to bears, something that I like."
 "I feel weird doing this while waiting for our friend."
-"I mean, it's our car, but we're both 25 and acting like it just can't wait, we gotta do this before we go home."
+#!! could change "wait, we gotta do this" -> "wait, like we gotta do this"
+"I mean, it's our car, but we're both 25 and acting like it just can't wait, like we gotta do this before we go home."
 "Usually Dev just liked to be intimate like this, where he can just feel me, but he only grunts as I tentatively open his fly."
 "He doesn't stop me, so I keep going."
 dev "Well, you know I was supposed to visit Echo today, but Larry had some problems, or whatever, so now we're at this shitty party, and it's gonna be months before I have a chance again."
@@ -205,7 +214,7 @@ dev "Just--"
 "Dev sighs, not really annoyed, just tired, probably having a hard time thinking straight on the alcohol."
 dev "I just need your help for a few days."
 dev "I wanna know, {w=0.4}I need to know where she is."
-"{i}{cps=30}Nowhere.{w=0.3} She's dead, {w=0.4}so she's nowhere.{w=0.3} I'm sorry.{i}"
+"{i}{cps=30}Nowhere.{w=0.3} She's dead, {w=0.4}so she's nowhere.{w=0.3} I'm sorry.{/i}"
 "I don’t want to do this. It’s such a bad idea, but this is important for Dev, it always has been."
 "So, now that he's finally asking me to go, I can only say:"
 window hide

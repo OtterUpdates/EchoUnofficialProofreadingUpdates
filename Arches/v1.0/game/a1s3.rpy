@@ -1,13 +1,13 @@
 label a1s3:
 play background reststop fadein 5.0
 window show
-"Devon sighs as he watches Artie squat down behind his jeep, examining the wheels balanced above the cracked and dusty asphalt."
+"Devon sighs as he watches Artie squat down behind his Jeep, examining the wheels balanced above the cracked and dusty asphalt."
 show art talking a l at right with dissolve
 a "\"Shee-it, how'd you manage to do this? It looks like you literally drove straight off the road!\""
 show dev serious p behind cam at one
 show cam serious c u r at five
 with dissolve
-"Devon sighs deeply as he stands next to Cameron, practically fantasizing about getting into the beat up sedan and escaping this hellish town."
+"Devon sighs deeply as he stands next to Cameron, practically fantasizing about getting into the beat-up sedan and escaping this hellish town."
 "They're so close to getting out of here, and the bear just wishes he could pick them both up and toss them into the car."
 "Sure, he could technically do that if he wanted to, but that obviously isn't a reality."
 "He just knows that to go against Cameron's wishes right now would be devastating to the coyote and their relationship."
@@ -44,7 +44,7 @@ d "\"No, I'm just really tired, man. We were up most of the night.\""
 show cam surprised a u r with dis
 c "\"Uh, yeah, we're just tired. I think walking around a little bit would do us all some good.\""
 show art excited a l with dis
-a "\"Ooh, Yeah! Last time I went ghost hunting with Dev it was real spooky, even though we didn't see anything. One of my top ten highs. In fact...\""
+a "\"Ooh, yeah! Last time I went ghost hunting with Dev it was real spooky, even though we didn't see anything. One of my top ten highs. In fact...\""
 hide art with dissolve
 show dev skeptical p r with dis
 d "\"Highs?\""
@@ -175,7 +175,7 @@ show cam happy eyes r with dis
 "At first, Cameron finds it funny and he laughs out loud, only to stumble over nothing as his limbs suddenly feel intensely heavy."
 show cam shocked r with dis
 c "\"{cps=20}Whoa.\""
-"What was funny suddenly becomes somewhat alarming and the coyote's giggling dies away almost instantly."
+"What was funny suddenly becomes somewhat alarming, and the coyote's giggling dies away almost instantly."
 stop ambient fadeout 5.0
 window hide
 scene outskirts_day with leftwipe
@@ -189,7 +189,8 @@ play background reststop fadein 5.0
 "Fuck."
 "He's never been this high before."
 "His sixteen-year-old self would be able to handle this no problem, but the shroom trip he went through sometime during junior year had ruined most reality-distorting drugs for him."
-"Even when he smoked the cheap, weak bud his friends provided through high school, he would still come close to freaking out."
+#! "through" -> "throughout"?
+"Even when he smoked the cheap, weak bud his friends provided throughout high school, he would still come close to freaking out."
 "But he always had an oxy back in those days to calm himself down, or at least whatever benzo he managed to steal from his mom's medicine cabinet."
 "Now, there's nothing between him and feeling like time and reality are completely fucked."
 "Permanently fucked?"
@@ -203,7 +204,8 @@ play background reststop fadein 5.0
 "Because when Artie offered the pen, he remembered that seeing things always became easier when he was high."
 "It wasn't really a positive part of being high, but if he's going to be doing this psychic shit, maybe he should experiment more with it?"
 "He feels very differently about it now."
-"Weed seemed like a good, harmless, way to test his experiment ten minutes ago."
+#! probably?
+"Weed seemed like a good, harmless way to test his experiment ten minutes ago."
 "But now Cameron is questioning if weed even triggered supernatural stuff for him in the first place."
 "He was always on other stuff whenever he smoked weed, after all."
 "Opioids, stimulants, dissociatives, and definitely hallucinogens like shrooms did the trick, but for obvious reasons, he's never going to try those things again."
@@ -250,7 +252,7 @@ c "\"Holy shit, I've never been this high before, and that was a single mouth hi
 show art smarmy l with dis
 a "\"Yeah, I swear it gets more potent every year. I'm not surprised it knocked you on your ass.\""
 hide dev with dissolve
-"Cameron vacantly watches Dev climb into the rear of the jeep, grabbing their plastic bottles and one of the gallon jugs of water."
+"Cameron vacantly watches Dev climb into the rear of the Jeep, grabbing their plastic bottles and one of the gallon jugs of water."
 c "\"How long is the come up? Am I gonna get more high?\""
 show art smarmy a l with dis
 a "\"Only if you take another hit. You want to?\""
@@ -297,7 +299,8 @@ show cam heartbreak l with dis
 "But Dev quickly goes on as if Cameron didn't say anything."
 show dev smirk h r with dis
 d "\"Sit down and have some water, honey.\""
-"He holds up a green, plastic bottle, filled with water and Cameron drinks from it loudly."
+#! This could also be "green, plastic bottle"
+"He holds up a green plastic bottle filled with water, and Cameron drinks from it loudly."
 show dev grin p with dis
 d "\"And food.\""
 "Devon pushes a bag of jerky along with a box of cheese crackers toward Cameron."
@@ -313,7 +316,7 @@ show art sad a l with dis
 a "\"Wow, this got you that fucked up, huh?\""
 show dev serious p with dis
 d "\"That's all you gotta say, Artie?\""
-"Dev doesn't sound angry at Artie any more, much to Cameron's relief."
+"Dev doesn't sound angry at Artie anymore, much to Cameron's relief."
 "Just very tired."
 show art glance l with dis
 a "\"Still, this is all pretty standard stuff, especially when you got low tolerance. And I'm not trying to be a dick when I say that I'm actually a little jealous. Correct me if I'm wrong, Cam, but it looks cathartic as hell.\""
@@ -326,7 +329,8 @@ show cam happy eyes r with dis
 c "\"{cps=30}Fuck, {w=0.3}that's good...\""
 show art happy l with dis
 "Arturo laughs."
-"Cameron shoves a strip of jerky that's lightly-seasoned with hot sauce into his mouth, combining the flavors and he moans again."
+#! this avoids needing to use another comma
+"Cameron shoves a strip of jerky that's lightly-seasoned with hot sauce into his mouth, combining the flavors as he moans again."
 show dev smirk p r with dis
 "Devon sighs in a defeated, but accepting sort of way."
 "That makes Cam feel even better, that even though he did something stupid, Devon seems to understand."
@@ -353,22 +357,24 @@ d "\"I can't believe this.\""
 a "\"Is Devon being a fucking nazi about everything new, or have you been putting up with this for a while? It's weird after knowing how he acted in college.\""
 "Cameron leans against the tailgate, smiling at Devon."
 c "\"I've been doing some dangerous shit during our investigation and Dev is just trying to keep us safe. He's wonderful and I love him.\""
-"Devon looks at him and just gives him a small smile without saying anything."
+#! reduces repetition of "him"
+"Devon looks at him and just gives a small smile without saying anything."
 a "\"Oh? You gonna let me in on what's going on between you two? Because I think we can all admit that it's been super awkward so far.\""
 c "\"Hasn't it, though? This must be fuckin' weird for you!\""
-"They both laugh and the obnoxious snorts that Cameron makes only makes him snort louder."
+"They both laugh, and the obnoxious snorts that Cameron makes only make him snort louder."
 d "\"It's... just not really something that you need to know about. I know that sounds rude, but--\""
 c "\"I'm psychic.\""
-"Dev's eyes widen and Cameron doesn't help to fill the silence that follows."
+"Dev's eyes widen, and Cameron doesn't help to fill the silence that follows."
 a "\"Huh, like, you can see the future, or...?\""
 c "\"I can see ghosts... and maybe the future, I don't really know how it works. I'm trying to figure it out.\""
 "Cameron hadn't really given it much thought, but \"seeing the future\" seemed to be part of it."
 a "\"{cps=20}Duuuude, {/cps}{w=0.3}that's fuckin' awesome!\""
-"Devon shifts around and Cameron can tell he's not exactly happy about him talking to Artie about this."
+"Devon shifts around, and Cameron can tell he's not exactly happy about him talking to Artie about this."
 "He has to wonder why."
 a "\"Shit, {w=0.3}I think my aunt was super psychic.\""
 d "\"Super psychic? {w=0.3}As opposed to what, sorta psychic?\""
-a "\"Naw, she had like, tarot cards, and shit and told half my siblings that were up to shady shit that the cartel was gonna 'disappear' them.\""
+#!! comma shenanigans here. I took a stab
+a "\"Naw, she had like, tarot cards and shit, and she told half my siblings that were up to shady shit that the cartel was gonna 'disappear' them.\""
 c "\"Well, did they get disappeared?\""
 a "\"I mean, one died after routine surgery, but the cartel wasn't involved... as far as I know!\""
 c "\"Ah-ha, that's so sad. Sorry, I don't know why I laughed...\""
@@ -376,7 +382,7 @@ a "\"It's cool, I get it.\""
 "So not really psychic, or at least not like himself."
 "It feels wrong to him, but Cameron feels almost dismissive of anyone that doesn't see things like he does."
 "He's different, in a good way, and for once he feels like he can admit that."
-"He had seen his friend's death a few months before it happened, and he'd had dreams that were so accurate to the future that it had seemed almost like déjà vu."
+"He had seen his friend's death a few months before it happened, and he'd had dreams that were so accurate to the future that it had seemed almost like deja vu."
 window hide
 pause 0.5
 scene bg outskirts_day with medium_dissolve
@@ -423,7 +429,7 @@ show art stoic a l with dis
 a "\"Meh, I've had guys flash their guns at me on the road because I flipped 'em off. Every one of them is too chickenshit to shoot, and this was even when I flew the 'ol 'Azul y Blanco' on my car.\""
 show dev skeptical h r with dis
 d "\"Well, luckily for you, people here don't even know what that is.\""
-d "\"Now if I were to mount a Sonoran flag on my jeep while also flipping the bird...\""
+d "\"Now if I were to mount a Sonoran flag on my Jeep while also flipping the bird...\""
 d "\"Anyway,{w=0.3} I say we stick around this area, no further than the motel.\""
 show cam serious c r with dis
 c "\"You should be more careful though, Artie. I swear I hear a road rage story every few months where someone gets shot.\""
@@ -439,16 +445,19 @@ show dev p r with dis
 show cam serious a r with dis
 stop music fadeout 10.0
 $ renpy.music.set_volume(1.0, delay=10, channel=u'background')
-c "\"You know, my mom always talks about her fork in the road being in the fifth grade, and that it lead to her having a shitty life.\""
+#!! this should probably be past tense
+c "\"You know, my mom always talked about her fork in the road being in the fifth grade, and that it led to her having a shitty life.\""
 show art incredulous a l with dis
 a "\"Seems kinda young to have a decision like that come up.\""
-c "\"I think she just likes to be able to point at a moment everything went wrong, but anyway, they'd been hyping up this space shuttle launch for months and she'd decided she was going to be an astronaut.\""
+#!! this should probably be past tense
+#!! also, "at a moment everything" -> "at a moment where everything"/"at a moment when everything" probably?
+c "\"I think she just liked to be able to point at a moment where everything went wrong, but anyway, they'd been hyping up this space shuttle launch for months, and she'd decided she was going to be an astronaut.\""
 c "\"She went to the public library for the first time in her life to check out books about astrophysics and stuff.\""
 show dev serious p r with dis
 "Dev suddenly has a good idea of where this is going."
 c "\"Then, while the whole class was watching the liftoff live on TV, it exploded, and even though her teacher turned it off and went about the day like nothing happened, they all knew those astronauts were dead.\""
 show cam worried a r with dis
-c "\"It made her question all her plans and she drifted through life after that, not knowing what she wanted to be anymore.\""
+c "\"It made her question all her plans, and she drifted through life after that, not knowing what she wanted to be anymore.\""
 show art scared l with dis
 a "\"Damn.{cps=3}..{/cps}{w=0.4} that's fucked up, man.\""
 show dev surprised h r with dis
@@ -484,13 +493,14 @@ a "\"Fuck you, too.\""
 show cam smile a l with dis
 c "\"Hey, come on guys, we're feeling good right now.\""
 show cam smirk a r with dis
+#!! Should there be a comma or other punctuation after "Artie" instead of a period?
 c "\"You know, Artie. I've dated an engineer for five years now. They gotta talk down to you to do their job.\""
 "Cameron walks against Devon and playfully nudges him with a shoulder."
 "Even though Cameron is playing along with what Devon started, hearing his boyfriend say that actually stings a little bit."
 show dev surprised p r with dis
 d "\"Babe, {w=0.3}I don't talk down to you.{cps=3}..{/cps}{w=0.4} I don't mean to, anyway.\""
 show art incredulous a l with dis
-"Arturo makes a face and Dev does his best to pretend like he doesn't see it."
+"Arturo makes a face, and Dev does his best to pretend like he doesn't see it."
 show cam smile c l with dis
 c "\"Hey, I'm just kidding. I agree with you: if people let disasters happen because they're too proud to listen to experts, then fuck 'em. Maybe if they had, my mom would be on the space station right now.\""
 show dev smirk p r with dis
@@ -509,7 +519,8 @@ play music unfoldintro fadein 10.0 volume 0.3
 queue music unfoldloop volume 0.3
 pause 0.5
 window show
-"For the first time in a day, he finds himself starting to relax a little."
+#! probably make an indicator of who the POV is from, since the scene just transitioned
+"For the first time in a day, Devon finds himself starting to relax a little."
 "The end of this bizarre nightmare is in sight."
 "They're already starting to circle back around to the car."
 show art smarmy l at right with dissolve
@@ -520,7 +531,7 @@ d "\"Why's that?\""
 show art talking l with dis
 a "\"Well, all our other friends didn't last more than a few years out of college, and if you think about it, you and Cam are probably the biggest opposites out of all those relationships.\""
 show cam smile c r at left with dissolve
-c "\"I think the most important thing in a relationship is getting along. If you can do that for ninety-nine percent of the time, you're probably set. That, and having different hobbies and spending time apart adds to a  healthy relationship.\""
+c "\"I think the most important thing in a relationship is getting along. If you can do that for ninety-nine percent of the time, you're probably set. That, and having different hobbies and spending time apart adds to a healthy relationship.\""
 show art happy a l with dis
 a "\"Man, sometimes you sound like a self-help relationship book, or something. Maybe that's why.\""
 show dev surprised h l with dis
@@ -533,7 +544,7 @@ show dev worried h r with dis
 d "\"You know, I forgot how you somehow manage to always say the wrong thing at the wrong time, Artie.\""
 show cam smile talking a r with dis
 c "\"Well, it has been a long time, so I'm interested. I just wonder who you were with before me. All you've said is that they were like, a month-long fling.\""
-"Artie seems to take this as the go-ahead to reveal irrelevant, and embarrassing information about Dev's previous love life."
+"Artie seems to take this as the go-ahead to reveal irrelevant and embarrassing information about Dev's previous love life."
 a "\"He was a fox. Named Jesús, right, Devon?\""
 show dev serious h r with dis
 d "\"I never brought him up because the relationship lasted literally two months.\""
@@ -677,7 +688,8 @@ show cam sad r with dis
 "He needed to die. He {i}had{/i} to die."
 "But at the end of those two weeks, he'd made it."
 "It was hard, but like his friends would always tell him: withdrawals aren't the hard part."
-"The hard part is finding pills in a friend, or relative's medicine cabinet months, even years later."
+#!!! fairly sure this is needed; joint possessive stuff. If not this, something else needs to be fixed so Cam isn't finding pills inside of people
+"The hard part is finding pills in a friend's or relative's medicine cabinet months, even years later."
 "The hard part is crushing those pills up in neat little lines of powder, staring at them, telling yourself you don't need it."
 "You don't have to do it."
 "But you do it."
@@ -706,7 +718,9 @@ window show
 "But now that he knows there's something more to all of this, maybe it's a sign, a harbinger of sorts that might lead him to important visions..."
 "Still, something about it is especially unsettling this time."
 "Something is wrong."
-"Something is different, and it's more than just the Raincoat Monster appearing."
+#!!! In every other instance, Raincoat Monster is used as a proper name, i.e. not "the" Raincoat Monster, just "Raincoat Monster"
+#!!! If keeping "the", "Raincoat Monster" should probably be lowercased
+"Something is different, and it's more than just Raincoat Monster appearing."
 "{i}Arches and half-circles.{/i}"
 "His train of thought cuts off as he notices a barely discernible movement from the creature."
 "Aside from a handful of moments in the past that felt like glitches more than anything else, the creature never moved."
@@ -732,7 +746,7 @@ show cam sad r with dis
 "Suddenly a whole new wave of anxiety washes over the canine."
 "Just like that, he's not sure about anything anymore."
 "He'd had such a beautiful, life-changing epiphany and now..."
-"He looks up the road toward where Dev and Artie are, but they're not there and Cameron stares, wondering what's real anymore."
+"He looks up the road toward where Dev and Artie are, but they're not there, and Cameron stares, wondering what's real anymore."
 "He looks back at the monster, standing in that window."
 "If it is a harbinger for something important, he should go into that room."
 "Otherwise he'll just leave here knowing he's crazy, knowing he's on the verge of a fucking psychotic break."
@@ -783,7 +797,7 @@ d "\"You can't just fucking do that, man! What are you doing!?\""
 show duk smirk with dis
 unk "\"Adjustin' things.\""
 "He shows off a pair of pliers."
-"Devon can hear his heart pounding in his ears as he sees a tool box balanced on the bumper."
+"Devon can hear his heart pounding in his ears as he sees a toolbox balanced on the bumper."
 d "\"Why!? {w=0.3}Give me th--\""
 "Devon starts to step forward to take the pliers from the man, but a flash of light blinds him."
 #ADD DIFF PUNCH SOUND
@@ -826,7 +840,7 @@ window show
 unk "\"I have a problem with sick FUCKS like you two dicking around in this place because you think it's funny.\""
 "Dev is only now starting to get his breath back, but his eyes are locked on the gun in his face, and his insides turn to water, which has nothing to do with the punch."
 unk "\"Where were you five years ago, huh? Back home with mommy and daddy, livin' in your middle-class houses? Thought you'd come out and see what the crazy meth-heads are up to, how they all killed each other?\""
-"The man adjusts his grip on the gun and Dev almost chokes with fear."
+"The man adjusts his grip on the gun, and Dev almost chokes with fear."
 "Either the old man is gonna shoot him, or he's gonna do it on accident."
 unk "\"Is this still fun?\""
 "Artie's rough breathing next to Devon is the only thing that lets the bear know that the cat is still there with him."
@@ -836,14 +850,14 @@ window hide
 scene bg outskirts_day with leftwipe
 stop music fadeout 15.0
 window show
-"With that, the man turns away, sticking his gun down his pants before calmly collecting his tools, closing the toolbox, and walking off the road, straight through the sage brush."
+"With that, the man turns away, sticking his gun down his pants before calmly collecting his tools, closing the toolbox, and walking off the road, straight through the sagebrush."
 show art confused l at right with dissolve
 a "\"{cps=20}Holy shit...\""
-unk "\"It's a nine mile walk to the freeway. I suggest you leave the moment it gets cool. And that's friendly advice: there's much worse out here than me, you stupid fucks.\""
-"Artie bends over Devon who slowly stumbles to his feet, hunched over, his stomach aching far worse than his muzzle, which he wipes clean of blood."
+unk "\"It's a nine-mile walk to the freeway. I suggest you leave the moment it gets cool. And that's friendly advice: there's much worse out here than me, you stupid fucks.\""
+"Artie bends over Devon, who slowly stumbles to his feet, hunched over, his stomach aching far worse than his muzzle, which he wipes clean of blood."
 show dev disappointed with dissolve
 d "\"Fuuuck, man. What did he do?\""
-"Artie looks back to the car and even from here, Dev can see wiring sticking out from the hood."
+"Artie looks back to the car, and even from here, Dev can see wiring sticking out from the hood."
 show art angry a l with dis
 a "\"I can't fucking believe this!\""
 d "\"Hang on, I'm getting Cam.\""
@@ -863,7 +877,9 @@ d "\"Cameron!?\""
 show dev angry yelling at jumping
 d "\"CAMERON!\""
 "No answer."
-"Dev heaves for air, looking around, looking around, until--"
+#!!! is "looking around" meant to be repeated twice here? Even if it's for style, it's hard not to read it as a typo.
+#!!! I'd recommend using other words to convey the urgency instead, e.g. "frantically"
+"Dev heaves for air, looking around frantically, until--"
 "He sees a flash of flannel through a motel window."
 stop music fadeout 10.0
 hide dev with dissolve

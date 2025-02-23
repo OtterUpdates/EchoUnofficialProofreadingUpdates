@@ -5,7 +5,7 @@ play background wind2 fadein 5.0
 "That's what he wants to focus on, but the shotgun has his attention now, and for just a moment, Devon thinks about just running."
 "If he applies logic to this situation, he assumes the other bear won't shoot, but something in his eyes..."
 "...Something is off."
-"So, Devon says what he hopes will make clear to this other bear that they're not a threat."
+"So, Devon says what he hopes will make clear to this other bear that they're not a threat:"
 show dev scream l dark4 at seven
 show expression AlphaMask("foliage2", At("dev scream l dark4", seven)) as mask
 with dissolve
@@ -47,7 +47,8 @@ unk "\"I don't care if you're tryin' to help him or tryin' to fuck him. I wanna 
 show dev surprised h l dark4
 show expression AlphaMask("foliage2", At("dev surprised h l dark4", seven)) as mask
 with dis
-d "\"It was something dark, like a shadow. I called it something because I didn't get a chance to see it, but it jumped on him and disappeared.\""
+#! makes it more obvious that Dev is quoting the "something" reference instead of using it as a regular word
+d "\"It was something dark, like a shadow. I called it 'something' because I didn't get a chance to see it, but it jumped on him and disappeared.\""
 "Devon realizes what he's saying as he says it, and half expects to be shot for saying something so stupid."
 d "\"I swear to God, that's what happened.\""
 "The old bear's eyes flick to Artie, and the cat quickly throws his support behind the ridiculous statement."
@@ -107,8 +108,9 @@ with dis
 "He looks in an eastward direction, ready to set off immediately."
 unk "\"Hold on, it's a little ways out there, and it's a pretty specific spot. I can give ya a quick ride. No more than five minutes.\""
 "The old bear turns away and starts making his way toward the trailer."
+#!!!! this shadow overlay was mismatched. As far as I can tell it's the only one. some half-finished regex I played with to scan: `AlphaMask|show (.+).*\nshow expression AlphaMask\(".+", At\("\1"`
 show art glare l dark4 at thirteen
-show expression AlphaMask("foliage2", At("art thinking l dark4", thirteen)) as mask3
+show expression AlphaMask("foliage2", At("art glare l dark4", thirteen)) as mask3
 with dissolve
 "Artie glances at him, clearly uneasy about all of this."
 "Dev is hesitant himself, because of course he would be."
@@ -182,14 +184,16 @@ pause 0.5
 window show
 "Something is pressed to his lips and, sensing that it's water, Cameron drinks, getting several swallows before it's pulled away."
 "Cameron then looks around, getting a full view of his surroundings."
-"The voice hadn't sounded like Dev's, but Cameron can't imagine whose else it could be, and a large, furry, brown shape moves into view."
+#! not 100% sure if "whose else" is incorrect, but I think it is. it's definitely odd
+"The voice hadn't sounded like Dev's, but Cameron can't imagine who else's it could be, and a large, furry, brown shape moves into view."
 show bri neutral trailsun at left with dissolve
 "Cameron stares, at first wondering what could have possibly happened to Dev."
 "But then he realizes what a stupid thought that is."
 "This is a different bear altogether."
 "He also realizes that something is definitely wrong, that either he's still dreaming, or that he's in a situation he can't even begin to understand."
 show cam scared trailsun at right with dissolve
-"He quickly sits up and the old bear raises up a paw."
+#! reduces repetition of "up", and "raises up" is redundant anyway
+"He quickly sits up, and the old bear raises a paw."
 show bri smirk2 trailsun with dis
 unk "\"Hey, hey, it's alright, kid. I'm here to help ya.\""
 "The voice is higher-pitched than he would have expected from such a large creature, and the coyote feels like he's heard it before, but he can't place it, not right now, at least."
@@ -204,7 +208,7 @@ b "\"Well, hi there, Cameron. You're probably wondering where the hell you are, 
 "While the bear's demeanor is friendly enough, his appearance definitely isn't."
 "Again, Cameron desperately tries to remember exactly what happened last, and where exactly he might be."
 show cam serious a trailsun with dis
-"He nods anyway, instinctively trying to keep up the façade that he's fine, and that he doesn't suspect that everything is wrong."
+"He nods anyway, instinctively trying to keep up the facade that he's fine, and that he doesn't suspect that everything is wrong."
 show bri surprised trailsun with dis
 b "\"Well, it's a funny story, but I heard some shoutin' outside and when I went out there, I found you and your friends. You were unconscious, of course.\""
 show cam surprised c trailsun with dis
@@ -217,7 +221,7 @@ show bri smirk2 trailsun with dis
 b "\"Yeah, a bear like myself, and there was a cat, too.\""
 show cam worried c trailsun with dis
 c "\"Artie...\""
-"The memories of the past day and a half come back to the coyote slowly, and with it comes a feeling of anxiety and dread."
+"The memories of the past day and a half come back to the coyote slowly, and with them comes a feeling of anxiety and dread."
 "Either he's in trouble, or he was in trouble, and somehow this bear is here trying to help him."
 b "\"Well, I didn't get his name. He ran off just as I was gettin' there.\""
 c "\"Where's Dev? The bear, I mean. Is he here?\""
@@ -257,9 +261,9 @@ show cam surprised c trailsun with dis
 c "\"What was it?\""
 show bri neutral trailsun with dis
 b "\"Well, this might sound a bit crazy, but I've lived here a good while and sometimes there's this thing in the trees that comes after me...\""
-"'Thing?'"
+"'Thing'?"
 "What an odd.{cps=3}..{/cps}{w=0.4} thing to say."
-"But then he remembers something strange right before he lost consciousness: A dark shadow dropping on top of him before he disappeared into another world, locked in that terrible embrace."
+"But then he remembers something strange right before he lost consciousness: a dark shadow dropping on top of him before he disappeared into another world, locked in that terrible embrace."
 show cam worried trailsun with dis
 c "\"A shadow...\""
 "Although he says it softly, the bear clearly hears him."
@@ -281,9 +285,11 @@ show cam worried c trailsun with dis
 show cam surprised trailsun with dis
 "Then Cameron remembers his phone, quickly pulling it out and holding down the power button."
 show bri surprised fists trailsun with dis
-"The screen flickers on for just a moment before multiple, vertical lines of black appear on the screen which widen steadily before the entire display goes black."
+#! fairly sure that "multiple, vertical" shouldn't have a comma?
+"The screen flickers on for just a moment before multiple vertical lines of black appear on the screen, which widen steadily before the entire display goes black."
 show bri surprised trailsun with dis
-"Cameron is confused, then remembers the fall into the lake, and he even sees some moisture still under the screen."
+#! small readability improvement?
+"Cameron is confused, but then he remembers the fall into the lake, and he even sees some moisture still under the screen."
 show cam worried a trailsun with dis
 c "\"Shit.\""
 "Brian grunts."
@@ -324,7 +330,8 @@ show bri surprised trailsun with dis
 b "\"You see it?\""
 show cam sad trailsun with dis
 c "\"Uh, no, I mean, it's something else.\""
-b "\"Oh, what is it? Sometimes I see other really disturbin' stuff in those woods. Well, most place in this town, actually.\""
+#!! they're in the woods right now right? so "those" -> "these"? Also, is singular "place" intentional as some sort of slang?
+b "\"Oh, what is it? Sometimes I see other really disturbin' stuff in these woods. Well, most places in this town, actually.\""
 show cam worried c trailsun with dis
 c "\"It's... something more personal.\""
 "Cameron is caught between wanting to stay cautious of this man, but also wanting to confide in him."
@@ -355,7 +362,7 @@ with dis
 show bri smirk trailsun with dis
 b "\"Makes sense, after what you went through. You want my bed?\""
 show cam worried c trailsun with dis
-c "\"I'm good. Just need to catch my breath."
+c "\"I'm good. Just need to catch my breath.\""
 "He's not quite {i}that{/i} comfortable with him."
 show cam serious a trailsun with dis
 c "\"This is gonna sound weird, too, but I see a ton of stuff in this town, and sometimes it feels made up. Like, I saw a UFO, like an alien spaceship above a body today.\""
@@ -398,7 +405,7 @@ b "\"Naw, it seems to avoid the trailer. Dunno why. You okay?\""
 "Cameron rubs his eyes with both paws."
 show cam heartbreak trailsun with dis
 c "\"I don't know.\""
-"His increasingly heavy breaths prompts Brian to crouch in front of him, patting his shoulder roughly."
+"His increasingly heavy breaths prompt Brian to crouch in front of him, patting his shoulder roughly."
 show bri smirk trailsun with dis
 b "\"Hey, you're fine. I'll make you somethin', okay? How does some tea sound? That always calms me down.\""
 stop music fadeout 15.0
@@ -415,7 +422,7 @@ play background sirens fadein 10.0
 window show
 "The wind whips violently in Devon's face."
 "It's powerful enough that he can barely breathe."
-"The ominous sound of the sirens were really the only thing that guaranteed he'd be home as soon as he possibly could be."
+"The ominous sound of the sirens was really the only thing that guaranteed he'd be home as soon as he possibly could be."
 "He always took their warning seriously, because what they warned of always terrified him."
 "So now, in this haze of pain and horror, he wonders why he didn't heed the warnings."
 "The mile-wide tornadoes that rip across the plains of his home state evoke a primal fear in him that few other things do."
@@ -515,7 +522,7 @@ show cam sad trailsun with dis
 "He'd experienced it himself while he was under the influence of various dissociatives."
 "Having the same experience while he's supposed to be sober is borderline terrifying, though."
 c "\"Weed does that?\""
-"His worry and panic breaks through the surface for a second and he feels like, for that moment, he's surfaced from the muddy depths of his confusion before slipping back under."
+"His worry and panic break through the surface for a second and he feels like, for that moment, he's surfaced from the muddy depths of his confusion before slipping back under."
 "He can't live in a dream for the rest of his life."
 "But what even is his life, sitting here in a trailer with an old, slightly smelly bear?"
 b "\"Well, it went away once I stopped thinkin' about it.\""
@@ -527,7 +534,8 @@ c "\"Oh shit...\""
 show bri smirk2 trailsun with dis
 b "\"Heeey, you're alright, kid. Here, uh...\""
 hide bri with dissolve
-"Brian ambles over to his fridge, opens the freezer, pulls out the ice tray and drops a few cubes into the mug, the ice clinking loudly."
+#!!! consider restructuring this a bit so it doesn't need so many commas
+"Brian ambles over to his fridge, opens the freezer, pulls out the ice tray, and drops a few cubes into the mug, the ice clinking loudly."
 "He stirs it for a few moments, then turns back to the trembling coyote."
 show bri smirk2 trailsun at left with dissolve
 b "\"Hope you don't mind the ice, but it should be cool enough to drink now.\""
@@ -537,7 +545,7 @@ with dis
 "Still confused and terrified, and just wanting something to do, to focus on, Cameron reaches out for the mug the bear is holding out to him."
 "He takes it in a trembling paw, gulping it down."
 "It's filled with honey and the strong taste of ginger, and it's unlike any chamomile tea he's had before."
-"The amount of honey is surprising and he briefly wonders if it's a bear thing, even though Devon never seemed to have much of an affinity for it."
+"The amount of honey is surprising, and he briefly wonders if it's a bear thing, even though Devon never seemed to have much of an affinity for it."
 "Still, Cameron doesn't get the full flavor of the concoction until he's finished it, and as he exhales, an odd, nutty taste mixed with what Cameron can only describe as dirt lingers on the back of his tongue."
 show cam sad trailsun with dis
 "Cameron frowns at the bizarre, terrible tea."
@@ -555,7 +563,7 @@ show cam serious a trailsun with dis
 c "\"Xanax? Uh, I'll wait and see.\""
 "While that would be nice, Cameron already feels like falling asleep, so it doesn't seem like the best idea."
 "While he mostly believes this bear's story, he doesn't want to be completely unaware of what's happening right now."
-b "\"I'm guessin' you've have some experience with it before, huh?\""
+b "\"I'm guessin' you've had some experience with it before, huh?\""
 show cam worried a trailsun with dis
 c "\"Uh...\""
 "Cameron frowns at the table, not sure what to say."
@@ -573,7 +581,8 @@ b "\"Oof, you and half the country, kid. That's a rough one.\""
 "It must be the kava kicking in."
 "Brian's face appears a bit more defined and clear, and there's a warmness in his eyes."
 show cam smile c trailsun with dis
-c "\"It was my first drug too. I experimented with everything else because I was trying to find something less addictive and harmful.\""
+#! this could use the extra emphasis of comma before "too"
+c "\"It was my first drug, too. I experimented with everything else because I was trying to find something less addictive and harmful.\""
 "Brian shakes his head."
 b "\"That's the problem with it. There ain't much out there that makes you feel that good. That's what I'm told, anyway.\""
 "Brian chuckles."
@@ -607,7 +616,7 @@ stop music fadeout 15.0
 "Brian chuckles a bit."
 b "\"Well, not normal crazy, anyway, right? Say...\""
 show bri neutral trailsun with dis
-"Brian looks carefully at Cameron again and the coyote is almost distracted by the glow that seems to be emanating from the bear's eyes."
+"Brian looks carefully at Cameron again, and the coyote is almost distracted by the glow that seems to be emanating from the bear's eyes."
 show cam serious a trailsun with dis
 "Oddly enough, the intensely vivid and defined fur seems to be rippling, as if blowing in the wind, even though they're inside."
 "Is this kava?"
@@ -734,7 +743,7 @@ window show
 "Then, one kick catches him particularly hard at the base of his sternum and he violently curls up, a loud, frog-like croaking noise escaping his throat."
 "Brian pauses as the sounds continue emanating from Cameron's mouth."
 "Cameron can hear the bear breathing heavily over him as Brian watches his agonized writhing, almost like he's fascinated by it."
-"After nearly a minute, the terrible noises turn back to gasps which then turn into sobs as Cameron stays curled up on his side, one arm around his midsection while the other is pressed over his eyes."
+"After nearly a minute, the terrible noises turn back to gasps, which then turn into sobs as Cameron stays curled up on his side, one arm around his midsection while the other is pressed over his eyes."
 "Brian doesn't move, just watching as Cameron cries on the floor."
 "At first, Cameron thinks it might be better to just keep his eyes closed and try to disappear into the darkness, maybe wake up again, but in a new place this time."
 "Anywhere seems better than here."
@@ -770,10 +779,10 @@ d "\"Cameron?\""
 "Something about insects crawling and biting his arms."
 "And tornadoes..."
 "\"{i}A twisting force...{/i}\""
-"His realizes then that his arms are what brought him back to the waking world."
+"He realizes then that his arms are what brought him back to the waking world."
 "They'd fallen asleep, and now the tingling is so bad that it feels like they're covered in crawling, writhing ants made of molten lead."
 "The bear grunts in discomfort and tries to bring them down from above his head, but he isn't able to."
-"They come up short and he hears a rattling sound close to his ears which twitch at the loudness."
+"They come up short, and he hears a rattling sound close to his ears, which twitch at the loudness."
 #sfx
 "Chains?"
 "Devon freezes, keeping his eyes closed, unsure if whoever did this to him is close by."
@@ -793,10 +802,14 @@ pause 1.0
 "The sound. The suddenness of it."
 "But mostly he remembers the way Artie fell."
 "It was instant, like strings that held him up had been cut, crumpling so quickly that Devon is sure that he'd been killed."
-"At that point, Devon did everything the old bear had told him to do, including lying Cameron on the rough desert floor..."
+"At that point, Devon did everything the old bear had told him to do, including laying Cameron on the rough desert floor..."
 "Devon tries to keep from whining as he wonders if that might be the last time he saw Cameron."
-"And then laid down in the van and letting him bind his arms up."
-"He'd thought about fighting back in that moment, but it was so quick that before he knew it, he was secured and he was made to drink from the bottle."
+#!!! "And then laid" seems to be continuing a thought from somewhere, but it's not really clear from where.
+#!!! Switching to ellipses gives a more concrete answer to where the thought is being continued from, but it could still be improved further
+#!! Also, tense was incorrect, and pronouns were ambiguous
+"...and then lying down in the van and letting the old bear bind his arms up."
+#!! reduces repetition of "he was"
+"He'd thought about fighting back in that moment, but it was so quick that before he knew it, he was secured and made to drink from the bottle."
 "Now he's in the very center of the tornado."
 "\"{i}A twisting force...{/i}\""
 "Devon clenches his eyes shut even tighter, feeling moisture gather at the corners."
@@ -818,6 +831,7 @@ d "\"Shit.\""
 "He allows himself this moment, but quickly focuses again, knowing Cameron is still out there, with that bear."
 "That's enough to get a rise from Devon, one that builds into a wave in his chest."
 "A combination of adrenaline, and terror, but mostly fury."
+#!! comma after "anyone"? this sentence is already a bit comma-heavy
 "While the brutality of this backwoods bear evokes fear in Devon, it also makes him angry, that someone, anyone would feel they have the right to do what the old bear did."
 "He opens his eyes again and takes in his surroundings."
 "He's lying flat on his back, arms stretched above his head."
@@ -837,7 +851,7 @@ d "\"Cameron?\""
 "He strains to listen for several more seconds, but can't hear anything."
 "He looks down at the heavy chain linking the metal cuffs around his wrists."
 "Unbreakable."
-"Still, he finds himself foolishly yanking at the shackles, hoping there's be some kind of give in the slightly rusted chain and bolts."
+"Still, he finds himself foolishly yanking at the shackles, hoping there's some kind of give in the slightly rusted chain and bolts."
 d "\"Shit!\""
 "Tears fill Devon's eyes, the feeling of falling, falling forever returning."
 "He'd felt this way only a few times before."
@@ -847,7 +861,11 @@ d "\"Shit!\""
 "He just knows that they're horrific."
 "But seeing the faces of those people, it changes something in Devon."
 "A cool, icy calm descends on him, and he looks at the chains carefully."
-"His classes in physics had taught him all about the way in which force is exerted can seemingly accomplish things that seem impossible."
+#!!! This sentence is really difficult to parse accurately (although it appears fine if a reader is just skimming)
+#!!! I restructured it entirely to have a semi-fresh slate.
+#!!! Words can be added around "impossible" for different effects, e.g. "that seem impossible" "that would seem impossible", "that at first seem impossible". I like "that are seemingly impossible" best
+#!!! also, in the original sentence, the force wouldn't "seemingly accomplish" it, it would just "accomplish it"
+"His classes in physics had taught him all about the ways in which force can be exerted to accomplish things that are seemingly impossible."
 stop background fadeout 10.0
 "So, even while his heart hammers in his ears, and even while his brain is clouded with a dense fog of sedation, Devon analyzes the chain and the bolts holding it in place."
 "\"{i}Torque.{/i}\""

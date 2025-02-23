@@ -83,15 +83,15 @@ d "\"I think it could be fun.\""
 "Fun."
 c "\"I-I think we need to come back. We can't just leave things like that.\""
 c "\"That was just so.{cps=3}..{/cps}{w=0.4} fucked.\""
-"Cameron sees Dev grit his teeth and the coyote feels himself recoil a bit, like he did on a daily basis with Dylan."
+"Cameron sees Dev grit his teeth, and the coyote feels himself recoil a bit, like he did on a daily basis with Dylan."
 c "\"Sorry, I--\""
 d "\"No, you're fine. I'm just... having trouble seeing the goddamn road. Let's just leave it until I can see where I'm going, okay, hon?\""
 "The coyote steels himself."
 "He shouldn't ever feel afraid of Devon, he doesn't need to."
-c "\"I think we should come back tomorrow, keep this going like you planned. There's something more to this and I want to help find out what it is.\""
+c "\"I think we should come back tomorrow, keep this going like you planned. There's something more to this, and I want to help find out what it is.\""
 "He says it firmly, in a way that he hopes shows Devon that he's not completely fragile, even if he did break down in the motel room."
 "But Devon is quiet, and Cameron feels himself start to get a little frustrated that he's being ignored."
-"But then the bear responds."
+"But then the bear responds:"
 d "\"No.{cps=3}..{/cps}{w=0.4} No, {w=0.3}I don't think so.\""
 d "\"I'll probably come back, but... with another psychic. I'm not gonna put you through that ever again.\""
 "Despite knowing Devon means no offense by that, Cameron feels offended, like Devon doesn't think he's good enough, or strong enough to do this."
@@ -149,7 +149,8 @@ scene bg black
 $renpy.pause (5.0)
 #ADD WIND AMBIENCE
 "Devon can't comprehend what Cameron's doing before they hit something, and the jolt is far worse than any pothole he'd hit on the road."
-"First he had been thrown to the left, slamming into his window before he bounces back toward Cameron."
+#! needs past/present tense agreement. The previous and next line are present tense, so fixing towards present probably
+"First he's thrown to the left, slamming into his window before he bounces back toward Cameron."
 "Then the bear is thrown into his seatbelt."
 "In the back of his mind, he's aware that Cameron is half out of his own seatbelt, having been thrown sideways over the center console."
 "Driven by what feels like pure reflex, Devon throws his arm across the coyote in an attempt to hold him back."
@@ -171,7 +172,8 @@ d "\"Cam!\""
 play sound seatbelt
 queue background seatbeltchime
 "Dev unbuckles his seatbelt and almost tries to climb out Cameron's side of the Jeep."
-"Then, realizing what he's doing, opens his own door to get out, almost falling himself as his feet touch uneven ground."
+#! "opens his" -> "he opens his" to give this sentence a noun of its own
+"Then, realizing what he's doing, he opens his own door to get out, almost falling himself as his feet touch uneven ground."
 window hide
 play sound cardoor2
 stop background fadeout 5.0
@@ -190,7 +192,8 @@ queue music rootsrestinginthedeeploop volume 0.3
 "He could feel it since he started driving."
 "He just didn't expect Cameron to cause it."
 "The Jeep is tilted forward, the front wheels wedged into a deep trench carved out by years of flooding along the edge of the road."
-"Dev stumbles around the front of the Jeep, squinting against the headlights before looking down where Cameron had fallen, but he only sees blackness."
+#! probably?
+"Dev stumbles around the front of the Jeep, squinting against the headlights before looking down to where Cameron had fallen, but he only sees blackness."
 d "\"Cameron!?\""
 "He starts to panic, seriously considering that the coyote could have fallen into a sinkhole, but then--"
 c "\"Over here!\""
@@ -241,7 +244,7 @@ show dev grin p l dark with dis
 d "{i}\"Listen{/i}, Cameron. Breathe with me.\""
 "Dev presses the side of Cameron's head to his chest and takes a deep breath."
 d "\"Remember? {w=0.3}In and out, slowly.\""
-"Devon keeps his voice upbeat, his expression cheerful; the complete opposite of what he's actually feeling right now."
+"Devon keeps his voice upbeat, his expression cheerful — the complete opposite of what he's actually feeling right now."
 play background crickets fadein 10.0
 "But showing how distressed he is clearly isn't helping the situation."
 "So this breathing exercise is also for his benefit."
@@ -264,7 +267,8 @@ show dev grin p l dark with dis
 d "\"Well, if you thought you saw someone, then I'm glad you did that. Considering how slow we were going, I'd rather the car run into dirt than run over somebody.\""
 show dev smirk l dark with dis
 d "\"Now, just hold still for a second so I can check you out. You face-planted into my arm pretty hard back there.\""
-"Dev gently turns Cameron toward the headlights of the still-running car, lightly running his blunt claws through the fur."
+#!! "through the fur" doesn't really reference "what" fur. It's sort of implied that it's Cam's muzzle from the previous line, but not directly
+"Dev gently turns Cameron toward the headlights of the still-running car, lightly running his blunt claws through the coyote's fur."
 show cam worried c r dark with dis
 c "\"I-I thought it was an otter. I could see the tail and everything.\""
 "One of Devon's claws grazes over a small lump under Cameron's fur on the bridge of his snout, and the coyote winces."
@@ -309,7 +313,7 @@ stop music fadeout 10.0
 play background crickets fadein 5.0
 d "\"--just gotta check out the damage.\""
 show cam disappointed r dark with dis
-c "\"Yeah..., the back wheels aren't even touching the ground.\""
+c "\"Yeah... the back wheels aren't even touching the ground.\""
 show dev h l dark with dis
 d "\"Well, I'll have a better look. Hang tight, babe.\""
 show cam smile c r dark with dis
@@ -325,15 +329,18 @@ with dissolve
 "The bear turns off the engine, sighing and pressing his head against the steering wheel."
 "Sure, it sucked that his Jeep is probably all fucked up now, but that doesn't matter."
 "More than anything, he just wants to be out of Echo."
-"He thinks back on how strange it is that Cameron immediately tried to convince him that he didn't do it on purpose."
+#!! "is" -> "was"? IDK
+"He thinks back on how strange it was that Cameron immediately tried to convince him that he didn't do it on purpose."
 "Devon didn't need to be convinced because he hadn't even considered that was the case."
 "But because of how he brought it up..."
 "Devon quickly shuts that down, deciding that now isn't the time for shitty thoughts like that."
 "Finally, the bear gets out, fixing a smile on his face again so Cameron won't feel so bad."
+#! Devon appearing on the left side of the screen is weird here. We later learn that Cam is off-screen (to the left, presumably), but that's not evident yet
 show dev grin h l dark at left with dissolve
 d "\"Alright, so--\""
 show dev skeptical p l dark with dis
 d "\"Cameron?\""
+#! It feels like there's one too many commas in here, but changing that would probably require restructuring?
 "Dev looks around and, to his dismay, spots the coyote a ways up the road, toward Echo again, though he's standing off to the side right next to the lake."
 "He's looking over the edge, down at the water."
 show dev confused talking h l dark with dis
@@ -412,8 +419,9 @@ with dis2
 show dev frustrated l dark with dis
 d "\"Ugh! {w=0.3}I just wanna get the fuck out of here and get you home!\""
 "Cameron's ears twitch as Dev raises his voice, which seems to reverberate in the silence."
+#!! "were" -> "are"?
 "But the coyote just goes on standing there, arms crossed like they almost always were."
-c "\"Yeah, psychic, or not, I'm unstable, we both know that already--\""
+c "\"Yeah, psychic or not, I'm unstable, we both know that already--\""
 show dev embarrassed l dark with dis
 d "\"No.\""
 c "\"--but I'm not walking miles through scorpion and rattlesnake-infested desert when our solution is right there.\""
@@ -452,6 +460,7 @@ window show
 "Cam's show of confidence has mostly diminished at this point, especially as they're passing the motel."
 "The coyote has to remind himself why it is that he insisted on doing this when Dev had offered a perfectly reasonable, if slightly exhausting alternative."
 "Being exhausted is preferable to PTSD."
+#!! I don't like how "tip him over where he'd shatter on the asphalt" reads. Not sure I have a better idea. maybe a comma before "where"?
 "But Cameron could sense the bear beginning to treat him in a way that he didn't like, talking to him like he was fragile, like the slightest touch could tip him over where he'd shatter on the asphalt."
 "He wants to prove that he can deal with this."
 "Which is why he has to smirk at himself right now because he definitely wouldn't have made it this far if Dev weren't by his side."
@@ -565,7 +574,7 @@ show cam confused c r dark with dis
 c "\"Uh, no?\""
 show dev grin h l dark with dis
 d "\"Is that a question?\""
-"Cameron doesn't respond, instead sliding his paw into the one Dev's offering and they start to make their way through the sage brush."
+"Cameron doesn't respond, instead sliding his paw into the one Dev's offering, and they start to make their way through the sagebrush."
 show cam sad r dark with dis
 c "\"Oh god, imagine all the ticks we're picking up.\""
 d "\"Don't worry, babe. I'll comb through all your fur when we get out of here. Want me to carry you?\""
@@ -582,6 +591,7 @@ with dis
 "Dev grunts in a heavy, bearish way as Cameron wraps his arms around his neck and lifts his feet off the ground, forcing Dev to bridal carry him."
 hide dev with dissolve
 stop background fadeout 5.0
+#! "brush the sage" sort of sticks out after all the talk about "sagebrush"
 "Chuckling, Dev carefully makes his way through the rough terrain while the coyote awkwardly keeps his feet lifted high so they don't brush the sage."
 window hide
 pause 0.5
@@ -702,10 +712,11 @@ window show
 "{i}\"Then this voice started, a man's voice, but it was kinda eerie, like it wasn't real. Hard to explain, but it was like it was an electronic thing.\"{/i}"
 "{i}\"A machine.\"{/i}"
 "{i}\"It started yelling at us in this sort of playful way, like it was making fun of us, or taunting us.\"{/i}"
+#!! Doesn't the static entity only repeat what other people have said? Is this line implying that other people said these things?
 "{i}\"Said things like, 'the devil walks beside you', and 'I'm taking you to hell'. Weird crap like that.\"{/i}"
 "{i}\"It was coming from the tops of the trees, and you could kind of hear it go up and down and come closer, like it was swinging through the branches.\"{/i}"
 "{i}\"And yeah, it scared us, because it didn't make sense. The voice, where it was coming from, what it was saying, none of it made sense, and that's the scary part.\"{/i}"
-"{i}\"So we ran, and then it said some nasty things about my wife, so I picked her up and ran as fast as I could. Later, she told me she saw it over my shoulder, in the trees.\""
+"{i}\"So we ran, and then it said some nasty things about my wife, so I picked her up and ran as fast as I could. Later, she told me she saw it over my shoulder, in the trees.\"{/i}"
 "{i}\"Had a hard time explaining it, which I understand because I can't explain it at all, but she said it was a shadow.\"{/i}"
 "{i}\"A shadow person that was moving through the branches. She said light bent in a weird way around its body, like it was encased in a glass globe, or something.\"{/i}"
 "{i}\"She hasn't said much else about it. She doesn't like talking about it, and neither do I. I'm only telling you because I feel like there needs to be a record of it somewhere.\"{/i}"
@@ -745,7 +756,8 @@ with dis
 d "\"Wh-Why? I think it's just like, a drunk hick, or something. I'm almost done messaging Artie--\""
 play sound screendoor
 "Something bangs like a screen door swinging closed, and not very far away."
-unk "\"Who's that squealin'!? That you Duke? Got me a 12 gauge right here that'll make you squeal twice as loud if you're snoopin' 'round my property again!\""
+#!!! Brian is later shown to have a "10-gauge" shotgun. Does he have two shotguns, or should they be synchronized to the same gauge?
+unk "\"Who's that squealin'!? That you, Duke? Got me a 10-gauge right here that'll make you squeal twice as loud if you're snoopin' 'round my property again!\""
 show cam horrified l dark
 show expression AlphaMask("foliage", At("cam horrified l dark", right)) as mask2
 show dev shocked h dark
@@ -758,7 +770,7 @@ hide mask
 hide cam
 hide mask2
 with dissolve
-"Then, before Cam can fully absorb exactly what's happening, Dev is pulling him along, running full tilt through the sage brush, toward the road, and back toward Lake Emma..."
+"Then, before Cam can fully absorb exactly what's happening, Dev is pulling him along, running full tilt through the sagebrush, toward the road, and back toward Lake Emma..."
 window hide
 pause 0.5
 scene bs with medium_dissolve
@@ -821,7 +833,7 @@ d "\"We can keep an eye out for right now though, just in case.\""
 show cam confused c r dark with dis
 c "\"Who did you say you were texting again?\""
 show dev p l dark with dis
-d "\"Artie from college! He just happened to be up and he's still living in Mesa. Said he'd drive out right away, so he could be here in like, three hours.\""
+d "\"Artie from college! He just happened to be up, and he's still living in Mesa. Said he'd drive out right away, so he could be here in like, three hours.\""
 c "\"Huh.{cps=3}..{/cps}{w=0.4} Why Artie, though?\""
 show dev grin p l dark with dis
 d "\"I dunno, he was at the top of my contacts list, and I knew he still lived in the state, so I gave it a shot.\""
@@ -829,7 +841,8 @@ c "\"He can give us a ride at least, I guess.\""
 show dev smirk p l dark with dis
 d "\"He's got one of those massive trucks, so he might be able to pull us out. His last message said he'd be here in three hours or less.\""
 show cam smile a r dark with dis
-c "\"Well... I guess that's not bad. As long as we're out of here by morning. I don't want you getting caught out in the heat all day.\""
+#! "not bad" -> "not too bad"? Unsure if this is intentional or not, but it reads easier this way
+c "\"Well... I guess that's not too bad. As long as we're out of here by morning. I don't want you getting caught out in the heat all day.\""
 d "\"Pff, we got a shit ton of water, and if I need to cool down...\""
 "Devon waves his paw at the lake."
 show cam serious c r dark with dis
@@ -862,13 +875,13 @@ c "\"Can you believe this!? Sorry, I don't know why I'm so happy, it's just... T
 show cam grinning a r dark with dis
 c "\"I can't deny it anymore. It's hard to explain but that kind of changes my entire life. I just...\""
 show cam heartbreak r dark with dis
-"Cam's bottom lip trembles with emotion and Dev shakes off his feelings of unease, drawing him into a hug."
+"Cam's bottom lip trembles with emotion, and Dev shakes off his feelings of unease, drawing him into a hug."
 show dev grin h l dark with dis
 d "\"C'mere.\""
 hide dev
 hide cam
 with dissolve
-d "\"I know what you mean, baby. Well, I don't personally know, but I've wanted you to feel that way for a long time. I'm really happy for you."
+d "\"I know what you mean, baby. Well, I don't personally know, but I've wanted you to feel that way for a long time. I'm really happy for you.\""
 c "\"I feel like I can do something, I dunno, maybe even help people with this?\""
 "Cameron's voice is muffled against Dev's chest."
 d "\"Oh sure, of course.\""
@@ -884,13 +897,18 @@ scene bg outskirts_day with medium_dissolve
 pause 1.0
 window show
 "Cameron sits in the trunk of the Jeep, legs hanging out over the edge, dangling toward the ground that's further away than usual due to the tilt."
+#!!!! Because this is "noloop", stepping backwards in the dialogue will halt the guitar tuning audio permanently
+#!!!! I've played with the stuff here: https://www.renpy.org/doc/html/audio.html and haven't been able to figure out how this is intended to be fixed
+#!!!! Not sure if this should be unset as "noloop" or if something else should happen.
+#!!!! It's very immersion-breaking to lose the audio, but the tuning loop can get annoying if it starts looping.
+#!!!! Maybe the audio could be separated out into an "intro" and "loop" portion? The intro audio is very recognizable, so it's normally too obvious when it loops
 play music camtuning noloop
 "Meanwhile, he fiddles with his old acoustic guitar that had been stashed in the Jeep for at least a year, tuning it slowly."
 "He hadn't even remembered it was there until they'd folded down the seats for a place to try and sleep."
 "He'd last played it at Devon's parents' house because they wanted to hear him perform, and he'd just left it there in the Jeep afterwards."
 "He hadn't had a reason to play it since."
 "The rest of the night, or early morning, really, hadn't been terrible."
-"Dev was easily comfortable, the hard surface not all that different from his side of the mattress which was rock hard compared to Cameron's much squishier foam."
+"Dev was easily comfortable, the hard surface not all that different from his side of the mattress, which was rock hard compared to Cameron's much squishier foam."
 "He had tossed and turned until Dev finally pulled him in to lay his head on the bear's stomach, the soft warm surface enough to lull Cameron into a dozing state of consciousness while Dev snored loudly."
 "He'd gotten used to the snoring after all these years, and now found it comforting rather than annoying."
 "It was a good night, considering the circumstances."
@@ -903,7 +921,7 @@ c "\"I suck at guitar.\""
 "He mumbles to himself quietly out of habit, knowing people didn't like hearing it since he was {i}good enough{/i}, which had been his goal."
 "All of his singer-songwriter idols played guitar, and he'd wanted to be just like them."
 "He'd forced himself to learn how to become good enough, with all the awkward fingerings, the constant tuning, and the pain of holding down steel strings with his finger pads, even after he built up callouses."
-"That's how he'd describe guitar in general; a pain."
+"That's how he'd describe guitar in general: a pain."
 "He preferred piano, and that's what he used to write all of his music."
 "But the devastatingly sad men of the '90s Northwest indie music scene didn't play piano, they played guitar, because they were also rugged and tough, molded by the logging towns they originated from."
 "It turns out that one's image is just as important in indie as it is in pop, despite the former trying to convince itself it isn't."
@@ -944,10 +962,12 @@ window show
 c "\"I fucking deserved it.\""
 "At least Devon never brought it up."
 stop music fadeout 1.0
+#!!! Is the black background meant to represent Cam closing his eyes? If so, it should probably be reverted when it talks about Cam seeing things
 "Cameron stops playing, having seen brownish fur out of the corner of his eye."
 "He thinks it's Dev and immediately feels his face flush, freezing and just sitting there."
 "This is why he didn't play or sing in a serious way these days; now it just feels like showing off a skill that he was never really skilled at in the first place."
-"But after a while, he doesn't hear anything, no voice, no footsteps, and biting through his embarrassment, Cam looks up the road where he'd been certain that his boyfriend had been watching him."
+#!! stronger pause after "anything"
+"But after a while, he doesn't hear anything; no voice, no footsteps, and biting through his embarrassment, Cam looks up the road where he'd been certain that his boyfriend had been watching him."
 window hide
 scene bg outskirts_day with medium_dissolve
 pause 1.0
@@ -960,7 +980,9 @@ show cam worried a l with dissolve
 "Cameron stares up the empty road, the feeling of unease growing until he finally shoves his guitar to the side and pulls out his phone, tapping on a mindless gaming app to distract himself."
 show cam worried c l with dis
 c "\"Nope.{cps=3}..{/cps}{w=0.3} nope, {w=0.2}nope, {w=0.2}nope. {w=0.4}Noooot doing this again, {w=0.3}not right now.\""
-"And even though the road remains empty, and even though the sun shines brightly above, illuminating everything around him..."
+#! the "and even though" repetition feels unnecessary
+#! the "And" at the start of the sentence could be removed if desired also
+"And even though the road remains empty and the sun shines brightly above, illuminating everything around him..."
 "The feeling of what is becoming a very familiar dread continues to grow."
 window hide
 pause 1.0
@@ -1022,7 +1044,7 @@ window show
 "In another place?"
 "No, in this same exact place, just in a different time."
 "Cameron knows what's happening, and he questions what he's about to do, but with this new feeling of calm assuredness, the coyote decides to let it happen."
-"Dev didn't want him doing this because he's had a change of heart,  but so has Cameron, and this is {i}his{/i} choice to make."
+"Dev didn't want him doing this because he's had a change of heart, but so has Cameron, and this is {i}his{/i} choice to make."
 "So he lets it happen."
 "And he senses this person."
 "A girl."
@@ -1036,7 +1058,8 @@ pause 0.5
 window show
 "She tries to keep her sobs quiet, walking along the road by the lake."
 "She'd been looking forward to this for two months."
-"She'd saved up money from babysitting jobs to buy her own dress, her own fake jewelry, and her makeup."
+#!! is there a reason it repeats "her own" for the dress and jewelry, but not the makeup?
+"She'd saved up money from babysitting jobs to buy her own dress, her own fake jewelry, and her own makeup."
 "Her father had found the makeup a week ago and threw it away, telling her only bad things happened to girls who wore makeup."
 "Even then, she'd still had the dance to look forward to."
 "But now James, her ex from last year, had ruined it."
@@ -1048,6 +1071,7 @@ play sound sil_trans
 scene cam_lake_3 with dissolve
 "{cps=20}...before it happens."
 "She sees James as it happens."
+#!!! Is there a reason there are so many lines repeating that it's "happening"? It almost feels like this last line accidentally didn't get cut
 "She realizes what's happening in that same moment."
 "Knowing him, this is actually something she expected."
 "And in that moment, {w=0.3}she decides that maybe this is for the best..."
@@ -1058,7 +1082,7 @@ stop music fadeout 0.5
 stop music2
 stop background fadeout 0.5
 "Lost in the vision, Cameron feels himself recoil from something touching him."
-"Cameron loses his balance, windmilling his arms comically and he has a split second to recognize Dev."
+"Cameron loses his balance, windmilling his arms comically, and he has a split second to recognize Dev."
 "The bear has his paw out, like he'd been resting it on the coyote's arm."
 "The look of shock is mirrored on his boyfriend's face--"
 "--before he goes over the edge and straight into the lake."
@@ -1108,14 +1132,15 @@ c "\"Didn't I tell you this was a bad idea at the very start?\""
 show dev disappointed l with dis
 "Dev takes out his phone, bringing up the document he'd been using to map out the supernatural happenings and history of Echo."
 show cam disappointed u r with dis
-c "\"So, uh, it was a girl, teenager, a bobcat, from like, the 50s, I think? A student from Echo High School.\""
+#! It's kind of weird for Cam to nail the exact decade with no real clues. He could be slightly wrong (e.g. '60s), or guess a larger time range instead
+c "\"So, uh, it was a girl, teenager, a bobcat, from like, the '50s, I think? A student from Echo High School.\""
 show dev worried p l with dis
 "Dev raises his brows, scrolling slowly on his phone, then he looks back up."
 $ renpy.music.set_volume(0.3, delay=3, channel=u'background')
 play music2 stillyearning volume 0
 play music stillyearningintro fadein 5.0 volume 0.3
 queue music stillyearningloop volume 0.3
-d "\"Yeah. June, 1954, an 18 year old bobcat drowns in the lake in what is thought to be a suicide.\""
+d "\"Yeah. June, 1954, an 18-year-old bobcat drowns in the lake in what is thought to be a suicide.\""
 show cam disgusted u r with dis
 c "\"So the fucker got away with it?\""
 show dev surprised h l with dis
@@ -1129,14 +1154,16 @@ c "\"Ow! Not now, Dev! Listen, her ex-boyfriend killed her. I saw him run up and
 show dev shocked h l with dis
 d "\"Did you have to experience that? Do you feel okay?\""
 show cam frustrated u r with dis
-c "\"DEV! I'm not important here. This is about someone who got murdered and some piece of shit got away with it!\""
+#!! probably?
+c "\"DEV! I'm not important here. This is about someone who got murdered and some piece of shit who got away with it!\""
 show dev confused talking h l with dis
 d "\"First of all, don't call yourself unimportant. You're still alive, and you need to keep it that way by not falling into lakes because of these awful visions.\""
 show cam sad u r with dis
 c "\"I need to tell her family, or at least someone so people know the truth!\""
 show dev worried h l with dis
 "Devon frowns deeply at the coyote."
-d "\"Listen, babe. I know you can see things that I can't and all, but I gotta be honest and say that no one's gonna care. They're dead; the girl and more than likely her ex, too.\""
+#!! maybe?
+d "\"Listen, babe. I know you can see things that I can't and all, but I gotta be honest and say that no one's gonna care. They're dead — the girl and more than likely her ex, too.\""
 show cam disgusted u r with dis
 c "\"That's shortsighted as all hell, Dev! He could definitely still be alive, having lived a full life after murdering someone.\""
 c "\"And she might have siblings who are still alive, or... I dunno, I think {i}someone{/i} probably gives enough of a shit to want to know!\""
@@ -1207,7 +1234,7 @@ show cam worried a u r with dis
 c "\"Dev, we can... probably walk around a little bit before we go. He went on a really long drive.\""
 show dev scream r at jumping
 d "\"What?\""
-"Devon sounds incredulous and Cameron can understand why, but despite what the bear said moments ago, he still wanted to explore further."
+"Devon sounds incredulous, and Cameron can understand why, but despite what the bear said moments ago, he still wanted to explore further."
 "Cameron knows that once he leaves, he'll probably never come back to this place again."
 show art happy l with dis
 a "\"Damn, Dev, did the two of you switch places or something? Anyway, I agree with Cam. I gotta stretch my legs out a bit.\""

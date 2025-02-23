@@ -40,7 +40,9 @@ queue music solderingloop volume 0.3
 "The man had given him something. He'd told him it was for the pain, but the pain is still there, and now he can't even stand."
 "His balance is shot, and he keeps stumbling until he's just crawling on all fours."
 "It's now that he realizes the man had let him get away on purpose."
-"This makes him realize something else: He's going to die."
+#!! this capitalization after colon is fine, but it's nearly the only capitalization after a colon that is correct in this novel
+#!! consider lowercasing this for consistency just because it's the only one; cap after colons isn't a rule anyway
+"This makes him realize something else: he's going to die."
 "Tired from the drug, from the past three days of constant fear and torture, and from trying to run, he collapses."
 "He lays there in the dirt, sobbing, even though tears don't come out."
 "He'd run out of those after all the things the man did to him."
@@ -75,7 +77,8 @@ unk "\"You know that shit don't matter no more, right?\""
 "At the time, he'd just rolled his eyes and didn't respond."
 "He thought he'd be able to do that the next day, or the day after that."
 "After he'd been kidnapped, the man took his phone and sat it on the counter."
-"It sat there and buzzed over and over with messages and his kidnapper only laughed when he asked to at least read them."
+"It sat there and buzzed over and over with messages, and his kidnapper only laughed when he asked to at least read them."
+#!!! consider a comma after "flow"? Not sure how the reading flow is supposed to work here.
 "Now the tears flow just as the man leans over him with something heavy in his paw."
 "He hopes his mom is right about God."
 "He hopes he can see her from the other side."
@@ -92,7 +95,7 @@ scene bg outskirts_evening with medium_dissolve
 pause 1.0
 window show
 "Cameron holds on to the seat tightly, the coyote's teeth rattling together with every pothole they hit."
-"His boyfriend, Devon, doesn't seem bothered at all; the bear's paw on the wheel with an elbow hanging out the window."
+"His boyfriend, Devon, doesn't seem bothered at all — the bear's paw on the wheel with an elbow hanging out the window."
 "He had been singing loudly to the music playing through the car's Bluetooth speakers, and it wasn't until cell phone service was lost that Devon finally seemed to notice Cameron's unease."
 d "\"You alright, babe?\""
 c "\"I think you could go a little slower.\""
@@ -110,9 +113,9 @@ d "\"Aw, come on. You gotta admit there's something nice about {i}feeling{/i} th
 "Devon does slow down a bit though, more carefully maneuvering around the most broken up parts of the road."
 c "\"What happened to the road anyway? It's only been what, five years?\""
 d "\"Flash floods, according to what I read online... Obviously no one's around for upkeep, so this is what happens.\""
-c "\"Oh yeah, I forgot how this state works; dry as hell until a wall of watery death comes down the road during monsoon season.\""
+c "\"Oh yeah, I forgot how this state works: dry as hell until a wall of watery death comes down the road during monsoon season.\""
 "The coyote tenses up as the bear makes another smooth, but still sudden turn."
-c "\"AND It's even hotter than I remember.\""
+c "\"AND it's even hotter than I remember.\""
 d "\"How are you a coyote, Cameron? This is your climate!\""
 c "\"You know better than to say that. Just because I'm built for it doesn't mean I have to like it.\""
 d "\"Yeah, yeah, but you hate it in Fort Allen, too.\""
@@ -125,13 +128,15 @@ d "\"Nicer weather, {w=0.3}nicer scenery, {w=0.3}and nicer people.\""
 c "\"Everyone's a Mormon.\""
 d "\"Which is why they're nice!\""
 c "\"The ones living down here aren't.\""
-d "\"There's a BIG difference between the fundamentalist and the--\""
+#! "fundamentalist" -> "fundamentalists"? Not sure what Devon was about to say, but with Cameron's continued line it's incongruent
+d "\"There's a BIG difference between the fundamentalists and the--\""
 c "\"Normal ones?{w=0.3} The ones that baptize dead people and wear Jesus jammies under their clothes?\""
 "Dev shrugs."
 d "\"Most religions are weird when you break them down like that.\""
 c "\"I'm just saying, whether it's magic garments or prairie dresses, they came from the same fucked up place.\""
 "Devon doesn't say anything, and Cameron realizes how bitchy he sounds right now."
 c "\"Sorry, I just worry how they might look at us. It's harder to gauge people when they're all fake-nice.\""
+#! Devon changing topic with "but" is awkward, as it implies that the two topics are connected?
 d "\"Yeah, that's true, but look--\""
 "Dev nods his head toward Cameron's window, and the coyote follows his gaze."
 "The rocky, uneven landscape has opened up to a wide expanse of blue."
@@ -149,7 +154,8 @@ d "\"That's Lake Emma, {w=0.3}which means Echo is--\""
 "All because the coyote could \"see\" things."
 "He'd remind Dev the proper word was \"hallucinate\"."
 "The things he saw were manifested by his own mind."
-"There was no reason for him to give it fuel by going some place supposedly haunted."
+#! "some place" -> "someplace" to be consistent with Echo's style; neither are incorrect, but they should match
+"There was no reason for him to give it fuel by going someplace supposedly haunted."
 "Dev got the message pretty quickly and stopped asking."
 "They still talked about all those interests he had though, and Cameron realized there was a lot more to Devon's interest in ghosts than just dumb fun."
 "And even though he'd refused to entertain Devon's psychic bullshit, the bear still took care of him."
@@ -200,14 +206,16 @@ show cam annoyed a evening with dis
 show cam disappointed evening with dis
 "With a sigh, Cameron leans up against the Jeep, staring out across the lake."
 "This really isn't bad at all, so far."
-"Sure, they weren't in the town yet, but all those dreams he had, all those terrible feelings... They seem silly now."
+#! consider lowercasing "They"
+"Sure, they weren't in the town yet, but all those dreams he had, all those terrible feelings... they seem silly now."
 "It's just a small, former town with a sad history."
 "If his brain was going to manifest something out of this, that something would just be... sad."
 "Cameron knows that his hallucinations aren't real. He's known that since he was a kid, after he first saw a monster in a raincoat in his trailer home."
 "He also knows that ghosts aren't real, either."
 "But Devon believes. Or at least he wants to believe."
 "He wants it so badly, and he thinks Cameron can see them."
-"Cameron knows there's something extremely wrong that what could be a disorder being used like this."
+#!!! needs serious fixing. I made an attempt
+"Cameron knows there's something extremely wrong with using what could be a disorder like this."
 "Devon is also aware of this. {i}Painfully{/i} aware."
 "To the point that Cameron was able to tell days in advance that he was going to ask about taking him on this trip."
 "And yeah, this is wrong. But the bear doesn't even think Cameron is mentally ill, or at least that's how it comes off to the coyote."
@@ -217,6 +225,7 @@ show cam disappointed evening with dis
 "He'd told him a little bit, but he'd always been worried in the back of his mind that Dev would leave if he told him everything."
 "So Dev took those snippets of insight into Cameron's psyche and somehow interpreted it as him being \"gifted\"."
 "He couldn't blame the bear; sometimes the things he sees do seem to have a deeper meaning, like there's more to it than just mental health."
+#!!! consider a question mark or colon instead of a comma here? the original is okay too. not sure which way reads best.
 "But isn't that just the nature of various mental disorders, not recognizing the illness for what it is?"
 "It had been over five years at this point, and Dev had seen Cameron at his worst, at his absolute craziest, and somehow he'd stuck around and still believed the coyote was just a normal guy with some personal issues."
 "Cameron hugs himself a little tighter, realizing that now is the time to really talk about it."
@@ -297,13 +306,15 @@ show dev worried p evening with dis
 d "\"If you're sure, but please don't put me ahead of y--\""
 show cam smile talking c evening with dis
 c "\"AND I did some research on that forum you linked me to a few years back, so my sixth sense is primed and ready.\""
-"That seems to finally snap Devon out of his reluctance, and slight annoyance at getting cut off every sentence."
+#!! the comma could be removed here. This is sort of just a difficult sentence to anticipate/parse as a reader; not sure if there's a way around it
+#!! Even while looking hard at it, it took me a while before I realized that "and slight annoyance" wasn't an aside, but rather that the last fragment is a full thought
+"That seems to finally snap Devon out of his reluctance and slight annoyance at getting cut off every sentence."
 show dev happy evening with dis
 d "\"Wait, {w=0.3}seriously!? {w=0.4}There were so many people like you on that forum. Did you--\""
 show cam serious c evening with dis
 c "{i}\"Listen{/i}. I want you to find your answers, I REALLY do, but I think the worst thing I could do is lie to make you feel better. I'm going to be completely honest about everything--\""
 show cam disappointed evening with dis
-"Cameron leans up against the jeep."
+"Cameron leans up against the Jeep."
 c "\"--whether or not I see something.\""
 show dev h evening with dis
 d "\"Of course, that's what I want!\""
@@ -331,7 +342,7 @@ window show
 d "\"But seriously, {w=0.3}if you ever feel like.{cps=3}..{/cps}{w=0.4} I dunno, {w=0.3}you're just not into it, just let me know.\""
 c "\"Well, as long as you're not expecting anything, I think it'll be alright.\""
 d "\"Yeah.\""
-"Devon goes on grinning and Cameron narrows his eyes."
+"Devon goes on grinning, and Cameron narrows his eyes."
 c "\"Because I'm getting the feeling that you're expecting a lot.\""
 "Devon pauses, seeming to think."
 d "\"Well, I'm also happy that you're being more open like this. I'd always felt like you didn't want to talk about it.\""
@@ -344,9 +355,9 @@ c "\"Got shot in the head? After I hallucinated that someone shot him in the hea
 d "\"Uh, {w=0.3}yeah, {w=0.4}that one.\""
 c "\"This is what I'm talking about. You, and all of us, really, like to see meaning in everything.\""
 c "\"That we have a purpose in life, {w=0.3}a {i}reason{/i}.\""
-c "\"Reason, {w=0.3}purpose, {w=0.3}and the meaning of life means nothing to the universe.\""
+c "\"Reason, {w=0.3}purpose, {w=0.3}and the meaning of life mean nothing to the universe.\""
 c "\"Everything just {i}is{/i}. Whether it has meaning is up to us.\""
-c "\"Yes, it's weird that I hallucinated the way he would die, but he was also involved in things that could have lead to that.\""
+c "\"Yes, it's weird that I hallucinated the way he would die, but he was also involved in things that could have led to that.\""
 c "\"I knew he'd been dealing drugs in a really risky way, so I knew his life was in danger, {i}and{/i} I was on fucking ketamine. All the reason is there.\""
 d "\"Well, {w=0.3}I, {w=0.3}uh--\""
 "Dev shifts around, clearly uncomfortable and trying hard not to look that way."
@@ -354,16 +365,19 @@ d "\"I get that, but there's a lot of other examples I could bring up. Maybe it'
 "Cameron sighs."
 c "\"Of course I have, but what always worries me about this paranormal stuff you're into, and the afterlife and all that--\""
 scene lake_emma_3 with dis2
-c "\"--It reminds me of my mom.\""
+#! consider lowercasing "It", as it's part of the previous line's sentence instead of a new one.
+c "\"--it reminds me of my mom.\""
 "Dev doesn't say anything, just waiting and listening."
-c "\"You know, toward the end, right before I left, she was usually amped up on something to stay awake for her three jobs, whether it was amphetamines or meth, she barely slept.\""
+#!! consider using a semicolon or period after "jobs" to give this a bit more structure
+c "\"You know, toward the end, right before I left, she was usually amped up on something to stay awake for her three jobs; whether it was amphetamines or meth, she barely slept.\""
 c "\"We had this box fan in our trailer, and one day, after she turned it on, she asked me if I could hear someone talking {i}from{/i} the fan.\""
 "Cameron had debated on whether or not to give Devon all the details about his mother, but he feels like he needs to say it."
 "If only so that Devon would have some explanation as to why."
 c "\"I said no, but she sat next to it and listened and eventually had this huge epiphany that it was God.\""
-c "\"And she did that for weeks, and that's almost all she did when she was home; listening to the fan talk to her.\""
+c "\"And she did that for weeks, and that's almost all she did when she was home: listening to the fan talk to her.\""
 c "\"I'm not sure what all it was saying to her. I don't even think I really understood what was going on.\""
 c "\"I just knew that sometimes stim-addicts did that kinda stuff, especially when they don't sleep, you know?\""
+#!!! this could be a colon or emdash. The semicolon is fine also because the two parts could technically be two sentences, but it's a little unorthodox. I can't decide which looks best
 c "\"But then she started to look for specific shapes; arches and half-circles.\""
 c "\"This voice told her that she could get into heaven if she passed under the right one.\""
 c "\"But the voice also told her that the devil would trick her with fake ones to make the 'real' one harder to find.\""
@@ -382,7 +396,7 @@ show lake_emma_2
 with dis2
 c "\"So that's why I worry about following these patterns, even if it's just something like looking for UFOs, or ghosts.\""
 c "\"Like, yeah, the meth and lack of sleep pushed her over the edge, but is there something genetic there, too?\""
-c "\"My dad had problems too\""
+c "\"My dad had problems too.\""
 c "\"What if I'm predisposed to it? I thought drugs were making it worse, but I haven't used since the second month after I met you, and I still see shit sometimes.\""
 scene lake_emma_3 with dis2
 c "\"I mean, whatever is going on with me, it's stable, but I wonder if that'll last.\""
@@ -391,6 +405,7 @@ d "\"I would {i}never{/i} let that happen to you. I know I say stupid shit about
 scene lake_emma_2 with dis2
 c "\"Honestly, it's nice to hear that, because just letting my mom sit next to a fan for three hours straight every day, feeding on her delusions, was the dumbest thing I've ever done.\""
 c "\"But I was high on my own drug of choice because I just didn't care. But the thing is that even through that hell she was in, {i}she{/i} cared.\""
+#! pick a capitalization for "post-it" and apply it to both instances in Arches
 c "\"I took too much a few times, and even though she was listening to her fan, in her own world, sticking post-it notes to all the shapes she saw--\""
 c "\"--she still noticed right away when my breathing wasn't right, and I woke up to her spraying Narcan up my nose.\""
 "Cameron sees Devon tilt his head in question."
@@ -415,14 +430,16 @@ show dev embarrassed evening at left with dissolve
 d "\"Dude, {w=0.3}do NOT be sorry.\""
 show cam disappointed evening with dis
 c "\"But it's part of why I am the way I am. I know my symptoms don't perfectly match up with what you've researched on the internet, but they're close enough.\""
-c "\"And honestly, maybe you're right, maybe there's more after we die, and somehow I can help you find it, but if things go south, and if something's wrong with me, just pull me back.\""
+#!! comma spam here. Consider a stronger pause after "maybe you're right" to break it up a bit. I took a stab
+c "\"And honestly, maybe you're right: maybe there's more after we die and somehow I can help you find it, but if things go south, and if something's wrong with me, just pull me back.\""
 show cam worried a evening with dis
 c "\"Seeing the shape of an arch, remembering all the markers she put on them, it's like a reminder of what happened to her and what could happen to me.\""
 hide dev
 hide cam
 with dissolve
-"Wordlessly, Devon pulls Cameron into a hug, and the coyote presses his head against his chest."
-"At that moment, Cameron realizes then why so many people love their therapists."
+#! consider replacing "his chest" with e.g. "the bear's chest" to disambiguate pronouns
+"Wordlessly, Devon pulls Cameron into a hug, and the coyote presses his head against the bear's chest."
+"At that moment, Cameron realizes why so many people love their therapists."
 "He'd always worried that Devon would get too weirded out by what happened when he was a teenager."
 "That he would finally see all of the skeletons in his closet: neglectful, neglected, abusive, abused, and so hopelessly addicted."
 "Just like his mother. The definition of trailer trash."
@@ -445,14 +462,16 @@ window show
 "While Cameron had told him that this had all made him feel better, Devon was feeling more conflicted than ever."
 "Everything that Cameron just told him practically screamed that this was a bad idea, that this wasn't good for him."
 "Does it matter what {i}he{/i} thinks about Cam's hallucinations?"
-"That his skimming of abnormal psychology literature about hallucinations lead him to believe Cameron wasn't mentally ill?"
+#!! "wasn't" -> "isn't"? unsure
+"That his skimming of abnormal psychology literature about hallucinations led him to believe Cameron wasn't mentally ill?"
 "No."
 "How could he take him to Echo after hearing that?"
-"How could he ever drag him into this endless hunt for the truth ever again?"
+#!! drop one of the "ever"s to reduce repetition/redundancy
+"How could he drag him into this endless hunt for the truth ever again?"
 "Yet, at the same time, Cameron's telling him he wants to do this."
 "Dev looks over the hood at Cameron, tapping his blunt claws against the soft top of the Jeep."
 show dev grin p evening at left with dissolve
-d "\"Hey Cam? Whaddya say we just keep going north, check out Deseret? You know, see what Bonneville might be like. See what the Mormons are really like. That could be fun.\""
+d "\"Hey, Cam? Whaddya say we just keep going north, check out Deseret? You know, see what Bonneville might be like. See what the Mormons are really like. That could be fun.\""
 "While he says this, there's a crushing feeling in his chest, dreading that Cameron might say yes, but at the same time hoping that he will."
 show dev worried p evening with dis
 d "\"I mean, with the way things are going, I don't even know if we'll be able to cross state lines in a few weeks. They're starting to shut everything down.\""
@@ -469,6 +488,7 @@ play sound cardoor
 show dev embarrassed evening with dis
 "Dev looks over at the lake, actually not sure what he's about to do."
 "If he was a good boyfriend, he'd drive away from this place."
+#! "there" -> "here"? IDK
 "Cameron would yell, curse, and moan about how it took them ten hours to get there."
 "And Devon would shut him up with one of those sugary abominations from Starbucks."
 "And he would never talk about Echo again."
@@ -479,7 +499,11 @@ hide dev with dissolve
 "But even as he tells himself he's going to turn left, back up the road they came--"
 "He turns right."
 stop ambient fadeout 3.0
-"Because just before he did, he sees a flash of pink in his mind's eye, floating in the middle of a pond, and it's like someone hit him full force in the chest."
+#!!! consider making it more obvious that this is a real/physical thing instead of something indescribable/abstract/hand-wavy.
+#!!! Otherwise, a first-time reader will have a hard time knowing how they're supposed to be parsing/visualizing this
+#!!! e.g. it could be "floating face-down", or something else that gives the pink a physical presence in the visualization instead of being described more like "a flash of light"
+#!! this sentence also has past/present tense disagreement. Presumably it should be fixed towards past tense
+"Because just before he did, he saw a flash of pink in his mind's eye, floating in the middle of a pond, and it's like someone hit him full force in the chest."
 "Before he knows it, Echo is ahead of them."
 window hide
 pause 0.5
@@ -490,7 +514,7 @@ scene bg motel_afternoon with medium_dissolve
 pause 0.5
 window show
 "Devon frowns as they pull into the parking lot of the motel, staring at the graffiti-covered walls."
-"The cartoonish caricatures have a way of cheapening this experience, like this  is only a stupid haunted house attraction."
+"The cartoonish caricatures have a way of cheapening the experience, like this is only a stupid haunted house attraction."
 stop ambient fadeout 10.0
 play music2 monochrome volume 0
 play music monochromeintro fadein 3.0 volume 0.3
@@ -526,6 +550,7 @@ show dev skeptical p sunset with dis
 "Devon raises a brow, not sure what to make of Cameron's high spirits."
 "They'd just had one of the heaviest conversations of their relationship and..."
 show dev h sunset with dis
+#!! not sure why this line is italicized? solely italicizing "is" seems fine
 "{i}...Well, maybe that{/i} is {i}why.{/i}"
 "If Cameron was feeling more comfortable being honest and open with Dev, then that could only be a good thing in the bear's mind."
 hide dev with dissolve
@@ -551,7 +576,7 @@ show dev worried h sunset with dis
 d "\"Heh, yep.\""
 "Devon is a little taken aback by just how cold Cameron's response is."
 show cam unamused c sunset with dis
-c "\"Well, {w=0.3}go on. {w=0.3}Your classes in dynamics and calculus based physics should figure this out for us.\""
+c "\"Well, {w=0.3}go on. {w=0.3}Your classes in dynamics and calculus-based physics should figure this out for us.\""
 "Cameron's voice drips with sarcasm, and Dev can only assume he's making fun of the way the bear had tried to impress him with his coursework during their first dates."
 "But Devon tries to salvage the earlier, good-natured mood."
 show dev grin h sunset with dis
@@ -590,7 +615,9 @@ c "\"See? Number 8. And the door over there is number 3.\""
 c "\"So, counting in this direction--\""
 "Cameron's frosty demeanor is completely gone."
 show dev skeptical p sunset with dis
-c "\"Ten, eleven, and room number 12. And wouldn't ya know it, it's open!\""
+#! change "ten" and "eleven" to "10" and "11"? To be more consistent, and also because doors have numeric representations
+#! Also, presumably Dev told Cam which room number it was ahead of time? He doesn't tell him during the events of Arches, so it's sort of unclear how Cam knows which one
+c "\"10, 11, and room number 12. And wouldn't ya know it, it's open!\""
 show dev happy sunset at left with dis
 d "\"Ah, sweet!\""
 show cam grinning c l sunset with dis
@@ -603,6 +630,7 @@ show cam unamused a sunset with dis
 c "\"Of what?\""
 d "\"I dunno, {w=0.3}squatters?\""
 show cam serious c l sunset with dis
+#!! using singular "a dead squatter" after the previous sentence uses plural "squatters" is a little odd
 c "\"Well, get ready to find a dead squatter because how the hell would they survive?\""
 show dev surprised h sunset with dis
 d "\"Actually, you just reminded me that there are a couple of creeps that live here, like stubborn locals that won't leave. At least that's what a post said from like, two years back.\""
@@ -625,7 +653,8 @@ show dev shocked h sunset with dis
 d "\"Cameron, it came up so few times on the forum, and the posts I remember were really mundane. I honestly just forgot.\""
 show cam disappointed sunset with dis
 c "\"Alright.\""
-"Devon stares at the coyote, waiting, but he doesn't say anything."
+#! It's not clear who "doesn't say anything" due to pronouns
+"Devon stares at the coyote, waiting, but Cameron doesn't say anything."
 show dev surprised p sunset with dis
 d "\"Cameron.{cps=3}..{/cps}{w=0.4} Is there anything you wanna tell me?{w=0.3} If there is, I'm still hoping you'll be open like you said--\""
 show cam frustrated sunset with dis
@@ -637,7 +666,8 @@ c "\"It's just.{cps=3}..{/cps}{w=0.4} hard to explain.\""
 c "\"I guess the fact that there ARE real people still living here does make it a little scarier.\""
 show dev worried p sunset with dis
 d "\"Does it have to do with the dreams you were having?\""
-"Dev watches Cameron closely, but he does seem genuinely confused himself."
+#! ambiguous pronouns
+"Dev watches Cameron closely, but the coyote does seem genuinely confused himself."
 show cam worried a sunset with dis
 c "\"Kind of, but they were weird. I don't think they really meant anything.\""
 show cam smile sunset with dis
@@ -653,7 +683,8 @@ d "\"But while I was sorta joking earlier, if anyone tries anything, I {i}will{/
 "If those men are still around, the bear has no doubt that they have plenty of guns."
 c "\"Well, let's not think about that because it's not gonna happen.\""
 show cam smirk c l sunset with dis
-c "\"Unless they are squatting in that room.\""
+#! probably?
+c "\"Unless they're squatting in that room.\""
 show dev angry sunset with dis
 d "\"Not for long!\""
 window hide
@@ -677,18 +708,20 @@ c "\"Oh, {w=0.3}gross!\""
 show dev surprised h dark3 with dis
 d "\"What were you expecting? We just need to straighten it out a bit. Look, there's even a mattress over there.\""
 show cam scared dark3 with dis
+#! should be there be a comma before "or anything"?
 c "\"Wait, we're not gonna use it for sleeping, or anything, are we?\""
 show dev smirk p dark3 with dis
 d "\"Why do you think I brought sheets?\""
 show cam disgusted dark3 with dis
 c "\"Oh, I am NOT sleeping in--\""
-d "\"Kidding, kidding. Those are just to give us to cover up the disgusting places we might sit. I already told you I have a room booked in Payton.\""
+#!! This needs some fixing. I think I changed it to what was intended?
+d "\"Kidding, kidding. Those are just to cover up the disgusting places we might sit. I already told you I have a room booked in Payton.\""
 c "\"And we'd better use it, no matter how into this you get.\""
 show dev h dark3 with dis
 d "\"Of course, but we might as well make this place as comfortable as we can anyway.\""
-"Cameron is quiet and Dev turns to see him staring at a plethora of rusty nails on the ground around the window and mattress."
+"Cameron is quiet, and Dev turns to see him staring at a plethora of rusty nails on the ground around the window and mattress."
 show cam serious c dark3 with dis
-c "\"Your tetanus shot is up to date, right?\""
+c "\"Your tetanus shot is up-to-date, right?\""
 show dev surprised h dark3 with dis
 d "\"That's a great question.\""
 show cam disgusted dark3 with dis
@@ -729,7 +762,7 @@ show dev grin h lamp with dis
 d "\"Oh yeah! I wanted to say earlier how happy I was you looked through that forum.\""
 d "\"It must be annoying just hearing me go on about it when I don't even experience it.\""
 show cam worried a lamp with dis
-c "\"No, you're fine Dev.\""
+c "\"No, you're fine, Dev.\""
 "Actually, Cameron much preferred to hear it from Dev."
 "Half of the people on the forums were clearly liars with a savior complex--"
 "--and then the other half were contacting these assholes to help communicate with a dead loved one."
@@ -742,7 +775,8 @@ c "\"Well, according to these psychics, it's pretty simple if you have the extra
 c "\"First, approach the location with clear intentions. I'm here to see or hear something from the past.\""
 c "\"Second, keep an open mind, which is something I promise to do.\""
 show cam serious a l lamp with dis
-c "\"And finally, if you sense that the presence is hostile, always remember that it {i}can{/I} hurt you. In these cases, they might not actually have ever been a person.\""
+#!! "they might not actually have ever been" is clunky and a mouthful. This order is more natural, and allows readers to pronounce "not've"
+c "\"And finally, if you sense that the presence is hostile, always remember that it {i}can{/I} hurt you. In these cases, they might not have ever actually been a person.\""
 show dev annoyed p lamp with dis
 d "\"Eh, I wouldn't worry about demon shit. Even I have a hard time believing in that.\""
 show cam smile a l lamp with dis
@@ -790,7 +824,8 @@ c "\"I need to... get more comfortable.\""
 d "\"O--Okay...\""
 show dev embarrassed s dark with dis
 "Something about Cameron's demeanor is bothering Devon."
-"And Cameron's words were a little slurred, and he does seem kind of... not quite there."
+#! Starting this sentence with "and", then using ", and" is too much
+"Cameron's words were a little slurred, and he does seem kind of... not quite there."
 "Should he pull him out of it?"
 "Devon had never seen a psychic in action before, so maybe this is normal, like a trance."
 "He hopes it's normal, because even if Devon can find his answers, he'd give them up for Cameron to discover he isn't \"psychotic\"."
@@ -804,21 +839,25 @@ show dev frustrated s dark with dis
 d "\"Shit...\""
 "Dev hisses under his breath."
 "What the {i}fuck{/i} is he doing, bringing his boyfriend to this room, where {i}that{/i} happened?"
-"He was usually alone, or with friends when doing these investigations, and his want to see something always overpowered the fear."
+"He was usually alone or with friends when doing these investigations, and his want to see something always overpowered the fear."
 "He'd just assumed Cam would be used to scary shit, especially after he described that flat-faced creature in a raincoat that he'd been seeing since he was a kid."
 "He just assumed."
 show dev disappointed s dark with dis
-"Why is it only now that he's' realizing what the consequences can be?"
+"Why is it only now that he's realizing what the consequences can be?"
 "Well, it's because the things Cameron had told him by the lake had changed a lot of things in the bear's mind."
 "This isn't something a loving partner does to another partner."
 "He's fucking {i}using{/i} Cameron for his own selfish reasons."
+#!!! "abilities" -> "ability"? This sentence personally just feels a little bit off to me, but grammatically I think it's all fine
 "Devon knows that the coyote has some kind of ESP abilities, but that didn't mean he didn't also have other issues that could fuck him up."
 "That didn't mean that possibly seeing these awful things wouldn't {i}cause{/i} him to develop more issues."
 hide dev with dissolve
 stop background fadeout 5.0
 "All the wind taken out of his sails, Devon stares at the ground, thinking."
 "Then he gets up and paces for a bit, beginning to make up his mind, deciding that right after this, they're done, no matter what."
-"The bear looks at the closet, the one where a wolf from the Meseta tribal council hung himself in the early 90s."
+#!!!! In Echo, wasn't this a fox that hung himself? -- "But what I didn't expect to see is a small, old, kit fox in a button-up shirt and a tie."
+#!!!! These references should be synced one way or the other. Probably sync towards the fox since the Meseta are overwhelmingly referred to as foxes
+#!!!! Ctrl+F for "wolf", there are 4 references in a1s1.rpy and 1 reference in a1s2.rpy
+"The bear looks at the closet, the one where a wolf from the Meseta tribal council hung himself in the early '90s."
 "If only he could see one thing, just one sliver of proof that she's okay on the other side, he'd be at peace with all this."
 "Really, the biggest hurdle ahead of him is the embarrassment of ditching his plans and figuring out how to tell Cameron why."
 "Dev lets out a shuddering sigh, standing in the closet, looking at that bar, wondering if it's the same one that the wolf used..."
@@ -847,17 +886,21 @@ window show
 "Had Devon been right about this stuff?"
 "Had he just misunderstood himself for so long?"
 "He could sense {i}someone{/i}, nothing like the monsters he'd seen in the past."
+#!!! Is the use of past tense in the next two lines intentional? i.e "was" instead of "is"
 "Instead, this was a man, in a suit with a bolo tie."
 "He was sad, {w=0.5}he was angry, {w=0.5}and he was terrified."
 "Cameron knew this was often what psychics described when talking about \"sensing\" people from the past."
-"You feel their most intense moment in life, this man, this wolf, he's going to do something terrible."
+#!! consider a semicolon or period after "life"
+"You feel their most intense moment in life; this man, this wolf, he's going to do something terrible."
 "And while Cameron is marveling over this, the wolf suddenly... changes."
 "At the same time, Cameron feels his focus turn to him."
-"This gives the coyote pause, because now this presence was trying to interact with {i}him{/i}."
-"Was this right?"
+"This gives the coyote pause, because now this presence is trying to interact with {i}him{/i}."
+#!! "was" -> "is"?
+"Is this right?"
 "Cameron thinks it could be, but something doesn't feel right about it, like this isn't what he thinks it is."
 "But he supposes that anyone doing this for the first time would feel it to be strange."
 "Maybe he was doing the \"light sensing\" wrong; the point is to listen to the past, like a recording."
+#!! the repetition of "question" feels slightly clunky
 "This direct communication is scaring the coyote, but this could be his chance to answer Dev's question, and his own question for that matter."
 pause 1.0
 centertext "{i}{cps=60}I'm sorry to bother you. {w=0.6}What's after death?\n {w=0.4}Where do we go?{/i}"
@@ -880,6 +923,7 @@ pause 1.0
 window show
 "Cameron's eyes are heavy, and he can barely focus."
 "Something has gone terribly wrong."
+#!! consider stronger pause after malicious
 "This presence is evil, {w=0.4}malicious, {w=0.4}this isn't a person."
 "Now, all that the coyote can sense is that a profound tragedy has just taken place."
 "He needs Devon, and he thinks he sees him as his vision begins to slowly focus."
@@ -925,7 +969,7 @@ stop background
 "And he's overcome by the horror that this could just be a partial dream, and that the worst part of it is real."
 "It makes Cameron try and fail to scream again."
 play background radiostatic fadein 3.0
-unk "\”{cps=20}...You{w=0.3}...wa--{w=0.4}to know...{w=0.5}like?\""
+unk "\"{cps=20}...You{w=0.3}...wa--{w=0.4}to know...{w=0.5}like?\""
 "Cameron stares at the phone, unable to understand through the static, but able to recognize the voice."
 d "\"You said.{cps=4}..{/cps} {w=0.5}you wanted to know what.{cps=4}..{/cps} {w=0.5}like to die?\""
 d "\"I'd say.{cps=3}..{/cps}{w=0.4} it's like drowning forever.\""
@@ -945,10 +989,13 @@ d "\"Anyway, I'm getting a little off-topic, aren't I? You wanted to know what t
 "Devon's voice becomes more muffled."
 d "\"Yo, {w=0.3}Lupita! {w=0.3}Tell my boyfriend what it's like.\""
 stop background fadeout 5.0
-"It's quiet for a moment, and Cameron just sits in stunned misery, just waiting."
+#! reduces repetition of "just". One or the other should go
+"It's quiet for a moment, and Cameron just sits in stunned misery, waiting."
+#!!! this scream strikes me as way too short for a depiction of "drowning forever". Not sure if it could be extended somehow
 play sound staticscream
 stop ambient
 show bs
+#!! this has too many "and"s. Not putting a comma before the first one makes it a little less obvious
 "A terrible, demonic scream screeches through the phone and Cameron's fur bristles all over his body, and he fights this prison that he's in with everything he has." with vpunch
 "And finally breaks free."
 window hide
@@ -971,7 +1018,7 @@ d "\"Cameron!?\""
 "Devon feels himself beginning to panic."
 show dev angry s dark with dis
 d "\"Baby, {w=0.3}please! {w=0.4}What's happening!?\""
-"Cameron just stares back and Devon finally snaps."
+"Cameron just stares back, and Devon finally snaps."
 show dev angry yelling s dark
 show cam horror dark at right
 d "\"CAMERON!\"" with vpunch
