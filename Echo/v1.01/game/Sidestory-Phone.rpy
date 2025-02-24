@@ -274,8 +274,8 @@ hide Chasey with dissolve
 "He turns away from me."
 $ vol("music", 0.25)
 play music "themeforalonelywolf.ogg"
-#!!!! Should this be Chase saying this line? It coincides with Jenna sprite but Jenna wouldn't be "late" for anything
-j "\"I gotta go back. I'm already gonna be late.\""
+#!!!! This should be Chase saying this line, I'm pretty sure. Jenna wouldn't be "late" for anything
+m "\"I gotta go back. I'm already gonna be late.\""
 show Jenna Rejected with dis
 "Jenna looks over at me, and I finally see some remorse in her face before she jogs to catch up with Chase. I hear her start to apologize."
 hide Jenna Rejected with medium_dis
