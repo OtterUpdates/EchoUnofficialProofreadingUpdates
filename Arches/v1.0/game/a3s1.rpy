@@ -65,7 +65,7 @@ window show
 "He remembers that he's someone named Cameron."
 "He remembers his situation, and he remembers that he's been drugged with shrooms and Xanax."
 "His trip has reached its dizzying peak, his sense of self so utterly decimated that he isn't sure how he's ever going to feel the same again."
-"The terror and torture of the past two days has culminated to this, the moment that his mind gives in and breaks, and Cameron can't tell what's real and what isn't anymore."
+"The terror and torture of the past two days have culminated to this, the moment that his mind gives in and breaks, and Cameron can't tell what's real and what isn't anymore."
 "... But there's something else, too."
 #!! strongly consider adding emdashes around "this amalgamation he calls Cameron" or some other fix, otherwise the sentence structure is too ambiguous.
 #!! Without changes, it reads as though "Cameron" is "the terrible loss" at first, i.e. to make it more obvious: "Despite the terrible loss of who he was, Cameron, he's sensing things even more vividly."

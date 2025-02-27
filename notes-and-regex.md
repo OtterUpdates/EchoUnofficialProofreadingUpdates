@@ -276,8 +276,8 @@ Preference, but should be consistent. I prefer s's over s', with the rationale "
 * whose/who's `(whose|who's)`
 * affect/effect `[^a-z](a|e)ffect[^a-z]`
 * lead/led (led is past tense of lead) `[^a-z]lead[^a-z]`
-* low hit-rate scan for e.g. "X and X has", which should be "have" (e.g., "Manga and anime has") - `(\w+)+ and (\w+)+ has[^a-z]`
-* low hit-rate scan for "X, X, and X has", which should be "have" - `(\w+)+, (\w+)+, and (\w+)+ has[^a-z]`
+* low hit-rate scan for e.g. "X and X has", which should be "have" (e.g., "Manga and anime has") - `[\w ]+ and [\w ]+ has[^a-z]`
+* low hit-rate scan for "X, X, and X has", which should be "have" - `[\w ]+, [\w +], and [\w +] has[^a-z]`
 * which in middle of sentence without a comma
   * is using "which" as an unimportant aside, it should have a comma before it
   * If the information is important, "which" should be changed to "that" with no comma

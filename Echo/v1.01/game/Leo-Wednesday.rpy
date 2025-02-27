@@ -580,7 +580,7 @@ m "\"What the hell!?\""
 show Leo Neutral at left behind nightoverlay with dissolve
 l "\"Come back for more, Clint?\""
 "Clint doesn't say anything, instead he just screams and runs at Leo again."
-"Usually, I wouldn't be worried about Leo in a fight with Clint, but the crowbar and the fact that Leo can barely stand has me really worried."
+"Usually, I wouldn't be worried about Leo in a fight with Clint, but the crowbar and the fact that Leo can barely stand have me really worried."
 "Leo backpedals, then ducks low and lunges forward, which I don't think Clint expects."
 "His grunt is guttural, but to my surprise he doesn't go down."
 "Instead, he grips the back of Leo's shirt before raising the crowbar and bringing it down hard into Leo's back with a solid, meaty thud."
