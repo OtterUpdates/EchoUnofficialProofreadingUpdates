@@ -270,16 +270,15 @@ Preference, but should be consistent. I prefer s's over s', with the rationale "
 * quick low-hit-rate scan for  a/an before a vowel - `[^a-z]a [aeiou]`
 * half-way and half way should be "halfway" - `half( |-)way`
 * anytime/any time
-  * if you use "anytime", it should be able to be swapped with "whenever" - [^a-z]any(-| )?time
+  * if you use "anytime", it should be able to be swapped with "whenever" - `[^a-z]any(-| )?time`
 * someplace (American/casual)/some place (formal) - `some( |-)?place`
 * complement/compliment - `compl.ment`
-* whose/who's `(whose|who's)`
 * affect/effect `[^a-z](a|e)ffect[^a-z]`
 * lead/led (led is past tense of lead) `[^a-z]lead[^a-z]`
 * low hit-rate scan for e.g. "X and X has", which should be "have" (e.g., "Manga and anime has") - `[\w ]+ and [\w ]+ has[^a-z]`
-* low hit-rate scan for "X, X, and X has", which should be "have" - `[\w ]+, [\w +], and [\w +] has[^a-z]`
+* low hit-rate scan for "X, X, and X has", which should be "have" - `[\w ]+, [\w ]+, and [\w ]+ has[^a-z]`
 * which in middle of sentence without a comma
-  * is using "which" as an unimportant aside, it should have a comma before it
+  * if using "which" as an unimportant aside, it should have a comma before it
   * If the information is important, "which" should be changed to "that" with no comma
   * `[^,] which`
 * Familial titles should be capitalized if used in place of a name (turn on case sensitivity) - `((?<!my|My|your|Your|'s|’s| a| an|his|His|her|Her|their|Their|our|Our|own|Own|to|To|older|Older|good|Good|mom and) |[^ a-z])(mom|dad|uncle|aunt|pop|papa|mommy|daddy|father|mother|grandpa|grandma|grandfather|grandmother|brother|sister|daughter|son)[^a-z]`
