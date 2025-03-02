@@ -967,6 +967,7 @@ l "\"How did this happen, why was he... why were you two {i}here{/i}?\""
 m "\"Just 'you two'? Where's Carl?\""
 m "\"He was with me before... well, before that dick with the trucker hat hit me.\""
 show Leo Annoyed with dis
+#! sync from Flynn's route
 "I see Leo's jowls rear back in a silent snarl. He looks down the hallway."
 "He starts to shout at someone named 'Emilia', though I quickly realize he's speaking Spanish."
 "A feminine voice down the hall retorts, also in Spanish."
@@ -1178,6 +1179,7 @@ m "\"The AV Club rents them out to students for school projects.\""
 m "\"Are you... uh... working on a school project?\""
 show Leo DarkNeutral with dis
 "I see Leo's muzzle pull into a tight-lipped hold. He steps forward, taking hold of my shoulders."
+#! is "For love of God" supposed to be a Leo accent thing? It largely just reads like a typo.
 l "\"No. For the love of God, Chase, please don't ask me about it again.\""
 "His demeanor seems more akin to begging than annoyance, flickers of fear in his eyes."
 "I stand in his grasp, slack-jawed."
@@ -1635,6 +1637,7 @@ show Leo Annoyed with dis
 l "\"... Double-jump-that-sucker and whatnot...\""
 "It's so cringey, but I feel like I want to kiss him again."
 "I smile wryly at Leo. He just huffs."
+#! readability improvement?
 l "\"Fair warning though: you're probably still grounded as hell.\""
 "I snerk, my chest feeling tight and my mouth dry."
 m "\"Oh yeah, I know that. I get yelled at if I don't call my parents back within five minutes anyway.\""

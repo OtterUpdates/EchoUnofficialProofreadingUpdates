@@ -294,6 +294,7 @@ show Carl Neutral with dis
 show Carl Depressed with dis
 c "\"Dude...\""
 show Carl Neutral with dis
+#! sync from TJ's route
 "He looks back at me, a taut frown upon his muzzle."
 c "\"I don't know. I guess I'm kinda curious. Worst case: we stop in, smack Leo, and then make like Flynn's fetish and scat.\""
 m "\"Best case: we stop in, smack Leo, and they have food.\""
@@ -349,6 +350,7 @@ c "\"Not Jas, though.\""
 "I nod some to the affirmative, then begin heading offward."
 "I can see Carl looking a bit longingly toward his bedroom window, the aqua glow of his computer monitor visible from within."
 "I have to admit that I'm also kind of longing for some time on my laptop, though as I remember my situation from the morning, my heart sinks."
+#! maybe?
 "My laptop's probably been taken from me, and my parents are probably going through all my files and internet history."
 "My fists clench in inward cringe."
 "I just need to try not to think about it."
@@ -702,6 +704,7 @@ c "\"I can finally talk smack back properly to the 12-year-olds online.\""
 "I snicker a little and a silence falls between us. I'm not sure exactly what to say after all that."
 "Carl seems a little less jokey, too, his horns tilted down, so I know that he's staring at the road as he walks."
 "It's getting noticeably chillier outside."
+#! "already" could go on either side
 "The desert soil already doesn't do a great job of retaining heat, but it's much worse in the late fall and winter months."
 "I cross my arms tight across my chest, envying those with thicker fur... and pants instead of shorts."
 "Peering ahead, I can see that our destination is still like a mile away."
@@ -855,6 +858,7 @@ m "\"Flynn told me that Leo would be here tonight, actually.\""
 t "\"Huh? He didn't mention anything of that nature to me.\""
 t "\"I'm sure he just forgot to, though.\""
 hide Carl with moveoutleft
+#! syncing "road" from TJ's route
 "Carl steps off the road and onto the smooth concrete of the entranceway, trying to get a stealthy look inside from afar."
 c "\"If you say so, man.\""
 t "\"I mean, it's okay to have a plus-one, right? But there are three of us.\""
@@ -1159,6 +1163,7 @@ l "\"How did this happen, why was he... why were you two {i}here{/i}?\""
 m "\"Just 'you two'? Where's Carl?\""
 m "\"He was with me before... well, before that dick with the trucker hat hit me.\""
 show Leo Annoyed with dis
+#! sync from Flynn's route
 "I see Leo's jowls rear back in a silent snarl. He looks down the hallway."
 "He starts to shout at someone named 'Emilia', though I quickly realize he's speaking Spanish."
 "A feminine voice down the hall retorts, also in Spanish."
@@ -1271,6 +1276,7 @@ if partner_choice == "Leo":
 elif partner_choice == "Other":
     "I shift some upon the concrete floor."
 m "\"I... uh...\""
+#! sync from Flynn/TJ's routes
 "I try waiting for the girls nearby to be completely out of earshot, but they stop in the hall and start showing each other something on their phones."
 "Leo follows my gaze, letting out a quiet huff."
 l "\"Come with me.\""
@@ -1357,6 +1363,7 @@ m "\"The AV Club rents them out to students for school projects.\""
 m "\"Are you... uh... working on a school project?\""
 show Leo DarkNeutral with dis
 "I see Leo's muzzle pull into a tight-lipped hold. He steps forward, taking hold of my shoulders."
+#! is "For love of God" supposed to be a Leo accent thing? It largely just reads like a typo.
 l "\"No. For the love of God, Chase, please don't ask me about it again.\""
 "His demeanor seems more akin to begging than annoyance, flickers of fear in his eyes."
 "I stand in his grasp, slack-jawed."
@@ -1517,6 +1524,7 @@ l "\"We placed orange marigolds in front of the abuelos' graves, lit candles, an
 m "\"Carl would like that last part.\""
 l "\"Heh, no shit.\""
 m "\"The prospect of food actually helped him get over his social anxiety to come with me.\""
+#! sync from other routes
 "I see Leo's face shift to a tight frown."
 l "\"Fuck, man, that party probably made his issues so much worse.\""
 l "\"They barely had any fuckin' food, too. Some tool named Robert just brought a bunch of fruit.\""
@@ -1796,6 +1804,7 @@ show Leo Annoyed with dis
 l "\"... Double-jump-that-sucker and whatnot...\""
 "It's so cringey, but I feel like I want to kiss him again."
 "I smile wryly at Leo. He just huffs."
+#! readability improvement?
 l "\"Fair warning though: you're probably still grounded as hell.\""
 "I snerk, my chest feeling tight and my mouth dry."
 m "\"Oh yeah, I know that. I get yelled at if I don't call my parents back within five minutes anyway.\""
