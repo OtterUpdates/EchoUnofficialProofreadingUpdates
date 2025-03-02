@@ -1007,7 +1007,7 @@ scene bg parkinglotnight with slow_dissolve
 "Maybe TJ will be in the bathroom, taking a shower."
 "Maybe he'll already be asleep."
 "Maybe he'll be awake and we can just forget what happened...chat until it's late, order a pizza like we did at Carl's house."
-#!!! repeated ", and"s here are clunky
+#!!! repeated ", and"s here are clunky. Removing the middle segment seems to help a lot, but I'm not sure if the unusual repetition was an intentional choice
 "But as I press the keycard to the lock and open the door, I don't see TJ at all."
 scene bg moteltablen with dissolve
 "It's dark, and empty."

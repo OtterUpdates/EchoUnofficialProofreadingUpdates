@@ -171,6 +171,7 @@ l "\"I—I was supposed to be watching all of you. I was supposed to take care o
 "Leo stops talking and I keep my eyes on the table while he grabs one of the brown napkins and wipes his eyes."
 "When he speaks again his voice is thick and cracks with emotion."
 #!!!! Sydney's dad was dead at this point, right? Maybe change this to just "mom" or something?
+#!!!! The middle "she trusted me with Sydney" could be "they trusted me" still, though we would have to guess who "they" is
 l "\"His mom never said but...she trusted me with Sydney, and I think she blamed me—\""
 m "\"No, Leo.\""
 "He falls silent."

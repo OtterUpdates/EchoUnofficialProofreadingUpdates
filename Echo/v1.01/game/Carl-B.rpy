@@ -526,7 +526,7 @@ m "\"Yeah.\""
 "Is it just going to lead to another terrible place where terrible things happen?"
 "I feel a void similar to the one I'm looking at open up in my chest."
 "The thought of being trapped in a loop, going through door after door that leads to nothing but horror."
-#!! "is" having an effect? or change seems -> seemed
+#!!! "is" having an effect? or change seems -> seemed
 "Already this place was having an effect on Jenna that seemed to be getting worse with each passing hour."
 "How much longer can she keep it together?"
 show Jenna at farleft behind nightoverlay with dissolve
@@ -579,7 +579,7 @@ c "\"Trust me, we're going somewhere.\""
 "The ram leaves it at that and I'm left to wonder if James knows exactly where we're going."
 "If he does, why doesn't Carl tell us now?"
 "How in control is he?"
-"It's something that I would have to bring up later, since I'm not going to be doing that in front of Jenna."
+"It's something that I would have to bring up later since I'm not going to be doing that in front of Jenna."
 j "\"You can stay here if you want, otter.\""
 "It takes me a second to realize she's talking to me."
 "Is she really that far gone?"
@@ -1616,7 +1616,7 @@ c "\"Hm.\""
 m "\"Were you really going to hit her with the rock?\""
 "Carl pauses, glancing at me."
 c "\"...No, I was gonna hit her arms, make it harder for her to go after us again.\""
-"I frown, since I can't really remember if it looked that way."
+"I frown since I can't really remember if it looked that way."
 "He seemed to point it right towards her head."
 "Either way it's fucked, thinking about having to \"incapacitate\" one of my best friends."
 "Carl starts to open the drawers in the dresser before slamming them shut with a loud snap."
@@ -1863,7 +1863,7 @@ stop music fadeout 5.0
 "And then arms close around the fox's throat and the boy opens his mouth to scream."
 
 scene bg carlsparentsroom
-#! Maybe limit usage of "Carl's parents'" - it's pretty unique-looking and sticks out. This is the 3rd occurrence
+#!! Maybe limit usage of "Carl's parents'" - it's pretty unique-looking and sticks out. This is the 3rd occurrence
 "I jolt awake on the bed."
 "I'm back, it's bright again, and I look around to see the hardwood floor, the bunched up pillowcase on the bedside table."
 "But Carl's not there, and there's still screaming."

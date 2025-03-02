@@ -395,7 +395,7 @@ m "\"Damn, Carl. You work out?\""
 "Carl grunts."
 c "\"Little bit.\""
 "I move my head to the side to keep from knocking my nose against his horns."
-"It's a smart move, because just then Carl nods his head in Raven's direction."
+"It's a smart move because just then Carl nods his head in Raven's direction."
 c "\"Hey, I know this is kinda fucked up, but maybe grab a kitchen knife?\""
 show Raven Confused with dis
 "Raven raises an eyebrow at Carl."
@@ -757,7 +757,7 @@ m "\"And he told you that you had to find...something?\""
 "Carl gets down on his hands and knees and looks under the stove."
 c "\"I know it sounds stupid, but that's what happened.\""
 "I frown."
-#!!! the "but" is repeated at the end and beginning of the next two lines. Probably just remove the "but" at the end of the first line?
+#!!! the "but" is repeated at the end and beginning of the next two lines
 m "\"You know, I had a dream about a giant spider crawling through the ceiling but...\""
 m "\"...that doesn't mean that I'm going to be searching around for a spider in the ceiling.\""
 c "\"No, this was different. I've never had a dream like that before.\""

@@ -251,8 +251,8 @@ show Jenna at right behind nightoverlay with dissolve
 j "\"So...a log cabin.\""
 c "\"Does everyone remember where we were before?\""
 m "\"Yeah, that mansion place...\""
-#!! Not sure what is intended with "dimension, thing", but this seems fine
-ra "\"So we're still stuck in this...dimension-thing.\""
+#!!! Not sure what is intended with "dimension, thing", but this seems fine
+ra "\"So we're still stuck in this...dimension thing.\""
 "I sigh, rubbing my face with one hand while I lean against Carl with the other."
 play music "nativedrum.ogg" fadein 15.0
 "I'd long ago given up on trying to figure out exactly what the hell is going on."
@@ -427,7 +427,7 @@ m "\"I—I, it was a face...out the window.\""
 c "\"What did it say!?\""
 ra "\"Carl...what are you doing?\""
 "Raven reproaches the ram gently, his ears falling."
-#!!! comma forest; it's fine but it could also be reworked
+#!!! comma forest; it's fine, but this sentence should probably be reworked
 "Carl glances at the husky, then at Jenna, who's been silent so far, then back at me, before slowly letting go."
 show Carlalt Neutral with dis
 c "\"S—sorry, I was just worried about you. What did you see? Did it say anything?\""
@@ -648,6 +648,7 @@ hide Carlalt with vpunch
 play sound "thud.ogg"
 "The ram lets out a choking sound as he's dragged back and thrown to the floor."
 "Jenna jumps off the bed after him."
+#!! This should probably be singular "sound" as it's a single impact. The sounds of continued struggle would merit "sounds", but those are described discretely in the next lines
 "From the sound of it she lands on him."
 "What follows is a series of thuds and smacks."
 "Weakly, I pull myself to the foot of the bed, still completely disoriented."
@@ -790,7 +791,8 @@ menu:
         "I just had to make sure that he and Jenna were carefully kept separate."
         m "\"Either way, we ARE in this together. I'll make sure things don't get out of hand between you and...it.\""
         "We sit there for a while, Carl absorbing what I'd just said."
-        "It's clear that whatever is influencing Carl and probably Jenna is powerful and we had to be careful."
+        #!! em dashes or parentheses around "and probably Jenna"?
+        "It's clear that whatever is influencing Carl — and probably Jenna — is powerful, and we had to be careful."
         "Whatever he decides, I just pray it's the right decision."
         scene bg black
         with slow_dissolve

@@ -2619,6 +2619,7 @@ m "\"I dunno, I thought it was...drugs, or something.\""
 show Kudzu Confused with dis
 ku "\"They all just took the same drug?\""
 m "\"I...don't know. Or maybe they're all crazy because of drugs and something set it off?\""
+#! flipped Leo sprite scares me
 show Leo Neutral F at farleft with dissolve
 l "\"Well, TJ IS religious.\""
 m "\"So?\""

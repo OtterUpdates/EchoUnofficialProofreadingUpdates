@@ -536,7 +536,7 @@ m "\"Uh...\""
 stop background fadeout 5.0
 play music "quiet.ogg"
 #!! This description goes on a little too long. Removing 'just' trims it back a bit, but technically it's fine I think
-"I'm distracted again, because that's when I see the handle of a pistol poking out from the front of the waistband of Clint's jeans."
+"I'm distracted again because that's when I see the handle of a pistol poking out from the front of the waistband of Clint's jeans."
 "Clint glares."
 cl "\"Fuckin' Leo...why do you hang out with that creep?\""
 m "\"I, uh...\""

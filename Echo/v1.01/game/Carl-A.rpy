@@ -496,6 +496,7 @@ c "\"Would have gotten here earlier if I hadn't tripped down the stairs like, tw
 show Carlalt2 Rejected behind nightoverlay with dis
 "He stares at the stove."
 c "\"What the hell was that?\""
+#!! better than the original? Possibly just redo the sentence if this isn't good enough
 "I look into the yawning black hole, too, and shiver."
 m "\"I dunno, it was all black and smoky, like what we saw before.\""
 c "\"Think it'll come out of there?\""
@@ -674,7 +675,7 @@ m "\"Yeah.\""
 "Is it just going to lead to another terrible place where terrible things happen?"
 "I feel a void similar to the one I'm looking at open up in my chest."
 "The thought of being trapped in a loop, going through door after door that leads to nothing but horror."
-#!! "is" having an effect? or change seems -> seemed
+#!!! "is" having an effect? or change seems -> seemed
 "Already this place was having an effect on Jenna that seemed to be getting worse with each passing hour."
 "How much longer can she keep it together?"
 show Jenna at farleft behind nightoverlay with dissolve

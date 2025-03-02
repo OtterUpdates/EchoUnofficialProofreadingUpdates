@@ -1139,7 +1139,7 @@ m "\"It's fine, I saw a lot of things as a kid.\""
 "But really, that's not what's bothering me right now."
 "I look down at my hands as I try to work out a timeline in my head."
 "When was it that that incident happened in the forest?"
-"I thought I'd been ten at the time, since that was when I'd started going to a psychiatrist."
+"I thought I'd been ten at the time since that was when I'd started going to a psychiatrist."
 "And I'd started going because of that."
 "But that would be impossible, because..."
 show Janice Happy at farright
