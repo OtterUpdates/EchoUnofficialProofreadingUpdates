@@ -138,7 +138,7 @@
   * pick one (enable case-sensitivity) - `[^a-z](A|P)\.?M\.?[^a-z]`
 * yote/'yote
   * apostrophe before or not, pick one `[^a-z]yote`
-* rez/Rez and reservation/Reservation (short for reservation)
+* rez/Rez and reservation/Reservation
   * pick a capitalization style `([^a-z]rez[^a-z]|[^a-z]reservation[^a-z])`
   * a source on what to use: https://nativegov.org/resources/terminology-style-guide/
 * native/Native
@@ -160,7 +160,7 @@
   * etc
 * Periods after menu choices
   * It seems most common to end the menu choices with periods, so probably make that a universal rule
-* '90s/90s formatting
+* '90s/90s/90's formatting
   * generally should be written as '90s - `[^0-9][0-9]0'?s`
 * fancy `‘`and`’` apostrophe codes are nonstandard, they show up in a few sections
 * fancy `“`and`”` quote codes are nonstandard (some in Arches)
@@ -231,7 +231,7 @@ Preference, but should be consistent. I prefer s's over s', with the rationale "
 * Find the ending `"` of a line (end of RenPy programmatic string) - `"[^"]*$`
 * Don't match string before target fragment - `(?<!your|strings|here)`
   * e.g. to match instances of "silly" that are not preceded by "very" `(?<!very) silly`
-* Don't match string after target fragment - `(!your|strings|here)`
+* Don't match string after target fragment - `(?!your|strings|here)`
   * e.g. to match instances of "very" that are not followed by "silly" - `very (?!silly)`
 
 ## Formatting regex
@@ -273,7 +273,7 @@ Preference, but should be consistent. I prefer s's over s', with the rationale "
   * if you use "anytime", it should be able to be swapped with "whenever" - `[^a-z]any(-| )?time`
 * someplace (American/casual)/some place (formal) - `some( |-)?place`
 * complement/compliment - `compl.ment`
-* affect/effect `[^a-z](a|e)ffect[^a-z]`
+* affect/effect `[^a-z](a|e)ffects?[^a-z]`
 * lead/led (led is past tense of lead) `[^a-z]lead[^a-z]`
 * low hit-rate scan for e.g. "X and X has", which should be "have" (e.g., "Manga and anime has") - `[\w ]+ and [\w ]+ has[^a-z]`
 * low hit-rate scan for "X, X, and X has", which should be "have" - `[\w ]+, [\w ]+, and [\w ]+ has[^a-z]`
@@ -300,7 +300,7 @@ Preference, but should be consistent. I prefer s's over s', with the rationale "
   * standardization of e.g. half-expect, half-buried etc etc
   * half-hour/half hour etc
   * and a half/and-a-half
-  * laying/lying - these are largely used incorrectly in Echo and Arches, but I think modern readers generally prefer the incorrect versions so eh? - `[^a-z](lay|* laying|lie|lying)[^a-z]`
+  * laying/lying - these are largely used incorrectly in Echo and Arches, but I think modern readers generally prefer the incorrect versions so eh? - `[^a-z](lay|laying|lie|lying)[^a-z]`
   * in/into, on/onto - `[^a-z](on to|onto|into|in to)[^a-z]`
   * further/farther - farther is for physical distance, further is for figurative distance. not a huge deal, but easy enough to fix if desired - `[^a-z]f[au]rther[^a-z]`
   * who/whom - generally not worth the squeeze, and usually no one notices unless you misuse "whom" - `[^a-z]whom?[^a-z]`
