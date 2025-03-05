@@ -11,7 +11,8 @@ window show
 unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}Hey.{/i}\""
 "He clutches a cell phone - the screen shattered and the metallic innards exposed."
 play sound "badradio3.ogg"
-unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}No texting, let's talk.{/i}\""
+#! Leave these special apostrophes:  ’  alone so that they get proper font styling when used with COLONNA.ttf
+unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}No texting, let’s talk.{/i}\""
 "But I can't."
 play sound "badradio1.ogg"
 unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}Have you decided on what you’re gonna do after school?{/i}\""
@@ -378,7 +379,7 @@ elif Jenna_Route == "Bi":
     "At first I think she's just trying to get my attention - which she certainly now has - but her touch is more reassuring than firm."
     "I watch Leo gesticulate wildly with his back turned in front of me, and I can feel my heart thud in my chest."
     "I expect Jenna to say something, but she's completely silent."
-    #!! is "I'm the one supposed to be" correct? reads odd to me. could be "I'm supposed to be" or "I'm the one that's supposed to be"? IDK
+    #!! probably?
     "God, I'm the guy here. I'm the one that's supposed to be taking charge with..this sort of thing, right?"
     "But here I am, pink-eared like a blushing bride having my wrist held by a girl."
     "My nostrils flare some and I pull away - Jenna giving me an indiscernible look."
@@ -438,7 +439,7 @@ l "\"Hey, look.\""
 "I pull my paws away from my face to see Leo point to something in the machine."
 "I squint, and in the midst of puzzle-cubes and spinner-toys, a boxed Lucha Wolf figure rests."
 "Leo shifts his gaze toward me and grins."
-#!! The "lowering button" is written as "lowering button", "lower-button" and "'lower' button" in this section. maybe pick a variant?
+#!!! The "lowering button" is written as "lowering button", "lower-button" and "'lower' button" in this section. maybe pick a variant?
 "I see him navigate the crane perpendicular with the box's point of rest. He hits the lowering button."
 "The metal claw descends into the pit of cheap toys, clenching down upon the cardboard edge of the box."
 "It tugs at it slightly, but it loses grasp and returns to its point of rest."
@@ -643,7 +644,7 @@ with dissolve
 "There, in the middle of the dusty parking lot that belonged to the Corner Market, is a tiny stand."
 "That used to be where I'd get ice cream after begging for a dollar from my parents."
 "It's crumbled and boarded up now, the paint peeling off in tiny chips."
-#!! a -> the? Not sure if this is an improvement
+#!! probably? since it's a specific rock
 "And there, in front of Duke's house, is the big flat rock that Jenna was standing on when she told me she was going to run away from home."
 "I can still remember almost exactly how she was silhouetted against the red sunset behind her."
 "And the old train yard where I kissed Leo for the first time after staying up all night at our first real party."
@@ -699,7 +700,8 @@ l "\"Janice, do you need some help?\""
 "His tone is one you might use on a toddler...or a crazy person."
 "I don't hear her say anything, except maybe a grunt. Leo bravely keeps trying, though."
 l "\"We can give you a ri—\""
-"Leo stops talking in time for me to hear a pattering sound, a sound I recognized well from being a kid pissing on the dirt roads of Echo."
+#!! recognize? recognized? the copy-pastes use different versions
+"Leo stops talking in time for me to hear a pattering sound, a sound I recognize well from being a kid pissing on the dirt roads of Echo."
 "The van lurches forward, then resumes a smoother acceleration back onto the empty road."
 j "\"What in God's name?\""
 l "\"I don't..I don't know.\""
@@ -808,7 +810,7 @@ m "\"Pfft!\""
 j "\"Sorry!\""
 
 "Like we're some kind of cheerleading duo, I shove Jenna as high as I can with both paws."
-#!!! "weight burden" feels a little awkward?
+#!!! "weight burden" feels a little awkward? "her weight lift" would be better, but I don't like that "her weight lift" can then be misread as an action (i.e. weightlifting)
 "She grabs the ledge, and I feel the weight lift as she dangles against the side of the house."
 t "\"Careful! Don't fall!\""
 "Her bush tail is the last thing we see...until she pokes her head back through."
@@ -1810,13 +1812,13 @@ unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}This was your idea?{/i}\""
 "The phone clutched in the hand disappears."
 scene bg shadchase6
 play sound "badradio1.ogg"
-unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}It's a prank.{/i}\""
+unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}It’s a prank.{/i}\""
 scene bg shadchase5
 play sound "badradio2.ogg"
 unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}Making me think I just lost my otter is a prank? If this is a fucking joke then you need to learn how to make one first.{/i}\""
 scene bg shadchase6
 play sound "badradio3.ogg"
-unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}Why don't you learn how to take one?{/i}\""
+unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}Why don’t you learn how to take one?{/i}\""
 scene bg shadchase5
 play sound "badradio1.ogg"
 unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}How was I supposed to take that? Just laugh and shrug and say ‘well fuck, so much for that!’ Is that what you expected?{/i}\""
@@ -1845,7 +1847,7 @@ unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}So you’re staying at home for the summe
 scene bg shadchase6
 play sound "badradio1.ogg"
 #! To match Phone sidestory punctuation
-unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}Of course not. I'm staying with Emily.{/i}\""
+unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}Of course not. I’m staying with Emily.{/i}\""
 play sound "badradio2.ogg"
 #!! Is referring to Leo by name intentional? All other names are stripped out, and Chase's name is still stripped out of the next line
 unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}You need to calm down, Leo. How can we ever have fun if you’re exploding all the time?{/i}\""
@@ -1862,7 +1864,7 @@ $ renpy.pause(3.0, hard=False)
 scene bg glasschase8 with slow_dissolve
 $ renpy.pause(0.1, hard=False)
 play sound "badradio1.ogg"
-unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}I'm going to Pueblo, Leo.{/i}\""
+unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}I’m going to Pueblo, Leo.{/i}\""
 stop background
 play sound "FXClick.mp3"
 scene bg black
@@ -2118,8 +2120,8 @@ t "\"I mean, not that I'm trying to dissuade you all! Just.. seems kind of harde
 l "\"It's that whole 48 hours thing. The harder we look now, the better.\""
 l "\"Sitting back and praying everything will work out won't do any good.\""
 "TJ's eyes widen some, looking a bit taken aback."
-#!!! "some" is repeated in both these lines, and it's a little awkward
-"His jowls twitch some, the feline looking down at the sheets between his legs."
+#!!! "some" is repeated in both these lines ("TJ's eyes widen some", "His jowls twitch some"), and it's a little awkward
+"His jowls twitch, the feline looking down at the sheets between his legs."
 play sound "doorknock.mp3"
 t "\"I-\""
 show moteldoor with dissolve
@@ -2373,7 +2375,7 @@ show Jenna Smilinghips with dis
 j "\"You and I walking around, talking about stupid things Leo is doing? Yeah, that's not too out of the ordinary.\""
 "She smiles some, and I can't help but smile back."
 m "\"Yeah, that and.. God, do you remember showing me those yaoi comics you got from the mall?\""
-#! maybe italicize "Kōkō Tanuki Ai"? IDK
+#!! maybe italicize "Kōkō Tanuki Ai"? IDK
 j "\"Oh, yes! I hid them under a rock like a half mile from my house. I had to fight a scorpion to get you your Kōkō Tanuki Ai issues.\""
 "Jenna lets out an amused noise, shaking her head."
 "While my relationships with the rest of the group (besides Leo) had mainly stayed the same after they found out I liked guys, Jenna and I -"
@@ -3141,6 +3143,7 @@ elif Jenna_Route == "Gay":
             m "\"That is absolutely not true.\""
             "I mean, if anything, I'd go for the horns right?"
             "Hell, Carl's were so naturally big, he had to have surgery for them."
+            #! "kind" -> "sort" to reduce repetition of "kind of"
             "There's a big taboo about touching a ram's horns, so it always made them kind of forbidden in a sort of.. salacious way."
             j "\"Whatever you say, Chase.\""
             "I make a show of disgruntled grumbling, loud enough that she can hear me from across the room."
@@ -3427,6 +3430,7 @@ m "\"You catch that yourself?\""
 f "\"Yeah?\""
 "He perks a brow ridge."
 m "\"And you cooked it.. just for us?\""
+#! questions -> questioning?
 "The line of questions seems to give the gila pause, as if he needs to make sure he phrases his next words carefully."
 "Jenna smirks in my direction before blowing her nose into a tissue."
 f "\"Usually I'd drop some off for Carl.\""
@@ -5486,7 +5490,7 @@ scene bg vaninside
 "Him."
 "..."
 "What does he want?"
-#!!!! "springs about up with"? Not sure what this line is supposed to mean
+#!!!! "springs about up with"? Not sure what this line is supposed to mean. I'm assuming this is meant to convey twitching/shuddering as he changes
 "Another shift, and he springs about with distorted, jolty movements."
 "The transition is nowhere near as smooth as the first."
 "An otter in his hunting cap, far too tight for his head, those same blue eyes piercing right through me."
@@ -5580,7 +5584,7 @@ ja "\"What is taking you so long!? Get him out of there, Bronson!\""
 mrb "\"Help me lift.\""
 ja "\"What!?\""
 mrb "\"I said, HELP ME LIFT!\""
-#!!! Possibly intentional, but "Are you" is much more natural, so if it's supposed to be "You are" then switch it back
+#!!! Possibly intentional, but "Are you" is much more natural. If it's supposed to be "You are" then switch it back
 ja "\"Are you kiddin' me!?\""
 ja "\"You don't have a jack!\""
 mrb "\"Shut up and help!\""
@@ -6318,7 +6322,7 @@ m "\"Jesus, Leo...\""
 l "\"I said GO!!\""
 "Brian jerks forward, sinking his yellowed teeth into Leo's shoulder."
 #!!! a little awkward in wording
-"The wolf's eyes go wide from the shock of pain, stunning him as he's held within the bear's jaws."
+"The wolf's eyes go wide from the shock of pain, it stunning him as he's held within the bear's jaws."
 "He tries grabbing at his gnarly muzzle, but the bear only clamps down harder."
 "I can see his nostrils dilating as his acrid breath puffs out in quick, enraged bursts."
 m "\"No!\""
@@ -6817,7 +6821,7 @@ menu:
         "Leo lays there, conked out and helpless."
         "It's such a contrast from the fuming predator striking at Brian I saw just thirty minutes ago."
         play sound "badradio1.ogg"
-        unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}You've {b}HURT{/b} him plen-ty.{/i}\""
+        unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}You’ve {b}HURT{/b} him plen-ty.{/i}\""
         m "\"No.\""
         "I try to swallow, finding my throat dry."
         "Leo's lips move again, and this time, I can hear him clearly."
@@ -6943,7 +6947,7 @@ scene bg motelfull
 show Jenna Surprised at farright
 with hpunch
 play music "terrorbelowthesurface.ogg" fadein 6.0
-#!!! "is snout squarely against the window" what is this supposed to be? probably missing a word or something somewhere.
+#!!! "is snout squarely against the window" what is this supposed to be? probably missing a word or something somewhere. Given that the gang didn't notice any blood before this line and that the blood is present-tense "squirting", I'm assuming Brian hits Micha's snout into the window here
 "The bat's snout is thrust squarely against the window - blood squirting from his nose and coating both the pane and his face."
 m "\"Fuck!\""
 j "\"Oh God.. Leo, get back!\""
@@ -7088,7 +7092,7 @@ unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}...-dude?{/i}\""
 unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}Just go.{/i}\""
 unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}Leo...{/i}\""
 unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}I-...-go! Before he wakes up.{/i}\""
-unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}I'll see you-...-party?{/i}\""
+unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}I’ll see you-...-party?{/i}\""
 stop music fadeout 0.3
 "It goes quiet."
 "Then, after a few more seconds.."
@@ -7405,7 +7409,8 @@ du "\"—because we're already fucked here. You think we can just let them go an
 du "\"It's worth it though, if we can figure out what the fuck is going on.\""
 "It sounds like they're right up against the trailer, now."
 "I can hear them walking around it, towards the small door on the right side of the kitchen."
-#!!!!! inconsistent copy-paste. Leo has been unconscious the entire time since the motel, and Duke has probably not even interacted with him yet
+#!!!!! inconsistent copy-paste. Leo has been unconscious the entire time since the motel, and Duke has probably not even interacted with him yet.
+#!!!!! If this is meant to represent Duke questioning Leo throughout the week, it needs to be changed to different wording. Using the exact same sentence as in Leo's route makes it read like a copy-paste error
 # du "\"Leo ain't sayin' shit yet, but I think it might be the otter. He's the one I seen last week.\""
 du "\"I think it might be the otter. He's the one I seen last week.\""
 "The footsteps stop in front of the door and I listen hard, my heart pounding in my chest."
@@ -7992,7 +7997,7 @@ mi "\"God, just- fuckin' give it to me!\""
 "The bat stops fiddling with lock and extends a hand out to Jenna, the fennec turning to look at him."
 "She doesn't move to give him the knife, but she does loosen her grip."
 "Micha doesn't hesitate and plucks it from her with the deftness of a pickpocket."
-#!!! "and, with the other,"? or maybe remove the comma after "other"
+#!!! "and, with the other,"? or maybe remove the comma after "other"?
 "Gingerly, he places the flat of his free hand against Leo's chest, and with the other, makes a quick slice between our legs in one motion."
 "The pressure keeping us together is suddenly gone, and I feel I can freely pull my leg away from his."
 "The pain is still immense, but nowhere near as bad."
@@ -8163,7 +8168,7 @@ scene bg black with dissolve
 "I'd tell him I had a fucked up dream, and he'd tell me in that too-cool-for-school tone to \"blog about it\"."
 "The rhythmic tapping was at first really annoying, but now it's kinda like a white noise machine."
 "It helps me sleep for some weird reason."
-#!! probably?
+#!! to reduce repetition? either way
 "Maybe because it makes me feel like I'm not so alone."
 j "\"Chase.\""
 "I inhale sharply, nearly tripping over a clump of weeds."
@@ -8348,7 +8353,6 @@ play sound "cardoorhalf.ogg"
 j "\"Keys are in the ignition, and there's this big, red glare on the dash.\""
 j "\"Maybe a.. check engine light?\""
 "She frowns to herself."
-#!! consider changing "turned this on" -> "turned it on"
 j "\"It looks like this thing hasn't been used in a while, sans whoever turned it on, but I'm no mechanic.\""
 l "\"If only there was one among us now...\""
 j "\"Leo?\""
@@ -8563,20 +8567,20 @@ mi "\"Chase is right there, dipshit.\""
 "He gestures to me, still standing gobstopped at the back of the van."
 "Leo slowly looks back at me, squinting at my chin, then my eyes."
 play sound "badradio3.ogg"
-unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}It's me.{/i}\""
+unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}It’s me.{/i}\""
 play sound "badradio2.ogg"
-unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}Let's go home.{/i}\""
+unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}Let’s go home.{/i}\""
 "He sees that it isn't my mouth moving, and his eyes widen a little more."
 #!! remove repeated "down", either the first instance or the second
 "A small line of blood runs from a spot just behind his ear down to his jaw."
 play sound "badradio1.ogg"
-unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}I promise I won't bring it up again. Let's go home.{/i}\""
+unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}I promise I won’t bring it up again. Let’s go home.{/i}\""
 play sound "badradio2.ogg"
-unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}Who gives a fuck what the others say? You know I'm right.{/i}\""
+unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}Who gives a fuck what the others say? You know I’m right.{/i}\""
 "I remember saying those exact words, after Flynn blasted us for skipping Jenna's birthday party in 10th grade."
 "I had convinced Leo to hang out with me instead. I was.. addicted to private time with him."
 play sound "badradio1.ogg"
-unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}I promise I won't bring it up again.{/i}\""
+unk "\"{cps=22}{font=ui/COLONNA.ttf}{i}I promise I won’t bring it up again.{/i}\""
 "We're all silent, staring at the dark cab where the noise is coming from."
 #!! this should probably be an emdash, or change "he's" -> "who's"?
 "Except for Leo, who's looking directly at me."
@@ -8820,7 +8824,7 @@ menu:
 "Even before I get all the dirt off, I have a hunch of what it is."
 "Two empty sockets stare up at me, and I stare back."
 "{cps=22}{font=ui/belligerent.ttf}Hello."
-#!! is profound the most natural word to use here? It's technically correct, but could be a better word instead
+#!! is profound the most natural word to use here? It's technically correct, but could be a more obvious word instead
 "A voice plays in my head, much more profound than I've ever heard it before."
 m "\"Uh...\""
 play music "drag.ogg" fadein 10.0
@@ -9357,7 +9361,7 @@ hide Jenna with dissolve
 "She's in a stereotypical pink princess gown, with a little tiara on her head."
 "The two are holding hands."
 #!!! the "enough as this" part feels a bit odd. could be switched with "this much". This sentence could also use a stronger pause after "picture"
-"It's such a sentimental picture, it actually seems pretty sweet that even Heather has someone who cares about her this much."
+"It's such a sentimental picture. It actually seems pretty sweet that even Heather has someone who cares about her this much."
 "However, Jenna's dour expression does not relent."
 "She quickly turns, heading down the hall with the rest of the gang."
 #
@@ -10049,7 +10053,7 @@ f "\"Hm?\""
 "I glance over, and Flynn's gone back to focusing on driving, with Jenna still looking at the road blankly."
 "No one's reacting to this thing going off."
 "{cps=22}{font=ui/FrederickatheGreat-Regular.ttf}Hello, good sir."
-#!! "Is there a voice really" -> "Is there really a voice"? I can't decide which sounds better
+#!! "Is there a voice really" -> "Is there really a voice"?
 "Is there really a voice coming from this old toy?"
 "I stare at the flashing green light and am reminded of the van from earlier."
 "That voice felt much more.. vivid - alive."

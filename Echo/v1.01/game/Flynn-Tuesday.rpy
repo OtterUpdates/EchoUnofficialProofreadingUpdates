@@ -215,7 +215,7 @@ f "\"He pissed in the water while you were under.\""
 m "\"Great.\""
 "Honestly, I don't really care right now."
 f "\"I wouldn't worry about it, you didn't come up near it...and there's probably worse in there anyway.\""
-#!!! is the shortened don' intentional? it reads more like a typo than slang
+#!!! is the shortened don' intentional? it reads more like a typo than slang, and Flynn never says it anywhere else
 f "\"Speakin' of which, why don't you go further up the stream and wash up? I don't want you bringin' pond shit into my truck.\""
 m "\"Okay.\""
 "I sigh and pick up my clothes, just glad that they seemingly haven't noticed anything's off."

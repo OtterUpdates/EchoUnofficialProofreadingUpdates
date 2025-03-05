@@ -42,7 +42,7 @@
 * When using fonts, the line will often have mismatched quotation mark stylings since the font starts after the first quotation mark and is often not terminated before the closing quotation mark
   * e.g. "{font}An example sentence"
   * In this case, the first quotation mark would appear in standard font style and the second would appear in custom font style
-  * search for these: `\\".*\{font`
+  * search for fonts used after opening quote: `\\".*\{font`
 
 # CONSISTENCY
 
@@ -147,6 +147,10 @@
   * source: https://nativegov.org/resources/terminology-style-guide/
 * county/County
   * Should county be capitalized? It's like 50/50 currently. `county`
+* Capitalizations after colons
+  * Overwhelmingly, capitalizations after colons aren't used correctly in R65/Echo/Arches, and I decapped them all for consistency
+  * You can capitalize in very specific circumstances, but it really depends on what style guide and locale you follow, and it's usually still optional
+  * If you truly want some of these colon capitalizations to be reverted then feel free, but put some thought into it, and consider the inconsistency for an average reader seeing only a couple of these remaining intact while the rest are lowercase
 * What is the name of the fucking river?
   * They call it Seesaw, Yeeyaw, Yeeyah, and Yee-Yaw
   * They say that Seesaw and Yeeyaw are mispronunciations, but during Route 65 Chase again calls it Yee-Yaw:
@@ -163,10 +167,10 @@
 * '90s/90s/90's formatting
   * generally should be written as '90s - `[^0-9][0-9]0'?s`
 * fancy `‘`and`’` apostrophe codes are nonstandard, they show up in a few sections
+  * Most importantly, they're always mixed with other standard apostrophes, so they should all be changed to be uniform
+  * Note that the COLONNA.ttf font needs the special apostrophe codes in order to display in the right font
+  * Other fonts don't have this issue, aside from forbid.ttf (which doesn't display apostrophes ever)
 * fancy `“`and`”` quote codes are nonstandard (some in Arches)
-* The music artist behind "blurry" is credited as "Bugboy", but it seems they've since transitioned M-to-F and now go by "lillybug".
-  * Might as well update it in the credits
-  * https://www.silkenwood.us/artists/lillybug
 
 ## Compound words:
 

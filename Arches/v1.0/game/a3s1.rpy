@@ -337,7 +337,7 @@ with dis
 c "\"Who?\""
 "The coyote winces as Brian continues to hold him by his ear."
 "Cameron hopes that he's talking about Devon, even though he can sense the presence of the younger bear just ahead of them."
-#!! "means/gets" -> "meant/got"?
+#!! "means/gets" -> "meant/got"? Devon would have "gotten away" in the past?
 "The coyote would be glad to be proven wrong about his abilities, especially if it meant Devon got away."
 "But Cameron knows."
 show bri evilgrin3 red3
@@ -461,7 +461,7 @@ Weasel "\"Bear? Brian?\""
 #show duk neutral dark with dis
 Weasel "\"Damn, you're real fucked up aren't ya?\""
 #! "decide something" -> "decide on something"? either way
-"Arturo stares back at the weasel and notices his expression, like he's trying to decide on something."
+"Arturo stares back at the weasel and notices his expression, like he's trying to decide something."
 "It's not the right reaction to the situation, and Artie suddenly feels like he might be in danger, but he has no idea why."
 "All he remembers is that this old man had floored Devon with two swings, so combined with his current state, he can't do a thing."
 "Then, the weasel seems to come out of whatever it is he was thinking about."
@@ -578,7 +578,7 @@ d "\"Cam?{w=0.3} CAM!\""
 "Panic is making him breathe fast, though he tries to keep his chest from heaving to avoid bouncing Cameron's head."
 "Brian had hit him so hard that it definitely could have killed him."
 "What makes it all the more terrifying is the way Cameron's body went limp."
-#!!! the repetition of "sudden" is clunky. probably reword the last segment a bit
+#!!! the repetition of "sudden" is clunky. probably reword the last segment a bit. Maybe "abruptly"?
 "It had been so reminiscent of Artie's sudden collapse when he had suddenly lost his life."
 "But Cameron is breathing, though it's in a terrible, snorting way."
 d "\"Cammy, baby, can you hear me?\""
@@ -943,8 +943,8 @@ with dissolve
 "Brian still says nothing, and Cameron realizes he's listening intently."
 "While this makes the coyote nervous, he knows it's better than the bear being angry, and mainly, he just needs to keep singing."
 "Devon is in the mines with them, and he needs directions."
-#!!! my gut doesn't like the present tense here, i.e. "doesn't" instead of "didn't". IDK
-"Cameron just wishes it didn't feel like he's leading Devon to his own demise."
+#!!! "wishes it doesn't" isn't usable. "wishes it didn't" is better, but this may need more work; I'm not 100% certain if this is all that's needed
+"Cameron just wishes it didn't feel like he was leading Devon to his own demise."
 stop ambient fadeout 6.0
 stop background fadeout 6.0
 window hide

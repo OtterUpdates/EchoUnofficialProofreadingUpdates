@@ -540,7 +540,7 @@ c "\"Oh shit...\""
 show bri smirk2 trailsun with dis
 b "\"Heeey, you're alright, kid. Here, uh...\""
 hide bri with dissolve
-#!!! consider restructuring this a bit so it doesn't need so many commas
+#!!! consider restructuring this a bit so it doesn't need so many commas (especially the "ice clinking loudly" section's comma)
 "Brian ambles over to his fridge, opens the freezer, pulls out the ice tray, and drops a few cubes into the mug, the ice clinking loudly."
 "He stirs it for a few moments, then turns back to the trembling coyote."
 show bri smirk2 trailsun at left with dissolve

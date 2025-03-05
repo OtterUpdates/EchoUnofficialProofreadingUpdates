@@ -30,7 +30,7 @@ show bg theaterext with dis
 play background2 "reststop.ogg" fadein 5
 stop background fadeout 7
 "Finally, we park and I hop out and hold the door open for Heather."
-"I notice that she’s taking her time getting out, so I wait for her as Mom goes in to get the tickets."
+"I notice that she's taking her time getting out, so I wait for her as Mom goes in to get the tickets."
 show Heather at center with dis
 h "\"Why's your mom coming?\""
 "Her voice is a whisper."
@@ -41,9 +41,9 @@ h "\"Never mind.\""
 hide Heather with dis
 "Heather stalks ahead of me and I feel that sinking feeling again."
 stop background2 fadeout 10
-"It’s only now hitting me that bringing Mom was a bad idea. Not that I told her to come; Mom sort of just invited herself."
+"It's only now hitting me that bringing Mom was a bad idea. Not that I told her to come; Mom sort of just invited herself."
 "Chase gave me a bunch of tips on how to make the date go well, but he never said anything about parents."
-"Maybe it was so obvious that he didn’t think he had to tell me. That thought just makes me shrink into myself even more, and I can feel my face get hot."
+"Maybe it was so obvious that he didn't think he had to tell me. That thought just makes me shrink into myself even more, and I can feel my face get hot."
 play background2 "roomtone.ogg" fadein 10
 "I push my paws into my pockets and follow after her, trying to keep my ears upright."
 
@@ -59,7 +59,7 @@ play background "adastrasfx.ogg" fadein 10
 "Mom's really nice and sits about five rows behind us, but Heather still seems pretty angry about it."
 #!! maybe a comma after "arms"? Not sure if this is a "list" of things she's doing
 "She keeps moving her sitting position, folding her arms and making pouting faces."
-"Each time she sighs I feel myself cringe just a little more inside, and now I can’t even focus on the movie."
+"Each time she sighs I feel myself cringe just a little more inside, and now I can't even focus on the movie."
 "After about thirty minutes, she adjusts her sitting position again and knocks some popcorn into my lap. I lean over to her, whispering:"
 t "\"What's wrong?\""
 "She shrugs, keeping her eyes on the movie."
@@ -76,7 +76,7 @@ play background "highway.ogg"
 mom "\"Alright, Heather, would you like me to drop you off at your house?\""
 h "\"Actually, me and TJ wanted to talk about a few things. Would it be alright if I stayed over for a little while longer?\""
 mom "\"Sure thing!\""
-"I look over at Heather, but she doesn’t look back at me."
+"I look over at Heather, but she doesn't look back at me."
 "I have no idea what she's talking about, and I think I'd rather not find out."
 "There's nothing I can do, though, so when we pull over in the driveway, I quietly get out and follow Heather into the house."
 
@@ -97,7 +97,7 @@ show bg tjbedroom with dis
 show Heather at left with dis
 "Heather's already sitting on my bed when I walk through the doorway."
 "She's got her legs crossed, paws resting back behind her on the bed."
-"I stand there awkwardly, trying to figure out what to do as she just sits there and doesn’t say anything."
+"I stand there awkwardly, trying to figure out what to do as she just sits there and doesn't say anything."
 t "\"Uh, do you want to listen to some music?\""
 "I turn to my dresser, grabbing my small stack of CDs and shuffling through them."
 "I skip over the Christian rock albums, feeling my ears burn a little at the thought of her seeing those."
@@ -127,7 +127,7 @@ t "\"Oh, wow, okay, uh...\""
 "Heather just giggles at me again, pressing her fingers through the fur to my skin, and I can feel her paw pads against me."
 "I look down and see that she has my shirt pushed up above my belly button, and she's starting to rub at the white fur that's been exposed."
 "No one's ever touched me like this before, and I know I'm supposed to like it...but I don't."
-"It’s almost like I’ve jumped into ice-cold water and now I can’t breathe."
+"It's almost like I've jumped into ice-cold water and now I can't breathe."
 "I open my mouth and I think I'm about to ask her to hold on, but that's when she kisses me."
 show Heather Happy:
     ease 0.4 alpha 0.0
@@ -149,7 +149,7 @@ show Heather Sad:
 h "\"You weren't enjoying it.\""
 "I keep pretending to adjust myself, having no clue about what I should say."
 t "\"N-no, it was okay. I just-. I'm just not ready, is all.\""
-"I know that sounds really cliché, but it’s the truth."
+"I know that sounds really cliché, but it's the truth."
 "I finally lose the battle with my ears and they lilt off to the sides of my head as Cherryloom plays softly in the background."
 h "\"Alright, I should probably get going anyway.\""
 "But she doesn't move. She stands there, like she's waiting for something."
@@ -161,7 +161,7 @@ h "\"No, it's alright. It's only a few minutes away. See you on Monday.\""
 hide Heather with dis
 t "\"O-okay.\""
 "I get up awkwardly to walk her to the door, but she's already gone."
-"I sit there on the bed for a while, hearing the rumble of my dad’s voice for a bit before I hear the front door open and close."
+"I sit there on the bed for a while, hearing the rumble of my dad's voice for a bit before I hear the front door open and close."
 "Then I hear some footsteps up the stairs and my mom sticks her head around the door frame."
 mom "\"Everything okay? Why aren't you walking her home?\""
 t "\"I, uhm, she told me she wanted to walk alone.\""
@@ -177,7 +177,7 @@ $ vol("sound", 0.4)
 play sound "switch.ogg" # volume 0.4
 stop music fadeout 0.1
 "I watch the doorway for another minute, then sigh and lay back again."
-"I cover my face with both paws, rubbing my forehead. I’m so bad at this stuff, why did I even try?"
+"I cover my face with both paws, rubbing my forehead. I'm so bad at this stuff, why did I even try?"
 "That's when my phone buzzes, and I take it out to see a text."
 "" "{b}Chase:\n{i}hows the daaattee ;){/i}{/b}"
 "I stare at it for a second, then, on a whim, press the call button with my thumb. He picks up after the second ring."
@@ -195,7 +195,7 @@ t "\"Chase... how did you know you're gay?\""
 "There's some silence on the other end before I hear a burst of laughter."
 "I flatten my ears, feeling my face blush all over again. I don't say anything, though, and just wait for him to get it out of his system."
 l "\"What did he say?\""
-"Leo sounds really close now, like his muzzle is right up against Chase’s. I hear some more adjusting of the phone going on before Chase finally responds."
+"Leo sounds really close now, like his muzzle is right up against Chase's. I hear some more adjusting of the phone going on before Chase finally responds."
 m "\"Sorry, sorry. I just didn't expect that. Are you on your computer?\""
 t "\"Uh, yeah.\""
 "I get off my bed and walk over to my desk, waking my computer up."
@@ -203,10 +203,11 @@ $ vol("sound")
 play sound "click.ogg"
 play background "comphum.ogg" fadein 3
 m "\"Okay, go to the website Thickfur.\""
+#! maybe switch to URL bar? Address bar? etc?
 "I type it into the URL and press enter."
 "Immediately a buff fox with no clothes on pops up."
-"He’s got his paws on his privates and he’s sort of pushing them up."
-"There are a bunch of other pictures, too, but I don’t have time to process them as I jump and close the browser."
+"He's got his paws on his privates and he's sort of pushing them up."
+"There are a bunch of other pictures, too, but I don't have time to process them as I jump and close the browser."
 "I dart my eyes behind me, half expecting to see Mom and Dad staring around the corner, their eyes wide in horror."
 t "\"Chase!\""
 m "\"Hehe, so are you hard?\""
@@ -237,7 +238,7 @@ t "\"See ya.\""
 "I start to wonder what Chase and Leo might have been doing."
 #!! could also be an emdash or something
 "He was probably nibbling Chase's ear. Leo does that a lot. In front of us, too, sometimes."
-"I actually think it’s kind of cute..."
+"I actually think it's kind of cute..."
 "My paw drifts down to my crotch, and for the first time in the past few hours I feel something hard."
 mom "\"TJ?\""
 "I jump as I hear my mom call from downstairs, jerking my paw back."

@@ -508,6 +508,7 @@ menu:
         m "\"Maybe. I think I could be if I listened to it again.\""
         l "\"Hehe, me too.\""
         "As we drive, I mouth the lyrics under my breath."
+        #! to match the semicolon a few lines down where this line is repeated again
         "{i}You haunt everything in my life; I see you in the clouds in the sky so blue—{/i}"
         "{i}I see your outline in my screen door, too.{/i}"
     "It's terrible.":
@@ -575,8 +576,8 @@ l "\"He is, but he's a good guy. Been through a lot.\""
 "Leo sets the bags down on the kitchen table, pulling out the cake and gifts."
 m "\"So why'd he move here?\""
 #!!!! Does Kudzu really work in Payton? I thought he didn't have a car, since Leo drives him to get groceries.
-#!!!! He mentions later that he's a "clerk in the town hall" - presumably Echo town hall? But Flynn says "The only people who work here are reptiles, so we keep the habistat all dry and such."
-#!!!! Later, Kudzu says he works in Payton again, with "Well, a lot of us here have relations outside the town. Family and work in Payton."
+#!!!! He mentions later "I'm a clerk in the town hall. So no, I'm pretty much always here." - presumably Echo town hall? But Flynn says "The only people who work here are reptiles, so we keep the habistat all dry and such."
+#!!!! Later, Kudzu says he works in Payton again, with "Well, a lot of us here have relations outside the town. Family and work in Payton." and the lines following it
 l "\"Said he likes the isolation. He works in Payton. Some things happened in the city and he wanted to get away.\""
 "Leo ruffles through the plastic cups and gifts."
 l "\"I forget what country he's originally from. His full name's Kudzu...How old's TJ again?\""

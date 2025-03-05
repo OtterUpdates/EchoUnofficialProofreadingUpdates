@@ -421,6 +421,7 @@ d "\"Ugh! {w=0.3}I just wanna get the fuck out of here and get you home!\""
 "Cameron's ears twitch as Dev raises his voice, which seems to reverberate in the silence."
 #!! "were" -> "are"?
 "But the coyote just goes on standing there, arms crossed like they almost always were."
+#! readability
 c "\"Yeah, psychic or not, I'm unstable, we both know that already--\""
 show dev embarrassed l dark with dis
 d "\"No.\""
@@ -757,7 +758,7 @@ d "\"Wh-Why? I think it's just like, a drunk hick, or something. I'm almost done
 play sound screendoor
 "Something bangs like a screen door swinging closed, and not very far away."
 #!!! Brian is later shown to have a "10-gauge" shotgun. Does he have two shotguns, or should they be synchronized to the same gauge?
-unk "\"Who's that squealin'!? That you, Duke? Got me a 10-gauge right here that'll make you squeal twice as loud if you're snoopin' 'round my property again!\""
+unk "\"Who's that squealin'!? That you, Duke? Got me a 12-gauge right here that'll make you squeal twice as loud if you're snoopin' 'round my property again!\""
 show cam horrified l dark
 show expression AlphaMask("foliage", At("cam horrified l dark", right)) as mask2
 show dev shocked h dark
@@ -966,8 +967,8 @@ stop music fadeout 1.0
 "Cameron stops playing, having seen brownish fur out of the corner of his eye."
 "He thinks it's Dev and immediately feels his face flush, freezing and just sitting there."
 "This is why he didn't play or sing in a serious way these days; now it just feels like showing off a skill that he was never really skilled at in the first place."
-#!! stronger pause after "anything"
-"But after a while, he doesn't hear anything; no voice, no footsteps, and biting through his embarrassment, Cam looks up the road where he'd been certain that his boyfriend had been watching him."
+#!! this needs some tweaking in general
+"But after a while, he doesn't hear anything — no voice, no footsteps, and biting through his embarrassment, Cam looks up the road where he'd been certain that his boyfriend had been watching him."
 window hide
 scene bg outskirts_day with medium_dissolve
 pause 1.0

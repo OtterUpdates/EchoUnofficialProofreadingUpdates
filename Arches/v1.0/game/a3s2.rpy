@@ -164,7 +164,8 @@ stop sound2 fadeout 2.0
 "Cameron brings a paw up to his right ear, where the voice came from."
 "Is his headset still on, or..."
 play sound2 whispers loop
-#!! "do you think" could also be "did you think"
+#!! "do you think" could also be "did you think". Else needs tense corrections.
+#!! I get the impression this is meant to be past tense, mocking him for ignoring the feeling in his ear for the past few weeks, instead of mocking him for not understanding the current feeling in his ear
 "\"{i}No, and you can feel me in your ear. What the fuck did you think that feeling was? You stupid shit. Absolutely worthless.{/i}\""
 stop sound2 fadeout 2.0
 "After that, Cameron remembers very little except panic, followed by confusion, a ton of confusion."
@@ -861,7 +862,7 @@ hide artiecrib_devlooking
 hide artiecrib_devsmile
 with dis5
 a "\"Great! It was almost like going back home. I'm supposed to have like, two clients but they've got about five on me now, haha!\""
-#!! reduces repetition of "me"
+#!!! reduces repetition of "me". Not a totally clean upgrade as it loses the "about me" detail, but it's not difficult to understand it as an implied detail due to use of "but"
 a "\"They were so happy to see me, but they can tell something's a bit off, though.\""
 show artiecrib_artieexcited
 show artiecrib_artiestare
@@ -1276,6 +1277,8 @@ play music bridgescut fadein 20.0 volume 0.3
 $ renpy.music.set_volume(0.5, delay=6, channel=u'ambient')
 pause 0.5
 window show
+#!!! probably? The gold plates sentence is a little odd in general, but this seems okay.
+#!!! It likely needs more to be fully grammatically correct, e.g. "buried and then recovered", though probably restructure at that point
 c "\"The guy on top of Mormon temples? That's the Angel Moroni, and he's holding a horn. He buried, then helped recover the gold plates.\""
 d "\"How do you know that?\""
 c "\"Some Mormon friends told me.\""

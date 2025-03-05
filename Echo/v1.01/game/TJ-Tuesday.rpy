@@ -178,6 +178,7 @@ t "\"Ahahahahaha! Ch—Chase, calm down it—it's ehehehehe!\""
 m "\"...Fake!?\""
 play music "banter.ogg" fadein 3.0
 "TJ's still laughing, but I'm still hugging myself, shivering and flinching every time I see something spindly."
+#! could use a stronger pause after "shocked" if desired
 "I'm shocked, not because of what just happened, but because TJ did it to me...fucking TJ!"
 "Feeling betrayed, I glare at him as he beckons me with a paw, wiping at his eyes with the other."
 t "\"I'm—hehe, oh my gosh, I'm sorry.\""
@@ -517,7 +518,7 @@ show Jenna with dis
 "I feel Jenna stiffen up next to me, but thank God, she doesn't say anything."
 t "\"Yeaaah, anyway, how have you been, Janice?\""
 "Janice leans her hip against TJ's bench, clasping her paws and leaning an elbow on the back of it."
-ja "\"Oh, can't complain. You haven't missed anything, trust me. Actually I've been meanin' to do a little spring-cleanin'.\""
+ja "\"Oh, can't complain. You haven't missed anything, trust me. Actually I've been meanin' to do a little spring cleanin'.\""
 ja "\"Not lookin' forward to it, my back doesn't bend like it always did.\""
 "All the small-town, small talk niceties.. and speciesism, is starting to make me zone out when suddenly TJ pipes up."
 t "\"We'll help!\""

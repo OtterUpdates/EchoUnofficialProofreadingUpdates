@@ -658,7 +658,7 @@ show Carl Annoyed at center
 show TJ at farleft
 with dissolve
 t "\"I don't know, I think Lion's Brigade was always a bit too violent for me, what with all the shooting and punching.\""
-#! probably?
+#! probably? In Leo's route it mentions "a small figurine of Trinity Weasel", so either they should both be "the Trinity Weasel" or not
 t "\"I've always liked Trinity Weasel. She's the thinking man's superheroine.\""
 "Carl waves his paw dismissively."
 c "\"The Trinity comics have always been pretty lame. They're jerk-off fodder for lonely nerds...and so's the movie.\""

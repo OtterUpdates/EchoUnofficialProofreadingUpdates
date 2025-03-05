@@ -25,6 +25,7 @@ m "\"Well, alright...\""
 stop music fadeout 5.0
 scene bg basement with fade
 "As I make my way into the basement alone, I realize another reason why I would have appreciated Carl's company."
+#! probably?
 "The house IS creepy as fuck."
 "I've always been a bit of a pussy when it comes to scary things."
 "I mean, once, after I'd seen a scary movie about possession, I'd been afraid to go to sleep for weeks, mainly because my nightmares can seem so real."
@@ -425,7 +426,7 @@ hide Carl with dissolve
 show Raven Happy with dis
 ra "\"So how long are you gonna be here, Chase? We need to catch up!\""
 #!! maybe put single quotes around 'catching up'?
-"I wonder what 'catching up' means, when our biggest interaction up until this point was dissecting a shark in high school biology."
+"I wonder what 'catching up' means when our biggest interaction up until this point was dissecting a shark in high school biology."
 m "\"Sunday. School starts up again on Monday.\""
 "Despite having a head start on the project thanks to Carl's mom, I still get a nervous twinge in my stomach."
 "I still have a lot left to do."

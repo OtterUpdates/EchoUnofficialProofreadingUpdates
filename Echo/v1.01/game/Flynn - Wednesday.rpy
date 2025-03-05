@@ -39,6 +39,7 @@ stop music fadeout 10.0
 "I start packing up my camera when I feel a different sensation on the top of my head."
 "A slight pressure and a prickle - the feeling that I'm being watched."
 "I look back up at the school building."
+#!! This has a few options depending on the original intention
 "It's quiet, broken, and stoic, like it has been for the past few decades."
 "Still, my eyes are drawn to the second floor, specifically to the window on the far right."
 "I stare hard at it, narrowing my eyes."

@@ -14,7 +14,7 @@ window show
 "There, in the middle of the dusty parking lot that belonged to the Corner Market, is a tiny stand."
 "That used to be where I'd get ice cream after begging for a dollar from my parents."
 "It's crumbled and boarded up now, the paint peeling off in tiny chips."
-#! a -> the? Not sure if this is an improvement
+#!! probably? since it's a specific rock
 "And there, in front of Duke's house, is the big flat rock that Jenna was standing on when she told me she was going to run away from home."
 "I can still remember almost exactly how she was silhouetted against the red sunset behind her."
 #!! Their first kiss wasn't at noon. This is already fixed in Jenna's version of this scene, so just copy-pasting it over to here
@@ -63,7 +63,8 @@ l "\"Janice, do you need some help?\""
 "His tone is one you might use on a toddler...or a crazy person."
 "I don't hear her say anything, except maybe a grunt. Leo bravely keeps trying, though."
 l "\"We can give you a ri—\""
-"Leo stops talking in time for me to hear a pattering sound, a sound I recognized well from my time as a kid pissing on the dirt roads of Echo."
+#!! recognize? recognized? the copy-pastes use different versions
+"Leo stops talking in time for me to hear a pattering sound, a sound I recognize well from my time as a kid pissing on the dirt roads of Echo."
 "The van lurches forward, then resumes a smoother acceleration back onto the empty road."
 f "\"Holy shit! What the fuck was that!?\""
 l "\"I don't...\""
@@ -685,6 +686,7 @@ l "\"Swear to God, I'm not gonna leave my house without my gun again.\""
 l "\"Ugh.. one—one sec.\""
 "He makes as if to steady me with both paws, then stumbles off to the side of the road."
 "It's dark and I can't see him, but I sure as hell can hear a retch followed by a splash."
+#! either or
 "This happens about three more times before Leo shakily, but more steadily, approaches me from the darkness, a sheepish grin on his face."
 m "\"You okay?\""
 l "\"Yeah.. yeah, just had a little too much?\""
@@ -737,6 +739,7 @@ show Leo Neutral at right with moveinright
 l "\"Did you need something?\""
 "Duke lets out a long stream of smoke towards us."
 "Definitely a blunt."
+#! is this slang (happnin') intentionally butchered? reads like a typo
 du "\"Same shit's been happenin' to me...after ya told me about it.\""
 show Leo Questioning with dis
 l "\"Hmm?\""
@@ -769,6 +772,7 @@ l "\"Does it matter? Just keep moving and hope we don't run into any more of the
 stop loop fadeout 3.0
 scene bg leokitchen with dissolve
 play music "neutral.ogg"
+#! probably?
 "Even though the instructions say to only take two, Leo gives me three generic acetaminophen pills."
 scene bg leosbathroom
 "After that, he takes me to the bathroom and starts cleaning the cut on my forehead."
@@ -807,7 +811,7 @@ l "\"I think my shirt came up a little while we were wrestling around.\""
 m "\"Give me the alcohol.\""
 "Leo sighs again but hands it over."
 m "\"And take off your shirt.\""
-#!!! The (purposefully) part is a bit awkward. "slowly, sensually" seems fine to me
+#!!! The (purposefully) part is a bit awkward. "slowly, sensually" seems fine to me. "Purposefully" is implied by his smirk and Leo's behavior in general
 "He smirks at that and slowly, sensually, strips his shirt off."
 "I try to ignore him, but I'd be lying if I said I wasn't turned on by his body."
 "It's been a long time since I last saw him shirtless, and he's kind of changed."
@@ -840,6 +844,7 @@ scene leoandchase with slow_dissolve
 l "\"Fuckin' hell.\""
 "He moans it, sounding like he just scratched an unreachable itch, like he just had his first drink of water in days."
 m "\"L—Leo!\""
+#! this might be intentionally written as "lick to the skin", but it reads as overly verbose. maybe change up that bit of the line entirely
 "I gasp, about to tell him to stop, but then his tongue burrows in past my fur to lick the skin and my eyes roll."
 "He pulls back, finally, and I lower my gaze to meet his."
 "His tongue is hanging out, making him look a little goofy. I can see a few of my short brown hairs on his tongue."
@@ -857,6 +862,7 @@ l "\"I—I...\""
 m "\"Did you see something?\""
 l "\"I thought I did...Just seeing things, I guess.\""
 "Finally, he turns his attention to the first aid kit and leans over, starting to pick everything back up."
+#! could use a little restructuring to get a comma after "Slowly" without making the sentence pause-heavy
 "Slowly I slide down from the sink, pushing my shirt back into place, realizing that the moment had passed."
 "While I'm curious as to what he saw, I'm also conscious of the fact that the break in our intimacy has made things awkward again."
 m "\"Um, should we check the house? Could be Clint...\""

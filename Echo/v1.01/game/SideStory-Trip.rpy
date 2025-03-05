@@ -47,21 +47,21 @@ c "\"Are you sure there's anything in this? I don't taste it.\""
 jer "\"It doesn't taste like anything.\""
 "I let the cube clack against my teeth a few times before it breaks up and starts dissolving a lot faster."
 show Jeremy Teasing with dis
-"No turning back now. I tap my hoof against the messy floor, making the bed I’m sitting on squeak."
+"No turning back now. I tap my hoof against the messy floor, making the bed I'm sitting on squeak."
 "Jeremy grins at me."
 jer "\"Dude, relax.\""
 jer "\"Remember, good vibes, otherwise you're gonna trip bad.\""
 "Him saying that only makes me more nervous, and I put my face in my paws."
 c "\"Shit, man, I shouldn't have done this. Can I throw it up?\""
-"He laughs at me, but at this point I’m so nervous I can’t be mad at him."
-"In a way I’m latching on to him for guidance because I know he’s done this before."
+"He laughs at me, but at this point I'm so nervous I can't be mad at him."
+"In a way I'm latching on to him for guidance because I know he's done this before."
 jer "\"No, you can't throw it up. Remember, good vibes. This is about discoverin' yourself.\""
 c "\"Couldn't we at least have done this outside? This isn't exactly my idea of a place I'd wanna {i}find{/i} myself in.\""
-"I glance around Jeremy’s trailer and wrinkle my nose."
-"Now, my room isn’t spotless, but Jeremy’s place is downright nasty; underneath the smell of pot is a layer of mold and rotting food."
+"I glance around Jeremy's trailer and wrinkle my nose."
+"Now, my room isn't spotless, but Jeremy's place is downright nasty; underneath the smell of pot is a layer of mold and rotting food."
 "The light is a sickly yellow that turns everything in this '70s-ass trailer into a piss-stained color."
 #!!! 4th line wrap here
-"The walls are paneled wood with missing parts, and it’s hard to see through the plates, bottles, and used tissues (gross) to the orange shag carpet underneath."
+"The walls are paneled wood with missing parts, and it's hard to see through the plates, bottles, and used tissues (gross) to the orange shag carpet underneath."
 show Jeremy with dis
 jer "\"No, I don't want that bitch cop findin' us. She's already got it out for me.\""
 "He lays back on the bed, looking at the ceiling, one of his giant ears folding under his head."
@@ -73,9 +73,9 @@ c "\"Well, you saying shit like that is reeeally helping.\""
 "He watches me for a while, then nods to his shitty TV."
 jer "\"Wanna watch something while it sets in? Might help ya relax.\""
 #!! "but still I'm not so sure" is phrased oddly. Not sure this fix improves it much, probably just rework it entirely
-"That does sound like a good idea, but I’m not sure."
-"Wasn’t I doing this to \"discover\" myself?"
-"Now that I think about it, I’m not really sure why I decided to do this in the first place. Maybe to figure out why I’m so goddamn broken?"
+"That does sound like a good idea, but I'm not sure."
+"Wasn't I doing this to \"discover\" myself?"
+"Now that I think about it, I'm not really sure why I decided to do this in the first place. Maybe to figure out why I'm so goddamn broken?"
 "He takes my silence as a yes, though, and goes over to a splintered shelf to pull out a VHS. His TV is so fucking old it's got a VHS player built into it."
 show Jeremy Teasing with dis
 jer "\"This cartoon got me through a lot of tough times as a kid.\""
@@ -105,7 +105,7 @@ show Jeremy:
 "I try to relax because that's what Jeremy said I should do, but now the ceiling is starting to move..."
 "...the patterns starting to swirl around that hole, like it's a whirlpool... no, like it's a black hole."
 "I don't know what to think."
-"It is kinda cool to watch, but that feeling that I'm not connected to anything isn’t really fun, and it's actually kinda scaring me."
+"It is kinda cool to watch, but that feeling that I'm not connected to anything isn't really fun, and it's actually kinda scaring me."
 "I still feel like I'm floating, like I'm floating up towards that black hole, like it's sucking me in."
 "I jolt and take a breath that sounds sloppy because I'm drooling down my chin, and I whip my head around to look at Jeremy."
 "He's staring at his paw, and he looks up and grins at me."
@@ -174,7 +174,7 @@ $ pan("music2", -0.4, 10)
 $ pan("music", 0.4, 10)
 "Just thinking about him fills me with a warm feeling, like back when I was seventeen and Dad just told me he'd pay for everything."
 "I reach into my pocket and pull out my phone."
-"I stare at it, and I stare and stare and stare because I don’t even know what to push."
+"I stare at it, and I stare and stare and stare because I don't even know what to push."
 "The little apps keep swirling around, like the black hole."
 "I shut my eyes, then push where I know the phone app is supposed to be."
 "I open them again and see the keypad, and I blow out a sigh of relief, but then as soon as I push the first number all of the numbers change."
@@ -195,7 +195,7 @@ play loop "terrorbelowthesurface.ogg" fadein 30
 "For a while I sit there in the seat in the dark and stare out through the windshield."
 "I see the beginnings of swirls and whirlpools again so I look down at my hands, and that's when I see the fur shifting around, too."
 "I close my eyes and just think about how nice the cool leather feels against my thighs."
-"It’s the drug, it's the LSD. I'm having a bad trip. I know this, but just knowing that still scares me."
+"It's the drug, it's the LSD. I'm having a bad trip. I know this, but just knowing that still scares me."
 play audio "thud3.ogg"
 $ stop_all_audio(fadeout=4, reset=True, subset=["background", "music2"])
 $ pan("sound", 0.9)
@@ -302,6 +302,7 @@ play background "carwind.ogg" fadein 10
 "What now?"
 "I think about looking into my rearview mirror."
 play loop "nhysterialoud.ogg" fadein 5
+#! kind of oddly structured. double check that this looks intended
 "I don't want to, but I do, and as soon as I do I'm screaming; red, bony, with black holes for eyes, then something grabs my neck."
 "I let out a long, strangled moan of horror, and my hoof slams the gas."
 "That moment stretches, distorts, alters, and changes just like the VHS Jeremy had shown me that lifetime ago."
@@ -399,7 +400,7 @@ $ stop_all_audio(reset=True)
 $ renpy.pause(3, hard=True)
 
 show carlsroomred
-#!! "a few hours after I'd left" can probably be dropped entirely to reduce the repetition of "after"
+#! there's repetition of "after", but it's not a big deal
 "My parents found me three hours later after someone had reported the accident to the cops a few hours after I'd left."
 "My dad took responsibility for it so I wouldn't get tested for anything."
 "He made up some excuse about walking to the house because he forgot his cell phone."

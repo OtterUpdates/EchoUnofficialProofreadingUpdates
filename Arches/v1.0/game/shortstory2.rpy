@@ -178,7 +178,7 @@ d "\"I'm doing okay, all things considered.\""
 c "\"{i}Jesus Christ...{/i}\""
 "Apparently he hasn't completely left the room."
 "I ignore Cameron for now, most of my focus is on trying to sound as okay as I just told Arturo I was."
-#!!! not sure if "are aren't" is a typo, but if it's a stutter it should have a hyphen. IMO just remove it; having 3 stutters in a row is pretty excessive when Artie isn't even agitated atm
+#!!! not sure if "are aren't" is a typo, but if it's a stutter it should have a hyphen. IMO just remove it; having 3 stutters in a row is pretty excessive here
 a "\"Hope those things aren't t-too t-terrible? You sound pretty awful.\""
 "I can sense what he's implying with those words."
 "It probably sounds like I've been crying with my swollen nose and raspy voice."
@@ -257,7 +257,7 @@ c "\"{i}NO.{/i}\""
 "It's happened before, but not like this."
 "It makes me wonder how strong his own thoughts actually are, if maybe he could completely take over if he wanted."
 "Either way, I can't tell Artie after a message as powerful as that, so I settle for something more vague."
-#! ", but" repeated here
+#! ", but" repeated here. Period seems fine
 d "\"Listen, man. All I can say is that something is going on, but I'm not ready to talk about it just yet. I promise I'll tell you someday, alright?\""
 "I'm surprised by how relieved Artie sounds to hear that."
 a "\"Okay, yeah, that's cool. Take your time, man. And... Sorry for unloading like that about what happened in that town.\""

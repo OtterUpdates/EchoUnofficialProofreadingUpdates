@@ -1097,6 +1097,7 @@ show Flynnalt Depressed with dis
 m "\"Is this about what she said when you got Carl the lighter from the Reservation?\""
 "His slitted eyes flick back up to me, his lips thinned."
 f "\"You thought that was bullshit too, right?\""
+#! either/or, but make it consistent with other w/r/t references
 m "\"Well, I think she was just still in.. I don't know, 'den mother' mode with regard to TJ after what you did.\""
 m "\"If you want to get everyone talking again, you should just apologize.\""
 scene bg frontdesk6
@@ -2422,7 +2423,7 @@ da "\"You folk all get super antsy every time he texts you. Like.. an ex is just
 show Daxton Depressed with dis
 "He grimaces, wiping his arms on the fabric of his shirt."
 #!! "it has" -> "it's"? Also "surface table"? Maybe "table surface" or just "surface"?
-"Looking down, I can see that it's been a while since the surface table has been properly wiped down. There's no napkins in sight, either."
+"Looking down, I can see that it's been a while since the surface has been properly wiped down. There's no napkins in sight, either."
 "I peer at the message again, trying to think of what to say in response."
 m "\"Well, the circumstances are kind of different here.\""
 m "\"He's been one of my closest friends since I was really young, and when I left town for college, we never actually broke up.\""
@@ -2929,7 +2930,7 @@ menu:
                 "The gila looks unconcerned with the now rather visible gawkers as he too goes fully nude."
                 "There's nothing inconspicuous about him. His black and orange color pattern is meant to stand out, and with his 6-foot-7 muscular build, it's even more true."
                 "He towers over everything, everyone, like he's just.. above it all."
-                #!!! "the lizard's" is awkward since the sentence is already about him. Just drop it entirely
+                #!!! "the lizard's" is awkward since the sentence is already about him. Just drop it entirely. Could use further tweaking
                 "Meanwhile, his length looks like it's practically leaking, already slick with precum."
                 hide Flynn with dissolve
                 "Flynn turns, lowering himself to his hands and knees despite the filth."
@@ -5228,8 +5229,9 @@ play loop "shower.ogg"
 j "\"..I think it was Clint.\""
 "Jenna is speaking to me, but her eyes are on her laptop."
 m "\"Huh?\""
-#! "outside, who was screaming" or "outside that was screaming"
-j "\"The man outside that was screaming.\""
+#! "outside who was screaming" or "outside that was screaming"
+#! generally "who" is more correct, but "that" is used throughout these novels also, and it's fine as loose grammar
+j "\"The man outside who was screaming.\""
 j "\"At first I thought he had Jeremy with him and, God, just the thought of that makes me want to get out of this town and not look back.\""
 m "\"I don't blame you. But.. Clint?\""
 "Judging from popular television growing up, it seems like everyone alive has had a childhood bully. Some with multiple."
@@ -5596,7 +5598,7 @@ show MrBronson_Angry_Arms_Tense
 with dis
 dad "\"You {i}deserve{/i} to be hit.\""
 "The words make my stomach hurt for some reason."
-#! probably?
+#! probably? either is okay
 "I throw the rifle down onto the grass and face him."
 unk "\"No, you do! You're so AWFUL!!\""
 unk "\"I hate you so much!!\""
@@ -6297,8 +6299,8 @@ scene bg mansion with dissolve
 stop music fadeout 3.0
 play background "reststop.ogg" fadein 3.0
 play loop "engine.ogg" fadein 3.0
-#! present/past tense need to all agree. This should probably be present tense based on the following lines?
-"Carl still looks confused as Flynn and I come out to the car without Daxton."
+#! This could also be "looks confused as Flynn and I come out".
+"Carl still looks confused after Flynn and I came out to the car without Daxton."
 c "\"Where's Dudeman?\""
 "I make a show of buckling my seatbelt."
 f "\"We'll talk 'bout it after your interview.\""
@@ -6549,6 +6551,7 @@ menu:
         f "\"Carl, it really doesn't- shit.\""
         show Flynn Annoyed with dis
         f "\"Do you see the way Chase is acting?\""
+        #! either/or
         "Carl looks at me for a moment, then back to Flynn."
         c "\"Uh.. no.\""
         "His voice is quiet."
@@ -8657,7 +8660,8 @@ play sound "gunshots.ogg"
 "Looking around, it seems like most of the old books and such have been taken off the shelves and put in assorted boxes to prevent water damage."
 #!! Reduces repetition of "here". There are a handful of different ways to reword this sentence
 "Despite having lived here my whole life, I've never actually been inside this room."
-"That feels like quite a feat noting I've covered damn near every other square inch of the town."
+#! could also be "the town" or "this town"
+"That feels like quite a feat noting I've covered damn near every other square inch of town."
 "There's a few binders and booklets near my side, with titles like \"Coalville Stormwater Drainage Plan 1999\" and \"Drought Resistant Plant Guide\"."
 #! either remove "like" or "to be"
 "Next to them, there's what looks like some kinda.. unopened canister of fumigation stuff?"
@@ -9670,7 +9674,7 @@ j "\"Hey.\""
 show Jenna Smiling at farright with dissolve
 "Jenna's voice startles us both, and we pull apart."
 show Carlalt Depressed with dis
-#!! on "my" heel? Not sure if this is some common phrase, but it reads like a typo
+#!!! on "my" heel? Not sure if this is a common phrase, but it reads like a typo. Maybe avoid worst case
 "I pivot on my heel to see the fox staring at us with a look I can't quite place."
 "Surprised, bemused.. even a bit wry."
 j "\"Food's ready.\""
@@ -9717,7 +9721,9 @@ hide Carlalt with easeoutright
 "As I turn to leave, I look at my bed and I can't help but see him laying there."
 "That vacant look in his eyes - my cum still spattered on his neck."
 "Fucker was playing me the whole time, and for what? To get off?"
-"That's all it was. It's spring break, and he for some reason watched enough scaly porn to want me."
+#!! scaly? scaley? scalie? Is there supposed to be a specific term sort of like "furry" here, that isn't just "scaly" the adjective?
+#!! would that term only be used here and not anywhere else in the text?
+"That's all it was. It's spring break, and he for some reason watched enough scaley porn to want me."
 "Consequence free right?"
 "The sound of clinking silverware in the kitchen pulls me back into the present."
 "I straighten out my pants, waiting for my cock to fully retreat before heading back to the kitchen with my rifle."
@@ -10381,7 +10387,7 @@ show Mayor Annoyed with dis
 ma "\"Now Flynn-\""
 f "\"Just gimmie a sec. He's gotta still be in here.\""
 #!! probably? it's a blue shirt that is stained, not a shirt that is "stained blue" right?
-"I see a stained, blue v-neck shirt laying on the ground in the corner, by the old bookshelves."
+"I see a stained, blue V-neck shirt laying on the ground in the corner, by the old bookshelves."
 f "\"Chase!\""
 "Still no response."
 "It's then I notice there's something moving on his shirt - little specks that seem to be gathering in the folds of the fabric."
@@ -10687,7 +10693,6 @@ ku "\"What do you mean when you say 'we can't leave'?\""
 ma "\"Y'all came here 'cause you wanted answers, now are you gonna listen to 'em or not?\""
 "I recognize most of the people in the crowd: Janice, Duke, Kudzu, Micha, Heather, Mark.. and shit, about a dozen more."
 "Some of them look downright terrified."
-#! probably? "look" is being used by "Others" in this case, not "Micha"?
 "Others, like Micha, the klepto shithead from Tetanus Alley, just look pissed - agitated by whatever the hell Auntie is saying."
 "I can see Duke, the old widower who lives next to Leo, somewhere back by his car."
 "He's not looking at my aunt anymore. He's fixated on Chase with this sort of thousand yard stare."
@@ -11627,7 +11632,7 @@ t "\"It's him, it's him, it's him, it's him!!\""
 t "\"It's real!?\""
 c "\"I dunno. S-some kind of animal, maybe?\""
 m "\"I've never seen anything like that before.\""
-#! maybe? Referring to it as "Dude" but then switching to using "it" pronouns feels clunky
+#! maybe? Referring to it as "Dude" but then switching to using "it" pronouns feels clunky. The copy-paste of this line omits the "Dude" bit entirely
 c "\"It could have.. had a disease? Lost all of its fur, or something. Maybe Duke hit it.\""
 t "\"But it was WALKING!\""
 t "\"How is Duke here?! He was back at City Hall!\""
@@ -11752,8 +11757,8 @@ if House_Talk == "Daxton":
     j "\"No, Leo must've gotten off and turned around on that side road that l-\""
     l "\"There's no way!\""
     play sound "honkhonk.ogg"
-    #!! consider changing "throughout" to "through" - avoids using "out" twice for the same purpose
-    "He slaps the steering wheel hard, a honk ringing out and echoing through the valley of desert scrub beyond the guardrail."
+    #!! not a fan of "out" and "throughout" in the same sentence. maybe drop "out" or "ringing out and"?
+    "He slaps the steering wheel hard, a honk ringing out and echoing throughout the valley of desert scrub beyond the guardrail."
     "TJ gasps, digging his claws into the fabric of his seat."
     t "\"Please don't do that!\""
     t "\"Let's be quiet, okay?!\""
@@ -11837,8 +11842,8 @@ if House_Talk == "Daxton":
     "I occasionally catch Chase looking at me in the rearview mirror."
     "Despite his shit with the spider bite, he looks more.. well, animated than I've seen him in a long time."
     "There's a lot less staring off into the distance and more active grimacing, muttered softcore swears, and darting eyes."
-    #!! if using "before" this would need to be "eyes were before". I think the second sentence covers the "before" idea
-    "I never realized how yellow his eyes are. Were they always that bright?"
+    #!! if using "before" this would need to be "eyes were before". Could also be "how yellow his eyes are", since the second sentence covers the "before" idea
+    "I never realized how yellow his eyes were before. Were they always that bright?"
     "More time passes, and as we round a bend, Jenna crawls halfway onto the mid-seat console and points ahead."
     j "\"That's where Duke and Chase's car was.\""
     da "\"It's not there now. How can you tell?\""
@@ -12108,8 +12113,8 @@ elif House_Talk == "Leo":
     "I occasionally catch Chase looking at me in the rearview mirror."
     "Despite his shit with the spider bite, he looks more.. well, animated than I've seen him in a long time."
     "There's a lot less staring off into the distance and more active grimacing, muttered softcore swears, and a darting gaze."
-    #!! if using "before" this would need to be "eyes were before". I think the second sentence covers the "before" idea
-    "I never realized how yellow his eyes are. Were they always that bright?"
+    #!! if using "before" this would need to be "eyes were before". Could also be "how yellow his eyes are", since the second sentence covers the "before" idea
+    "I never realized how yellow his eyes were before. Were they always that bright?"
     "More time passes, and as we round a bend, Jenna crawls halfway onto the mid-seat console and points ahead."
     j "\"That's where Duke and Chase's car was.\""
     da "\"It's not there now. How can you tell?\""
@@ -12302,8 +12307,8 @@ scene bg underwaternight with dissolve
 "I look over my shoulder, seeing the faint outline of rust-colored fur in the back of the van, Leo seemingly trying to get Chase."
 
 "My lungs begin to burn, and I realize I can't see the surface. I kick my legs, trying to push myself off the slimy lake bed."
-#!!! had to depluralize "drills"; not sure if something else was intended to be plural, but pressure is singular
-"The pressure on my eardrums is like a drill pushing into my skull."
+#!! or "drills" -> "a drill"
+"The pressure on my eardrums is like drills pushing into my skull."
 "The seconds pass: one, two, three, four, five.."
 stop background fadeout 0.5
 scene bg lakeemmanight

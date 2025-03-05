@@ -631,8 +631,8 @@ t "\"Huh, what?\""
 j "\"Do you want to watch anime with us?\""
 t "\"Uh, sure. Why not?\""
 m "\"Hey, no phones!\""
-#!!! I made an attempt, but this probably needs to be fully redone to sound more natural
-"I tease, reaching and taking it from him."
+#!!! This line was real bad. I made an attempt
+"I tease the lynx, reaching over and taking the phone from him."
 t "\"I thought that was only for the hike?\""
 "I glance over the screen, expecting to see some Christian social group, or something, but instead it's a text thread from Leo."
 stop music fadeout 5.0

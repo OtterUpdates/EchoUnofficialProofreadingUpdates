@@ -783,8 +783,9 @@ show cam shocked l red3
 show expression AlphaMask("foliage3", At("cam shocked l red3", right)) as mask
 with dis
 "Cameron jolts back to the present, even though it's not the present, because time has stopped existing, and this is just a moment in a never-ending series of moments."
-#!! "at once" -> "all at once"? "all" emphasizes that time is vast, I think?
-"Is time always happening all at once?"
+#!! "at once" -> "all at once"? "all" emphasizes that time is vast, I think? The original is still correct
+#!! Sort of reads like a typo without it, but it seems like a fairly important line and it does change the meaning, so it's a hard call without author input
+"Is time always happening at once?"
 "Brian is still looking at him with a piercing gaze, and his fur is once again writhing about on his body, as if it's come back to life."
 c "\"Sorry, I-I'm having a hard time concentrating.\""
 "He'd lost himself for a moment, and just blurted the first name that came to his mind, to center himself, and confirm that he still exists."
@@ -1336,6 +1337,7 @@ stop background fadeout 10.0
 "... to slip into Brian's pocket, disguising it as him trying to push the bear away."
 "He feels and finds the single key that he knew would be there."
 b "\"Goddammit, you're a fuckin' cute one, ya know?\""
+#! need this, otherwise "Brian's voice" would be "nuzzling the coyote"
 "Brian's voice trembles with cruel, passionate emotion, and he nuzzles the coyote."
 "He squeezes harder, and Cameron's eyes roll up, all while putting the key in his own pocket, but he's not sure it matters."
 "Brian already heard his plan."

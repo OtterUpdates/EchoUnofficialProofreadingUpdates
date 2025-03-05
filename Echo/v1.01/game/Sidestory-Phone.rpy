@@ -23,6 +23,7 @@ window show
 #!!! 4th line wrap, seems like a clean break to split
 "Taking out my phone, I check the time and scan through my messages."
 "He told me he got out for lunch fifteen minutes ago, but it's twenty minutes later, now."
+#! probably? could be slang, but reads like a typo
 "There's a little pang of worry, mostly because I know how shitty of a driver Chase is, but he's usually late, so I quash that."
 "I give my pits a quick check."
 "Driving around with a broken AC is fucking torture in this weather, but the antiperspirant seems to be holding up alright."
@@ -112,7 +113,7 @@ $ vol("background", 1, 0.4)
 stop background fadeout 0.4
 "Fuck it; I could just say I was picking it up for him, anyway."
 "I grab the phone and stab the green pick-up symbol before holding it up to my ear."
-"Since Chase has the stubby muzzle thing going for him his phone doesn’t pull out like mine, so I have to try and direct my voice out the side of my mouth."
+"Since Chase has the stubby muzzle thing going for him his phone doesn't pull out like mine, so I have to try and direct my voice out the side of my mouth."
 l "\"Who's this?\""
 "I curse silently as I realize that if I wanted the guy to talk that probably wasn't the best way to do it, and sure enough, I hear a click as he hangs up."
 stop loop fadeout 20

@@ -15,6 +15,7 @@ window show
 "I grit my teeth as the searing red becomes too much to look at and I close my eyes again..."
 "This must be a nightmare...one that feels too real."
 "I've had them before and I know how to deal with them."
+#! "wake back up" and "wake up back" are both okay, but "wake up back" stresses the intent of "reversion to a past point/place" a bit harder
 "Just need to go back to sleep, to drift off and I'll wake up back in my bed."
 "Go back to sleep and wake up back in my dorm."
 "Wait...In Echo?"
@@ -34,8 +35,8 @@ play loop "nhysteria.ogg" fadein 20.0
 "The air is cool now and my skin is cold and wet, like I've been sweating a lot."
 "The feeling is especially strong along my back, and I want to roll over...but I can't."
 "Something is holding my arms down and there's a rattling sound when I try to move."
-#!! I kinda hate ", though" in lieu of ", but". I'm not sure if that's a me thing
-"I moan and try to open my eyes again, but it's almost like they're glued shut."
+#!! I kinda hate ", though" in lieu of ", but" for negation, but I'm not sure if that's a me thing
+"I moan and try to open my eyes again, though it's almost like they're glued shut."
 "With a little more effort, I manage to crack one open."
 stop music fadeout 5.0
 "At first, all I see is a blur of colors above me and I have to blink a few times to clear it."
@@ -355,7 +356,7 @@ br "\"I'LL FUCKING KILL HIM. I'll KILL THAT FUCKING CUNT!\""
 "Then he slaps himself across the face twice."
 "After that he closes his hand into a fist and punches himself in the head repeatedly."
 "It's with a force that would knock me out cold."
-#!! switching to "him" emphasizes the connection
+#!! switching to "him" emphasizes the connection to the person in the scene with them and not just a name
 "It might be funny if I wasn't tied down to a contraption in a trailer belonging to him."
 "Brian stumbles after what seems like the fifth blow and covers his face."
 "His massive shoulders shake with sobs."
@@ -476,6 +477,7 @@ with dissolve
 "Someone would have gotten the word out, wouldn't they?"
 "If people were murdering each other, like what happened to Janice, there's no way that wouldn't be the case."
 "Brian lets out another explosive laugh, wiggling his feet on the armrest of the couch."
+#! technically "anymore" and "any more" both work, but I'm fairly sure "any more" (as in quantity) is the intended meaning instead of "anymore" (as in time/stopping)
 "Earlier he tried to feed me some dried cereal, but it was like cardboard in my mouth and after only a handful, I couldn't eat any more."
 "I'm just thankful that he's preoccupied with something else right now."
 scene bg ba with dissolve
@@ -1813,7 +1815,7 @@ hide Brian with dissolve
 stop loop fadeout 5.0
 "Brian crumples to the floor, and the room goes quiet..."
 "But only for a moment."
-#!!! probably meant unearthly?
+#!!! probably meant unearthly? due to the "evil powers" line next etc
 "An unearthly howling sound comes from the bear as he slowly props himself up on his hands, looking back up at me."
 "For a moment I wonder if the evil powers of Echo have brought him back to life somehow."
 "But no, there's a bloody hole just above his blunt nose and I can see the white of bone peeking through the red."
@@ -2581,7 +2583,7 @@ t "\"Okay.\""
 show TJ Depressed1 with dis
 "TJ suddenly opens up the blanket around himself, staring down at his clothes."
 #!! "insides" of his ears?
-"I see his nose twitching, then the skin on the inside of his ears flushes."
+"I see his nose twitching, then the skin on the insides of his ears flushes."
 t "\"Um, can I take a shower?\""
 "Leo pauses, clearly not having expected that."
 show Leo Neutral with dis
@@ -2673,6 +2675,7 @@ m "\"Yeah, Jenna, Carl...Flynn.\""
 l "\"With any luck they got the hell out of here when this started.\""
 m "\"Like I said, if they did then they would have brought someone back.\""
 ku "\"Really, if anyone got out then they would have.\""
+#! hand or paw
 "Leo doesn't say anything, electing to lift the gun that he's had clutched in his hand this entire time to examine it."
 m "\"Does that mean no one's gotten out of here?\""
 "There's a momentary silence."
@@ -2843,7 +2846,7 @@ show TJ Rejected with dis
 "I still just want to go to the motel, hole up in there and wait."
 "Maybe sleep."
 "I'd give anything just to be able to lay down somewhere safe right now."
-#! Remove one or both of the "now"s for less repetition. There's a "now" at the end of the previous line also
+#!! Remove one or both of the "now"s for less repetition. There's a "now" at the end of the previous line also
 "But with the new possible factor of Brian, I can see the benefit of getting the hell out of here as soon as possible."
 show Leo Neutral with dis
 l "\"Alright.\""
@@ -2853,7 +2856,7 @@ l "\"Let's go. Remember to stay close.\""
 
 scene bg forestnight with fade
 "We don't bother going off-road on the way to Carl's place, mainly because we'd just be trudging through sagebrush full of ticks at that point."
-#!!! remove "through"?
+#!!! remove "through"? or e.g. "aside from the passage through the canyon to nowhere"
 "Leo figures that since Carl's house is the only thing up this road (aside from the canyon to nowhere), no one would be driving there anyway."
 "It takes us about twenty minutes to get there, walking in silence up the cracked road, the only sounds our panting."
 "I'm the loudest, considering my short legs and also that I'm probably the most out of shape compared to the others."
@@ -3001,7 +3004,7 @@ play music "beat.ogg"
 "Could Carl be in there?"
 "I remember that he'd been down here when we couldn't find him during the birthday party."
 "At that moment I catch a glimpse of...something, poking out from the door."
-#!! is six inches "very long"? feels jarring
+#!!! is six inches "very long"? feels jarring as a description
 "It's skinny, and hairy, and very long, maybe six inches in length."
 "I stare at it, wondering if it's...a Halloween decoration that's stored under there?"
 stop music
@@ -3038,6 +3041,7 @@ c "\"Leo...Chase?\""
 m "\"Carl.\""
 "I move to the side of the bed, next to TJ, and that's when I see that the ram is covered in a white-looking chalk substance."
 "It reminds me of the prints downstairs."
+#! either "a bit" or "bits"+"are"
 "It's all over his horns and a bit of what looks like drywall is covering the pillow around his head."
 m "\"What happened? Are you okay? Were you just taking a nap?\""
 show Leo Neutral at left behind Carl with dissolve
@@ -3129,6 +3133,7 @@ play background "highway.ogg" fadein 3.0
 "We pull quietly out of the driveway in Carl's car, which makes almost no sound since it's a hybrid."
 "Leo's driving, of course."
 "Carl's still woozy and Leo actually had to help him walk around to find the keys."
+#! this could have "between Carl and TJ" between two commas if desired
 "I sit in the back between Carl and TJ, while Kudzu sits in the passenger seat next to Leo."
 "I'd overheard Leo mumbling to Kudzu to sit next to him while I helped Carl into the car."
 "Something about them needing to be able to get out of the car quickly with their guns if things went down."
@@ -3280,6 +3285,7 @@ l "\"I don't...\""
 "Leo turns in his seat, looking out the passenger window, then his own."
 l "\"I'm heading the right way, right?\""
 "I look out the window as well, not seeing anything except sagebrush and cacti."
+#! is this intended to be a colon at the end?
 "But then I do notice something."
 "The mountains, which had been on the right, are now on my left, rising up ominously in the distance."
 "Had we turned around somehow?"
@@ -3609,7 +3615,7 @@ ku "\"Shit.\""
 "Apparently Kudzu had lost his during the whole lake incident, which Leo is pretty pissed about."
 "Leo tries the door, then disappears inside, reaching out to make sure the screen door doesn't bang shut behind him."
 "And then he's gone."
-"We stand there in the silence for a moment, then Kudzu whispers."
+"We stand there in the silence for a moment, then Kudzu whispers:"
 ku "\"Hey, let's stand back-to-back just in case.\""
 m "\"Yeah, okay.\""
 "Kudzu turns toward the road while I face toward Leo's house."
@@ -3782,7 +3788,7 @@ c "\"Heh, actually I could go for some food.\""
 scene bg leokitchen with dissolve
 with fade
 play background "dryer.ogg" fadein 3.0
-#! dryer was previously referred to as "the dryer"
+#! dryer was previously interacted with/etc, so they know about a specific one
 "About twenty minutes later, Carl, TJ, and I are sitting in the laundry room, putting our clothes through the dryer."
 "I can hear Leo in the kitchen, frying something up on the stove."
 "While I should be worried about not keeping an eye on him, he's calmed down considerably since we were in his bedroom."
@@ -4001,7 +4007,7 @@ l "\"I'm going to get you all out of here, like I should have done from the begi
 "He gives me a little shake when I'm silent a little too long."
 m "\"Okay.\""
 l "\"Okay...\""
-#!! reduces repetition of "and", and it's awkward to start a sentence with it anyway'
+#!! reduces repetition of "and", and it's awkward to start a sentence with it anyway
 "He keeps rocking me like that for what seems like hours, and when we make another revolution, I can see that Carl's not there anymore."
 stop music fadeout 5.0
 "Then I hear something."
@@ -4068,7 +4074,7 @@ m "\"Jesus fucking goddammit!\""
 "The train, if it was a train, has passed us by at this point."
 "The metallic clanks and rushing sound is far behind me."
 "Standing in the silence though, is starting to give me second thoughts."
-#! either this or "Leo's and Kudzu's houses"
+#!! either this or "Leo's and Kudzu's houses"
 "I'm pretty sure there aren't any trees between Leo's house and Kudzu's trailer."
 "Did I get off track somehow?"
 "Something cracks a little ways ahead of me and I freeze up, my ears twitching."
@@ -4635,7 +4641,7 @@ br "\"Alright, it's gonna be okay, otter, I promise.\""
 m "\"What do you need me to do, though?\""
 "Brian finally pulls something out and it looks shiny and heavy."
 "I open my mouth to scream, but that's when a burst of light comes out of one of the ends of it."
-#!! This should probably be changed to "flashlight"? not sure why it needs a brand
+#!!! This should probably be changed to "flashlight"? not sure why it needs a brand
 "It's a flashlight..."
 "I stare at it, gaping stupidly."
 "Brian sweeps the beam of light around."
@@ -4727,6 +4733,7 @@ scene bg black with dissolve
 "In fact, it feels like I'm being trapped."
 "I can't explain it, but I start to get a terrible feeling that something awful is waiting for me at the end of this passage."
 "And then I start to smell something."
+#! is this intended to be a colon at the end?
 "It's old, and almost covered up by the dust and mustiness, but it's definitely there."
 "Sweet and sick, something rotting."
 "It feels like ice water is poured down my back and I freeze—"
@@ -4752,7 +4759,7 @@ scene bg cave with dissolve
 "The bear grunts and just drags me along into the little opening that we're in, dropping me against the wall."
 "As Brian fumbles with the flashlight, I get a glimpse of my surroundings:"
 "It's small, maybe about 15 feet long and 10 feet wide."
-#!!!! Brian takes up most of a 10 foot wide room?
+#!!!! Brian takes up most of a 10 foot wide room? that doesn't seem right
 "It's narrow enough that Brian takes up most of the space, and I'd be hard-pressed to get past him."
 "I draw my knees up to my chest and hug them, feeling numb."
 play loop "drag.ogg"
@@ -5036,9 +5043,11 @@ f "\"Well, a lot was goin' on. Kudzu, that raccoon, is the one that told me you 
 f "\"Leo, on the other hand, said you were fine, that he saw you around the house.\""
 m "\"What?\""
 "Flynn shrugs."
-#!!!! A few times in Leo's route it mentions that Leo and the gang have a car at Leo's house, but they don't, because Chase's car was crashed, Leo's van was slashed, and Carl's car is in the lake
+#!!!! A few times in Leo's route it mentions that Leo and the gang have a car at Leo's house, but they don't, as Chase's car was crashed, Leo's van was slashed, and Carl's car is in the lake
+#!!!! "own truck" also needs to be replaced as it implies the existence of a second truck which is not his, and "had to take" implies that Leo holding everyone hostage denied a transportation option for flynn (i.e., Leo's imaginary van).
+#!!!! I took a stab at keeping most of the words while avoiding the issues, but this line should probably just be rewritten with more intent. Adding "alone" gives the sentence a focus/point again, which was sort of lost when removing Leo's imaginary van
 # f "\"I have no fucking clue, but he was practically holding everyone hostage, wouldn't give the keys up, so I had to take my own truck out here.\""
-f "\"I have no fucking clue, but he was practically holding everyone hostage, so I had to take my own truck out here.\""
+f "\"I have no fucking clue, but he was practically holding everyone hostage, so I just took my truck out here alone.\""
 m "\"Is...everyone okay?\""
 f "\"Hopefully. Jenna said she'd try and keep him calm while I came and looked for ya.\""
 m "\"How did you know I was in the mine?\""
@@ -5468,6 +5477,7 @@ menu:
         "I give him a quick peck on the side of his muzzle and he laughs."
         "I try to laugh as well, but it gets caught in my throat as I see that old house."
         stop background fadeout 3.0
+        #!! Either works, though this adds more a bit more emphasis
         "And there, waiting in the driveway, is Leo."
 
         scene bg leohouse with fade
@@ -5523,6 +5533,7 @@ menu:
         "Not a single person."
         l "\"I actually visited Carl once in a while over the summer.\""
         "Leo nods up toward the mountains and I see the big mansion glinting gently in the sunset."
+        #!! "hear" or "heard"?
         m "\"Hey that's cool. I hear he's doing pretty good at school right now.\""
         l "\"Good...are you going back to school?\""
         m "\"Meh.\""

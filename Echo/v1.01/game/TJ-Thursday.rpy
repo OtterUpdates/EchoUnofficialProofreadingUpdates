@@ -242,7 +242,7 @@ play music "neutral.ogg" fadein 3.0
 "We stand a good couple of minutes on Carl's doorstep, ringing the doorbell over and over."
 "I can hear the heavy beat of some hip-hop song through the door...and ground."
 "I swear the windows look like they're about to bust out with how much they're shaking."
-#!! maybe?
+#!! maybe? to reduce repetition of "finally"
 "Finally, I send him a text, and that's when the music abruptly stops and the door swings open."
 "As it does, TJ and I are blasted with a wave of pot with just a touch of booze lingering underneath."
 "Carl grins at us, his eyes bloodshot and fur mussed up."
@@ -369,7 +369,7 @@ c "\"Hey, you guys wanna play a game?\""
 "I look at him cautiously."
 m "\"What kind of game?\""
 c "\"Um.\""
-"Carl looks around, then finds the row of three bottles on the ground next to the couch, two of them empty, one half-empty."
+"Carl looks around, then finds the row of three bottles on the ground next to the couch, two of them empty, one half empty."
 show Carl with dis
 play music "comeover.ogg" fadein 3.0
 c "\"Never have I ever!\""
@@ -881,7 +881,7 @@ c "\"Not your fault.\""
 t "\"I guess...I thought maybe Flynn had been saying stuff to you, that was why you said it...\""
 c "\"Huh? Oh...\""
 "Carl's non-denial hangs heavy in the air."
-#!! is "I am" intentional?
+#!! is "I am" intentional? could be for emphasis, but it's not clearly set up that way
 "I haven't seen Flynn in days, and I'm wondering what he's been up to in that time."
 "I'll have to ask Carl when TJ isn't around."
 "As of now, though, I want to change the subject because things are getting awkward."
@@ -1366,7 +1366,6 @@ m "\"Yeah, that is a little weird...\""
 j "\"Well, we have to break the law to get in there. We'd be trespassing.\""
 "Jenna glances at TJ because we all know the lynx wouldn't dare break the law."
 j "\"Besides, it's getting late. Maybe we can go check it out tomorrow. One of us can go in for you, TJ.\""
-#!! maybe?
 "TJ looks up at the sky, where stars are starting to twinkle through the branches."
 t "\"Well, if we're going to trespass, we should do it at night, right?\""
 show Jenna Surprisedhips with dis

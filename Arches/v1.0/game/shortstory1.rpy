@@ -43,7 +43,7 @@ play ambient2 darkambient01 volume 0.3
 "The rest of its body was pushed back into that corner next to the sofa,{w=0.5} its arms out to the side and pressed to the walls,{w=0.5} like it's bracing itself."
 "What I think were long, black claws stuck out from the openings at the ends of the sleeves, dug into the walls."
 "And for the few seconds I stared up at it, it didn't move at all, not even a little bit - kind of like it was stuck in a still frame."
-"It's weird to see something that you know shouldn't exist. Like, there's this extra moment where your brain absorbs what it’s seeing."
+"It's weird to see something that you know shouldn't exist. Like, there's this extra moment where your brain absorbs what it's seeing."
 "Then instead of making you react right away,{w=0.5} like maybe seeing a spider would,{w=0.5} there's this extra beat where the brain is really analyzing it."
 stop ambient2 fadeout 3.0
 "Like “yep, this is really happening, and it really shouldn't be, but here it is.”"
@@ -215,7 +215,7 @@ dev "Just--"
 dev "I just need your help for a few days."
 dev "I wanna know, {w=0.4}I need to know where she is."
 "{i}{cps=30}Nowhere.{w=0.3} She's dead, {w=0.4}so she's nowhere.{w=0.3} I'm sorry.{/i}"
-"I don’t want to do this. It’s such a bad idea, but this is important for Dev, it always has been."
+"I don't want to do this. It's such a bad idea, but this is important for Dev, it always has been."
 "So, now that he's finally asking me to go, I can only say:"
 window hide
 pause 0.5

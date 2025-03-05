@@ -201,7 +201,7 @@ c "\"Only because you used the cheapest character and kept spamming the same mov
 "It stings just a little, but he isn't lying, now that I think about it."
 #!!! 4th line wrap here, seems like it could be broken into another text box easily
 "I remember reading somewhere that the character I used isn't allowed in tournaments because of how broken he is. Naturally, he ended up being my favorite."
-"Didn’t help that he was cute, too."
+"Didn't help that he was cute, too."
 m "\"Well, you could've dodged it after the fifth time I used it.\""
 c "\"Seriously?\""
 "He takes another swig from his bottle. Some droplets fall on his hoodie."
@@ -284,7 +284,7 @@ m "\"The good part?\""
 "Next to me, Vincent nods, then tilts his muzzle toward the kitchen. His ears perk up."
 vi "\"Lana and I went out and got something special for the guests.\""
 "Part of me already knows what it's going to be. Probably booze or something."
-"From what I've heard, it's what college parties are all about. I don’t know. This is the first one I’ve ever been to."
+"From what I've heard, it's what college parties are all about. I don't know. This is the first one I've ever been to."
 m "\"Something... special, huh? What is it?\""
 la "\"You'll see.\""
 "She grabs her phone again, tapping away on it like she's writing a novel."
@@ -293,7 +293,7 @@ la "\"It's going to be good.\""
 "This \"good thing\" sounds pretty questionable, even more so once Lana disappears into the kitchen before returning with a big silver tray."
 "She passes it from person to person, everyone taking something from it. I try not to think about it too much."
 "By the looks of it, it's not just the usual party snacks. It takes her a while to get through everyone, so I just grab a can of soda from the cooler on the table."
-"It’s an off-brand. I guess the booze is more important."
+"It's an off-brand. I guess the booze is more important."
 "Finally, Lana thrusts the tray in front of my face with the widest of smiles."
 "Her enthusiasm only leaves me disappointed when I find nothing but blueberry muffins."
 #!!! 4th line wrap, seems like it could easily be split into second text box
@@ -347,7 +347,7 @@ show bg univincent as dorm at sidestory_trip with slow_dis
 "I stumble back and forth to keep myself upright, trying to cling to the nearest flat surface, but it doesn't really help."
 "The ground is moving underneath my feet."
 "Where there were two people before, I now see four, swaying from side to side as everything spins around me."
-"It’s like I’m out on a raft in the middle of the ocean."
+"It's like I'm out on a raft in the middle of the ocean."
 "Twenty minutes into the party, and I'm already completely out of it. This is probably setting all sorts of party records."
 "Is this what being high feels like? What the hell was in those things?"
 la "\"Shit! Chase!\""
@@ -355,7 +355,7 @@ la "\"Shit! Chase!\""
 "I recognize her voice, but when I turn to look at Lana she's just a blur - a featureless blob of red and white, ever shifting."
 la "\"Chase, are you okay?\""
 unk "\"What's wrong with him?\""
-"Someone’s tugging at my arm, but gravity’s currently working against me in every possible way."
+"Someone's tugging at my arm, but gravity's currently working against me in every possible way."
 unk "\"Hold on. C'mon, get up.\""
 show bg black onlayer screens:
     alpha 0.0
@@ -363,20 +363,20 @@ show bg black onlayer screens:
         ease renpy.random.randint(5, 7) alpha 0.5
         ease renpy.random.randint(5, 7) alpha 0.3
         repeat
-"The moment I let go of that cabinet, I fall to the floor. Any moment now, I’m gonna sink through it. Where I’ll end up, I don’t know."
+"The moment I let go of that cabinet, I fall to the floor. Any moment now, I'm gonna sink through it. Where I'll end up, I don't know."
 "My head hurts. My stomach hurts."
 "The empty muffin liner is on the floor next to me. I can still make out the pink frills."
 la "\"Someone call 911!\""
 "The despair in her voice is almost palpable. She takes a hold of my wrist. My hand just flops around once she moves it."
 unk "\"And get arrested? Fuck no.\""
 la "\"Fucking shit, I don't know what to do. What do I do?\""
-"I want to comfort her, tell her that I’ll be fine, even if it’s a lie, but no sound comes out of my muzzle."
+"I want to comfort her, tell her that I'll be fine, even if it's a lie, but no sound comes out of my muzzle."
 "I try to sit and push myself off the ground, but my back just ends up hitting the floor again, followed by my ass."
-"I hope I’m not being filmed right now."
+"I hope I'm not being filmed right now."
 "I just lay there."
-"With my brain and body in complete disarray like this, there’s no way I’m getting up any time soon."
+"With my brain and body in complete disarray like this, there's no way I'm getting up any time soon."
 "And despite the screams, despite the loud music, despite everything, I feel my eyelids grow heavier and heavier."
-"The world goes dark before my very eyes, and the last thing I think about before I’m out like a light is how comfortable the cold floor is."
+"The world goes dark before my very eyes, and the last thing I think about before I'm out like a light is how comfortable the cold floor is."
 
 $ stop_all_audio(4)
 
@@ -389,23 +389,23 @@ play background "roomtone.ogg" fadein 5
 play background2 "dryer.ogg" fadein 5
 "I return to the land of the living with a long gasp for air. The scent of very strong coffee fills my nostrils."
 "As soon as I realize I have control over my body again, I thrash in the sheets, which only leaves me tangled when I settle down."
-"My breathing is still harsh, uneven, but I’m okay. I’m okay."
+"My breathing is still harsh, uneven, but I'm okay. I'm okay."
 "Sheets. I'm in a bed. Not the floor."
 
 scene bg uni6 with slow_dis
 
-#!!! There's a lot of repetition of "them" in this sentence. Still needs more changes
-"My paws shoot up to my eyes. I rub a bit before opening them. There’s a lot of gross shit in them. I’ve probably been out for quite a while."
-"I can only imagine how bad I must be reeking right now. I’m still wearing the clothes I was wearing last night, too. Fuck."
-"The clock says it’s just past nine. How I managed to get back here, I have no idea."
+#!!! There's a lot of repetition of "them" in this sentence. needs more involved fixing. Adding "a bit" puts some distance between two of the occurrences and makes those less obvious at least
+"My paws shoot up to my eyes. I rub them a bit before opening them. There's a lot of gross shit in them. I've probably been out for quite a while."
+"I can only imagine how bad I must be reeking right now. I'm still wearing the clothes I was wearing last night, too. Fuck."
+"The clock says it's just past nine. How I managed to get back here, I have no idea."
 "When I try to think about what happened last night, my head just starts hurting more."
 show Carlu Pants at center with dis
-"Carl waltzes in like it’s no one’s business, wearing nothing but pajama pants that look a few sizes too big even for him."
-"There’s a piece of toast in his mouth and two mugs of coffee in his paws."
+"Carl waltzes in like it's no one's business, wearing nothing but pajama pants that look a few sizes too big even for him."
+"There's a piece of toast in his mouth and two mugs of coffee in his paws."
 c "\"Ooh, you're up. Here, I made coffee.\""
 m "\"I can see that. Thanks, though.\""
 "He sits down next to me, exhaling through his nostrils, just eating his toast."
-"We made rules about only eating at the table, but right now, I’m just glad to be awake and in good health."
+"We made rules about only eating at the table, but right now, I'm just glad to be awake and in good health."
 "I speak up once my mug's half-empty."
 m "\"So what happened? How'd I get back here?\""
 "Carl noisily swallows the last bits of toast."
@@ -432,11 +432,11 @@ m "\"No!\""
 "My shakily-uttered denial's not the most convincing, but Carl doesn't seem to pick up on it, thank God."
 m "\"Hell no. I was just... I just had a couple too many, that's all.\""
 c "\"Even if you did try some, no fur off my back. I mean, look at me. I think I'm past just a little experimenting.\""
-"I fall quiet. It’s a bit awkward to admit to doing something I used to tease Carl for, especially when I fainted almost immediately after trying it."
-"Maybe I’ll tell him later. Preferably when we’re done with college, so it’ll be just one of many escapades."
+"I fall quiet. It's a bit awkward to admit to doing something I used to tease Carl for, especially when I fainted almost immediately after trying it."
+"Maybe I'll tell him later. Preferably when we're done with college, so it'll be just one of many escapades."
 #!! this sentence structure was rough. Fixed it a little, but changed its intensity a bit in the process
-"I do hope future escapades won’t leave me feeling like I got hit by a train, though." # lmfaoo
-"I finally sit up. God, my back’s stiff as can be."
+"I do hope future escapades won't leave me feeling like I got hit by a train, though." # lmfaoo
+"I finally sit up. God, my back's stiff as can be."
 m "\"What have you been up to while I was out?\""
 c "\"Studying, believe it or not. That and laundry.\""
 "He stacks the two cups and stands up."

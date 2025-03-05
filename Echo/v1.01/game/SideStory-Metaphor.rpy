@@ -94,7 +94,7 @@ f "\"Yeah. I dunno, I guess I just liked it.\""
 "He reaches over, running his paw softly over the gila's head spines."
 show Flynn Happy with dis
 "The reptile closes his eyes for a moment, humming at the touch."
-#!!! "looks over the" -> "looks over at the"? Not sure if this is a missing word or not
+#!!! "looks over the" -> "looks over at the"? both are fine but with different meanings
 "He looks over the glinting piece of silver on the wolf's wrist, shining in the moonlight."
 "Leo looks too, their eyes locking briefly."
 show Flynn Teasing1 with dis

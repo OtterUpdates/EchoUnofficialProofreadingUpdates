@@ -308,6 +308,7 @@ show cam smile talking c evening with dis
 c "\"AND I did some research on that forum you linked me to a few years back, so my sixth sense is primed and ready.\""
 #!! the comma could be removed here. This is sort of just a difficult sentence to anticipate/parse as a reader; not sure if there's a way around it
 #!! Even while looking hard at it, it took me a while before I realized that "and slight annoyance" wasn't an aside, but rather that the last fragment is a full thought
+#!! To make the issue more obvious, Devon wouldn't have "reluctance" at getting cut off every sentence.
 "That seems to finally snap Devon out of his reluctance and slight annoyance at getting cut off every sentence."
 show dev happy evening with dis
 d "\"Wait, {w=0.3}seriously!? {w=0.4}There were so many people like you on that forum. Did you--\""
@@ -405,7 +406,7 @@ d "\"I would {i}never{/i} let that happen to you. I know I say stupid shit about
 scene lake_emma_2 with dis2
 c "\"Honestly, it's nice to hear that, because just letting my mom sit next to a fan for three hours straight every day, feeding on her delusions, was the dumbest thing I've ever done.\""
 c "\"But I was high on my own drug of choice because I just didn't care. But the thing is that even through that hell she was in, {i}she{/i} cared.\""
-#! pick a capitalization for "post-it" and apply it to both instances in Arches
+#! pick a capitalization for "post-it" and apply it to both instances in Arches, or switch to sticky notes. There's really not a correct answer for what capitalization to use, so pick whichever looks best. "Post-it Note", "post it note", "Post-it note", "post-it note" are all correct depending on how much you believe in the Post-it trademark not being a generic term at this point (e.g. bandaids, kleenex, xerox, etc.)
 c "\"I took too much a few times, and even though she was listening to her fan, in her own world, sticking post-it notes to all the shapes she saw--\""
 c "\"--she still noticed right away when my breathing wasn't right, and I woke up to her spraying Narcan up my nose.\""
 "Cameron sees Devon tilt his head in question."

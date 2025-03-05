@@ -118,7 +118,8 @@ l "\"Janice, do you need some help?\""
 "I don't hear her say anything, except maybe a grunt. Leo bravely keeps trying, though."
 l "\"We can give you a ri—\""
 "Leo stops talking in time for me to hear a pattering sound."
-"It's a sound I recognized well from back when I would take a piss on the dirt roads of Echo when no one was around."
+#!! recognize? recognized? the copy-pastes use different versions
+"It's a sound I recognize well from back when I would take a piss on the dirt roads of Echo when no one was around."
 "The van lurches forward, then resumes a smoother acceleration back onto the empty road."
 f "\"Holy shit! What the fuck was that!?\""
 l "\"I don't...\""
@@ -135,7 +136,7 @@ m "\"Well, maybe she does? You never know with people.\""
 "Again, Leo doesn't say anything, and neither does anyone else."
 "I glance back at TJ, who's sitting in the very back seat with Jenna."
 "He's got his ears down, looking into his lap where he's fidgeting with his hands."
-"I know he's probably thinking the same thing I am, which is that we're supposed to help Janice with her spring-cleaning, or whatever."
+"I know he's probably thinking the same thing I am, which is that we're supposed to help Janice with her spring cleaning, or whatever."
 "I want to ask him about it, but the dead silent van is making me feel like now isn't the best time."
 
 stop loop fadeout 3.0

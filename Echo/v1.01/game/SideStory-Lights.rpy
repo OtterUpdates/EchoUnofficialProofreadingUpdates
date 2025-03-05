@@ -17,7 +17,7 @@ $renpy.pause(2.5, hard=True)
 scene bg lightsparty
 
 "I look down at the cup in my hand again, trying not to make eye contact with anyone around me."
-"Part of me wished I had stayed home tonight, but Sarah asked me to come, and I’d feel bad turning her down."
+"Part of me wished I had stayed home tonight, but Sarah asked me to come, and I'd feel bad turning her down."
 "She looked so excited when she mentioned how much effort she and the rest of her bible group put into this party."
 "She'd said that after a recent string of storms, the school wanted people to know that there was a severe weather shelter in the basement of the church."
 "At first I thought it was going to be a bland-looking concrete basement, but as it turns out, Payton's old school gym is beneath the church."
@@ -39,7 +39,7 @@ scene bg lightsparty
 "I can't take my mind off of it now. I tried to make Sarah's night a little better, but ended up ruining Chase and Leo's."
 "Now I'm avoiding Sarah, and I can't help but feel I'm ruining everyone's night."
 "I have to stop myself from thinking about it too much."
-"I bring my cup to my lips and drink just so that I’m doing something, if only for a few seconds."
+"I bring my cup to my lips and drink just so that I'm doing something, if only for a few seconds."
 "I end up downing all of it, and I close my eyes."
 #! 4th line wrap, can be split into a new text box
 "I focus on slowing my breathing to stave off a panic attack I feel coming on. It takes a few minutes, but finally I can feel my heart rate slow and my body relax."
@@ -52,12 +52,12 @@ sa "\"I was hoping to find you here. I was looking for you earlier, but I got ca
 sa "\"Would you like to dance?\""
 "I can't help the shocked expression that I'm sure is on my face, and my eyes dart to the ground."
 "I start mumbling out an excuse before Sarah reaches for my hand and pulls me to the dance floor."
-"The cup I’m holding slips from my hand as I lose track of myself. Everything seems to fade away as I follow Sarah onto the dance floor."
+"The cup I'm holding slips from my hand as I lose track of myself. Everything seems to fade away as I follow Sarah onto the dance floor."
 play music2 "pop.ogg" fadein 5
 stop music fadeout 9
 #! 4th line wrap, can be split into a new text box. Repeated "and" in first line should be restructured a bit
 "She turns to me and pulls me closer and places my hand on her hip. I hope the music is loud enough to mask the gulp I make when my hand touches her dress."
-"Sarah is wearing an off-white sundress with a red ribbon around her waist, and I can’t help but stare with how cute she looks."
+"Sarah is wearing an off-white sundress with a red ribbon around her waist, and I can't help but stare with how cute she looks."
 "I feel over-dressed in my outfit. My mom had laid out my clothes for me before she and Dad left. A light blue dress shirt and tie paired with slacks."
 "Sarah's smile snaps me out of my reminiscing as she waits for me to take the lead."
 "I force myself out of my trance and take a tentative step... right onto Sarah's foot."
@@ -68,12 +68,12 @@ t "\"Sorry! Sorry...\""
 "At least I still have a chance at making Sarah's night and not completely ruining it."
 "Her smile seems to have a way of relaxing my nerves, and soon enough I'm smiling back at her."
 "The next song has a faster tempo, and we let go of each other. Sarah shakes her hips and moves her body to match the beat."
-"I fumble, not knowing what to do with my hands, so I start to copy Sarah and hope she doesn’t notice."
+"I fumble, not knowing what to do with my hands, so I start to copy Sarah and hope she doesn't notice."
 "We dance together, laughing and occasionally singing lyrics to songs we both know."
 play music "hiphop.ogg" fadein 5
 stop music2 fadeout 8
 #! not sure this should be a semicolon
-"Every now and then we bump into each other, which forces a few laughs out of us — although I’m suspicious that she’s doing it on purpose."
+"Every now and then we bump into each other, which forces a few laughs out of us — although I'm suspicious that she's doing it on purpose."
 "Before long the tempo of the music starts to slow and we find ourselves slow dancing once again."
 #! 4th line wrap, can be split into a new text box at the newly-created sentence break
 "Sarah pulls herself closer to me this time until our bodies press together. She looks me in the eye and smiles warmly, before putting her head on my shoulder."
@@ -87,8 +87,8 @@ stop background fadeout 15
 "I gently pull her into me, returning her embrace and smile."
 "Unfortunately, my body reacts to this in the worst way possible and my smile fades as I feel my pants getting tighter."
 play background "fan.ogg" fadein 25
-#!!! Weird sentence structure. It almost feels like two sentence ideas were both left in on accident
-"We start to step out of sync and I can feel her torso grind against mine, I can feel her press her hips into mine."
+#!!! Weird sentence structure. It almost feels like two sentence ideas were both left in on accident. I improved it a little so it's not so noticeable, but it likely needs more
+"We start to step out of sync and I can feel her torso and hips grind against mine."
 "I tense and try to pull my hips away, but that only succeeds in making matters worse as the angle changes and I can feel myself bumping into her."
 "Sarah's hands travel down my back, coming to a rest just above my tail."
 "My entire body is tense, and I can feel myself starting to panic before the song fades out for another with a faster tempo."
@@ -155,7 +155,7 @@ window show
 "An altar made of marble and covered in a white cloth with a gold trim stands in front of a big wooden cross."
 "A wooden podium stands off to the left for the priest to give his sermon."
 "Wooden pews fill the empty space in the hall, while a balcony for the choir overlooks the entire chapel."
-"The church organ is on the balcony. Probably so kids don’t mess with it."
+"The church organ is on the balcony. Probably so kids don't mess with it."
 scene desertmeadownight with dis
 show nightoverlay onlayer screens
 play sound "dooropen.ogg"
@@ -243,7 +243,7 @@ show nightoverlay onlayer screens:
     ease 0.8 alpha 0.0
 
 "I notice my lungs fill with cold air, and a pressure seems to lift off of my body."
-"I wonder if that’s what it’s like to go through a panic attack. It sure felt like one."
+"I wonder if that's what it's like to go through a panic attack. It sure felt like one."
 "I struggle to undo my cufflinks, noticing how shaky my hands are, but I manage to undo the pins and let my wrists breathe."
 "I loosen my tie and unbutton the top few buttons of my shirt, feeling like I can actually breathe again."
 stop background2 fadeout 7
@@ -300,7 +300,7 @@ $ renpy.pause(4, hard=True)
 "I listen for anything and I think I can hear breathing, but when I try to focus on it, a steady, high-pitched ringing starts to build."
 "The more I try to focus, the louder it gets."
 #! 4th line wrap, can be split into new text box
-"I try to focus on anything other than that sound, but there’s nothing to hear. It’s gotten so loud that I don’t think I’d be able to hear a jet engine at this point."
+"I try to focus on anything other than that sound, but there's nothing to hear. It's gotten so loud that I don't think I'd be able to hear a jet engine at this point."
 "I feel my lungs start to burn, and I release the breath I hadn't realized I'd been holding."
 "I was so focused on hearing something, anything, other than that ringing, that I had ignored everything else."
 scene bg lightsroad with medium_dis
@@ -391,7 +391,7 @@ show shade5 onlayer screens:
     ease 40 alpha 0.0
 show nightoverlay onlayer screens:
     ease 40 alpha 1.0
-#!! the consecutive "and"s are a bit awkward. Improved a little
+#!! the consecutive "and"s are a bit awkward. Improved a bit by at least reducing the "and I" repetition
 "I look back towards Echo and see a car driving towards me, and I feel a sense of hope wash over me."
 "I start to look around, making sure the thing isn't going to grab me out of the shadows."
 "I start to wave down the car, but as it pulls closer, the lights dim and I can see into it."
@@ -416,7 +416,7 @@ c "\"Whoa, there, Teej, I gotta unlock the door first.\""
 "I can smell something bad in the air now, like someone who hasn't bathed in months or a rotting dead animal."
 "It's closer now."
 "I hear the doors click open and I scramble for the handle again."
-"I can hear Carl mention the door being open and that I could sit in the front if I’d like but I ignore him, too focused on getting inside the car."
+"I can hear Carl mention the door being open and that I could sit in the front if I'd like but I ignore him, too focused on getting inside the car."
 play sound "<from 0.6>cardoorhalf.ogg"
 #!! kind of an awkward sentence all around
 "Yanking on the door, I step back to make room for it to swing outward, and in that moment I feel a presence and my hair raises on my neck."

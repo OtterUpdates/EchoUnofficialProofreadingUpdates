@@ -8,7 +8,6 @@ scene bg yeeyaw
 with slow_dissolve
 window show
 play background "river.ogg" fadein 2.5
-#!! should North be capitalized? Not sure
 "Yeeyah River feeds Lake Emma from the North."
 "It's a farther drive than the lake itself, but it does have a few nice clearings along its edge."
 "One of them has a few benches and a rusted-to-hell public grill that I'm sure no one has used in decades."

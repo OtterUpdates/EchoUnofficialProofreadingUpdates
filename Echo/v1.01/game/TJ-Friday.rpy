@@ -724,8 +724,8 @@ with dissolve
 "\"Soon you'll know what Chase has done,\""
 "\"Figure it out, it's a piece of cake,\""
 "\"If you can't, look by Carl's drawing at the lake.\""
-#!! stronger pause after "while"?
-"It goes quiet for a while, the only sound is the wind rustling through the trees."
+#!!! stronger pause after "while"?
+"It goes quiet for a while. The only sound is the wind rustling through the trees."
 "Then I hear a gagging sound and look back just in time to see Carl hurling into some bushes."
 stop background fadeout 3.0
 

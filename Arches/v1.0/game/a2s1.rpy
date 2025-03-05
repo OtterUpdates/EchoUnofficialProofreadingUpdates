@@ -339,7 +339,7 @@ show cam worried c with dis
 "Those were real. Cameron feels it deep down that they had to have been real."
 "He couldn't have made up that recounting of the forest creature, or of the girl being murdered."
 "Maybe Devon was worried Cameron would give up if he didn't see anything, and wanted to make sure by..."
-#!! should this end with a question mark?
+#!!! should this end with a question mark? It could be either, though the structure and lines surrounding it make it feel like Cam is phrasing it as a question to himself.
 ".{cps=3}..{/cps}{w=0.4}by hanging himself in the closet, by creating one of the worst moments in Cameron's life?"
 "Devon would never do that, {w=0.4}would never {i}think{/i} to do that."
 "As he's thinking this, something flickers in Cameron's vision."
@@ -476,7 +476,7 @@ window show
 "Cameron himself couldn't be bothered to tidy up."
 "It's easier now that his mom doesn't give a fuck."
 "He can do his drugs right in front of her now."
-#! pick a capitalization for "post-it" and apply it to both instances in Arches
+#! pick a capitalization for "post-it" and apply it to both instances in Arches, or switch to sticky notes. There's really not a correct answer for what capitalization to use, so pick whichever looks best. "Post-it Note", "post it note", "Post-it note", "post-it note" are all correct depending on how much you believe in the Post-it trademark not being a generic term at this point (e.g. bandaids, kleenex, xerox, etc.)
 "The post-it notes and strips of fabric tied to every arch his mother spotted, even to things Cameron is pretty sure aren't arches, made the place look like a disaster anyway."
 "What does bother him, though, as he watches her through half-lidded eyes, is the way she looks."
 "Her fur is disheveled and sticking up in different places, and she's in the same clothes she's been in for a week."
@@ -577,7 +577,7 @@ window show
 "Even now, she struggles with her addiction to benzodiazepines, something carelessly prescribed to her so she'd stop wailing all the time."
 "To Devon, it seemed like psychology never moved past lobotomies."
 "Instead, they just converted it into pills."
-#!! this sentence doesn't need to start with "and". Removing it avoids some repetition
+#!! this sentence doesn't need to start with "and". Removing it avoids some repetition. It could instead start with "And" and tweak the second ", and" out
 "He never really changed that mindset, and it's why he never encouraged Cameron to seek some sort of help, especially if he didn't want it."
 "What he took away from his research is that hallucinations of any kind are of serious concern and should never be brushed off."
 "But he had done just that with the idea that maybe there's more to hallucinations for some people than psychology will ever understand."
@@ -614,7 +614,7 @@ hide cam
 hide dev
 play sound thud
 "Devon, rocking them back and forth on the uneven, rocky ground, sends them to the dirt, but Devon just pulls Cameron into his lap, still hugging him tightly." with vpunch
-#!! ", though he's smiling" extends the sentence just a little too long. consider dropping it
+#!! ", though he's smiling" extends the sentence just a little too long. consider dropping it or changing the line a bit
 "Meanwhile, Artie is looking away, seeming to have spotted something very interesting in the miniature forest just off the road, though he's smiling."
 show dev crying behind cam with dissolve
 d "\"I'm so sorry for bringing you here... I don't know what else to say. I'm just sorry.\""

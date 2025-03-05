@@ -357,7 +357,7 @@ d "\"I can't believe this.\""
 a "\"Is Devon being a fucking nazi about everything new, or have you been putting up with this for a while? It's weird after knowing how he acted in college.\""
 "Cameron leans against the tailgate, smiling at Devon."
 c "\"I've been doing some dangerous shit during our investigation and Dev is just trying to keep us safe. He's wonderful and I love him.\""
-#! reduces repetition of "him"
+#! reduces repetition of "him". Could still be reworded a little if desired
 "Devon looks at him and just gives a small smile without saying anything."
 a "\"Oh? You gonna let me in on what's going on between you two? Because I think we can all admit that it's been super awkward so far.\""
 c "\"Hasn't it, though? This must be fuckin' weird for you!\""

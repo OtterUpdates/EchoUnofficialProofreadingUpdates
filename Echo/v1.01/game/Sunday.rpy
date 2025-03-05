@@ -150,6 +150,7 @@ with fade
 stop music fadeout 5.0
 "The line ends up being two hours long and by the time we get to the actual ride, I'm dying to get into a pool of any kind."
 "To put it bluntly, an otter needs water."
+#! readability?
 "Part of the problem with living in Echo was that we didn't have any kind of indoor pool system in our house, being as cheap as it was."
 "We ended up having to get an outdoor swimming pool, which was a pain."
 show Leo at center with dissolve
@@ -307,6 +308,7 @@ show TJ Neutral at right
 with dissolve
 "TJ comes back with a medium-sized cup in his paws. He sits next to Carl."
 t "\"No ginger ale, but they did have some lime soda.\""
+#! reduces repetition of "it" (especially with "bit" in the line)
 "Carl takes it and sips a bit before sitting back and belching."
 c "\"Ugh...fuck it, I'm done, guys.\""
 f "\"What!? What're you gonna do all day, sit there?\""
@@ -382,6 +384,7 @@ c "\"You know what, I can see it...Yeah.\""
 c "\"You're the hot preppy one everyone likes, I'm the big fat chick you're all nice to, but call Big Thunder Mountain behind her back, and TJ—!\""
 "TJ hadn't been paying attention, distracted with watching some dancers come on stage. He looks innocently at us."
 t "\"Huh?\""
+#!! maybe? This is an oddly-phrased line originally
 c "\"You're the cute, naive Christian chick that only takes it up the butt so she can stay a virgin.\""
 #Malcolm line
 show TJ Surprised with dis
@@ -854,6 +857,7 @@ l "\"Not talking to you about this when I should have. Talking to Jenna about it
 "He's smiling at me, but I grit my teeth."
 m "\"Why are you still wearing that?\""
 l "\"I...\""
+#! his eyes are not originally on the bracelet, so they can't flick "from" it
 "His eyes flick to the bracelet and then back to my face, expression turning defensive."
 l "\"Why aren't you still wearing yours? Don't you remember what we said?\""
 "I sigh, looking at the scattering of clouds behind Leo's head. They're tinged a soft pink from the fading sun."
