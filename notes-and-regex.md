@@ -309,3 +309,7 @@ Preference, but should be consistent. I prefer s's over s', with the rationale "
   * further/farther - farther is for physical distance, further is for figurative distance. not a huge deal, but easy enough to fix if desired - `[^a-z]f[au]rther[^a-z]`
   * who/whom - generally not worth the squeeze, and usually no one notices unless you misuse "whom" - `[^a-z]whom?[^a-z]`
   * more contractions - everyone in Echo speaks in casual and slang, and when they don't use contractions it's jarring as a result (he's/there's/we're/etc). If not using a contraction, there's opportunity to italicize one of the parts to show that it's intentionally broken out for emphasis
+  * (teeth) grit/gritted - `[^a-z](grit|gritted)[^a-z]`
+    * Not sure how to handle this. When referring to teeth being grit, it's sometimes "grit" and sometimes "gritted"
+    * both variations are in the dictionary, and I suspect that the variation used depends on something in the sentence
+    * I don't think the lack of consistency is something normal people would notice, so this seems fine to leave alone unless there's a good answer
