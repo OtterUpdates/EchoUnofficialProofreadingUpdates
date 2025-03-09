@@ -1027,6 +1027,7 @@ t "\"Julian!\""
 m "\"Julian?\""
 show Julian at right with dissolve
 "It's been a while since I've seen him."
+#!! it's weird to note that his antlers are big when his sprite has the tiniest antlers I've ever seen
 "He's bigger, and so are his antlers. I barely recognize him."
 ju "\"And Chase, too!? What in the world are you two doing here?\""
 t "\"Visiting! I didn't know you had a job here. That's cool!\""

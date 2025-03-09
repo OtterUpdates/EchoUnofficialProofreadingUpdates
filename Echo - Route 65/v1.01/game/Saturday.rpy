@@ -278,6 +278,7 @@ centered "_"
 "God, he always does this."
 "Two-to-three-word responses."
 "He's probably still hanging out with the other football-folk outside school."
+#! noting a "Leo truck" reference here, in case it should be a van. Leo's vehicular situation is puzzling
 "Lucky bastard has his own truck now, so he mostly doesn't come home with us anymore."
 "I find myself biting the inside of my cheek and quickly force myself to stop."
 play sound "texting3.ogg"
