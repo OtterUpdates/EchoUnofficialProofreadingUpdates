@@ -147,7 +147,8 @@ scene bg moteldoor with dissolve
 "The knocking continues and I hear Jenna sigh. She moves from the corner of her bed to the door - unlocking and opening it."
 play sound "dooropen.ogg"
 show Leo at center with dissolve
-"It's at this point I realize she isn't fully dressed yet - her body covered only by a bra and panties."
+#! "and panties"? "and pair of panties"?
+"It's at this point I realize she isn't fully dressed yet - her body covered only by a bra and pair of panties."
 show Leo Surprised with dis
 "Leo starts to say something - but the words visibly catch in his throat as he realizes Jenna's state of undress."
 #!! maybe an improvement?
@@ -555,7 +556,7 @@ play sound "windowbreak.ogg"
 show Jenna Surprised
 show TJ Surprised
 with dis
-"As he leaves. Leo smacks a nearby pinball machine so hard, the glass cracks."
+"As he leaves, Leo smacks a nearby pinball machine so hard, the glass cracks."
 
 "TJ stands there with his paws behind his head, maw agape."
 show Jenna Annoyed with dis
