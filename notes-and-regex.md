@@ -139,7 +139,7 @@
 * yote/'yote
   * apostrophe before or not, pick one `[^a-z]yote`
 * rez/Rez and reservation/Reservation
-  * pick a capitalization style `([^a-z]rez[^a-z]|[^a-z]reservation[^a-z])`
+  * pick a capitalization style `([^a-z]rez[^a-z]|[^a-z]reservation)`
   * a source on what to use: https://nativegov.org/resources/terminology-style-guide/
 * native/Native
   * Native should always be capitalized when referring to e.g. Indigenous people: `[^a-z]native[^a-z]`
@@ -277,7 +277,7 @@ Preference, but should be consistent. I prefer s's over s', with the rationale "
   * if you use "anytime", it should be able to be swapped with "whenever" - `[^a-z]any(-| )?time`
 * someplace (American/casual)/some place (formal) - `some( |-)?place`
 * complement/compliment - `compl.ment`
-* affect/effect `[^a-z](a|e)ffects?[^a-z]`
+* affect/effect `[^a-z](a|e)ffect(s|ed|ing)?[^a-z]`
 * lead/led (led is past tense of lead) `[^a-z]lead[^a-z]`
 * low hit-rate scan for e.g. "X and X has", which should be "have" (e.g., "Manga and anime has") - `[\w ]+ and [\w ]+ has[^a-z]`
 * low hit-rate scan for "X, X, and X has", which should be "have" - `[\w ]+, [\w ]+, and [\w ]+ has[^a-z]`

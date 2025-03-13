@@ -147,7 +147,7 @@ scene bg moteldoor with dissolve
 "The knocking continues and I hear Jenna sigh. She moves from the corner of her bed to the door - unlocking and opening it."
 play sound "dooropen.ogg"
 show Leo at center with dissolve
-#! "and panties"? "and pair of panties"?
+#! "and panties"? "and pair of panties"? "and a pair of panties"? I can't tell which reads most naturally
 "It's at this point I realize she isn't fully dressed yet - her body covered only by a bra and pair of panties."
 show Leo Surprised with dis
 "Leo starts to say something - but the words visibly catch in his throat as he realizes Jenna's state of undress."
@@ -1387,7 +1387,7 @@ scene bg compbase5
 $ renpy.pause(1.0, hard=False)
 window show
 
-m "\"That's from the trip we took to the reservation!\""
+m "\"That's from the trip we took to the Reservation!\""
 m "\"Back in like, freshman year of high school? Jeez.\""
 t "\"Look at you two! You were so little. Carl was just getting his beard.\""
 m "\"I think we were both just getting used to high school at the time, and that was taken during Thanksgiving.\""
