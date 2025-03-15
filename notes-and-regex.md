@@ -251,7 +251,7 @@ Preference, but should be consistent. I prefer s's over s', with the rationale "
 * Missing opening quotation mark from character dialogue - `^\s*[a-z]+\s+"[^\\{]`
 * Missing punctuation before last RenPy quote in line - `[^,"?!\-…—\.\}](\{\/(i|b|size|cps|w|nw|font|p|k|sc)\})*\\"[^\\]*"[^"]*$`
 * Missing punctuation before ending Renpy programmatic string (loose) - `[^,"?!\-…—\.\}](\{\/(i|b|size|cps|w|nw|font|p|k|sc)\})*"[^"]*$`
-* Missing punctuation before ending Renpy programmatic string (only if nothing if after programmatic string) - `[^,"?!\-…—\.\}](\{\/(i|b|size|cps|w|nw|font|p|k|sc)\})*"\s*$`
+* Missing punctuation before ending Renpy programmatic string (only if nothing is after programmatic string) - `[^,"?!\-…—\.\}](\{\/(i|b|size|cps|w|nw|font|p|k|sc)\})*"\s*$`
 * Double punctuation - `(\?\.|\.\?|\.!|!\.)`
 * People frequently typo "lightning" into "lighting" (which is hard to notice and scanners never pick it up) - `[^a-z](lighting|lightening)`
 * Accidental capital after a comma, ignoring "I". Fill in proper nouns exceptions in the parentheses (turn on case sensitivity) - `, [^a-zI\\"\{'0-9“(Devon|Cameron|Leo|Maria|Northwestern|February|Karen|Jeremy|Sydney|TJ|God|Victorian|Heather|Chase|Echo|Artie|Pueblo|Brian|Raincoat)]`

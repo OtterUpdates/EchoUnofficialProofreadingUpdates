@@ -13,7 +13,7 @@ I did reach out to the Echo Project team a few times via their Patreon messages 
 
 I would very strongly recommend applying this patch to Route 65 and Echo, but the fixes I needed to make for Arches were a lot lighter in scope and not as urgent. Still, there's a good amount of hard errors, messy sentences, and bad formatting that I cleaned up in Arches, so it's ultimately a good idea there too.
 
-If you want to compare my fixes to the original text, you'll want to use some kind of text diff tool (I personally use VSCode), or check the diffs [directly on GitHub](https://github.com/OtterUpdates/EchoUnofficialProofreadingUpdates/compare/original-copies...main?w=1). Note that these fixes obviously contain spoilers, so don't look if you haven't read the novels yet!
+If you want to compare my fixes to the original text, you'll want to use some kind of text diff tool (I personally use VSCode), or check the diffs [directly on GitHub](https://github.com/OtterUpdates/EchoUnofficialProofreadingUpdates/compare/original-copies...main?w=1#files_bucket). Note that these fixes obviously contain spoilers, so don't look if you haven't read the novels yet!
 
 ## Installation/Usage notes:
 Grab the source code zip from the [latest release](https://github.com/OtterUpdates/EchoUnofficialProofreadingUpdates/releases/latest) and extract the relevant `.rpy` files into the nested `game` folder of Route 65, Echo, or Arches (i.e., `Echo\game\*.rpy`), then relaunch the game.
