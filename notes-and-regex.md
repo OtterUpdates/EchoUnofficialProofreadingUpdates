@@ -295,7 +295,7 @@ Preference, but should be consistent. I prefer s's over s', with the rationale "
 * Starting a sentence with an -ly adverb, may want a comma (add more common words to filter if needed) - `"(?!only|holy|probably|really)\w+ly `
 * did/didn't used to (should be "use to") - `[^a-z](did|didn't) .*used to`
 * low-hanging fruit than/then - `(more|less|er)( \w+)? then`
-* face to face/back to back/side to side/etc. - `[^a-z](\w+)( |-)to( |-)\1[^a-z]`
+* face to face/back to back/side by side/etc. - `[^a-z](\w+)( |-)(to|by)( |-)\1[^a-z]`
 
 
 # Misc unsorted/unfinished stuff:
