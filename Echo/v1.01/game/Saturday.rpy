@@ -698,7 +698,7 @@ show Flynn at farright
 show TJ at farleft
 with dissolve
 f "\"Of course that's easy for someone like {i}you{/i} to say. Besides, I see what's going on here.\""
-f "\"Maybe you should watch {i}Luche Lobo{/i}, TJ. He's shirtless the whole time.\""
+f "\"Maybe you should watch {i}Lucha Lobo{/i}, TJ. He's shirtless the whole time.\""
 show TJ Sheepish with dis
 "TJ's ears go flat, tufts pointed at the ground."
 show Flynn Teasing1 with dis

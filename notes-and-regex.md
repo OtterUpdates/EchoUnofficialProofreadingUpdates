@@ -130,7 +130,7 @@
   * (done, normalized to `cheshire`)
 * Lucha Lobo/Luche Lobo
   * Is there a difference? pick one probably? `luch(a|e)[^d]`
-  * (NOT DONE. I'm not a Spanish speaker, but apparently lucha is casual and luche is formal. It should at least be normalized when referring to Lucha Lobo since it's a proper name?)
+  * (done, normalized to `lucha`. I'm not a Spanish speaker, but according to several Spanish/Mexican sources it should be "Lucha". If there's a specific reason for it to be Luche in some cases it should be set back in those cases, but until that's evident it's a very obvious desync for readers (at least for non-Spanish readers who don't understand the nuance of why the letter keeps flipping around))
 * Super Wolf/SuperWolf
   * probably SuperWolf `super.?wolf`
   * (done, normalized to `SuperWolf`)

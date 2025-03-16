@@ -294,7 +294,7 @@ hide TJ with dissolve
 t "\"This used to be the mask shop.\""
 l "\"I don't think Carl needs any masks, unless he's got a secret bank-robbing life we don't know about.\""
 "Leo smiles lopsidedly."
-#!! Lucha Wolf? Should this be Lucha Lobo?
+#!! Lucha Wolf? Should this be Lucha Lobo? Is Chase just an uncultured idiot?
 m "\"You know, he might actually want a Lucha Wolf mask or something.\""
 "I remember as a kid, Carl always spouted off random wrestling facts."
 "The fake kind though, and most of it sounded more like soap-opera storylines than an actual sport."
@@ -439,7 +439,7 @@ l "\"'Ey, ain't nearly as bad as getting caught cock-in-paw by the padres while 
 m "\"Gah...\""
 l "\"Hey, look.\""
 "I pull my paws away from my face to see Leo point to something in the machine."
-#!! Lucha Wolf? Should this be Lucha Lobo?
+#!! Lucha Wolf? Should this be Lucha Lobo? Is Chase just an uncultured idiot?
 "I squint, and in the midst of puzzle-cubes and spinner-toys, a boxed Lucha Wolf figure rests."
 "Leo shifts his gaze toward me and grins."
 #!!! The "lowering button" is written as "lowering button", "lower-button" and "'lower' button" in this section. maybe pick a variant?

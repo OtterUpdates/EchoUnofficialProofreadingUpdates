@@ -1346,7 +1346,7 @@ hide Young_Leo with dissolve
 "I throw a punch."
 "It misses and hits him in the throat instead."
 "He lets out a hard cough, reaching up with both paws to clutch at his neck."
-"He manages to stumble to his feet without using his paws, his Luche Lobo swim trunks wetly clinging to his legs."
+"He manages to stumble to his feet without using his paws, his Lucha Lobo swim trunks wetly clinging to his legs."
 "I don't give him a chance to stand for long."
 "I tackle him again and grab his head, shoving it underwater."
 "He scrambles frantically."

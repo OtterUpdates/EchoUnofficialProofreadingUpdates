@@ -247,7 +247,7 @@ c "\"Yeah?\""
 "Carl stands at the end of the table, one hand on a chair as he watches all of us."
 "While I knew Carl wouldn't really be into the idea of a party, I didn't think it would be this bad."
 "I wonder if his anxiety has gotten worse since the incident at the university."
-l "\"We're going out to eat later, and then a movie...thought you might wanna see the new Luche Lobo film, ya know?\""
+l "\"We're going out to eat later, and then a movie...thought you might wanna see the new Lucha Lobo film, ya know?\""
 "Carl's hands go up to pull the beanie tighter over his head."
 c "\"Well...as long as you don't tell the waiters that it's my birthday.\""
 show Jenna at left behind Carl with dissolve
