@@ -43,6 +43,7 @@
   * e.g. "{font}An example sentence"
   * In this case, the first quotation mark would appear in standard font style and the second would appear in custom font style
   * search for fonts used after opening quote: `\\".*\{font`
+  * (NOT DONE, too many occurrences and I would want an official go-ahead before pulling the trigger. This is also not very noticeable to an average reader unless you are looking for it. These are objective upgrades though, so they should be done at some point.)
 
 # CONSISTENCY
 
@@ -50,107 +51,149 @@
 
 * A'ight/aight
   * pick one, and consider "s'aight" as well `[^a-z]a'?ight`
+  * (done, normalized to `a'ight`)
 * til/till/til'
   * pick one, with or without apostrophe `[^a-z]till?'?[^a-z]`
+  * (done, normalized to `'til`)
 * whatsup/what's up
   * Can keep this separate if desired, just checking `what'?s ?up`
+  * (done, normalized to `what's up`)
 * woah/whoa/whoah
   * pick one, probably whoa `wh?oah?`
+  * (done, normalized to `whoa`)
 * musta/musta'
   * pick one, with or without apostrophe at end `musta`
+  * (NOT DONE. Echo uses `musta`, Arches uses `musta'`)
 * getcha/get'cha
   * pick one `get'?cha`
+  * (done, normalized to `get'cha`)
 * what'cha/watcha/wat'cha/whatcha/wath'cha
   * pick one variant `wh?at?h?'?t?ch?a`
+  * (done, normalized to `what'cha`)
 * shut up/shutup
   * pick one `shut(-| )?up`
-* friggen/friggen'
-  * pick one, with or without apostrophe at end `friggen`
+  * (done, normalized to `shut up`)
+* friggen/friggen'/friggin/friggin'
+  * pick one, with or without apostrophe at end `frigg(i|e)n`
+  * (done, normalized to `friggen'`)
 * whaddya/whaddaya
   * pick one, probably whaddya `whadda?ya`
+  * (done, normalized to `whaddya'`)
 * lil/lil'
   * pick one `lil[^a-z]`
+  * (done, normalized to `lil'`)
 * 'cause/cause/cuz/'cuz
   * pick one style
   * "cuz" can be separate from "cause" if it makes more sense for the character `([^a-z]cause[^sd]|cuz[^n])`
+  * (done, normalized to `'cause` and `'cuz`)
 
 ## Locale
 
 * gray/grey
   * probably gray, as that's the American spelling `gr(a|e)y`
+  * (done, normalized to `gray`)
 * afterward/afterwards
   * pick whichever `afterwards?`
+  * (done, normalized to `afterwards`. IIRC it's because almost all of them were already `afterwards`, but this is the british variant so maybe switch to `afterward`)
 * toward/towards
   * probably toward, as that's the American spelling `towards?`
-  * I didn't pre-emptively do this because there's a lot of occurrences - 231 "towards", 484 "toward"
+  * (NOT DONE, there's a lot of occurrences - 231 "towards", 484 "toward")
 * acknowledgment/acknowledgement
   * probably acknowledgment, that's the American spelling `acknowledge?ment`
+  * (done, normalized to `acknowledgment`)
 * disoriented/disorientated, disorienting/disorientating
   * probably "disoriented", that's the American spelling `disorient`
+  * (done, normalized to `disoriented`/`disorienting`)
 * judgment/judgement
   * most commonly spelled as "judgment" by far
+  * (done, normalized to `judgment`)
 * naive/naïve
   * pick one `na(ï|i)ve`
+  * (done, normalized to `naive`, as most sources say to drop the dieresis as legacy)
 * futbol/fútbol/futball
   * pick one. Also consider that spelling may be different when it's represented in "text message speak" in Flynn's route `f.tb`
+  * (done, normalized to `fútbol`, and keeping `futball` in Leo's text message)
 * facade/façade
   * pick one `fa.ade`
+  * (done, normalized to `facade`, as that's the more casual modern spelling, but it could also switch to the cedilla as long as it's consistent. My main issue with the cedilla is it's very attention-grabbing)
 * deja vu/déjà vu
   * pick one `d.j. vu`
+  * (done, normalized to `déjà vu`, as that's the only real "accepted" modern spelling, though obviously in casual use most people do not include them. Arches used `déjà vu` and Echo mostly used `deja vu`. As before, using the diacritics is a little attention-grabbing so that may be a reason to drop them)
 * cliche/cliché
   * pick one `clich.`
+  * (done, normalized to `cliché`. This seems like a fairly straightforward one as it's uncommon to use `cliche`)
 
 ## Misc
 
 * chesire/cheshire
-  * no idea what this word means, but pick one variant between Route 65 and Echo `chesh?ire`
+  * Technically not a word, but I assume this refers to the Cheshire cat from Alice in Wonderland. pick one variant between Route 65 and Echo `chesh?ire`
+  * (done, normalized to `cheshire`)
 * Lucha Lobo/Luche Lobo
   * Is there a difference? pick one probably? `luch(a|e)[^d]`
+  * (NOT DONE. I'm not a Spanish speaker, but apparently lucha is casual and luche is formal. It should at least be normalized when referring to Lucha Lobo since it's a proper name?)
 * Super Wolf/SuperWolf
   * probably SuperWolf `super.?wolf`
+  * (done, normalized to `SuperWolf`)
 * Southwest/Southwestern Adventures
   * pick a spelling, probably Southwest Adventures `Southwest(ern)? Adventures`
+  * (done, normalized to `Southwest Adventures`, since that's the most common and the first references to it use that name)
 * Paw Pad, Foot Pad, Finger Pad, Thumb Pad, Knuckle Fur
   * These should probably all be a similar style?
   * `(paw|foot|feet|finger|thumb).?pad`
   * `knuckle.?fur`
-* wolfboy/wolf boy/wolfy-boy
+  * (NOT DONE. The references are too varied and these aren't real words, so unsure which way to go. This one is fairly noticeable once you start seeing it so higher priority on normalizing it.)
+* wolfboy/wolf boy/wolf-boy/wolfy-boy
   * Probably pick one of these, or at least condense "wolfboy/wolf-boy/wolf boy" into one variant and separate wolfy-boy `wolfy?-? ?boy[^f]`
+  * (NOT DONE. too opinionated, and these could be stressed in different ways. The differences are noticeable as a reader though.)
 * speciest/speciesist
   * pick one `species(is)?t`
+  * (done, normalized to `speciesist`, as it's an actual word)
 * smush/smoosh
   * pick one `sm(u|oo)sh`
+  * (done, normalized to `smush`, but either variant is equally okay. Smush seems to be an American bastardization of smoosh, but we are using American locale so.)
 * Otter/otter
   * Generally when people refer to Chase as if his name is "Otter", it should be capitalized (mainly done by Leo)
-  * `[^a-z]otter[^a-z]`
+  * `[^a-z]otter[^a-z]` (use case sensitivity)
+  * (NOT DONE. It's kind of difficult to pick out when it's being used as a proper name and when it's being used as a derogatory label (is there a difference w/r/t capitalization?). This should definitely be looked into though, since the capitalization of Otter is fairly noticeable, and then noticeable when it's absent)
 * Leo's Spanish words
   * they're often italicized; should it be a rule to always italicize them?
   * A few I remember: garrobo, `p(u)+chica`, esta yuca, chula, estupido, loco por ti, nutria, puta, madre, ay-yai, huevos, gringo, padres, buenos dias
+  * (NOT DONE, this is just a matter of opinion and style)
 * Town hall/city hall capitalization
   * town hall/city hall or Town Hall/City Hall? should be somewhat consistent
+  * (NOT DONE, this is kind of a mess and opinionated)
 * Tupperware/tupperware
   * pick a capitalization
+  * (done, normalized to `tupperware` since it's less distracting and they've basically lost their "trademark" at this point anyway)
 * spaz/spazz
   * pick one `spaz`
+  * (done, normalized to `spazz`, though both spellings are used. Worth noting this is a slur)
 * scaley/scaly
   * pick one `scal.?y`
+  * (done, normalized to `scaly` as that's the actual word. There's also `"That's all it was. It's spring break, and he for some reason watched enough scaley porn to want me."`, which I think might use a different spelling?)
 * AM/PM/A.M./P.M.
   * pick one (enable case-sensitivity) - `[^a-z](A|P)\.?M\.?[^a-z]`
+  * (NOT DONE, too opinionated based on how it looks in each sentence)
 * yote/'yote
   * apostrophe before or not, pick one `[^a-z]yote`
+  * (done, normalized to `yote`, which is used frequently in Arches. Echo only has one reference to `'yote` so this seems like an easy sync for a non-word)
 * rez/Rez and reservation/Reservation
   * pick a capitalization style `([^a-z]rez[^a-z]|[^a-z]reservation)`
   * a source on what to use: https://nativegov.org/resources/terminology-style-guide/
+  * (done, normalized to `Rez`/`Reservation` for most instances, as it's almost always used in place of the name of the specific reservation. There's one reference where it's used generically, which stays lowercase)
 * native/Native
   * Native should always be capitalized when referring to e.g. Indigenous people: `[^a-z]native[^a-z]`
   * be careful of other meanings of the word native, which should remain lowercase
   * source: https://nativegov.org/resources/terminology-style-guide/
+  * (done, normalized to `Native` for all relevant references as above)
 * county/County
   * Should county be capitalized? It's like 50/50 currently. `county`
+  * (NOT DONE, no idea about this one)
 * Capitalizations after colons
   * Overwhelmingly, capitalizations after colons aren't used correctly in R65/Echo/Arches, and I decapped them all for consistency
   * You can capitalize in very specific circumstances, but it really depends on what style guide and locale you follow, and it's usually still optional
   * If you truly want some of these colon capitalizations to be reverted then feel free, but put some thought into it, and consider the inconsistency for an average reader seeing only a couple of these remaining intact while the rest are lowercase
+  * (done, all decapped, as above)
 * What is the name of the fucking river?
   * They call it Seesaw, Yeeyaw, Yeeyah, and Yee-Yaw
   * They say that Seesaw and Yeeyaw are mispronunciations, but during Route 65 Chase again calls it Yee-Yaw:
@@ -158,19 +201,25 @@
   * I have to assume the right answer is Yeeyah, but then in the code it's called yeeyaw
   * `(yee-?yaw|yee-?yah|seesaw)`
   * this keeps me up at night
+  * (NOT DONE, though I strongly suspect it should be normalized to Yeeyah based on the anglicization of the original Navajo word (yíiyáh))
 * Ellipses variation is a mess and probably unfixable at this point.
   * Is there extra meaning by double dot vs. triple dot?
   * Should there be a space after ellipses or not?
   * etc
+  * (NOT DONE, as above)
 * Periods after menu choices
   * It seems most common to end the menu choices with periods, so probably make that a universal rule
+  * (NOT DONE, though I synchronized them on a per-menu basis if the other options were one way or the other)
 * '90s/90s/90's formatting
   * generally should be written as '90s - `[^0-9][0-9]0'?s`
+  * (done, all set to e.g. '90s)
 * fancy `‘`and`’` apostrophe codes are nonstandard, they show up in a few sections
   * Most importantly, they're always mixed with other standard apostrophes, so they should all be changed to be uniform
   * Note that the COLONNA.ttf font needs the special apostrophe codes in order to display in the right font
   * Other fonts don't have this issue, aside from forbid.ttf (which doesn't display apostrophes ever)
-* fancy `“`and`”` quote codes are nonstandard (some in Arches)
+  * (done, all non-standard codes removed, and during COLONNA.ttf sections all apostrophes set to non-standard)
+* fancy `“`and`”` quote codes are nonstandard
+  * (NOT DONE, there are 4 instances in Arches, but they are used as internal quotations within a line. Could maybe switch them to single quotes, or just use standard quotation marks)
 
 ## Compound words:
 
@@ -178,7 +227,8 @@
   * pick one style for both probably `street.?(light|lamp)`
 * Lamp Post
   * probably lamppost `lamp.?post`
-* For many other compound words I picked a variant pre-emptively
+* These two are just for reference. You can efficiently search for compound words by using the regex `firstHalf.?secondHalf`, which finds `firstHalfsecondHalf`, `firstHalf secondHalf`, and `firstHalf-secondHalf`
+  * For many other compound words I picked a variant pre-emptively
   * If the variant I chose is not the one that's wanted, it should be trivial to switch them all to the desired variant instead since they all match
 
 ## Possessive s's
@@ -192,6 +242,7 @@ Preference, but should be consistent. I prefer s's over s', with the rationale "
 * us'/us's `[^pb']us'`
 * campus'/campus's `campus'`
 * Princess'/Princess's `princess'`
+* (done for all mentioned above, normalized to `s's`. Note that plural possessives stay as `s'`, e.g. `parents'`)
 
 # ROUTE SPECIFIC
 
@@ -207,6 +258,7 @@ Preference, but should be consistent. I prefer s's over s', with the rationale "
   * "Someone next to Heather yells back, \"You leave Heather the {i}fuck{/i} alone, muskshit!\"" -> random, with non-dialogue attached
   * "\"Oh my god, he's attacking Darick!\"" -> rando
   * Van scene, micha's lines -> not sure whether these should be explicitly marked as dialogue or if that removes some of the unsettling vibe
+  * (NOT DONE, too much extra RenPy work, and too opinionated for full fixes. Something should definitely be done though, since these sections feel very low quality/beta-y)
 * Is there a reason that Jasmynn's house scene only appears in the Carl and Jasmynn routes?
 
 ## Echo
@@ -219,6 +271,7 @@ Preference, but should be consistent. I prefer s's over s', with the rationale "
 ### Flynn
 
 * In the massive TJ confrontation "Condemn Flynn" splits, a lot of the character sprite emotions are desynced between them, e.g. "annoyed" vs "surprised" etc.
+  * (NOT DONE, not sure which way to sync them)
 
 ## Arches
 
@@ -298,7 +351,7 @@ Preference, but should be consistent. I prefer s's over s', with the rationale "
 * face to face/back to back/side by side/etc. - `[^a-z](\w+)( |-)(to|by)( |-)\1[^a-z]`
 
 
-# Misc unsorted/unfinished stuff:
+# Misc unsorted/unfinished/NOT DONE stuff:
   * god/God - different sections of the routes prefer to capitalize this differently (enable case-sensitivity) - `[^a-z]god[^a-z]`
   * awhile/a while - "awhile" effectively means "for a while" - `a ?while`
   * standardization of e.g. half-expect, half-buried etc etc
