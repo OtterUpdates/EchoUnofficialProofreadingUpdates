@@ -367,7 +367,7 @@ t "\"Maybe...I just need a minute.\""
 m "\"Okay.\""
 hide TJ with dissolve
 "I roll over and look out the window through the blinds, feeling like I've accomplished something."
-"Things went a littler further than what I'd planned on, but it's working out for the best."
+"Things went a little further than what I'd planned on, but it's working out for the best."
 "My main issue now is figuring out what the hell Flynn and Carl were planning with all of that bullshit...and what all they know."
 "Assuming it had been them at all, but as of right now I can't imagine who else it could have been."
 "I feel a little guilty about what happened to Carl, but I had to show everyone how stupid and crazy the whole thing was."
