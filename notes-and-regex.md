@@ -78,7 +78,7 @@
   * (done, normalized to `friggen'`)
 * whaddya/whaddaya
   * pick one, probably whaddya `whadda?ya`
-  * (done, normalized to `whaddya'`)
+  * (done, normalized to `whaddya`)
 * lil/lil'
   * pick one `lil[^a-z]`
   * (done, normalized to `lil'`)
