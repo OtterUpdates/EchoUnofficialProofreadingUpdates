@@ -533,7 +533,7 @@ show Jenna at farleft behind nightoverlay with dissolve
 j "\"What did the letter say?\""
 "I tense up."
 "Anything she does now is putting me on edge, like I'm just waiting for her to lash out again."
-"My hand drifts conspiratorially to my pocket where the folded up letter is."
+"My hand drifts conspiratorially to my pocket where the folded-up letter is."
 "I glance to my right at Carl, but he's got his eyes on the door."
 m "\"Um, a few things. Just more history stuff.\""
 j "\"About what?\""
@@ -1410,7 +1410,7 @@ scene bg forestnight
 with dissolve
 "I'm nine or ten, and I'm sitting under a tree in the forest."
 "I like the feeling you get when you've finished crying."
-"The stuffed up nose and throbbing in my head along with the feeling of having just run ten miles."
+"The stuffed-up nose and throbbing in my head along with the feeling of having just run ten miles."
 "Like I've just finished something really hard and now it's over."
 "And then—"
 play sound "creak.ogg"
@@ -1593,7 +1593,7 @@ m "\"Pick up the knife, throw it into the desert, or something.\""
 m "\"Take her down to the basement and I'll take Carl upstairs...we'll figure something out later, okay?\""
 ra "\"O—okay.\""
 "I turn back to Carl, then reach my hand out toward him."
-m "\"Dude, my ankle is so fucked. Can you help me back up to the bedroom.\""
+m "\"Dude, my ankle is so fucked. Can you help me back up to the bedroom?\""
 c "\"Hm.\""
 "Carl lets out a grunt, then another half-laugh snort."
 c "\"Sure.\""
@@ -1865,7 +1865,7 @@ stop music fadeout 5.0
 scene bg carlsparentsroom
 #!! Maybe limit usage of "Carl's parents'" - it's pretty unique-looking and sticks out. This is the 3rd occurrence
 "I jolt awake on the bed."
-"I'm back, it's bright again, and I look around to see the hardwood floor, the bunched up pillowcase on the bedside table."
+"I'm back, it's bright again, and I look around to see the hardwood floor, the bunched-up pillowcase on the bedside table."
 "But Carl's not there, and there's still screaming."
 play music "anger.ogg"
 ra "\"Help! Stop!\""
@@ -2036,6 +2036,7 @@ m "\"Carl? James, please, don't do this, can you let me go first?\""
 m "\"Why are you doing this to me!?\""
 "He flashes me a grin before continuing to splash gas onto all the bins, walking in a circle around me."
 show Carlalttab Depressed at center with dissolve
+#!! getting rid of "the" evidence? could just be his speech pattern
 c "\"Getting rid of evidence. You're part of the evidence.\""
 "The whispers get more excited, the children running back and forth in front of the floodlight."
 c "\"I would have stabbed you earlier but I lost it in that damn husky when I put it through his gut.\""

@@ -3593,7 +3593,7 @@ play loop "crickets.ogg" fadein 3.0
 "No screaming and no gunshots."
 "Aside from the crickets, the town is dead quiet."
 "Still, we keep to the shadows, cutting through some backyards and sagebrush, probably picking up dozens of spiders and ticks along the way."
-"It's funny, despite everything that's going on, spiders are the biggest thing that are on my mind as I push through the branches and foliage."
+"It's funny, despite everything that's going on, spiders are the biggest thing that's on my mind as I push through the branches and foliage."
 scene bg leoshousenight
 show nightoverlay
 with dissolve
@@ -4142,7 +4142,7 @@ m "\"Come on, then.\""
 ku "\"Hold on, I was gonna grab a flashlight. There's no way we're finding anything out there at this time of night.\""
 m "\"You go get them. I'll wait.\""
 "Of course, I'm terrified of being left alone, but I'm also terrified of Jenna running away if I don't keep watch."
-"I'm getting the feeling she might be under the same influence that Carl, or TJ had been earlier."
+"I'm getting the feeling she might be under the same influence that Carl or TJ had been earlier."
 show Kudzu Confused with dis
 ku "\"You sure—\""
 m "\"Yeah, I wanna stay here in case she comes out.\""
@@ -4238,7 +4238,7 @@ j "\"Um...I dunno.\""
 m "\"Maybe there? I can sit with you.\""
 "After a few more moments of staring at the couch, Jenna finally nods."
 "She walks stiffly over to the couch, looking at it for a moment before finally sitting down."
-"I notice three clumped up patches of fur on the back of her neck and it takes me a moment to realize that it's dried blood."
+"I notice three clumped-up patches of fur on the back of her neck and it takes me a moment to realize that it's dried blood."
 "Had someone attacked her? Had she hurt herself?"
 "Jenna still doesn't relax when we're settled and is instead sat bolt upright, leaning hard against my shoulder."
 "Much like her ears, her eyes are darting around, mostly over to the curtained window to our right."
@@ -4767,7 +4767,7 @@ play loop "drag.ogg"
 "I watch Brian lean over something against the wall."
 "It looks like two long, polished pieces of wood."
 "Brian tips the flashlight down and I see that those pieces of wood are attached to a shovel and a pickaxe."
-"Brian grabs the pickaxe and for a heart stopping moment I think he's going to turn to me..."
+"Brian grabs the pickaxe and for a heart-stopping moment I think he's going to turn to me..."
 "...but instead reaches into his pocket and pulls out something small and rectangular."
 "It's not until he opens it and shines his flashlight on it that I see it's some kind of small notebook."
 "The bear looks at the notebook, then back up at the little cave we're in."
@@ -5554,6 +5554,7 @@ menu:
         "Leo looks up from kicking around some rocks."
         m "\"I mean...\""
         "I scratch my head vigorously, trying to think of how not to say the wrong thing."
+        #! should this first sentence end with a question mark, or does that change the intonation too much?
         m "\"Have you been doing okay. Are you happy?\""
         show Leo with dis
         "Leo smiles."

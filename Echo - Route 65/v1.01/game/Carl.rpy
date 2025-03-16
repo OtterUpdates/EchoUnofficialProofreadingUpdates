@@ -1744,7 +1744,7 @@ m "\"TJ will probably be confused but ultimately happy for us, and Carl will pro
 "Leo reaches the top of the crane's steps. He peeks over the metal to beckon to me."
 l "\"Really? In my head, I imagined when I tell Carl I am queer and stuff, he'll just say, 'That's gay', then continue playing his handheld without caring.\""
 m "\"Carl? Nah, he... he cares. I know he does...\""
-m "\"I told him that I was gay earlier. He's the only I've come out to, really.\""
+m "\"I told him that I was gay earlier. He's the only one I've come out to, really.\""
 l "\"You... did? Huh.\""
 "I see his face visibly contort for some reason."
 m "\"We had a long journey from school to the party, and it was burning on my conscience, I guess.\""

@@ -845,6 +845,7 @@ scene bg black with dissolve
 "I close my eyes."
 "How did this happen?"
 "Just seconds ago Leo and I were arguing and now I'm about to fucking die."
+#!! is "hugging to Leo" intentional, or should it be "hugging Leo"?
 "I keep my eyes tightly closed, hugging to Leo as hard as I can and wait..."
 "But nothing happens."
 "I keep my face pressed into Leo's chest, though, wondering if I'm already dead."

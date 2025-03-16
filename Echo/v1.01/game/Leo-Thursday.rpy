@@ -150,7 +150,7 @@ m "\"FUCK!\""
 play music "comeover.ogg"
 show Leo Wry with dis
 l "\"Hahahahaha! Holy shit, I've never seen you jump THAT hard before.\""
-"Normally I'd be pissed, but that build up just had me glad it was Leo."
+"Normally I'd be pissed, but that build-up just had me glad it was Leo."
 m "\"How the hell did you do that?\""
 l "\"Do what?\""
 m "\"That whole setup you did.\""
@@ -281,7 +281,7 @@ show Kudzu with dis
 m "\"What?\""
 show Leo Annoyed with dis
 l "\"Whoa, wait, did he say some shit about Chase?\""
-"Leo's hackles rise, and I can seem him starting to bare his teeth."
+"Leo's hackles rise, and I can see him starting to bare his teeth."
 ku "\"Again, he was on something last night. He might not even remember it, but I'm just warning you to be careful around him from now on.\""
 "Kudzu looks back at Leo."
 ku "\"Don't provoke him.\""
@@ -319,7 +319,7 @@ play background "highway.ogg" fadein 3.0
 "In fact, I can remember when I was part of that same organization, back when my stubby legs didn't matter as much."
 "Of course, after a few years it became clear that, being an otter, I wasn't built for the sport."
 "That's when I took up swimming (of course) but then I realized that I wasn't really great at that, either."
-"Of course, I could out swim any non-aquatic, but when it came to the other otters, I was pretty much bottom of the barrel."
+"Of course, I could outswim any non-aquatic, but when it came to the other otters, I was pretty much bottom of the barrel."
 "As we drive TJ sighs next to me."
 scene bg field
 "I look over at him and he's got his elbow against the armrest, staring out the window as we pull into the empty parking lot."

@@ -459,7 +459,7 @@ show Raven Rejected at left with dissolve
 ra "\"Ugh, what is that?\""
 "Raven holds a hand up to his nose as we approach the second to last door in the last hall."
 "This one is clearly damaged. The wood is splintered in the middle, bulging out slightly as if it had been punched from the other side."
-"We all stare it for a moment, the smell growing stronger."
+"We all stare at it for a moment, the smell growing stronger."
 "Then it hits me."
 play music "bent.ogg"
 m "\"Oh God, do you think...?\""
@@ -610,11 +610,11 @@ play loop "hysteria.ogg" fadein 5.0
 "I open my mouth."
 menu:
     "Everything is fine.":
-        "I struggle to keep my food down and instead choose to look hard at the table cloth."
+        "I struggle to keep my food down and instead choose to look hard at the tablecloth."
     "Everything is fine.":
-        "I struggle to keep my food down and instead choose to look hard at the table cloth."
+        "I struggle to keep my food down and instead choose to look hard at the tablecloth."
     "Everything is fine.":
-        "I struggle to keep my food down and instead choose to look hard at the table cloth."
+        "I struggle to keep my food down and instead choose to look hard at the tablecloth."
 stop loop fadeout 5.0
 show Raven with dis
 ra "\"You not hungry?\""

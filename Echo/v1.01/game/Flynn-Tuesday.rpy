@@ -66,7 +66,7 @@ show Flynn with dis
 f "\"Careful, idiot! If you get it snagged at the other end I'll whoop your ass.\""
 show Carl Annoyed with dis
 c "\"Oh, lay off, Flynn.\""
-"Carl reels in fast, then casts out again, making a \"pew\"sound as he does."
+"Carl reels in fast, then casts out again, making a \"pew\" sound as he does."
 hide Carl with dissolve
 show Flynn at center with moveinright
 "Flynn sighs before walking up next to me, watching as I reel in much slower."
@@ -310,7 +310,8 @@ menu:
         "He tilts his head back, eyes half-lidded and maw agape, his tongue flicking at the air."
         "For a moment, I realize exactly what I'm doing: making out with my childhood friend. Strange as it seems, it's sexy as hell."
         "A few years ago there was no way I'd be okay with this. I guess the time apart, along with being pent-up for a few days, helped to spur me on."
-        "I'm nearly fully out of my sheath at this point, my cock pressing into his very tented pants crotch."
+        #!! "his very tented pants crotch" seems fine at first glance, but is actually kind of just nonsense?
+        "I'm nearly fully out of my sheath at this point, my cock pressing into the crotch of his very tented pants."
         "He pulls me in, and I undulate against him, grinding into his crotch with my own."
         "Riding out the reptile's spasms, I smooth my paw pads down his back, dipping below his pants' belt line, under his boxer briefs."
         "Again, I grab two pawfuls of naked gila ass, clasping Flynn's butt on either side of his short, fat tail."
@@ -536,7 +537,7 @@ m "\"I mean, what's wrong with that?\""
 "I can tell Jenna's giving me a look, but I don't give her the satisfaction of turning my head to see it."
 j "\"Seriously? Anyway, it's clearly a defense mechanism; he feels vulnerable without his 'I'm an asshole' blanket.\""
 m "\"I mean, you're not a psychiatrist yet, Jenna.\""
-j "\"I'm not going to be psychiatrist, but you don't need a psych degree to see it.\""
+j "\"I'm not going to be a psychiatrist, but you don't need a psych degree to see it.\""
 "I don't respond, not seeing the point in arguing about Flynn any further."
 hide Jenna with dissolve
 "Jenna stretches, then gets up to go over to her laptop on the small table while I lay back on the bed, closing my eyes."

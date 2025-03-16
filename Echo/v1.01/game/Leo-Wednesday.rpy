@@ -395,7 +395,7 @@ scene bg mall with fade
 play loop "highway.ogg" fadein 3.0
 "We walk around the mall for about an hour, checking the food court and every shop we pass."
 "It's clear that this idea was pretty hopeless from the beginning."
-"Jenna lets us know that Carl hasn't showed up at the house either and that they're heading back to the motel."
+"Jenna lets us know that Carl hasn't shown up at the house either and that they're heading back to the motel."
 stop music fadeout 3.0
 stop loop fadeout 3.0
 "Finally, Leo and I call it quits and head back to his house before walking to the diner for dinner."
@@ -450,7 +450,7 @@ m "\"Because weren't things always shitty? It's part of the experience.\""
 show Leo Wry with dis
 "But then he reaches forward and rubs a thumb up my nose."
 "I blink in surprise and he shows me the smear of white on his thumb pad."
-l "\"Sorry. It was hard to take you seriously looking like a coke head.\""
+l "\"Sorry. It was hard to take you seriously looking like a cokehead.\""
 "He grins and licks his thumb."
 show Leo with dis
 "I blush and grab a napkin to wipe my face, but Leo rests a paw on my arm."
