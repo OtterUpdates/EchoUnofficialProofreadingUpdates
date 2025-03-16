@@ -186,8 +186,8 @@ c "\"You know my dad.\""
 "He gets up and tosses the branch over the fence into the desert, then turns back to me."
 c "\"So now that it feels like Lucha fucking Lobo just gave me the {i}Quebradora Con Giro{/i}, I think I'm done for the day.\""
 c "\"Wanna work on your project, now?\""
-#!! I think "hang out out here" was intentional, but it looks like a typo as a reader. "hang out here" is fine enough, or consider rewording to avoid the situation, e.g. by using "outside"
-"I'd honestly rather just hang out here with Carl, but the sun's enough to put a damper on that."
+#!! I think "hang out out here" was intentional, but it looks like a typo as a reader. "stay out here" is fine enough, or consider rewording further to avoid the situation, e.g. by using "outside"
+"I'd honestly rather just stay out here with Carl, but the sun's enough to put a damper on that."
 stop loop fadeout 3.0
 
 scene bg livingroom
