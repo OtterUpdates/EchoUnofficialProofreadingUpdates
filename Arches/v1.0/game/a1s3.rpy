@@ -382,7 +382,7 @@ a "\"It's cool, I get it.\""
 "So not really psychic, or at least not like himself."
 "It feels wrong to him, but Cameron feels almost dismissive of anyone that doesn't see things like he does."
 "He's different, in a good way, and for once he feels like he can admit that."
-"He had seen his friend's death a few months before it happened, and he'd had dreams that were so accurate to the future that it had seemed almost like deja vu."
+"He had seen his friend's death a few months before it happened, and he'd had dreams that were so accurate to the future that it had seemed almost like déjà vu."
 window hide
 pause 0.5
 scene bg outskirts_day with medium_dissolve
