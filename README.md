@@ -4,7 +4,7 @@ I did a re-read of Route 65, Echo, and Arches, and I decided to proofread them a
 | Novel           	| Line Changes 	| Notes Added 	|
 |-----------------	|--------------	|-------------	|
 | Echo - Route 65 	| ~480         	| ~70         	|
-| Echo            	| ~2,970       	| ~750        	|
+| Echo            	| ~3,050       	| ~750        	|
 | Arches          	| ~290         	| ~200        	|
 
 To be clear, before I started I didn't know it was going to be this bad! I guess during my first read of Echo I turned off my brain in order to get through the grammar, and I didn't realize how many errors I was skimming past. I generally proofread and submit corrections for any ebooks I read, but the worst case I'd had before this was about ~200 corrections in a 500k word book, so this was a new level of magnitude for me. My primary motivation was simply to do a second read of Echo, but at the same time I also wanted to clean up all the glaring typos so that I could recommend this talking animal book to my friends and have them take it seriously.
