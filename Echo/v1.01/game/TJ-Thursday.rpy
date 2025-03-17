@@ -1109,6 +1109,7 @@ j "\"Oh, well, I never went in there because of all the shit—sorry, stuff that
 "TJ looks back out the window, the sun gone now, though the clouds in the sky are still tinged red."
 t "\"You guys want to do it tonight?\""
 c "\"Really? It's getting kinda late and we still gotta eat.\""
+#! "leads to the kitchen"? "led to the kitchen"? Can't decide, and neither is incorrect
 "Carl looks eagerly over at the front counter, through the small rectangle that leads to the kitchen."
 t "\"We can use Chase's car. Besides, it might be kinda fun in the dark...\""
 "TJ adds the last bit meekly."

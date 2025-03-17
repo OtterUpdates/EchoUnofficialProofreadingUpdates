@@ -3951,6 +3951,7 @@ menu:
         l "\"..do you remember when we..?\""
         "It takes me a moment, but my eyes widen and I feel my neck begin to burn."
         m "\"Oh, God.\""
+        #!! "insisted on" is the most correct here, though "insisted" passes casually. Given that "insisted on" doubles up "on" in the sentence, I'm okay with either
         l "\"Hey, you were the one who insisted on putting -ketchup- on it.\""
         m "\"Should've put that jalapeño ketchup on it.\""
         "Leo smiles cheekily."
