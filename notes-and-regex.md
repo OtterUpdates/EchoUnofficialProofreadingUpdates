@@ -137,10 +137,10 @@
 * Southwest/Southwestern Adventures
   * pick a spelling, probably Southwest Adventures `Southwest(ern)? Adventures`
   * (done, normalized to `Southwest Adventures`, since that's the most common and the first references to it use that name)
-* Paw Pad, Foot Pad, Finger Pad, Thumb Pad, Knuckle Fur
+* Paw Pad, Foot Pad, Finger Pad, Thumb Pad, Knuckle Fur, Head Fur
   * These should probably all be a similar style?
   * `(paw|foot|feet|finger|thumb).?pad`
-  * `knuckle.?fur`
+  * `(knuckle|head).?fur`
   * (NOT DONE. The references are too varied and these aren't real words, so unsure which way to go. This one is fairly noticeable once you start seeing it so higher priority on normalizing it.)
 * wolfboy/wolf boy/wolf-boy/wolfy-boy
   * Probably pick one of these, or at least condense "wolfboy/wolf-boy/wolf boy" into one variant and separate wolfy-boy `wolfy?-? ?boy[^f]`

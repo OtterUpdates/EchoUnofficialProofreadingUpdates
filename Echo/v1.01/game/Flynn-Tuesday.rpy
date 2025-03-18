@@ -310,7 +310,7 @@ menu:
         "He tilts his head back, eyes half-lidded and maw agape, his tongue flicking at the air."
         "For a moment, I realize exactly what I'm doing: making out with my childhood friend. Strange as it seems, it's sexy as hell."
         "A few years ago there was no way I'd be okay with this. I guess the time apart, along with being pent-up for a few days, helped to spur me on."
-        #!! "his very tented pants crotch" seems fine at first glance, but is actually kind of just nonsense?
+        #!! "his very tented pants crotch" seems fine at first glance, but is actually kind of just nonsense? "the crotch of his very tented pants" or "very tented crotch of his pants" seem to be okay
         "I'm nearly fully out of my sheath at this point, my cock pressing into the crotch of his very tented pants."
         "He pulls me in, and I undulate against him, grinding into his crotch with my own."
         "Riding out the reptile's spasms, I smooth my paw pads down his back, dipping below his pants' belt line, under his boxer briefs."
