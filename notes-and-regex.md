@@ -40,7 +40,7 @@
   * Use emdashes instead of hyphens for asides at the end of a line ` - [^-]+$`
   * Jenna's route goes nuts with emdashes during certain sections, and I'm fairly sure they're not all used correctly. Probably not something that can be fixed at this point.
 * When using fonts, the line will often have mismatched quotation mark stylings since the font starts after the first quotation mark and is often not terminated before the closing quotation mark
-  * e.g. "{font}An example sentence"
+  * e.g. `"{font}An example sentence"`
   * In this case, the first quotation mark would appear in standard font style and the second would appear in custom font style
   * search for fonts used after opening quote: `\\".*\{font`
   * (NOT DONE, too many occurrences and I would want an official go-ahead before pulling the trigger. This is also not very noticeable to an average reader unless you are looking for it. These are objective upgrades though, so they should be done at some point.)
@@ -249,14 +249,14 @@ Preference, but should be consistent. I prefer s's over s', with the rationale "
 ## ROUTE 65
 
 * Unmarked dialogue sections - room for improvement:
-  * "\"Chase,\" he rumbles." -> Jasmynn's dad speaking but not using normal white text; maybe make a character identifier for them? non-dialogue is attached so may need tweaking?
-  * "\"Fuck off, Chase!\" His voice is laden with derisive contempt." -> Jeremy, with non-dialogue attached
-  * "\"She’s in her room. Got chores she ain’t done yet so she can’t go out and... y’know, play.\"" -> Jasmynn's dad
-  * "\"Get the fuck off of me, o-oh my god!\"" -> Heather
-  * "\"Heather, thish the guy you was talkin' to me 'bout? The fucker who... who...\"" -> rando fox, can use Unknown / "???"
-  * "\"We're shick of yous shick fuckers.\"" -> rando coyote/Darick, can use Unknown / "???"
-  * "Someone next to Heather yells back, \"You leave Heather the {i}fuck{/i} alone, muskshit!\"" -> random, with non-dialogue attached
-  * "\"Oh my god, he's attacking Darick!\"" -> rando
+  * `\"Chase,\" he rumbles.` -> Jasmynn's dad speaking but not using normal white text; maybe make a character identifier for them? non-dialogue is attached so may need tweaking?
+  * `\"Fuck off, Chase!\" His voice is laden with derisive contempt.` -> Jeremy, with non-dialogue attached
+  * `\"She’s in her room. Got chores she ain’t done yet so she can’t go out and... y’know, play.\"` -> Jasmynn's dad
+  * `\"Get the fuck off of me, o-oh my god!\"` -> Heather
+  * `\"Heather, thish the guy you was talkin' to me 'bout? The fucker who... who...\"` -> rando fox, can use Unknown / "???"
+  * `\"We're shick of yous shick fuckers.\"` -> rando coyote/Darick, can use Unknown / "???"
+  * `Someone next to Heather yells back, \"You leave Heather the {i}fuck{/i} alone, muskshit!\"` -> random, with non-dialogue attached
+  * `\"Oh my god, he's attacking Darick!\"` -> rando
   * Van scene, micha's lines -> not sure whether these should be explicitly marked as dialogue or if that removes some of the unsettling vibe
   * (NOT DONE, too much extra RenPy work, and too opinionated for full fixes. Something should definitely be done though, since these sections feel very low quality/beta-y)
 * Is there a reason that Jasmynn's house scene only appears in the Carl and Jasmynn routes?
@@ -265,7 +265,7 @@ Preference, but should be consistent. I prefer s's over s', with the rationale "
 
 ### Misc
 
-* "\"Dale's missing, Cynthia drove off into the desert...\""
+* `\"Dale's missing, Cynthia drove off into the desert...\"`
   * This line is repeated a few times throughout the routes, but Cynthia should be long dead by 2015 right? Is this some sort of intentional hallucination?
 
 ### Flynn
