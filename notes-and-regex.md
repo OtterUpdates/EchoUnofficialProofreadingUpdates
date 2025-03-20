@@ -34,7 +34,7 @@
   * Hyphen `-`, En Dash `–`, Em Dash `—`
   * Hyphens are used for short/fast stuttering, this regex finds potential stutters with emdashes - `([\w']+)—\1`
   * This regex finds hyphens at the end of dialogue, which should maybe be an emdash `-("|\\")`
-  * Arches ends sentences with double hyphens; considering changing to emdashes `--("|\\")`
+  * Arches ends sentences with double hyphens; consider changing to emdashes `--("|\\")`
   * Use emdashes instead of hyphens for breaks in a line (high hit-rate) `- [^-]+ -`
   * Use emdashes instead of hyphens for breaks in a line (comprehensive) `-[^-]+-`
   * Use emdashes instead of hyphens for asides at the end of a line ` - [^-]+$`
@@ -202,6 +202,12 @@
   * `(yee-?yaw|yee-?yah|seesaw)`
   * this keeps me up at night
   * (NOT DONE, though I strongly suspect it should be normalized to Yeeyah based on the anglicization of the original Navajo word (yíiyáh))
+* How many floors in the abandoned school?
+  * In R65, the school is described as a "three-story school"
+  * In Echo, it's described as a "two-story brick school house with a basement", and the school's picture matches that description
+  * In TJ's route, they go to room 301 as part of the scavenger hunt (as well as noting rooms 302, 303, 304, and 305), but generally the rooms in America should be Bxx, 1xx, and 2xx for a basement and 2 stories
+  * Most readers will not notice this issue. I picked up on it vaguely during TJ's route when it mentioned "301" while the school's picture only showed 2 floors, but the "three-story" reference in R65 doesn't even have an accompanying picture to compare with.
+  * (NOT DONE. I assume this should be normalized to basement+two stories based on the difficulty of needing another picture for a three-story school, but it was probably only described as two-story to retroactively explain the picture. Sydney's clue about "We'll have fun in 301" still rhymes with "201", so that part works either way.)
 * Ellipses variation is a mess and probably unfixable at this point.
   * Is there extra meaning by double dot vs. triple dot?
   * Should there be a space after ellipses or not?

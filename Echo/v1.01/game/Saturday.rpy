@@ -370,6 +370,7 @@ show Flynn with dis
 f "\"What's worse, Chase: Carl's smell, or my...dustin' off?\""
 show Carl with dis
 c "\"Ha! Dusting off? That's not a thing!\""
+#!! this could also end in ellipses? or switch to emdashes at the end of this line and start of next?
 c "\"Try saying 'white flakes that chip off of me with every step I take...except when I scratch my ass, then it's like a fucking blizzard of dead skin.\""
 c "\"...and some of it might land in your mouth.'\""
 c "\"That's what you should call it!\""

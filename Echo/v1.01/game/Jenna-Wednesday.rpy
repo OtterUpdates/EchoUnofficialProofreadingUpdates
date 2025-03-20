@@ -2487,6 +2487,7 @@ j "\"Hence, the outsourcing.\""
 j "\"I think Duke works - or at least worked - as a security technician.\""
 m "\"Huh. I guess I didn't know him that well.\""
 j "\"Me neither, but he was friends with my father.\""
+#! Duke's house has a basement in Leo's route. is that possible when it's also raised up off the ground? very unnoticeable desync to the average reader
 "I can see Duke's house now: a large, manufactured home that's raised up like three feet off the ground."
 "I think Flynn told me once they made him raise it up since it sat in the floodzone for the nearby wash."
 "Said wash pretty much never had water in it, except for one particular monsoon season, where a flash flood sent white-water currents down it."
