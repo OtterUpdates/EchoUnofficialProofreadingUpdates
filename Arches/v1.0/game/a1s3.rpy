@@ -590,7 +590,7 @@ show dev disappointed with dis
 "Cameron was also nice, and considerate, and thoughtful, and complex in ways that the bear is still trying to fully understand."
 "Devon had \"girlfriends\" in high school so people wouldn't get suspicious, but the fox had been what he considered his first real relationship, and he'd simply overreacted to his first real breakup."
 "Looking back on his 19-year-old self, it's hard to understand why it had felt like the end of the world."
-"If Cameron were to disappear from his life now, it would be the end of world, the world that he knows at least."
+"If Cameron were to disappear from his life now, it would be the end of the world, the world that he knows at least."
 "Maybe if for some terrible reason, it did come to an end, he would look back ten years from now and think the same about his 25-year-old self... but he doubts that."
 "Five years is a long time, and he plans to spend the rest of his life with Cameron."
 stop music fadeout 10.0

@@ -92,7 +92,7 @@ window show
 "The only thing that seemed to be getting back to normal were his dreams."
 "Sometimes he'd still wake up whimpering, or crying, thinking he was back in Echo."
 "Devon had it far worse, waking up in a howling panic, yelling about guns, chains, and death."
-"Those were the times when Cameron did his best to give comfort and support, at least as best as his patched up and sore body could manage."
+"Those were the times when Cameron did his best to give comfort and support, at least as best as his patched-up and sore body could manage."
 "But now, as time grows between him and what happened, Cameron feels like a part of him is missing, like he's not fully present."
 "It's like pieces of him litter the town of his trauma."
 "It felt like he was still there, in a way, and when that feeling really started to set in, that's when it happened."

@@ -39,7 +39,7 @@ show dev scream l dark4
 show expression AlphaMask("foliage2", At("dev scream l dark4 ", seven)) as mask
 with dis
 d "\"No,{w=0.3} wait!\""
-unk "\"I'm not waitin'. You show up on my property makin' all kinds of sounds, and you're standin' there with a knocked out yote.\""
+unk "\"I'm not waitin'. You show up on my property makin' all kinds of sounds, and you're standin' there with a knocked-out yote.\""
 show art confused l dark4
 show expression AlphaMask("foliage2", At("art confused l dark4", thirteen)) as mask3
 with dis

@@ -52,7 +52,7 @@ play music solderingloop fadein 5.0 volume 0.5
 c "\"{i}DEVON! Shit!{/i}\""
 play sound bblow
 "A dull, blunt thud resonates through my stomach, and a familiar ache seems to hollow it out completely, sending all the breath I have held inside blasting out in a wheezing groan."
-"Then, the familiar thump of bone on pavement as my legs seems to turn to jelly and I go down to my knees, head bowed, gasping for breath."
+"Then, the familiar thump of bone on pavement as my legs seem to turn to jelly and I go down to my knees, head bowed, gasping for breath."
 "\"Next time, you're dead you fucking creep!\""
 c "\"{i}Watch out!{/i}\""
 "One of my paws, folded under my stomach as I grip at my gut, reaches for the grip of my pistol strapped to my waist."

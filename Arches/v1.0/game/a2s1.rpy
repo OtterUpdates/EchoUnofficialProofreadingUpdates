@@ -168,7 +168,7 @@ extend "OW! {w=0.4}You're hurting me!\"" with vpunch
 window hide
 scene bg motel_room_abandoned_2 with leftwipe
 window show
-"Devon lets Cameron go finally, though he tries to hold on to him to make him to look at the bear."
+"Devon lets Cameron go finally, though he tries to hold on to him to make him look at the bear."
 "But Cameron takes the opportunity to escape, running right for the window, much easier to get through after Dev's entry."
 show dev terror dark2 at left with dissolve
 d "\"Cameron!\""

@@ -110,7 +110,7 @@ d "\"That's what the roll bars are for, honey!\""
 c "\"And I'm pretty sure I'm about to chip a tooth!\""
 d "\"Aw, come on. You gotta admit there's something nice about {i}feeling{/i} the road.\""
 "Cameron doesn't respond and goes on clutching at his seat."
-"Devon does slow down a bit though, more carefully maneuvering around the most broken up parts of the road."
+"Devon does slow down a bit though, more carefully maneuvering around the most broken-up parts of the road."
 c "\"What happened to the road anyway? It's only been what, five years?\""
 d "\"Flash floods, according to what I read online... Obviously no one's around for upkeep, so this is what happens.\""
 c "\"Oh yeah, I forgot how this state works: dry as hell until a wall of watery death comes down the road during monsoon season.\""
@@ -306,9 +306,9 @@ show dev worried p evening with dis
 d "\"If you're sure, but please don't put me ahead of y--\""
 show cam smile talking c evening with dis
 c "\"AND I did some research on that forum you linked me to a few years back, so my sixth sense is primed and ready.\""
-#!! the comma could be removed here. This is sort of just a difficult sentence to anticipate/parse as a reader; not sure if there's a way around it
-#!! Even while looking hard at it, it took me a while before I realized that "and slight annoyance" wasn't an aside, but rather that the last fragment is a full thought
-#!! To make the issue more obvious, Devon wouldn't have "reluctance" at getting cut off every sentence.
+#!!! the comma could be removed here. This is sort of just a difficult sentence to anticipate/parse as a reader. probably needs to be redone entirely, as I don't see a good way to keep all the intended pieces in a non-confusing manner
+#!!! Even while looking hard at it, it took me a while before I realized that "and slight annoyance" wasn't an aside, but rather that the last fragment is a full thought
+#!!! To make the issue more obvious, Devon wouldn't have "reluctance" at getting cut off every sentence.
 "That seems to finally snap Devon out of his reluctance and slight annoyance at getting cut off every sentence."
 show dev happy evening with dis
 d "\"Wait, {w=0.3}seriously!? {w=0.4}There were so many people like you on that forum. Did you--\""

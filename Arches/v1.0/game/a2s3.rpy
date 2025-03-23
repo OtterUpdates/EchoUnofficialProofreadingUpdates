@@ -1298,7 +1298,8 @@ window show
 "Cameron is slammed up against the trunk of a tree, the impact resonating through his body."
 "Instantly, Brian's huge, rugged muzzle is right next to his own much smaller, narrow snout, the bear snorting heavily."
 "Cameron fights as best he can, but his feet are off the ground again, and he kicks and twists, but the grip is more powerful than anything he's felt before."
-"He can actually feel his eyes bulge, and his tongue stick out involuntarily, and once again he finds himself..."
+#!! should this be changed to "his eyes bulge and tongue stick out involuntarily" or "his eyes bulge, and his tongue sticks out involuntarily"?
+"He can actually feel his eyes bulge and tongue stick out involuntarily, and once again he finds himself..."
 play sound static
 "{i}...drowning{/i}"
 "In that moment, it isn't the crushing pressure on his neck, or the horrid, rancid breath that's coming from the old bear that Cameron notices most."
