@@ -937,7 +937,7 @@ m "\"I got caught watching gay pornography on the computer this morning. That's 
 t "\"What?\""
 "That certainly shocked him. He sniffs, seemingly resisting the urge to wipe his nose against his costume."
 t "\"I don't—\""
-"We're interrupted by the approaching sound of heavy-footfalls. TJ blanches, physically covering his muzzle with his paws."
+"We're interrupted by the approaching sound of heavy footfalls. TJ blanches, physically covering his muzzle with his paws."
 show Leo Surprised at farright behind Ghost with easeinright
 l "\"Chase!\""
 "The familiar russet-colored wolf emerges from around the corner, his red eyes flicking from me to TJ, and finally, to the mango in my lap."
