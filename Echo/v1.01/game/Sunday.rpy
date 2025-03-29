@@ -728,7 +728,8 @@ with fade
 "The rest of the day is pretty relaxing. We ride a few of the more mellow rides."
 "Leo seemed to cheer up when I volunteered to sit next to him on the Ferris wheel."
 "TJ even built up his courage to the point where he rode the swinging ship."
-"Flynn and Carl rode the slingshot ride together, and, with the video feed from the ground I think it's the first time I've ever seen Flynn scared."
+#! check intended commas here, could be structured differently if desired
+"Flynn and Carl rode the slingshot ride together and, with the video feed from the ground, I think it's the first time I've ever seen Flynn scared."
 "Carl did end up barfing after that one."
 "By about 6 PM, everyone's tired enough that we agree to head back."
 play background "reststop.ogg" fadein 7.0
@@ -866,7 +867,7 @@ m "\"Leo, we were teenagers...\""
 l "\"That's not an answer.\""
 "He cuts me off and I look back at him."
 l "\"I told you, they weren't...love bracelets.\""
-l "\"They weren't just about our relationship, they were about everything; our friends, family, memories-\""
+l "\"They weren't just about our relationship, they were about everything: our friends, family, memories-\""
 m "\"Echo.\""
 "I raise my voice above his, cutting him off this time."
 m "\"They were about Echo, Leo...\""
