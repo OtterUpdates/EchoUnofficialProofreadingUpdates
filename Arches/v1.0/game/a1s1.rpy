@@ -777,7 +777,7 @@ c "\"First, approach the location with clear intentions. I'm here to see or hear
 c "\"Second, keep an open mind, which is something I promise to do.\""
 show cam serious a l lamp with dis
 #!! "they might not actually have ever been" is clunky and a mouthful. This order is more natural, and allows readers to pronounce "not've"
-c "\"And finally, if you sense that the presence is hostile, always remember that it {i}can{/I} hurt you. In these cases, they might not have ever actually been a person.\""
+c "\"And finally, if you sense that the presence is hostile, always remember that it {i}can{/i} hurt you. In these cases, they might not have ever actually been a person.\""
 show dev annoyed p lamp with dis
 d "\"Eh, I wouldn't worry about demon shit. Even I have a hard time believing in that.\""
 show cam smile a l lamp with dis
