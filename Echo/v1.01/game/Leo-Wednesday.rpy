@@ -850,7 +850,8 @@ m "\"L—Leo!\""
 "His tongue is hanging out, making him look a little goofy. I can see a few of my short brown hairs on his tongue."
 "He starts to lean in again, and this time I don't turn my head away."
 stop music fadeout 3.0
-"As he almost reaches me, his eyes suddenly flick to the right, looking over my shoulder and I see shock cross his expression."
+#!! "looking over my shoulder and I see shock" could use a comma, but this sentence is already pause-heavy
+"As he almost reaches me, his eyes suddenly flick to the right, looking over my shoulder, and I see shock cross his expression."
 play sound "clatter.ogg"
 scene bg leosbathroom with dissolve
 "Then he jumps and spins around, knocking over the soap dispenser and first aid kit."

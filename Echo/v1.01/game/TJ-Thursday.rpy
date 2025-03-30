@@ -741,6 +741,7 @@ m "\"...Oookay.\""
 "I say it slowly, realizing how delicate of a topic this is."
 m "\"Is there a reason why you want to open it?\""
 show TJ Rejected with dis
+#! "deep red and orange sky"? "deep, red, and orange sky"? Not sure what the intent is
 "TJ sighs deeply, looking up at the deep, red and orange sky."
 t "\"I feel like.. I always feel like things happen for a reason, and we were just talking about finding closure yesterday.\""
 m "\"Okay.\""

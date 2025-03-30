@@ -1339,7 +1339,8 @@ hide Young_Leo with dissolve
 "Not just bad, but weird and scary and something that no one should ever do, not even if you're a kid."
 "I don't think he could ever explain why he liked doing it."
 "That look imprints itself in my mind."
-"TJ runs off."
+#!!! TJ -> Toby? The switch from Toby to TJ for the last couple references doesn't seem intentional
+"Toby runs off."
 "I don't know where to."
 "I try to get Sydney to tell me what he was doing for a while."
 "I don't remember exactly what happens, but I get angry."
@@ -1357,7 +1358,8 @@ hide Young_Leo with dissolve
 sy "\"You—you tried to kill me! I'm telling Leo...you tried to murder me!\""
 "So that was it."
 "For some reason, the way he immediately tried to put that on me..."
-"...It was then that I believed he was trying to kill TJ."
+#!!! TJ -> Toby? The switch from Toby to TJ for the last couple references doesn't seem intentional
+"...It was then that I believed he was trying to kill Toby."
 "Maybe not even on purpose, maybe just waiting for it to \"accidentally\" happen."
 "I don't know."
 "But now he was going to make everyone think I'm a murderer."
