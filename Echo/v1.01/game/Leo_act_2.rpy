@@ -30,7 +30,7 @@ play loop "nhysteria.ogg" fadein 20.0
 "I hear a soft chuckle above me and I go quiet."
 "I still don't know where I am, or what's going on at all, but that laugh is enough to tell me that I don't wanna be where I am."
 "The feeling of hanging from a rope is gone now."
-"Instead, I'm lying on something flat and hard and my arms and legs are spread out."
+"Instead, I'm lying on something flat and hard, and my arms and legs are spread out."
 "..."
 "The air is cool now and my skin is cold and wet, like I've been sweating a lot."
 "The feeling is especially strong along my back, and I want to roll over...but I can't."
@@ -3361,7 +3361,8 @@ play sound "metalscratch.ogg"
 play sound "carwindowsmash.ogg"
 "Bits of glass fly into my face and the next thing I know, I'm cowering in the seat, head down as far as I can push it."
 "Carl, very much awake now, screams at Leo."
-c "\"Go, Go, Go!\""
+#! Having these uppercase isn't the most egregious thing, but there's no real downside to making them lowercase either.
+c "\"Go, go, go!\""
 stop loop fadeout 3.0
 play background "carwind.ogg" fadein 5.0
 "Leo's already on it, and I feel the car jolt forward."
@@ -4789,6 +4790,7 @@ br "\"No, you were talking to something. Did you see someone?\""
 m "\"I—no, I don't know.\""
 "I shut my eyes against the light and only see blood-red."
 "Brian chuckles and my vision goes back to black as he takes the light off me."
+#!! should probably be a colon here?
 br "\"I was the same way as you. Let me tell ya somethin' though; ignorin' it ain't gonna make it go away.\""
 "Brian finally stops scanning the ground and crouches down."
 "It takes me a moment to realize what he's looking at until he reaches down and picks it up."
@@ -4919,7 +4921,7 @@ menu:
     "Look to the right.":
         "I glance to my right and see something standing in the entrance to our little hollow."
 "It's faint, either because of the dim lighting or because the thing itself isn't quite opaque."
-"It's tall, white, and gangly and its long fingers nearly touch the ground."
+"It's tall, white, and gangly, and its long fingers nearly touch the ground."
 #! The last bit is redundant
 "Its face is heart-shaped, the whiteness of it interrupted by massive, shiny black eyes."
 "It stands there motionless, watching us."
@@ -5323,7 +5325,7 @@ menu:
         m "\"Uh...gib me a sec.\""
         show Kudzu Depressed with dis
         "My nose is all stuffy so my voice comes out clogged."
-        "The tiny lights of Echo on the endless expanse of desert get smaller and smaller and so too does the feeling of tension in my chest."
+        "The tiny lights of Echo on the endless expanse of desert get smaller and smaller, and so too does the feeling of tension in my chest."
         "And with the tension goes the sad, angry presence in my head."
         "It...he goes quiet again."
         "It makes me feel a bit better, but each time I think about Leo that knife gets a little deeper."
@@ -5477,8 +5479,8 @@ menu:
         "I give him a quick peck on the side of his muzzle and he laughs."
         "I try to laugh as well, but it gets caught in my throat as I see that old house."
         stop background fadeout 3.0
-        #!! Either works, though this adds more a bit more emphasis
-        "And there, waiting in the driveway, is Leo."
+        #!! commas around "waiting in the driveway" would add a bit more emphasis, though both variants are fine
+        "And there waiting in the driveway is Leo."
 
         scene bg leohouse with fade
         show Leo

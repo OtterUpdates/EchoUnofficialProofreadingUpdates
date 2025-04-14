@@ -126,7 +126,7 @@ stop background
 "I gasp as full-on panic sets in."
 m "\"LEO! LEEOO!\""
 "I scream as loud as I can, knowing that he should be able to hear me, but also knowing that he sleeps like a rock."
-"The thing behind me seems to double its efforts at the sound of my voice and the cycle of its movement increases."
+"The thing behind me seems to double its efforts at the sound of my voice, and the cycle of its movement increases."
 "It now has the momentum of a gallop."
 "My breaths are coming in panicked gasps and now I know I'm not gonna make it because it's only three feet behind me."
 "As if a window opens up in the back of my mind I see it:"

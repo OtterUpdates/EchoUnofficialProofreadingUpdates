@@ -8619,7 +8619,7 @@ play sound "dooropen2.mp3"
 scene bg cityhallbackroom1 with dissolve
 "I'm nearly overwhelmed by the musty smell from the inside."
 "The corner of the room is completely stained from rain damage, and the roof is boarded up."
-#!! These next two lines could be written with Sam's font if desired
+#! These next two lines could be written with Sam's font if desired
 "There was an exit here."
 "But it's gone now."
 "..Why do I know that?"
@@ -10584,7 +10584,7 @@ m "\"I'm {i}glad{/i} he DIED.\""
 f "\"That's no secret.\""
 hide Daxton with easeoutleft
 "Daxton, looking two-parts tense and awkward, steps further away from the otter."
-"Chase's eyes begin to well-up."
+"Chase's eyes begin to well up."
 "He looks so weak, but brimming with emotions."
 "The salamander mutters something about checking on the commotion outside and heads outward."
 play sound "dooropen2.mp3"
@@ -11927,7 +11927,8 @@ if House_Talk == "Daxton":
     "The sharp {i}crack{/i} reverberates throughout the cabin once more."
     play sound "cardoorsecondhalf.ogg"
     "Carl, very much awake now, slams TJ's door shut and screams at Leo."
-    c "\"Go, Go, Go!\""
+    #! Having these uppercase isn't the most egregious thing, but there's no real downside to making them lowercase either.
+    c "\"Go, go, go!\""
     stop loop fadeout 3.0
     play background "carwind.ogg" fadein 5.0
     "Leo's already on it, and I feel the car jolt forward."
@@ -12195,7 +12196,8 @@ elif House_Talk == "Leo":
     "The sharp {i}crack{/i} reverberates throughout the cabin once more."
     play sound "cardoorsecondhalf.ogg"
     "Carl, very much awake now, slams TJ's door shut and screams at Leo."
-    c "\"Go, Go, Go!\""
+    #! Having these uppercase isn't the most egregious thing, but there's no real downside to making them lowercase either.
+    c "\"Go, go, go!\""
     stop loop fadeout 3.0
     play background "carwind.ogg" fadein 5.0
     "Leo's already on it, and I feel the car jolt forward."
@@ -13550,6 +13552,7 @@ play music "waterheater.ogg" fadein 5.0
 "I feel the vibrations more than I actually hear the thing."
 "Then, a faint whimper."
 "The sound is stifled, as if the upset individual is trying to hold back tears."
+#! high-pitched?
 "It's high-pitch, feminine.. a girl. The distortion is only slight."
 "I bring my hand up and feel wooden slats, and when I push harder, the whole surface bends and folds outward. It's a closet door."
 "The sniffling stops."

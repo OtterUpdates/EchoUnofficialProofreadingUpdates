@@ -1152,7 +1152,6 @@ ja "\"Here we are!\""
 "The big coyote sets a smoothie down for TJ and an even bigger veggie burger down for Carl."
 t "\"Hey, Janice. Is Julian working today?\""
 "Janice smiles at TJ."
-#!!! It's a little odd to specifically note that Julian is only around when Janice isn't, and then have Julian and Janice working together the next day?
 ja "\"No, dear. He's only here when I'm not. He'll be in tomorrow if you're looking to find him.\""
 t "\"Okay, thanks.\""
 "Janice then clutches her tray to her chest and watches us for a moment."
