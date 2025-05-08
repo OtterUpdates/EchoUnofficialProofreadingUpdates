@@ -204,6 +204,7 @@ f "\"Fuckin' hell, this is so fuckin' stupid.\""
 l "\"Yes! Now I'm gonna boost you all the way up. Hold on.\""
 j "\"Careful!\""
 "Like they're some kind of cheerleading duo, Leo shoves Jenna all the way up with one paw and she disappears through the window."
+#!! bushy tail?
 "Her bush tail is the last thing we see...until she pokes her head back through."
 j "\"Kitchen; I fell in the sink.\""
 l "\"Great! Now unlock the door.\""

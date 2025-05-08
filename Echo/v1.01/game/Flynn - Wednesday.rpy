@@ -179,6 +179,7 @@ show Flynn with dis
 f "\"Well, why don't you guys go inside so this whole surprise thing isn't as weird?\""
 l "\"It's locked.\""
 "Flynn walks over to Carl's side before turning to us."
+#!!! kind of weird for flynn to bring up the key under the doormat in this route but not mention it in the other routes when he's present
 f "\"Go in through the back. There's a key under the doormat.\""
 stop music fadeout 3.0
 stop background fadeout 5.0

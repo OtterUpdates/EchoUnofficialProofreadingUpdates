@@ -461,6 +461,7 @@ m "\"I mean, you can't do it after the question's been asked, right?\""
 c "\"You can look it up if you want.\""
 "I shake my head, wiping the side of my face as I try to think."
 m "\"...Never have I ever flown in an airplane.\""
+#!!!! carl isn't playing "Ten Fingers" like TJ and Chase are, so he should take a drink instead of lowering a finger
 "Carl and TJ both lower a finger."
 t "\"Really? That's crazy!\""
 "I shrug."
@@ -1232,7 +1233,7 @@ show TJ Neutral at center behind nightoverlay with dissolve
 "I fall into him awkwardly and quickly step back, brushing myself off, even though there isn't anything on me."
 t "\"Are you okay?\""
 m "\"I'm fine, thanks.\""
-"I glare over at Carl who's still laughing."
+"I glare over at Carl, who's still laughing."
 c "\"Did you even try, man?\""
 "He leaps over easily, clearing the ditch along with a few more feet."
 m "\"That's not fair, I'm an otter.\""
@@ -1488,7 +1489,7 @@ show TJ Neutral
 show Carl Neutral
 with dis
 c "\"But here's the door.\""
-"Carl points the light back up above the door and sure enough there's a 301 up there."
+"Carl points the light back up above the door, and sure enough there's a 301 up there."
 "TJ and I stand next to him, both staring into the dark room."
 c "\"Hey, I think this might actually be the room you saw the thing staring at you from.\""
 t "\"Carl.\""

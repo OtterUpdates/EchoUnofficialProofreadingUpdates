@@ -1083,6 +1083,7 @@ stop music fadeout 0.5
 stop music2
 stop background fadeout 0.5
 "Lost in the vision, Cameron feels himself recoil from something touching him."
+#!! this could also be "windmilling his arms comically as he has a split second to recognize"
 "Cameron loses his balance, windmilling his arms comically, and he has a split second to recognize Dev."
 "The bear has his paw out, like he'd been resting it on the coyote's arm."
 "The look of shock is mirrored on his boyfriend's face--"

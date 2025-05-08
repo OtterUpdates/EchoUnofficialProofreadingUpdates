@@ -145,6 +145,7 @@ l "\"Yes! Now I'm gonna boost you all the way up. Hold on.\""
 j "\"Careful!\""
 hide Jenna with dissolve
 "Like they're some kind of cheerleading duo, Leo shoves Jenna all the way up with one paw and she disappears through the window."
+#!! bushy tail?
 "Her bush tail is the last thing we see...until she pokes her head back through."
 j "\"Kitchen.. I fell in the sink.\""
 l "\"Great! Now unlock the door.\""
@@ -458,7 +459,8 @@ l "\"But seriously, thanks...for trying, at least.\""
 "Leo looks like he's about to say something else, hesitates, then opens his muzzle again—"
 unk "\"Cute.\""
 show Leo Neutral with dis
-"Leo and I look up to find a lanky, patchy, ugly ring-tailed cat staring down at us with beady, black eyes."
+#!!!! I don't think "ring-tailed cat" is the right species?
+"Leo and I look up to find a lanky, patchy, ugly ringtail staring down at us with beady, black eyes."
 show Clint at farright with dissolve
 cl "\"I don't know if you knew, but there's a lot of other people in here trying to enjoy their meal.\""
 "Clint puts a paw down on the edge of the table, leaning in."

@@ -280,6 +280,7 @@ m "\"Oh, okay. Yeah, thanks. Just let me get a to-go box and we can leave.\""
 scene bg dirtroad with fade
 play background "highway.ogg" fadein 5.0
 "Twenty minutes later and we're heading up the narrow canyon road toward the mine."
+#!! instructions -> directions?
 "I haven't been there in years, but the dirt road leads straight to it, so I don't even have to look up instructions."
 "Julian chats away while I eat my lukewarm sandwich out of a foam to-go box."
 "While there's an almost robotic quality to the buck with how articulate he is, he's also really nice."
@@ -862,7 +863,7 @@ stop background fadeout 5.0
 "I kneel down beside it, moving the light of my phone around until I find the drawings."
 "I look at the SuperWolf etched into the rock, glaring...then I see a glint of light above it."
 "I shift the phone light up to see what it is—"
-"I gasp and I can't help a ragged scream from escaping my throat."
+"I gasp, and I can't help a ragged scream from escaping my throat."
 "A tarantula sits there, staring back at me, its cluster of eyes shining back in the darkness."
 "I stumble back in the sand and fall, sitting down hard and causing my teeth to clack together."
 "I scramble back up."

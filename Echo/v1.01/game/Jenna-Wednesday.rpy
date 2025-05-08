@@ -816,6 +816,7 @@ j "\"Sorry!\""
 #!!! "weight burden" feels a little awkward? "her weight lift" would be better, but I don't like that "her weight lift" can then be misread as an action (i.e. weightlifting)
 "She grabs the ledge, and I feel the weight lift as she dangles against the side of the house."
 t "\"Careful! Don't fall!\""
+#!! bushy tail?
 "Her bush tail is the last thing we see...until she pokes her head back through."
 j "\"Kitchen; I fell in the sink.\""
 l "\"Okay. Unlock the door now.\""
@@ -2312,6 +2313,7 @@ menu:
         m "\"It's just.. shitty, I guess.\""
         m "\"You know someone for 15 years of your life, and grow up with them. There's like.. I don't know, a vested interest?\""
         m "\"I was there for every big mistake, triumph, you name it.\""
+        #!! "what exactly further" seems weird?
         m "\"I'm not sure what exactly further support I can even offer at this point.\""
         m "\"It's just been too long.\""
         m "\"Plus, I'm gone again as soon as this weekend's up, so what's the point when I'm probably just gonna fuck things up worse...\""
@@ -2580,7 +2582,6 @@ j "\"Grandma was pretty shy, actually, and didn't like how she looked.\""
 j "\"When she was born, her ears and parts of her scalp were malformed.\""
 j "\"It was at some underfunded tribal clinic up north, so they weren't equipped to fix it. Didn't get the money for it later in life, either.\""
 "She brings her paws up to her own ears, running her fingers down them to the base of her headfur."
-#!! should there be a comma between "big" and "sun"? Is the noun "hat" or "sun hat"?
 j "\"She always wanted to wear these big sun hats whenever we went somewhere, like she didn't feel right being seen.\""
 j "\"But over the radio, she would mainly just talk to these truck drivers - ask them about their day, about things that made them happy.\""
 j "\"And I remember hearing about this one particular time, where she talked with a truck driver who had recently lost his wife in an accident.\""
@@ -3943,6 +3944,7 @@ if Jen_Town >= 2:
     j "\"And she didn't even have the dignity to atone for her actions when the chance was standing right in front of her.\""
     j "\"She continues to lie and manipulate her way through every social interaction to make herself feel better.\""
     j "\"It's the perpetuation of this endless cycle of perceiving herself as this sort of 'eternal victim'.\""
+    #! it's "a" complete delusion?
     j "\"When in reality, it's complete delusion that hurts her and everyone around her.\""
     "With the way Jenna rattles off point after point regarding Heather's transgressions, it's evident this is something she's thought about greatly."
     "Maybe even rehearsed."
@@ -4084,7 +4086,7 @@ if Jen_Town >= 2:
     f "\"You gave Carl.. meth.\""
     f "\"Carl asked for fuckin' {i}meth{/i}?\""
     f "\"That's horseshit.\""
-    jer "\"I dunno what to tell ya man. You must not know him as well as you think.\""
+    jer "\"I dunno what to tell ya, man. You must not know him as well as you think.\""
     "Carl and meth?"
     "It doesn't make any sense."
     "Carl got really into the \"enlightened drug use\" thing in high school, but he was never on board with stuff that hard."
@@ -4253,6 +4255,7 @@ elif Jen_Town >= 1:
     j "\"And she didn't even have the dignity to atone for her actions when the chance was standing right in front of her.\""
     j "\"She continues to lie and manipulate her way through every social interaction to make herself feel better.\""
     j "\"It's the perpetuation of this endless cycle of perceiving herself as this sort of 'eternal victim'.\""
+    #! it's "a" complete delusion?
     j "\"When in reality, it's complete delusion that hurts her and everyone around her.\""
     "With the way Jenna rattles off point after point regarding Heather's transgressions, it's evident this is something she's thought about greatly."
     "Maybe even rehearsed."
@@ -4392,7 +4395,7 @@ elif Jen_Town >= 1:
     f "\"You gave Carl.. meth.\""
     f "\"Carl asked for fuckin' {i}meth{/i}?\""
     f "\"That's horseshit.\""
-    jer "\"I dunno what to tell ya man. You must not know him as well as you think.\""
+    jer "\"I dunno what to tell ya, man. You must not know him as well as you think.\""
     "Carl and meth?"
     "It doesn't make any sense."
     "Carl got really into the \"enlightened drug use\" thing in high school, but he was never on board with stuff that hard."
@@ -4551,6 +4554,7 @@ else:
     j "\"And you don't even have the dignity to atone for your actions when the chance is standing right in front of you.\""
     j "\"You continue to lie and manipulate your way through every social interaction to make yourself feel better.\""
     j "\"It's the perpetuation of this endless cycle of perceiving yourself as this sort of 'eternal victim'.\""
+    #! it's "a" complete delusion?
     j "\"When in reality, it's complete delusion that hurts you and everyone around you.\""
     "With the way Jenna rattles off point after point regarding Heather's transgressions, it's evident this is something she's thought about greatly."
     "Maybe even rehearsed."
@@ -4723,7 +4727,7 @@ else:
     f "\"You gave Carl.. meth.\""
     f "\"Carl asked for fuckin' {i}meth{/i}?\""
     f "\"That's horseshit.\""
-    jer "\"I dunno what to tell ya man. You must not know him as well as you think.\""
+    jer "\"I dunno what to tell ya, man. You must not know him as well as you think.\""
     "Carl and meth?"
     "It doesn't make any sense."
     "Carl got really into the \"enlightened drug use\" thing in high school, but he was never on board with stuff that hard."
@@ -5302,6 +5306,7 @@ mi "\"For Keith.\""
 ####
 "The bat taps at his phone a few times before handing it my way."
 mi "\"Gimmie your number. I'll keep ya updated on what's goin' on.\""
+#!! the supplier guy is brian right? doesn't he live in town? does he spend a lot of time away from echo?
 mi "\"The supplier guy I mentioned will be coming into town. I'll see if I can get some more info outta him and Clint about the ram.\""
 "I take the phone, slowly using the tiny button-based numpad to put in my number."
 "There's probably a few ways this can come back and bite me in the ass, but at this point, I'm pretty damn desperate for a lead."
@@ -5452,6 +5457,7 @@ unk "\"It's okay.\""
 "I can just barely make out.. something back there."
 "Undulating in constant, restless motion - strobing between pulsating flashes of faint, red light."
 "There's applause, like someone clapping."
+#!! shudder?
 "The handles of the rear cabin doors seem to shutter and click, like someone is trying to open them from the outside."
 "But that's impossible, we're moving?"
 
@@ -10950,6 +10956,7 @@ j "\"Nothing's actually paranormal. I'm certain there's actual inputs and variab
 j "\"On a personal note, I'm just happy none of the effects seemed to linger once we left the town.\""
 j "\"No tulpa version of you hanging around Leo, no monster chasing TJ, no red figure following me, no visions of Keith for Micha or Heather..\""
 j "\"..and you, well, how's that possession by the roadside ghost working out for you?\""
+#!!!! brian pistol-whipped leo, not chase?
 "I rub my head, feeling the welt from Brian's pistol-whipping peeking out of my fur."
 m "\"I'm pretty sure he's gone.\""
 j "\"Huh, who says you can't run away from your traumas, then?\""

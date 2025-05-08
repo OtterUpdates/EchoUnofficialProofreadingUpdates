@@ -517,7 +517,8 @@ with dissolve
 "I still haven't caught up to everything that's happened since I was in that diner."
 "Would I ever be able to? Would I have time if Brian planned to..."
 scene bg black with dissolve
-"A tinge of panic pierces through my fog of disassociation and I clench my eyes shut, screwing up my face as I try not to start crying again."
+#!!! probably meant to be dissociation, not disassociation?
+"A tinge of panic pierces through my fog of dissociation and I clench my eyes shut, screwing up my face as I try not to start crying again."
 "Brian snorts again at something on the TV."
 scene bg ChaseNight2
 show nightoverlayred
@@ -1735,6 +1736,7 @@ m "\"No...but the person that did wouldn't ever do that.\""
 du "\"So am I talkin' to the wrong guy right now? Who was it?\""
 "I look over at Leo again, swallowing hard."
 du "\"Who was it!\""
+#! one minute is a long time for a "too fast to comprehend" action scene. double check this is the intended duration?
 "Duke starts to raise the gun again and what happens over the course of the next minute is too fast for me to comprehend until it's over."
 play music "anger.ogg"
 show Leo Annoyed with dis
@@ -4526,6 +4528,7 @@ m "\"Wh—wh—what are you...doing?\""
 "Brian's eyes flick down toward me, then back up to the road before he shakes his head."
 "He does it slowly, like he can't believe something."
 "But he doesn't say anything, at least not for a while."
+#! maybe remove one of the "minutes"?
 "Then, after what could have been anywhere from two minutes to twenty minutes, he speaks."
 br "\"Can you tell me the truth, boy?\""
 "I sit there quietly, contemplating making a jump for his door."
@@ -4603,7 +4606,7 @@ br "\"But then something weird happened on my second or third trip out here. I r
 br "\"And I kept looking at it, and that's when I saw a flying saucer, like one straight out of a cartoon with lights and a dome thing on top.\""
 br "\"I couldn't believe it, but there it fuckin' was floatin' through the sky, and you know, even though it looked stupid as fuck, I knew...\""
 stop loop fadeout 3.0
-"Brian takes a big wide turn and the truck slows more and more until it comes to rumbling halt."
+"Brian takes a big wide turn and the truck slows more and more until it comes to a rumbling halt."
 "My ears ring in the silence as Brian continues to stare out into the night, the headlights lighting up his face."
 br "\"It knew I saw it, and it was fuckin' evil. I just knew it.\""
 "Brian finally looks down at me again."

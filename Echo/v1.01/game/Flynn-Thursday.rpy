@@ -302,7 +302,8 @@ f "\"He's gone.\""
 scene bg flynnsbedroom with fade
 play music "quiet.ogg" fadein 3.0
 m "\"So how are we gonna explain to Leo that Carl just...forgot that I was there?\""
-"I pull my shirt over my head, feeling kinda gross putting back on my musky shirt."
+#!! maybe?
+"I pull my shirt over my head, feeling kinda gross putting my musky shirt back on."
 "Flynn stands in front of his dresser's mirror, having just finished putting on his tie."
 "He's currently picking at his scales with a pair of tweezers."
 show Flynnalt at center with dissolve
