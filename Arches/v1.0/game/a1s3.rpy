@@ -299,7 +299,6 @@ show cam heartbreak l with dis
 "But Dev quickly goes on as if Cameron didn't say anything."
 show dev smirk h r with dis
 d "\"Sit down and have some water, honey.\""
-#! This could also be "green, plastic bottle"
 "He holds up a green plastic bottle filled with water, and Cameron drinks from it loudly."
 show dev grin p with dis
 d "\"And food.\""

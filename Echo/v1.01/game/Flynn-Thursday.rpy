@@ -3953,7 +3953,8 @@ menu:
         "It takes me a moment, but my eyes widen and I feel my neck begin to burn."
         m "\"Oh, God.\""
         #!! "insisted on" is the most correct here, though "insisted" passes casually. Given that "insisted on" doubles up "on" in the sentence, I'm okay with either
-        l "\"Hey, you were the one who insisted on putting -ketchup- on it.\""
+        #!! Notably, RenPy doesn't count "-ketchup-" as one word, and with "insisted on" it line-breaks right after the first hyphen.
+        l "\"Hey, you were the one who insisted putting -ketchup- on it.\""
         m "\"Should've put that jalapeño ketchup on it.\""
         "Leo smiles cheekily."
         l "\"Wouldn't bother me. I'm the spicy Latino, remember?\""

@@ -472,6 +472,7 @@ with dissolve
 j "\"What's wrong, TJ?\""
 t "\"It's just...never mind, it doesn't matter.\""
 j "\"Are you sure?\""
+#!! forget -> forgot?
 t "\"It's just the mayo, I forget they put it on everything here, hehe.\""
 "Jenna lifts up the bun on her sandwich, inspecting its contents."
 j "\"Hmm, none of the mayo really got on my chicken. Here—\""

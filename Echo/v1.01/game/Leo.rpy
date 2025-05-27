@@ -93,6 +93,7 @@ show Leo Depressed with dis
 m "\"Are you still mad at me? We talked—\""
 show Leo Annoyed with dis
 l "\"'Course I'm still mad, Chase! Talking doesn't just fix three years.\""
+#!!! is this referring to their talk after the amusement park on "Sunday"?
 "All the progress I thought we made on Saturday was an illusion. Leo's just as upset as he'd always been about what happened."
 m "\"I—I don't know what you want me to say. What DO you want me to say, Leo? That I was wrong to leave, that I should have stayed here?\""
 l "\"Not leaving me in the dark would have been a good start.\""
@@ -465,7 +466,7 @@ m "\"Are you alright! Jesus you hit that hard...\""
 "I kneel down next to him and the second he sees me he grins and quickly scrambles up, brushing his paws."
 show Leo at center with dissolve
 l "\"I'm fine, I'm fine! Just tripped a bit...\""
-"I can see spots on his paw pads that are skinned and bleeding and I wince."
+"I can see spots on his paw pads that are skinned and bleeding, and I wince."
 m "\"Jesus Christ, Leo, that wasn't just a bit.\""
 "Jenna, having noticed that her competition had eaten shit, jogs back to us, her paws on her hips as she breathes heavily."
 show Jenna Rejectedhips at right with dissolve

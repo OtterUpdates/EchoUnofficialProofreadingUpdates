@@ -291,7 +291,6 @@ show cam worried c trailsun with dis
 show cam surprised trailsun with dis
 "Then Cameron remembers his phone, quickly pulling it out and holding down the power button."
 show bri surprised fists trailsun with dis
-#! fairly sure that "multiple, vertical" shouldn't have a comma?
 "The screen flickers on for just a moment before multiple vertical lines of black appear on the screen, which widen steadily before the entire display goes black."
 show bri surprised trailsun with dis
 #! small readability improvement?

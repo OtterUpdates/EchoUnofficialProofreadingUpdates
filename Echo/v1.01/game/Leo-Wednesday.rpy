@@ -655,7 +655,7 @@ ku "\"You say he was a bully, but from what I've seen it's the reverse.\""
 "It's hard to think of Leo as a bully, but the way he had acted towards Clint in the diner was a bit much...even if it was Clint."
 show Leo with dis
 l "\"Hey, if he can't take it then maybe he shouldn't dish it, eh?\""
-"Leo grins and sticks out a paw to Kudzu who glares, but nevertheless reaches down to help him up."
+"Leo grins and sticks out a paw to Kudzu, who glares but nevertheless reaches down to help him up."
 "Leo promptly pulls me up with him."
 "As I get to my feet a wave of dizziness instantly hits me and I stumble into Leo."
 show Leo Annoyed with dis

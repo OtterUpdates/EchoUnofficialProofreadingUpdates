@@ -462,7 +462,7 @@ scene bg ba with dissolve
 play music "quiet.ogg"
 "Brian calms down pretty quick after his tantrum."
 "Once he cleans up the mess, he splays out on the couch and starts watching TV."
-"It's some kind of cartoon about a pink cat and he actually laughs along with the juvenile jokes."
+"It's some kind of cartoon about a pink cat, and he actually laughs along with the juvenile jokes."
 scene bg ChaseNight2
 show nightoverlayred
 with dissolve
@@ -732,7 +732,7 @@ show Brian with dis
 "Brian grumbles as he starts to roughly undo my restraints."
 "I take care not to look at his crotch as it's pressed uncomfortably close to my face."
 "As he pulls my right arm out, I gasp in shock and pain."
-"It feels like a million needles are poking through it as he pushes my arm down next my body."
+"It feels like a million needles are poking through it as he pushes my arm down next to my body."
 m "\"Wait, wait, wait! Fuck!\""
 "Brian pauses as he watches me grimace in pain and I worry he's getting off on it."
 "At that moment though, there's some rustling next to the window and I try to groan over it."
@@ -982,6 +982,7 @@ play music "eveningcall.ogg" fadein 3.0
 "Some hang by their necks, others by a wrist or ankle."
 "One of them passes me within a few feet and I notice that it doesn't have legs, both of them cut off at the thigh."
 "It's a wolf, and he dangles by one of the stumps."
+#! "down" to his face?
 "Blood stains his dusty, cream-colored pants and shirt, all the way up to his face."
 "As I pass him, he slowly turns on the rope, as if he's following my progress."
 "I look down at the corpse's face, the mouth hanging open, eyes wide."
@@ -1097,6 +1098,7 @@ ku "\"But he was bleeding, had cuts on his leg and his jeans were all ripped up.
 m "\"Oh.\""
 ku "\"But he knocked on my door. I didn't open it, but he yelled through it saying there was a meeting in the center of town.\""
 m "\"What kind of meeting?\""
+#!!!! Depending on whether you run through the kitchen to escape Brian or not, Leo's window wouldn't be broken. There should be a variable to track this
 ku "\"A fucked up one, apparently. Anyway, I went over to Leo's house to see if he was home, then I saw the window...\""
 show Kudzu Depressed with dis
 "Kudzu rubs the back of his neck, his ears lowering."
@@ -1104,6 +1106,7 @@ ku "\"Obviously I knew some bad shit had happened, but I had no way of knowing w
 ku "\"Anyway, I went to the town center, hoping I'd see you two there, but just getting there was crazy.\""
 show Kudzu Confused with dis
 "Kudzu looks back at me."
+#!!!! Depending on whether you run through the kitchen to escape Brian or not, Leo's window wouldn't be broken, which would make this ", too" section not make sense
 ku "\"Jeremy's house was burning and Janice's house looked like it had been broken into, too.\""
 "Jeremy's house? That was Jenna's house."
 ku "\"Didn't run into anyone until I got to the townhouse.\""

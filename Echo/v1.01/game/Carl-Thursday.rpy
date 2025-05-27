@@ -120,6 +120,7 @@ play music "mitt.ogg" fadein 5.0
 "He quietly started a moderately successful ice cream business in the 1880s."
 "It didn't grow into the regional juggernaut it is today until it was taken over by his grandson, Peter."
 stop music fadeout 5.0
+#!!! is this the same James that is said to have died from tarantula on the back of the poem from flynn's route? If so, on the poem it says he died in 1913
 "He died there in his villa in 1891 from an unusual insect bite."
 "I rub my eyes and check the time; three hours have passed already and it's late in the afternoon."
 #! so good "that" he hasn't even bothered?

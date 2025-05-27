@@ -415,6 +415,7 @@ c "\"What?\""
 "While the shadow creature in the forest had been strange, he hadn't {i}seen{/i} it, he only heard someone recounting it."
 "Cameron assumed that man in his vision wasn't in his right mind, maybe misinterpreted what he was experiencing."
 "But this.{cps=3}..{/cps}{w=0.3} a full-blown craft in the sky above a dead body."
+#!! probably intentional, but "been" -> "being"?
 "Now Cameron is almost positive he's been toyed with, like Raincoat Monster in the motel room."
 "It just makes him feel like he's going crazy, and it reminds him that, for some inexplicable reason, he thought Dev might be in on it."
 "How did he even consider that Dev could be involved in this?"

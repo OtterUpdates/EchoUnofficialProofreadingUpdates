@@ -483,6 +483,7 @@ play music "argument.ogg" fadein 5.0
 "All reason has seemingly left the land of Echo and now my brain is left to try and put the pieces of the crazy place together."
 "I watch as a huge tongue sticks out from between the blubbery lips to lick at them, sliding slimily between the gaps of missing teeth."
 "Once he's done with that he breaks out into a grin again, those black lips shimmering under the sun."
+#!!! ringtails aren't cats, right?
 unk "\"This a friend, cat?\""
 "The weirdly high-pitched voice is about as startling as his size."
 #!! Needs a little tweaking I think
