@@ -226,6 +226,9 @@
   * (done, all non-standard codes removed, and during COLONNA.ttf sections all apostrophes set to non-standard)
 * fancy `“`and`”` quote codes are nonstandard
   * (NOT DONE, there are 4 instances in Arches, but they are used as internal quotations within a line. Could maybe switch them to single quotes, or just use standard quotation marks)
+* fake country naming inconsistencies
+  * there are still "real" country names used throughout R65 and Echo
+  * `Spanish`, `French`, `Latin`, `German`, `English`, `Japanese`, `Russian`, `Indian`
 
 ## Compound words:
 
