@@ -217,8 +217,8 @@ window show
 "What makes Brian different isn't that he has fetishes."
 "He's not crazy."
 "He's not a psychopath."
-#! probably?
-"No, the true root of Brian's evil is clear:"
+#! colon instead of period?
+"No, the true root of Brian's evil is clear."
 "He's selfish, and he's never satisfied with what he gets."
 "Selfish enough to put dozens of young people through hellish torture until they finally died."
 "All while having the capacity to fully control himself."

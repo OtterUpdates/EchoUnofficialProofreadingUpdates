@@ -229,6 +229,7 @@
 * fake country naming inconsistencies
   * there are still "real" country names used throughout R65 and Echo
   * `Spanish`, `French`, `Latin`, `German`, `English`, `Japanese`, `Russian`, `Indian`
+  * (NOT DONE)
 
 ## Compound words:
 

@@ -3139,6 +3139,8 @@ play background "highway.ogg" fadein 3.0
 "Leo's driving, of course."
 "Carl's still woozy and Leo actually had to help him walk around to find the keys."
 #! this could have "between Carl and TJ" between two commas if desired
+#!!! there are a lot of references to Chase saying "my window", and positioning often refers to him being next to a window, as well as e.g. TJ rubbing Carl's back
+#!!! Maybe change this line to reflect that positioning, and make sure it all aligns? Chase seems to actually be in the back left passenger seat, on Leo's side
 "I sit in the back between Carl and TJ, while Kudzu sits in the passenger seat next to Leo."
 "I'd overheard Leo mumbling to Kudzu to sit next to him while I helped Carl into the car."
 "Something about them needing to be able to get out of the car quickly with their guns if things went down."
@@ -3888,7 +3890,7 @@ l "\"To buy himself some time.\""
 ku "\"Listen, Leo, there's no way he's going to try anything. He's scared out of his mind right now.\""
 show Leo Annoyed with dis
 l "\"Duke was scared. Didn't stop him from trying to kill us. It's probably worse that he's scared.\""
-"Leo looks up the hallway, toward the bedroom and I'm starting to not like the look in his eyes again."
+"Leo looks up the hallway, toward the bedroom, and I'm starting to not like the look in his eyes again."
 l "\"In fact, I'm wondering why the fuck we left him in the room alone in the first fucking place.\""
 "Leo starts to show his teeth."
 "I reach out and rest a paw on the wolf's arm, again feeling the tensing of the muscles underneath the fur."
@@ -4401,6 +4403,7 @@ m "\"It's cool. Like I said, you saved my ass so many times at this point it's t
 "I almost tell him that he's been there for me more than anyone at this point, but that feels like a bit too much right now."
 show Kudzu with dis
 "Kudzu chuckles and leans back, his arm brushing mine."
+#! "didn't use to" is correct. "used to" is correct only until "did" gets involved
 ku "\"I didn't always use to be like this, you know.\""
 m "\"What?\""
 ku "\"A fuckin' coward.\""

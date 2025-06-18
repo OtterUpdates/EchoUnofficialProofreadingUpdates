@@ -32,7 +32,7 @@ scene bg route93 with opening_fade
 
 
 window show
-m "\"Yeah mom, I brought it.\""
+m "\"Yeah Mom, I brought it.\""
 m "\"No, no I've got everything.\""
 m "\"No, TJ's with us, we picked him up yesterday...\""
 m "\"No I...I {i}did{/i} call you yesterday, there was no answer.\""
