@@ -752,7 +752,7 @@ with dissolve
 #!!!! maybe? Hard to decipher how this is supposed to be paced
 "The lake, I'm staring at the lake, but the day is clear, the sky is blue, and there are things in the water."
 "Five...Six things float in the water. Bodies, bodies float in the water."
-"I watch the bodies float, bobbing up and down and one looks really familiar."
+"I watch the bodies float, bobbing up and down, and one looks really familiar."
 "This isn't right, this isn't me, what is this?"
 "Something across the lake, I see something across the lake."
 "There's a toolshed, a toolshed is across the lake and I see the door open."

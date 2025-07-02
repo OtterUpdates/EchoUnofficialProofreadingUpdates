@@ -397,7 +397,7 @@ show lake_emma_2
 with dis2
 c "\"So that's why I worry about following these patterns, even if it's just something like looking for UFOs, or ghosts.\""
 c "\"Like, yeah, the meth and lack of sleep pushed her over the edge, but is there something genetic there, too?\""
-#! consider a comma before "too"?
+#! This small sentence feels a bit clunky since the last line also ended with "too". Consider rewording it a bit to change the structure.
 c "\"My dad had problems too.\""
 c "\"What if I'm predisposed to it? I thought drugs were making it worse, but I haven't used since the second month after I met you, and I still see shit sometimes.\""
 scene lake_emma_3 with dis2

@@ -5535,7 +5535,8 @@ menu:
         show Leo
         show bracelet
         with dissolve
-        l "\"A little bit. Spent a lot of time at my parents...I'm moving back in with them right now, actually.\""
+        #!! should be parents', though punctuation starts getting distracting
+        l "\"A little bit. Spent a lot of time at my parents... I'm moving back in with them right now, actually.\""
         m "\"Oh yeah?\""
         l "\"Yeah, it sucks. But honestly I can't stand all the vultures scavenging around for stories here.\""
         m "\"Sounds like it. But at least you'll be around other people, right?\""

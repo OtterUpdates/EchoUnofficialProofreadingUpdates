@@ -14,7 +14,7 @@ play music "highway.ogg" fadein 2.5
 "That would make sense considering how it was impossible to find on the GPS."
 "Anyway, to get to the city you have to merge from the.. remnants of 93 onto I-40, which runs straight through the city of Payton."
 stop music fadeout 2.5
-"About fifteen minutes from Payton we pull over at a rest stop which sits at a higher elevation than Echo."
+"About fifteen minutes from Payton we pull over at a rest stop that sits at a higher elevation than Echo."
 "If you're looking in the right direction it gives you a great view of the town."
 scene bg reststop
 with dissolve
@@ -51,7 +51,7 @@ m "\"That's when the government stepped in to shut down the mine, as it became a
 m "\"The town's population sharply declined shortly thereafter and, by the 1950s, it had dwindled to approximately 2,000 people.\""
 m "\"A shutdown of the Prescott railway in the 1960s, followed by the bypassing of Route 93 by I-40 in 1986 was the final nail in the coffin for the town.\""
 m "\"By the '90s the population had dwindled to just 150 people.\""
-m "\"My goal, however, is to investigate the first event which led to this town's decline, and possible demise.\""
+m "\"My goal, however, is to investigate the first event that led to this town's decline, and possible demise.\""
 m "\"What happened in that mine almost 150 years ago?\""
 m "\"I've come to Echo to try and find out what information, if any, can be gleaned from the events of the past.\""
 stop sound fadeout 7.0

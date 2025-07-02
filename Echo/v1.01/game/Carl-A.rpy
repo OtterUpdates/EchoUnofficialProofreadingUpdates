@@ -2615,8 +2615,8 @@ play music "end.ogg" fadein 3.0
 "It's still painful to think about how Flynn, Leo, and TJ...poor TJ, aren't really talking anymore."
 "I guess it's the fact that we went through completely different things during the...incident."
 "Of course, we'd told the police that it was someone else that had stabbed me while the town descended into madness."
-#! should this be "infamous"?
-"Echo, a name now infamous worldwide after the mass hysteria incident that truly brought a dying town to its ultimate end."
+#!! should this be "infamous"?
+"Echo, a name now famous worldwide after the mass hysteria incident that truly brought a dying town to its ultimate end."
 "At least in terms of being a failed town."
 "While no one really lives there now, it's certainly become a tourist attraction."
 "Countless news reports, TV shows, and \"paranormal investigators\" descended on the area."
