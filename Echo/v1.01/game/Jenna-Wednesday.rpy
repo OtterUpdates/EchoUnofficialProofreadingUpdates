@@ -9723,7 +9723,7 @@ j "\"Okay, okay - sounds good. We're happy to leave..\""
 "Jenna does her best to put on a calm face as she nods to the rest of us."
 j "\"..we'll take Carl with us and we'll be out of your hair - we're planning on leaving town.\""
 show Heather Hysterical2 with dis
-#!!! Jenna specifically says "leaving", not "leave". The next two lines are a little clunky as a result without changes
+#!!! Jenna says "Leave" a few lines before this; might want to use "Leaving" as a reference instead since it's more recent
 h "\"'Leaving'?\""
 "Heather repeats."
 h "\"I have nowhere else to go. NOWHERE!\""

@@ -2959,7 +2959,7 @@ hide Leo with dissolve
 "Somehow, TJ's already managed to fall into a doze, curled up in a small ball on the couch."
 show Kudzu at center behind nightoverlay with dissolve
 ku "\"How are you doing?\""
-"I look over at Kudzu who's got his arms folded, watching me closely."
+"I look over at Kudzu, who's got his arms folded, watching me closely."
 m "\"I'm...doing okay. Just kinda tense.\""
 show Kudzu Happy with dis
 "Kudzu gives one of his rare smiles at that."
@@ -4799,8 +4799,7 @@ br "\"No, you were talking to something. Did you see someone?\""
 m "\"I—no, I don't know.\""
 "I shut my eyes against the light and only see blood-red."
 "Brian chuckles and my vision goes back to black as he takes the light off me."
-#!! should probably be a colon here?
-br "\"I was the same way as you. Let me tell ya somethin' though; ignorin' it ain't gonna make it go away.\""
+br "\"I was the same way as you. Let me tell ya somethin' though: ignorin' it ain't gonna make it go away.\""
 "Brian finally stops scanning the ground and crouches down."
 "It takes me a moment to realize what he's looking at until he reaches down and picks it up."
 "A smooth stone."

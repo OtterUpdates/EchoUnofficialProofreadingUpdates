@@ -7,8 +7,8 @@ window show
 "It never moved when he was looking at it, but the second he looked away and back again, it would reappear closer, usually at that twenty to thirty foot distance."
 "When he learned to ignore it, it just sort of blended into the background, and he almost stopped noticing it."
 "As Cameron squeezes through the boards covering the window, he's only a few feet away from the thing."
-#!! "that if it's solid" -> "if it's solid"? Not sure it's right to have "that" restarted here
-"He realizes that if he makes contact with it, if it's solid, then he won't know what to think."
+#!!! "that if it's solid" -> "if it's solid"? Not sure it's right to have "that" restarted here
+"He realizes that if he makes contact with it, that if it's solid, then he won't know what to think."
 "He never even considered that it might be real."
 "But now, as those unnaturally long claws dangle from the sleeves of the raincoat, Cameron starts to worry."
 "As he moves those last few feet, though, Raincoat Monster starts to dissolve into the dim lighting of the room, and the coyote is inside."

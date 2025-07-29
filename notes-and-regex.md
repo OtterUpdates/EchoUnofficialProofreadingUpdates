@@ -278,6 +278,11 @@ Preference, but should be consistent. I prefer s's over s', with the rationale "
 * `\"Dale's missing, Cynthia drove off into the desert...\"`
   * This line is repeated a few times throughout the routes, but Cynthia should be long dead by 2015 right? Is this some sort of intentional hallucination?
 
+* Keith's timeline in the story seems really messed up.
+  * Allegedly, Brian outs Keith in ~1987 when they were teenagers, which causes him to leave to the Rez (per Jenna's route e.g.: `"So.. he just left us all behind then?"`)
+  * But Keith seems to be positioned in the story as having left Echo in ~2007 per Karen's "dead to me" bit at the start of Route 65 as well as him hanging out with Micha in general
+  * This timeline makes Keith about ~37 in 2007, which seems a bit too old also
+
 ### Flynn
 
 * In the massive TJ confrontation "Condemn Flynn" splits, a lot of the character sprite emotions are desynced between them, e.g. "annoyed" vs "surprised" etc.

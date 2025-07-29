@@ -78,7 +78,6 @@ unk "\"You know that shit don't matter no more, right?\""
 "He thought he'd be able to do that the next day, or the day after that."
 "After he'd been kidnapped, the man took his phone and sat it on the counter."
 "It sat there and buzzed over and over with messages, and his kidnapper only laughed when he asked to at least read them."
-#!!! consider a comma after "flow"? Not sure how the reading flow is supposed to work here.
 "Now the tears flow just as the man leans over him with something heavy in his paw."
 "He hopes his mom is right about God."
 "He hopes he can see her from the other side."
@@ -397,8 +396,8 @@ show lake_emma_2
 with dis2
 c "\"So that's why I worry about following these patterns, even if it's just something like looking for UFOs, or ghosts.\""
 c "\"Like, yeah, the meth and lack of sleep pushed her over the edge, but is there something genetic there, too?\""
-#! This small sentence feels a bit clunky since the last line also ended with "too". Consider rewording it a bit to change the structure.
-c "\"My dad had problems too.\""
+#!! This small sentence feels a bit clunky since the last line also ended with "too". Consider rewording it a bit to change the structure.
+c "\"My dad also had problems.\""
 c "\"What if I'm predisposed to it? I thought drugs were making it worse, but I haven't used since the second month after I met you, and I still see shit sometimes.\""
 scene lake_emma_3 with dis2
 c "\"I mean, whatever is going on with me, it's stable, but I wonder if that'll last.\""
@@ -826,8 +825,8 @@ c "\"I need to... get more comfortable.\""
 d "\"O--Okay...\""
 show dev embarrassed s dark with dis
 "Something about Cameron's demeanor is bothering Devon."
-#! Starting this sentence with "and", then using ", and" is too much
-"Cameron's words were a little slurred, and he does seem kind of... not quite there."
+#!! Starting this sentence with "and", then using ", and" is too much
+"His words were a little slurred, and he does seem kind of... not quite there."
 "Should he pull him out of it?"
 "Devon had never seen a psychic in action before, so maybe this is normal, like a trance."
 "He hopes it's normal, because even if Devon can find his answers, he'd give them up for Cameron to discover he isn't \"psychotic\"."

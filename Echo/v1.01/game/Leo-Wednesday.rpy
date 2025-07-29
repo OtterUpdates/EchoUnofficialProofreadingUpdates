@@ -528,7 +528,7 @@ stop music fadeout 3.0
 "We stop at the motel where I change and shower before grabbing a fresh change of clothes, then we start back out again."
 "I think about staying behind at the motel, but I feel like that would be a dick move after what Leo's been through today."
 "As we walk back Leo takes a detour, stopping at the convenience store."
-"The fight has made things a little awkward between us so I just shove my paws into my pockets and follow Leo."
+"The fight has made things a little awkward between us, so I just shove my paws into my pockets and follow Leo."
 "We go to the back where he grabs a twelve-pack."
 "He doesn't say anything to me either as he makes his way to the front to pay."
 "Finally, when we're back outside he nudges me in the direction behind the convenience store."

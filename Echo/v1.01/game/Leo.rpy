@@ -378,7 +378,7 @@ show Leo Embarassed with dis
 play sound "impact.mp3"
 with vpunch
 "Leo yelps and stumbles forward into the posters with a loud clatter."
-j "\"Whoa, calm down boys.\""
+j "\"Whoa, calm down, boys.\""
 "Jenna walks up behind us and stands next to me, her arms folded over a manga with a doe in a schoolgirl uniform on the front."
 show Leo with dis
 l "\"That looks sexy, Jenna. Good pick!\""

@@ -238,7 +238,7 @@ with fade
 "He had scratched the shit out of my forearm, grabbing it with BOTH paws once we started the descent."
 "Unfortunately, Flynn and Carl were still on the platform when we rolled back into the boarding station."
 "Flynn looked ready to lay into TJ again, but when he saw the tears he had the decency to hold back."
-"I helped the shaking lynx out of the car and somehow we managed to stumble into the bathroom where he quickly hid in a stall."
+"I helped the shaking lynx out of the car and somehow we managed to stumble into the bathroom, where he quickly hid in a stall."
 "I should have forced him out the exit. He'd always had anxiety problems, though I think we all believed it was a childhood thing that he'd gotten over."
 play music "intimate.ogg" fadein 20.0
 "I don't know if he still takes medication..."
@@ -291,6 +291,7 @@ f "\"That's what you get for stuffing your face right before the ride.\""
 j "\"You think they sell ginger pills here, or ginger ale, at least?\""
 c "\"Ergh...A joint would be nice.\""
 t "\"There are some vendors over there, I'll go check.\""
+#! could be "it takes some" if the stylization isn't intentional
 "I'm actually kinda glad everyone's preoccupied with Carl right now; takes some of the heat off of TJ."
 show Leo Neutral at center behind Carl
 with dissolve
