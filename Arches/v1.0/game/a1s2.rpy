@@ -244,7 +244,7 @@ show dev grin p l dark with dis
 d "{i}\"Listen{/i}, Cameron. Breathe with me.\""
 "Dev presses the side of Cameron's head to his chest and takes a deep breath."
 d "\"Remember? {w=0.3}In and out, slowly.\""
-"Devon keeps his voice upbeat, his expression cheerful — the complete opposite of what he's actually feeling right now."
+"Devon keeps his voice upbeat, his expression cheerful - the complete opposite of what he's actually feeling right now."
 play background crickets fadein 10.0
 "But showing how distressed he is clearly isn't helping the situation."
 "So this breathing exercise is also for his benefit."
@@ -968,7 +968,7 @@ stop music fadeout 1.0
 "He thinks it's Dev and immediately feels his face flush, freezing and just sitting there."
 "This is why he didn't play or sing in a serious way these days; now it just feels like showing off a skill that he was never really skilled at in the first place."
 #!! this needs some tweaking in general
-"But after a while, he doesn't hear anything — no voice, no footsteps, and biting through his embarrassment, Cam looks up the road where he'd been certain that his boyfriend had been watching him."
+"But after a while, he doesn't hear anything - no voice, no footsteps, and biting through his embarrassment, Cam looks up the road where he'd been certain that his boyfriend had been watching him."
 window hide
 scene bg outskirts_day with medium_dissolve
 pause 1.0
@@ -1165,7 +1165,7 @@ c "\"I need to tell her family, or at least someone so people know the truth!\""
 show dev worried h l with dis
 "Devon frowns deeply at the coyote."
 #!! maybe?
-d "\"Listen, babe. I know you can see things that I can't and all, but I gotta be honest and say that no one's gonna care. They're dead — the girl and more than likely her ex, too.\""
+d "\"Listen, babe. I know you can see things that I can't and all, but I gotta be honest and say that no one's gonna care. They're dead - the girl and more than likely her ex, too.\""
 show cam disgusted u r with dis
 c "\"That's shortsighted as all hell, Dev! He could definitely still be alive, having lived a full life after murdering someone.\""
 c "\"And she might have siblings who are still alive, or... I dunno, I think {i}someone{/i} probably gives enough of a shit to want to know!\""

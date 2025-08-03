@@ -69,7 +69,7 @@ window show
 "... But there's something else, too."
 #!! strongly consider adding emdashes around "this amalgamation he calls Cameron" or some other fix, otherwise the sentence structure is too ambiguous.
 #!! Without changes, it reads as though "Cameron" is "the terrible loss" at first, i.e. to make it more obvious: "Despite the terrible loss of who he was, Cameron, he's sensing things even more vividly."
-"Despite the terrible loss of who he was, Cameron — this amalgamation he calls Cameron — is sensing things even more vividly than he had just a few minutes ago, when he'd contacted Dev."
+"Despite the terrible loss of who he was, Cameron - this amalgamation he calls Cameron - is sensing things even more vividly than he had just a few minutes ago, when he'd contacted Dev."
 "Cameron sees what's ahead of him, but he's seeing so much more."
 hide camforest
 hide extra

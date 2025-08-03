@@ -94,7 +94,7 @@ scene bg outskirts_evening with medium_dissolve
 pause 1.0
 window show
 "Cameron holds on to the seat tightly, the coyote's teeth rattling together with every pothole they hit."
-"His boyfriend, Devon, doesn't seem bothered at all — the bear's paw on the wheel with an elbow hanging out the window."
+"His boyfriend, Devon, doesn't seem bothered at all - the bear's paw on the wheel with an elbow hanging out the window."
 "He had been singing loudly to the music playing through the car's Bluetooth speakers, and it wasn't until cell phone service was lost that Devon finally seemed to notice Cameron's unease."
 d "\"You alright, babe?\""
 c "\"I think you could go a little slower.\""
