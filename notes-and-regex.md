@@ -32,9 +32,9 @@
   * I generally didn't try to change hyphens and emdashes to their proper formats
     * Echo's font makes emdashes look pretty obnoxious, so that also gives me pause on "correcting" them
   * Hyphen `-`, En Dash `–`, Em Dash `—`
+  * The font used by Arches can't display emdashes, which is not great for accuracy. I assume this is why Arches uses double hyphens sometimes
   * Hyphens are used for short/fast stuttering, this regex finds potential stutters with emdashes - `([\w']+)—\1`
   * This regex finds hyphens at the end of dialogue, which should maybe be an emdash `-("|\\")`
-  * Arches ends sentences with double hyphens; consider changing to emdashes `--("|\\")`
   * Use emdashes instead of hyphens for breaks in a line (high hit-rate) `- [^-]+ -`
   * Use emdashes instead of hyphens for breaks in a line (comprehensive) `-[^-]+-`
   * Use emdashes instead of hyphens for asides at the end of a line ` - [^-]+$`
